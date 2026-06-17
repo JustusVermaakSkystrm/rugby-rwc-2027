@@ -1,0 +1,22 @@
+{
+  "comment": "Men's Rugby World Cup 2027 (Australia, 1 Oct - 13 Nov 2027). 24 teams, 6 pools of 4. Pool draw held in Sydney on 3 Dec 2025; all 24 places filled (Samoa took the final spot via the Dubai FQT, Nov 2025). Source: World Rugby / RWC.com draw result; ESPN 3 Dec 2025; Wikipedia '2027 Men's Rugby World Cup'.",
+  "groups": {
+    "A": ["Australia", "New Zealand", "Chile", "Hong Kong China"],
+    "B": ["South Africa", "Italy", "Georgia", "Romania"],
+    "C": ["Argentina", "Fiji", "Canada", "Spain"],
+    "D": ["Ireland", "Scotland", "Uruguay", "Portugal"],
+    "E": ["France", "Japan", "Samoa", "United States"],
+    "F": ["England", "Wales", "Tonga", "Zimbabwe"]
+  },
+  "hosts": ["Australia"],
+  "seeding_bands": {
+    "comment": "World Rugby Men's Rankings at the end of the Nov 2025 internationals; four bands of six drawn one-per-pool. Australia (band 2 by ranking) was pre-allocated to Pool A as host.",
+    "1": ["South Africa", "New Zealand", "England", "Ireland", "France", "Argentina"],
+    "2": ["Australia", "Fiji", "Scotland", "Italy", "Georgia", "Wales"],
+    "3": ["Japan", "Spain", "Uruguay", "United States", "Samoa", "Chile"],
+    "4": ["Tonga", "Portugal", "Romania", "Hong Kong China", "Canada", "Zimbabwe"]
+  },
+  "display_names": {
+    "Hong Kong China": "Hong Kong"
+  }
+}

@@ -1,0 +1,73 @@
+name: Hourly Rugby World Cup 2027 prediction update
+
+on:
+  schedule:
+    - cron: "43 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: rwc-hourly
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: rugby/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r rugby/requirements.txt
+
+      - name: Confirm live results (ledger-validated)
+        id: upd
+        run: |
+          python -m rugby.run update
+          if git diff --quiet -- rugby/data/results.csv \
+               rugby/data/accepted_results.csv rugby/data/official_results.csv \
+               rugby/data/manual_results.csv; then
+            echo "sim_changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "sim_changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Retrain and re-simulate
+        if: steps.upd.outputs.sim_changed == 'true'
+        run: |
+          python -m rugby.run train --skip-validation
+          python -m rugby.run simulate --sims 50000
+
+      - name: Rebuild site (heartbeat timestamp)
+        run: python -m rugby.site
+
+      - name: Commit and push
+        run: |
+          git config user.name "rwc-hourly[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rugby/data rugby/outputs
+          git commit -m "Hourly update: results ledger, ratings and simulations" || echo "nothing to commit"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: rugby/outputs/site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

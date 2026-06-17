@@ -1,0 +1,37 @@
+date,group,home,away,status,score,p_home_win,p_draw,p_away_win,exp_home,exp_away,most_likely_score
+,A,Australia,New Zealand,upcoming,,0.317,0.0215,0.6615,19.6,27.1,20-27
+,A,Australia,Chile,upcoming,,0.9315,0.0075,0.061,39.7,14.3,40-14
+,A,Australia,Hong Kong China,upcoming,,0.97,0.0038,0.0262,41.3,9.2,41-9
+,A,New Zealand,Chile,upcoming,,0.9921,0.0012,0.0067,53.5,12.5,54-13
+,A,New Zealand,Hong Kong China,upcoming,,0.9897,0.0015,0.0088,50.5,11.2,51-11
+,A,Chile,Hong Kong China,upcoming,,0.5428,0.0235,0.4337,24.1,21.8,24-22
+,B,South Africa,Italy,upcoming,,0.9045,0.0097,0.0858,38.0,15.5,38-16
+,B,South Africa,Georgia,upcoming,,0.9881,0.0017,0.0101,52.2,13.8,52-14
+,B,South Africa,Romania,upcoming,,0.9984,0.0003,0.0014,59.6,9.7,60-10
+,B,Italy,Georgia,upcoming,,0.8011,0.0162,0.1827,31.8,17.1,32-17
+,B,Italy,Romania,upcoming,,0.974,0.0034,0.0226,45.8,12.7,46-13
+,B,Georgia,Romania,upcoming,,0.8744,0.0119,0.1137,36.3,16.6,36-17
+,C,Argentina,Fiji,upcoming,,0.715,0.0199,0.2651,28.8,18.7,29-19
+,C,Argentina,Canada,upcoming,,0.9976,0.0004,0.002,57.7,9.9,58-10
+,C,Argentina,Spain,upcoming,,0.9752,0.0033,0.0215,44.5,11.0,44-11
+,C,Fiji,Canada,upcoming,,0.9707,0.0038,0.0256,45.9,13.7,46-14
+,C,Fiji,Spain,upcoming,,0.7623,0.018,0.2197,29.7,17.2,30-17
+,C,Canada,Spain,upcoming,,0.1483,0.0142,0.8375,14.4,31.4,14-31
+,D,Ireland,Scotland,upcoming,,0.7237,0.0196,0.2567,31.0,20.6,31-21
+,D,Ireland,Uruguay,upcoming,,0.9901,0.0015,0.0085,51.9,12.3,52-12
+,D,Ireland,Portugal,upcoming,,0.9965,0.0006,0.0029,55.1,9.2,55-9
+,D,Scotland,Uruguay,upcoming,,0.9541,0.0055,0.0405,39.4,10.6,39-11
+,D,Scotland,Portugal,upcoming,,0.9773,0.003,0.0197,43.0,9.0,43-9
+,D,Uruguay,Portugal,upcoming,,0.5155,0.0237,0.4608,22.2,21.0,22-21
+,E,France,Japan,upcoming,,0.956,0.0053,0.0387,44.2,15.0,44-15
+,E,France,Samoa,upcoming,,0.9807,0.0026,0.0166,48.6,13.4,49-13
+,E,France,United States,upcoming,,0.991,0.0013,0.0076,53.1,12.9,53-13
+,E,Japan,Samoa,upcoming,,0.5496,0.0235,0.4269,23.9,21.3,24-21
+,E,Japan,United States,upcoming,,0.6354,0.0221,0.3424,29.1,22.7,29-23
+,E,Samoa,United States,upcoming,,0.7292,0.0194,0.2514,30.0,19.2,30-19
+,F,England,Wales,upcoming,,0.8282,0.0147,0.157,32.0,15.6,32-16
+,F,England,Tonga,upcoming,,0.981,0.0026,0.0164,45.5,10.1,45-10
+,F,England,Zimbabwe,upcoming,,0.9944,0.0009,0.0047,48.2,5.1,48-5
+,F,Wales,Tonga,upcoming,,0.7556,0.0183,0.2261,31.6,19.5,32-20
+,F,Wales,Zimbabwe,upcoming,,0.8847,0.0112,0.1042,35.0,14.3,35-14
+,F,Tonga,Zimbabwe,upcoming,,0.7006,0.0204,0.279,30.4,21.1,30-21

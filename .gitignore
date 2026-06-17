@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+# regenerated on demand by `python -m rugby.run train`
+rugby/data/score_model.pkl
+# the football reference engine is kept locally for porting, not shipped
+reference-worldcup/

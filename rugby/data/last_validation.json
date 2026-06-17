@@ -1,0 +1,1 @@
+{"n_train": 1902, "validation": {"best": "margin_total", "n_test": 974, "model_rps": 0.15741714273285118, "baseline_rps": 0.15702406767944244, "model_margin_mae": 12.658636665224735, "baseline_margin_mae": 12.573825660778718, "model_logloss": 0.567993035367924}, "model_name": "margin_total", "model_label": "margin + total Gaussian"}

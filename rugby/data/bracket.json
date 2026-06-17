@@ -1,0 +1,32 @@
+{
+  "comment": "RWC 2027 (Australia) knockout template. Slot notation: W_X = pool X winner, RU_X = pool X runner-up, T_<match> = a best-third placed team allocated to that R16 match, W_<match>/L_<match> = winner/loser of an earlier match. All matches are played in Australia, so venue_country is 'Australia' throughout and only Australia receives host advantage. Structure CONFIRMED from World Rugby schedule reveal (3 Feb 2026) + RWC.com knockouts + Wikipedia '2027 Men's Rugby World Cup'. Official match numbers (37-52) are NOT confirmed by an accessible source, so R16-/QF/SF labels are used.",
+  "round_of_16": [
+    {"match": "R16-1", "home": "RU_C", "away": "RU_F", "date": "2027-10-23", "venue": "Sydney Football Stadium", "venue_country": "Australia"},
+    {"match": "R16-2", "home": "W_A", "away": "T_R16-2", "date": "2027-10-23", "venue": "Brisbane Stadium", "venue_country": "Australia"},
+    {"match": "R16-3", "home": "W_E", "away": "RU_D", "date": "2027-10-23", "venue": "Docklands Stadium, Melbourne", "venue_country": "Australia"},
+    {"match": "R16-4", "home": "W_B", "away": "T_R16-4", "date": "2027-10-24", "venue": "Perth Stadium", "venue_country": "Australia"},
+    {"match": "R16-5", "home": "W_C", "away": "T_R16-5", "date": "2027-10-24", "venue": "Sydney Football Stadium", "venue_country": "Australia"},
+    {"match": "R16-6", "home": "W_D", "away": "T_R16-6", "date": "2027-10-24", "venue": "Docklands Stadium, Melbourne", "venue_country": "Australia"},
+    {"match": "R16-7", "home": "RU_A", "away": "RU_E", "date": "2027-10-23", "venue": "Brisbane Stadium", "venue_country": "Australia"},
+    {"match": "R16-8", "home": "W_F", "away": "RU_B", "date": "2027-10-24", "venue": "Perth Stadium", "venue_country": "Australia"}
+  ],
+  "third_place_slots": [
+    {"slot": "T_R16-2", "groups": ["C", "E", "F"]},
+    {"slot": "T_R16-4", "groups": ["D", "E", "F"]},
+    {"slot": "T_R16-5", "groups": ["A", "E", "F"]},
+    {"slot": "T_R16-6", "groups": ["B", "E", "F"]}
+  ],
+  "third_place_note": "The four best third-placed teams are allocated to the four T_ slots above. The allowed 'groups' per slot are CONFIRMED from the R16 pairings (W_A v 3rd from C/E/F, etc.) and uniquely determine the assignment for every 4-of-6 pool combination, so a constraint-respecting allocator reproduces the official table. World Rugby's published 15-row permutation table can be used to cross-check ambiguous cases later.",
+  "quarterfinals": [
+    {"match": "QF1", "home": "W_R16-2", "away": "W_R16-4", "date": "2027-10-30", "venue": "Stadium Australia, Sydney", "venue_country": "Australia"},
+    {"match": "QF2", "home": "W_R16-1", "away": "W_R16-3", "date": "2027-10-30", "venue": "Brisbane Stadium", "venue_country": "Australia"},
+    {"match": "QF3", "home": "W_R16-5", "away": "W_R16-6", "date": "2027-10-31", "venue": "Brisbane Stadium", "venue_country": "Australia"},
+    {"match": "QF4", "home": "W_R16-7", "away": "W_R16-8", "date": "2027-10-31", "venue": "Stadium Australia, Sydney", "venue_country": "Australia"}
+  ],
+  "semifinals": [
+    {"match": "SF1", "home": "W_QF1", "away": "W_QF2", "date": "2027-11-05", "venue": "Stadium Australia, Sydney", "venue_country": "Australia"},
+    {"match": "SF2", "home": "W_QF3", "away": "W_QF4", "date": "2027-11-06", "venue": "Stadium Australia, Sydney", "venue_country": "Australia"}
+  ],
+  "bronze_final": {"match": "BF", "home": "L_SF1", "away": "L_SF2", "date": "2027-11-12", "venue": "Stadium Australia, Sydney", "venue_country": "Australia"},
+  "final": {"match": "F", "home": "W_SF1", "away": "W_SF2", "date": "2027-11-13", "venue": "Stadium Australia, Sydney", "venue_country": "Australia"}
+}
