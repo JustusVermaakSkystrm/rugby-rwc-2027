@@ -30,9 +30,18 @@ MODEL_LABELS = {"margin_total": "margin + total Gaussian",
 
 
 def cmd_update() -> None:
-    """Confirm completed RWC matches via the official scoreboard and run them
-    through the result-validation ledger. Historical results.csv is refreshed
-    out-of-band (see scripts/); this keeps live results trustworthy."""
+    """Refresh data/results.csv with newly-completed internationals (so
+    ratings track warm-up tests), confirm completed RWC matches via the
+    official scoreboard, and run live RWC scores through the validation
+    ledger."""
+    from .ingest import ingest_new_results
+    added = ingest_new_results()
+    if added:
+        print(f"Ingested {len(added)} new international result(s):")
+        for line in added:
+            print(f"  + {line}")
+    else:
+        print("No new internationals to ingest.")
     official_map = _refresh_official_results()
     fixtures = _rwc_fixtures(validated_only=False)
     scored = fixtures.dropna(subset=["home_score", "away_score"])
