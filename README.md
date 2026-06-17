@@ -42,7 +42,7 @@ market benchmark, and a static site that refreshes hourly.
 pip install -r rugby/requirements.txt
 python -m rugby.run all --sims 50000     # update + validate/train + simulate
 # or individually:
-python -m rugby.run update                # confirm live results, run ledger
+python -m rugby.run update                # ingest new internationals, confirm live results, run ledger
 python -m rugby.run train                 # rolling validation + fit best model
 python -m rugby.run simulate --sims 50000 # Monte Carlo + report + site
 python -m rugby.site                       # rebuild outputs/site/index.html
@@ -64,7 +64,10 @@ Outputs land in [`rugby/outputs/`](rugby/outputs): `report.md`,
 
 - `rugby/data/results.csv` — men's international test results (1871–2026;
   dense from 1995), ESPN + Wikipedia sourced, with try counts where available
-  (~21% of rows). Rebuilt by the helpers in [`scripts/`](scripts).
+  (~21% of rows). Full rebuild via the helpers in [`scripts/`](scripts);
+  thereafter `rugby/run.py update` ([`ingest.py`](rugby/ingest.py)) auto-appends
+  newly-completed internationals each run, so ratings stay current through the
+  2026-2027 warm-up tests.
 - `rugby/data/rankings.json` — World Rugby ranking points (the Elo prior).
 - `rugby/data/teams.json`, `rugby/data/bracket.json` — the confirmed RWC 2027
   pools and knockout template.
@@ -77,3 +80,5 @@ Outputs land in [`rugby/outputs/`](rugby/outputs): `report.md`,
 - Historical try coverage is partial; the try estimator learns the
   points→tries relationship where tries are recorded and falls back to a
   parametric rate elsewhere.
+- ESPN's neutral-venue flag is occasionally wrong (e.g. some "home" tests
+  played abroad); a minor, known data quirk that barely moves ratings.
