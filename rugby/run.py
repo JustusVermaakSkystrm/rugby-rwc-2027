@@ -34,7 +34,7 @@ def cmd_update() -> None:
     ratings track warm-up tests), confirm completed RWC matches via the
     official scoreboard, and run live RWC scores through the validation
     ledger."""
-    from .ingest import ingest_new_results
+    from .ingest import ingest_new_results, refresh_upcoming_fixtures
     added = ingest_new_results()
     if added:
         print(f"Ingested {len(added)} new international result(s):")
@@ -42,6 +42,9 @@ def cmd_update() -> None:
             print(f"  + {line}")
     else:
         print("No new internationals to ingest.")
+    n_up = refresh_upcoming_fixtures()
+    print(f"Upcoming fixtures on file: {n_up}" if n_up
+          else "No upcoming fixtures fetched (kept existing).")
     official_map = _refresh_official_results()
     fixtures = _rwc_fixtures(validated_only=False)
     scored = fixtures.dropna(subset=["home_score", "away_score"])

@@ -1,0 +1,14 @@
+date,tournament,home,away,neutral,p_home_win,p_draw,p_away_win,exp_home,exp_away,most_likely_score,favourite,fav_prob
+2026-08-08,International Test Match,Japan,Australia,False,0.2052,0.0174,0.7774,20.1,33.4,20-33,Australia,0.7774
+2026-08-08,International Test Match,Argentina,South Africa,False,0.2601,0.0197,0.7202,22.2,32.5,22-32,South Africa,0.7202
+2026-08-15,International Test Match,Australia,Japan,False,0.8242,0.015,0.1608,34.1,18.0,34-18,Australia,0.8242
+2026-08-22,International Test Match,South Africa,New Zealand,False,0.7442,0.0188,0.237,29.9,18.4,30-18,South Africa,0.7442
+2026-08-29,International Test Match,South Africa,New Zealand,False,0.7442,0.0188,0.237,29.9,18.4,30-18,South Africa,0.7442
+2026-08-29,International Test Match,Argentina,Australia,False,0.7015,0.0203,0.2782,27.2,17.8,27-18,Argentina,0.7015
+2026-09-05,International Test Match,Japan,Canada,False,0.9332,0.0074,0.0595,43.0,17.4,43-17,Japan,0.9332
+2026-09-05,International Test Match,South Africa,New Zealand,False,0.7442,0.0188,0.237,29.9,18.4,30-18,South Africa,0.7442
+2026-09-05,International Test Match,Argentina,Australia,False,0.7015,0.0203,0.2782,27.2,17.8,27-18,Argentina,0.7015
+2026-09-12,International Test Match,South Africa,New Zealand,False,0.7442,0.0188,0.237,29.9,18.4,30-18,South Africa,0.7442
+2026-09-27,International Test Match,Australia,South Africa,False,0.1804,0.0161,0.8035,20.8,35.6,21-36,South Africa,0.8035
+2026-10-10,International Test Match,New Zealand,Australia,False,0.7567,0.0183,0.2251,30.3,18.2,30-18,New Zealand,0.7567
+2026-10-17,International Test Match,Australia,New Zealand,False,0.272,0.0201,0.7078,21.3,31.0,21-31,New Zealand,0.7078

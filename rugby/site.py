@@ -167,7 +167,7 @@ def build_site() -> Path:
     out = SITE_DIR / "index.html"
     out.write_text(html)
     for csv in ("match_probabilities.csv", "tournament_projections.csv",
-                "history.csv"):
+                "upcoming_predictions.csv", "history.csv"):
         src = OUT_DIR / csv
         if src.exists():
             (SITE_DIR / csv).write_bytes(src.read_bytes())

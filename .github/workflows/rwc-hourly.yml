@@ -39,7 +39,7 @@ jobs:
           python -m rugby.run update
           if git diff --quiet -- rugby/data/results.csv \
                rugby/data/accepted_results.csv rugby/data/official_results.csv \
-               rugby/data/manual_results.csv; then
+               rugby/data/manual_results.csv rugby/data/upcoming_fixtures.csv; then
             echo "sim_changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "sim_changed=true" >> "$GITHUB_OUTPUT"

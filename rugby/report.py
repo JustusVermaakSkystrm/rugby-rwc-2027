@@ -71,6 +71,40 @@ def match_probability_table(pred: MatchPredictor, fixtures: pd.DataFrame) -> pd.
     return pd.DataFrame(rows)
 
 
+def predict_upcoming(pred: MatchPredictor) -> pd.DataFrame:
+    """Win/draw/loss + predicted scoreline for every scheduled international
+    on file (data/upcoming_fixtures.csv) — the model works for any pairing,
+    not just RWC fixtures. Honours each fixture's real home advantage."""
+    from .ingest import UPCOMING_PATH
+    if not UPCOMING_PATH.exists():
+        return pd.DataFrame()
+    fx = pd.read_csv(UPCOMING_PATH)
+    if fx.empty:
+        return pd.DataFrame()
+    fx["neutral"] = fx["neutral"].astype(str).str.lower().isin(
+        ("true", "1", "yes", "t"))
+    rows = []
+    for r in fx.itertuples(index=False):
+        dist = pred.dist_general(r.home_team, r.away_team, bool(r.neutral),
+                                 getattr(r, "tournament", "International Test Match"))
+        ph, draw = dist.win_prob_home, dist.draw_prob
+        pa = max(1.0 - ph - draw, 0.0)
+        m, total = dist.exp_margin, dist.exp_total
+        hp, ap = max(int(round((total + m) / 2)), 0), max(int(round((total - m) / 2)), 0)
+        fav, favp = (r.home_team, ph) if ph >= pa else (r.away_team, pa)
+        rows.append({
+            "date": r.date, "tournament": getattr(r, "tournament", ""),
+            "home": r.home_team, "away": r.away_team,
+            "neutral": bool(r.neutral),
+            "p_home_win": round(ph, 4), "p_draw": round(draw, 4),
+            "p_away_win": round(pa, 4),
+            "exp_home": f"{(total + m) / 2:.1f}", "exp_away": f"{(total - m) / 2:.1f}",
+            "most_likely_score": f"{hp}-{ap}",
+            "favourite": fav, "fav_prob": round(favp, 4),
+        })
+    return pd.DataFrame(rows).sort_values("date").reset_index(drop=True)
+
+
 def predicted_bracket(pred: MatchPredictor, res: SimResults, elo: dict) -> dict:
     """A single self-consistent most-likely tournament path: modal group
     finishes from simulation frequencies, knockout ties decided by the
@@ -155,6 +189,10 @@ def write_outputs(pred: MatchPredictor, res: SimResults, fixtures: pd.DataFrame,
     matches = match_probability_table(pred, fixtures)
     matches.to_csv(OUT_DIR / "match_probabilities.csv", index=False)
 
+    upcoming = predict_upcoming(pred)
+    if not upcoming.empty:
+        upcoming.to_csv(OUT_DIR / "upcoming_predictions.csv", index=False)
+
     from .scorecard import summary, update_log
     meta["scorecard"] = summary(update_log(matches))
 
@@ -169,7 +207,8 @@ def write_outputs(pred: MatchPredictor, res: SimResults, fixtures: pd.DataFrame,
     _append_history(proj)
 
     bracket_path = predicted_bracket(pred, res, elo)
-    md = _render_markdown(pred, res, fixtures, tt, bracket_path, elo, meta, deltas)
+    md = _render_markdown(pred, res, fixtures, tt, bracket_path, elo, meta,
+                          deltas, upcoming)
     (OUT_DIR / "report.md").write_text(md)
     archive = OUT_DIR / "archive"
     archive.mkdir(exist_ok=True)
@@ -221,7 +260,7 @@ def _fmt_delta(x: float, threshold: float = 0.0005) -> str:
 
 
 def _render_markdown(pred, res: SimResults, fixtures, tt, bracket_path, elo,
-                     meta, deltas=None) -> str:
+                     meta, deltas=None, upcoming=None) -> str:
     L = []
     add = L.append
     n_played = int(fixtures["home_score"].notna().sum())
@@ -280,6 +319,26 @@ def _render_markdown(pred, res: SimResults, fixtures, tt, bracket_path, elo,
     add('<div style="overflow-x:auto; margin:1rem 0;">')
     add(bracket_svg(bracket_path, champ, champ_prob))
     add('</div>\n')
+
+    if upcoming is not None and not upcoming.empty:
+        add("## Upcoming internationals — match predictions\n")
+        add("Every scheduled men's international on the calendar, not just RWC "
+            "fixtures — the same model rates any pairing. Probabilities are for "
+            "the listed home side; the predicted scoreline is the model's mean.\n")
+        add("| Date | Competition | Match | Home win | Draw | Away win | "
+            "Predicted | Favourite |")
+        add("|------|-------------|-------|---------:|-----:|---------:|:---------:|----------|")
+        for r in upcoming.head(25).itertuples(index=False):
+            probs = [r.p_home_win, r.p_draw, r.p_away_win]
+            cells = [_pct(p) for p in probs]
+            cells[probs.index(max(probs))] = f"**{cells[probs.index(max(probs))]}**"
+            venue = " (N)" if r.neutral else ""
+            add(f"| {r.date} | {r.tournament} | {r.home} v {r.away}{venue} | "
+                f"{cells[0]} | {cells[1]} | {cells[2]} | {r.exp_home}–{r.exp_away} "
+                f"| {r.favourite} ({_pct(r.fav_prob)}) |")
+        add(f"\n*{len(upcoming)} scheduled fixture(s) on file; full list with "
+            "exact probabilities in `upcoming_predictions.csv`. \"(N)\" = neutral "
+            "venue.*\n")
 
     add("## Pool projections\n")
     from .dataset import load_teams

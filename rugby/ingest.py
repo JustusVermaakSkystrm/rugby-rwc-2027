@@ -25,6 +25,7 @@ import pandas as pd
 from .dataset import DATA_DIR
 
 RESULTS_PATH = DATA_DIR / "results.csv"
+UPCOMING_PATH = DATA_DIR / "upcoming_fixtures.csv"
 SCOREBOARD_URL = ("https://site.api.espn.com/apis/site/v2/sports/rugby/"
                   "{league}/scoreboard?dates={start}-{end}")
 
@@ -122,6 +123,65 @@ def fetch_recent(days_back: int = 18) -> list[dict]:
                 seen.add(key)
                 found.append(rec)
     return found
+
+
+def _parse_upcoming(e: dict, league_name: str) -> dict | None:
+    """A scheduled (not-yet-played) international between two national teams."""
+    comps = e.get("competitions") or []
+    if not comps:
+        return None
+    c = comps[0]
+    if (c.get("status", {}).get("type", {}) or {}).get("completed"):
+        return None
+    cs = c.get("competitors") or []
+    if len(cs) != 2:
+        return None
+    home = next((x for x in cs if x.get("homeAway") == "home"), cs[0])
+    away = next((x for x in cs if x.get("homeAway") == "away"), cs[1])
+    ht, at = _norm(home["team"]["displayName"]), _norm(away["team"]["displayName"])
+    if not ht or not at or ht in NOT_NATIONAL or at in NOT_NATIONAL or ht == at:
+        return None
+    venue = c.get("venue") or {}
+    addr = venue.get("address") or {}
+    return {
+        "date": e["date"][:10], "home_team": ht, "away_team": at,
+        "tournament": league_name, "city": addr.get("city") or "",
+        "country": addr.get("state") or "",
+        "neutral": bool(c.get("neutralSite")),
+    }
+
+
+def fetch_upcoming(days_ahead: int = 200) -> list[dict]:
+    """Scheduled internationals over the window ahead, [] on any failure."""
+    start = date.today().strftime("%Y%m%d")
+    end = (date.today() + timedelta(days=days_ahead)).strftime("%Y%m%d")
+    found, seen = [], set()
+    for league, name in LEAGUES.items():
+        payload = _fetch(SCOREBOARD_URL.format(league=league, start=start, end=end))
+        if not payload:
+            continue
+        for e in payload.get("events", []):
+            rec = _parse_upcoming(e, name)
+            if rec is None:
+                continue
+            key = (rec["date"], frozenset((rec["home_team"], rec["away_team"])))
+            if key not in seen:
+                seen.add(key)
+                found.append(rec)
+    return found
+
+
+def refresh_upcoming_fixtures() -> int:
+    """Cache the scheduled-internationals list to data/upcoming_fixtures.csv
+    (so the prediction step has fixtures without a second network call).
+    Returns the number written; leaves any existing file in place on failure."""
+    upcoming = fetch_upcoming()
+    if not upcoming:
+        return 0
+    df = pd.DataFrame(upcoming).sort_values("date", kind="stable")
+    df["neutral"] = df["neutral"].map(lambda b: "True" if bool(b) else "False")
+    df.to_csv(UPCOMING_PATH, index=False)
+    return len(df)
 
 
 def _fmt_try(x) -> str:

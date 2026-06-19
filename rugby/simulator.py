@@ -98,6 +98,18 @@ class MatchPredictor:
             self.cache[key] = (home, self.model.pairing(pd.DataFrame([feats])))
         return self.cache[key]
 
+    def dist_general(self, home: str, away: str, neutral: bool,
+                     tournament: str = "International Test Match"):
+        """PairingDist for an arbitrary fixture, oriented to the given home
+        side, honouring the fixture's own home advantage / neutral venue
+        (used for non-RWC internationals, where the host rule does not apply)."""
+        key = ("gen", home, away, bool(neutral), tournament)
+        if key not in self.cache:
+            feats = self.state.match_features(home, away, neutral=bool(neutral),
+                                              tournament=tournament)
+            self.cache[key] = self.model.pairing(pd.DataFrame([feats]))
+        return self.cache[key]
+
 
 # --------------------------------------------------------------- standings
 
