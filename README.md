@@ -32,6 +32,17 @@ market benchmark, and a static site that refreshes hourly.
   [`scorecard.py`](rugby/scorecard.py)) — markdown report, machine-readable CSVs, an
   inline SVG bracket, and a frozen-prediction scorecard graded against results
   and (optionally) bookmaker odds.
+- **Upcoming-fixture predictions** ([`ingest.py`](rugby/ingest.py), [`report.py`](rugby/report.py)) —
+  the model rates *any* pairing, so every scheduled international on the run-in
+  to the World Cup (next ~16 months) is predicted, not just RWC fixtures:
+  win/draw/loss + a predicted scoreline, with correct per-fixture home
+  advantage / neutral venue. Output: `upcoming_predictions.csv` and an
+  "Upcoming internationals" section. Coverage = ESPN's feeds: the July tours,
+  Autumn Nations Series and World Rugby Nations Championship league phase (all
+  under "International Test Match"), the Six Nations and the Rugby
+  Championship. (ESPN exposes no Rugby Europe Championship feed, so Georgia /
+  Spain / Portugal / Romania's internal competition is not ingested; their
+  cross-tier July/autumn tests are.)
 - **Live result handling** ([`ledger.py`](rugby/ledger.py), [`official.py`](rugby/official.py)) —
   full-time scores are confirmed via ESPN's public scoreboard and quarantined
   until trustworthy, so a mid-match score never enters a simulation.

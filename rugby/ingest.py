@@ -29,7 +29,14 @@ UPCOMING_PATH = DATA_DIR / "upcoming_fixtures.csv"
 SCOREBOARD_URL = ("https://site.api.espn.com/apis/site/v2/sports/rugby/"
                   "{league}/scoreboard?dates={start}-{end}")
 
-# ESPN league ids verified to carry men's international tests.
+# ESPN scoreboard league ids that carry men's international tests. 289234 is
+# the broad catch-all — it includes the July tours, the Autumn Nations Series
+# and the World Rugby Nations Championship league phase (all tagged simply as
+# international tests), plus most Pacific / South-American Tier-2 fixtures. The
+# Six Nations and Rugby Championship feeds add their own fixtures. Known gap:
+# ESPN does not expose a Rugby Europe Championship feed, so Georgia / Spain /
+# Portugal / Romania's internal competition isn't ingested (their July/autumn
+# cross-tier tests still are, via 289234).
 LEAGUES = {
     "289234": "International Test Match",
     "180659": "Six Nations",
@@ -151,23 +158,32 @@ def _parse_upcoming(e: dict, league_name: str) -> dict | None:
     }
 
 
-def fetch_upcoming(days_ahead: int = 200) -> list[dict]:
-    """Scheduled internationals over the window ahead, [] on any failure."""
-    start = date.today().strftime("%Y%m%d")
-    end = (date.today() + timedelta(days=days_ahead)).strftime("%Y%m%d")
+def fetch_upcoming(days_ahead: int = 500) -> list[dict]:
+    """Scheduled internationals over the run-in to the World Cup, [] on any
+    failure. The horizon (~16 months to RWC 2027) is swept in ~120-day chunks
+    because a single long scoreboard request gets truncated by ESPN."""
     found, seen = [], set()
+    chunk = 120
     for league, name in LEAGUES.items():
-        payload = _fetch(SCOREBOARD_URL.format(league=league, start=start, end=end))
-        if not payload:
-            continue
-        for e in payload.get("events", []):
-            rec = _parse_upcoming(e, name)
-            if rec is None:
+        if name == "Rugby World Cup":
+            continue          # the tournament simulator owns RWC fixtures
+        offset = 0
+        while offset < days_ahead:
+            start = (date.today() + timedelta(days=offset)).strftime("%Y%m%d")
+            end = (date.today() + timedelta(days=min(offset + chunk, days_ahead))
+                   ).strftime("%Y%m%d")
+            payload = _fetch(SCOREBOARD_URL.format(league=league, start=start, end=end))
+            offset += chunk
+            if not payload:
                 continue
-            key = (rec["date"], frozenset((rec["home_team"], rec["away_team"])))
-            if key not in seen:
-                seen.add(key)
-                found.append(rec)
+            for e in payload.get("events", []):
+                rec = _parse_upcoming(e, name)
+                if rec is None:
+                    continue
+                key = (rec["date"], frozenset((rec["home_team"], rec["away_team"])))
+                if key not in seen:
+                    seen.add(key)
+                    found.append(rec)
     return found
 
 
