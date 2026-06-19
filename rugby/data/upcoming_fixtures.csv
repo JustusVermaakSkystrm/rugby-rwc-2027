@@ -1,4 +1,22 @@
 date,home_team,away_team,tournament,city,country,neutral
+2026-07-04,New Zealand,France,Nations Championship,Christchurch,New Zealand,False
+2026-07-04,Japan,Italy,Nations Championship,Tokyo,Japan,False
+2026-07-04,Australia,Ireland,Nations Championship,Sydney,Australia,False
+2026-07-04,Fiji,Wales,Nations Championship,Cardiff,Wales,False
+2026-07-04,South Africa,England,Nations Championship,Johannesburg,South Africa,False
+2026-07-04,Argentina,Scotland,Nations Championship,Cordoba,Argentina,False
+2026-07-11,New Zealand,Italy,Nations Championship,Wellington,New Zealand,False
+2026-07-11,Australia,France,Nations Championship,Brisbane,Australia,False
+2026-07-11,Japan,Ireland,Nations Championship,Newcastle,Australia,False
+2026-07-11,Fiji,England,Nations Championship,,,False
+2026-07-11,South Africa,Scotland,Nations Championship,Pretoria,South Africa,False
+2026-07-11,Argentina,Wales,Nations Championship,San Juan,Argentina,False
+2026-07-18,New Zealand,Ireland,Nations Championship,Auckland,New Zealand,False
+2026-07-18,Japan,France,Nations Championship,Tokyo,Japan,False
+2026-07-18,Australia,Italy,Nations Championship,Perth,Australia,False
+2026-07-18,Fiji,Scotland,Nations Championship,Edinburgh,Scotland,False
+2026-07-18,South Africa,Wales,Nations Championship,Durban,South Africa,False
+2026-07-18,Argentina,England,Nations Championship,,,False
 2026-08-08,Japan,Australia,International Test Match,Osaka,Japan,False
 2026-08-08,Argentina,South Africa,International Test Match,Buenos Aires,Argentina,False
 2026-08-15,Australia,Japan,International Test Match,Townsville,Australia,False
@@ -12,3 +30,21 @@ date,home_team,away_team,tournament,city,country,neutral
 2026-09-27,Australia,South Africa,International Test Match,Perth,Australia,False
 2026-10-10,New Zealand,Australia,International Test Match,Auckland,New Zealand,False
 2026-10-17,Australia,New Zealand,International Test Match,Sydney,Australia,False
+2026-11-06,Ireland,Argentina,Nations Championship,Dublin,Ireland,False
+2026-11-07,Italy,South Africa,Nations Championship,,,False
+2026-11-07,Scotland,New Zealand,Nations Championship,Edinburgh,Scotland,False
+2026-11-07,Wales,Japan,Nations Championship,Cardiff,Wales,False
+2026-11-07,France,Fiji,Nations Championship,Lyon,France,False
+2026-11-08,England,Australia,Nations Championship,London,England,False
+2026-11-13,France,South Africa,Nations Championship,Saint-Denis,Reunion,False
+2026-11-14,Italy,Argentina,Nations Championship,Genova,Italy,False
+2026-11-14,Wales,New Zealand,Nations Championship,Cardiff,Wales,False
+2026-11-14,England,Japan,Nations Championship,London,England,False
+2026-11-14,Ireland,Fiji,Nations Championship,Dublin,Ireland,False
+2026-11-15,Scotland,Australia,Nations Championship,Edinburgh,Scotland,False
+2026-11-21,England,New Zealand,Nations Championship,London,England,False
+2026-11-21,Scotland,Japan,Nations Championship,Edinburgh,Scotland,False
+2026-11-21,Ireland,South Africa,Nations Championship,Dublin,Ireland,False
+2026-11-21,Italy,Fiji,Nations Championship,Udine,Italy,False
+2026-11-21,France,Argentina,Nations Championship,Saint-Denis,Reunion,False
+2026-11-21,Wales,Australia,Nations Championship,Cardiff,Wales,False

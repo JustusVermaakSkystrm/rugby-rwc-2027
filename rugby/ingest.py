@@ -29,15 +29,16 @@ UPCOMING_PATH = DATA_DIR / "upcoming_fixtures.csv"
 SCOREBOARD_URL = ("https://site.api.espn.com/apis/site/v2/sports/rugby/"
                   "{league}/scoreboard?dates={start}-{end}")
 
-# ESPN scoreboard league ids that carry men's international tests. 289234 is
-# the broad catch-all — it includes the July tours, the Autumn Nations Series
-# and the World Rugby Nations Championship league phase (all tagged simply as
-# international tests), plus most Pacific / South-American Tier-2 fixtures. The
-# Six Nations and Rugby Championship feeds add their own fixtures. Known gap:
-# ESPN does not expose a Rugby Europe Championship feed, so Georgia / Spain /
-# Portugal / Romania's internal competition isn't ingested (their July/autumn
-# cross-tier tests still are, via 289234).
+# ESPN scoreboard league ids that carry men's international tests. 17567 is the
+# World Rugby Nations Championship — the July tours and the November (Autumn)
+# windows, including the July 2026 series and the finals. 289234 is the broad
+# catch-all for other internationals (most Pacific / South-American Tier-2
+# tests etc.). The Six Nations and Rugby Championship feeds add their own
+# fixtures. Known gap: ESPN exposes no Rugby Europe Championship feed, so
+# Georgia / Spain / Portugal / Romania's internal competition isn't ingested
+# (their cross-tier tests still are).
 LEAGUES = {
+    "17567": "Nations Championship",
     "289234": "International Test Match",
     "180659": "Six Nations",
     "244293": "Rugby Championship",

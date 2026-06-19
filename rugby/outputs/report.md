@@ -37,21 +37,33 @@ Every scheduled men's international on the calendar, not just RWC fixtures — t
 
 | Date | Competition | Match | Home win | Draw | Away win | Predicted | Favourite |
 |------|-------------|-------|---------:|-----:|---------:|:---------:|----------|
+| 2026-07-04 | Nations Championship | New Zealand v France | **66.3%** | 2.1% | 31.6% | 30.3–22.7 | New Zealand (66.3%) |
+| 2026-07-04 | Nations Championship | Japan v Italy | 38.3% | 2.3% | **59.4%** | 21.6–26.1 | Italy (59.4%) |
+| 2026-07-04 | Nations Championship | Australia v Ireland | 35.1% | 2.2% | **62.7%** | 19.3–25.2 | Ireland (62.7%) |
+| 2026-07-04 | Nations Championship | Fiji v Wales | **62.5%** | 2.2% | 35.3% | 26.4–20.5 | Fiji (62.5%) |
+| 2026-07-04 | Nations Championship | South Africa v England | **81.6%** | 1.5% | 16.9% | 35.2–19.6 | South Africa (81.6%) |
+| 2026-07-04 | Nations Championship | Argentina v Scotland | **70.1%** | 2.0% | 27.9% | 29.9–20.5 | Argentina (70.1%) |
+| 2026-07-11 | Nations Championship | New Zealand v Italy | **88.3%** | 1.1% | 10.6% | 34.7–14.3 | New Zealand (88.3%) |
+| 2026-07-11 | Nations Championship | Australia v France | 9.7% | 1.1% | **89.3%** | 18.7–40.0 | France (89.3%) |
+| 2026-07-11 | Nations Championship | Japan v Ireland | 3.3% | 0.5% | **96.2%** | 16.0–46.4 | Ireland (96.2%) |
+| 2026-07-11 | Nations Championship | Fiji v England | 28.6% | 2.1% | **69.3%** | 24.9–33.9 | England (69.3%) |
+| 2026-07-11 | Nations Championship | South Africa v Scotland | **80.1%** | 1.6% | 18.3% | 35.3–20.6 | South Africa (80.1%) |
+| 2026-07-11 | Nations Championship | Argentina v Wales | **82.9%** | 1.5% | 15.6% | 31.2–14.7 | Argentina (82.9%) |
+| 2026-07-18 | Nations Championship | Argentina v England | **70.4%** | 2.0% | 27.6% | 30.9–21.4 | Argentina (70.4%) |
+| 2026-07-18 | Nations Championship | South Africa v Wales | **99.0%** | 0.1% | 0.9% | 48.4–9.1 | South Africa (99.0%) |
+| 2026-07-18 | Nations Championship | Fiji v Scotland | 36.1% | 2.2% | **61.6%** | 24.9–30.4 | Scotland (61.6%) |
+| 2026-07-18 | Nations Championship | New Zealand v Ireland | **59.3%** | 2.3% | 38.4% | 26.3–21.9 | New Zealand (59.3%) |
+| 2026-07-18 | Nations Championship | Japan v France | 3.5% | 0.5% | **96.1%** | 15.7–45.7 | France (96.1%) |
+| 2026-07-18 | Nations Championship | Australia v Italy | **73.4%** | 1.9% | 24.7% | 26.4–15.4 | Australia (73.4%) |
 | 2026-08-08 | International Test Match | Japan v Australia | 20.5% | 1.7% | **77.7%** | 20.1–33.4 | Australia (77.7%) |
 | 2026-08-08 | International Test Match | Argentina v South Africa | 26.0% | 2.0% | **72.0%** | 22.2–32.5 | South Africa (72.0%) |
 | 2026-08-15 | International Test Match | Australia v Japan | **82.4%** | 1.5% | 16.1% | 34.1–18.0 | Australia (82.4%) |
 | 2026-08-22 | International Test Match | South Africa v New Zealand | **74.4%** | 1.9% | 23.7% | 29.9–18.4 | South Africa (74.4%) |
-| 2026-08-29 | International Test Match | South Africa v New Zealand | **74.4%** | 1.9% | 23.7% | 29.9–18.4 | South Africa (74.4%) |
 | 2026-08-29 | International Test Match | Argentina v Australia | **70.2%** | 2.0% | 27.8% | 27.2–17.8 | Argentina (70.2%) |
-| 2026-09-05 | International Test Match | Japan v Canada | **93.3%** | 0.7% | 5.9% | 43.0–17.4 | Japan (93.3%) |
-| 2026-09-05 | International Test Match | South Africa v New Zealand | **74.4%** | 1.9% | 23.7% | 29.9–18.4 | South Africa (74.4%) |
+| 2026-08-29 | International Test Match | South Africa v New Zealand | **74.4%** | 1.9% | 23.7% | 29.9–18.4 | South Africa (74.4%) |
 | 2026-09-05 | International Test Match | Argentina v Australia | **70.2%** | 2.0% | 27.8% | 27.2–17.8 | Argentina (70.2%) |
-| 2026-09-12 | International Test Match | South Africa v New Zealand | **74.4%** | 1.9% | 23.7% | 29.9–18.4 | South Africa (74.4%) |
-| 2026-09-27 | International Test Match | Australia v South Africa | 18.0% | 1.6% | **80.3%** | 20.8–35.6 | South Africa (80.3%) |
-| 2026-10-10 | International Test Match | New Zealand v Australia | **75.7%** | 1.8% | 22.5% | 30.3–18.2 | New Zealand (75.7%) |
-| 2026-10-17 | International Test Match | Australia v New Zealand | 27.2% | 2.0% | **70.8%** | 21.3–31.0 | New Zealand (70.8%) |
 
-*13 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
+*49 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
 
 ## Pool projections
 
