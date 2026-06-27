@@ -52,18 +52,18 @@ Every scheduled men's international on the calendar, not just RWC fixtures — t
 | 2026-07-18 | Nations Championship | Argentina v England | **71.4%** | 2.0% | 26.6% | 31.6–21.7 | Argentina (71.4%) |
 | 2026-07-18 | Nations Championship | South Africa v Wales | **98.8%** | 0.2% | 1.0% | 48.1–9.6 | South Africa (98.8%) |
 | 2026-07-18 | Nations Championship | Fiji v Scotland | 40.0% | 2.3% | **57.6%** | 25.8–29.5 | Scotland (57.6%) |
-| 2026-07-18 | Nations Championship | New Zealand v Ireland | **59.1%** | 2.3% | 38.6% | 26.7–22.4 | New Zealand (59.1%) |
 | 2026-07-18 | Nations Championship | Japan v France | 3.3% | 0.5% | **96.2%** | 16.9–47.1 | France (96.2%) |
+| 2026-07-18 | Nations Championship | New Zealand v Ireland | **59.1%** | 2.3% | 38.6% | 26.7–22.4 | New Zealand (59.1%) |
 | 2026-07-18 | Nations Championship | Australia v Italy | **71.7%** | 2.0% | 26.3% | 25.5–15.4 | Australia (71.7%) |
 | 2026-08-08 | International Test Match | Japan v Australia | 26.9% | 2.0% | **71.0%** | 22.3–32.1 | Australia (71.0%) |
 | 2026-08-08 | International Test Match | Argentina v South Africa | 27.8% | 2.0% | **70.2%** | 22.5–31.9 | South Africa (70.2%) |
 | 2026-08-15 | International Test Match | Australia v Japan | **84.4%** | 1.4% | 14.2% | 33.5–16.0 | Australia (84.4%) |
 | 2026-08-22 | International Test Match | South Africa v New Zealand | **72.0%** | 2.0% | 26.1% | 28.6–18.4 | South Africa (72.0%) |
-| 2026-08-29 | International Test Match | Argentina v Australia | **66.3%** | 2.1% | 31.5% | 26.7–19.2 | Argentina (66.3%) |
 | 2026-08-29 | International Test Match | South Africa v New Zealand | **72.0%** | 2.0% | 26.1% | 28.6–18.4 | South Africa (72.0%) |
-| 2026-09-05 | International Test Match | Argentina v Australia | **66.3%** | 2.1% | 31.5% | 26.7–19.2 | Argentina (66.3%) |
+| 2026-08-29 | International Test Match | Argentina v Australia | **66.3%** | 2.1% | 31.5% | 26.7–19.2 | Argentina (66.3%) |
+| 2026-09-05 | International Test Match | Japan v Canada | **93.7%** | 0.7% | 5.6% | 44.0–17.8 | Japan (93.7%) |
 
-*49 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
+*31 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
 
 ## Pool projections
 
