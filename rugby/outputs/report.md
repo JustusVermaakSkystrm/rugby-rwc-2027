@@ -1,6 +1,6 @@
 # Rugby World Cup 2027 — ML Prediction Report
 
-*Generated 2026-06-27 · data through **2026-04-10** · 50,000 Monte Carlo simulations · 0/36 pool matches played*
+*Generated 2026-06-28 · data through **2026-04-10** · 50,000 Monte Carlo simulations · 0/36 pool matches played*
 
 Probabilities come from a **margin + total Gaussian model** (World Rugby ranking + Elo strength, points attack/defence, rolling form, venue/importance) trained on 1,902 internationals, simulated through the official RWC 2027 bracket with bonus-point pool standings and tiebreakers.
 
@@ -37,33 +37,33 @@ Every scheduled men's international on the calendar, not just RWC fixtures — t
 
 | Date | Competition | Match | Home win | Draw | Away win | Predicted | Favourite |
 |------|-------------|-------|---------:|-----:|---------:|:---------:|----------|
-| 2026-07-04 | Nations Championship | New Zealand v France | **71.8%** | 2.0% | 26.2% | 32.0–21.9 | New Zealand (71.8%) |
-| 2026-07-04 | Nations Championship | Japan v Italy | 35.8% | 2.3% | **61.9%** | 21.8–27.3 | Italy (61.9%) |
-| 2026-07-04 | Nations Championship | Australia v Ireland | 38.4% | 2.3% | **59.3%** | 20.4–24.9 | Ireland (59.3%) |
-| 2026-07-04 | Nations Championship | Fiji v Wales | **62.2%** | 2.2% | 35.6% | 25.3–19.6 | Fiji (62.2%) |
-| 2026-07-04 | Nations Championship | South Africa v England | **83.4%** | 1.5% | 15.2% | 35.9–19.1 | South Africa (83.4%) |
-| 2026-07-04 | Nations Championship | Argentina v Scotland | **72.1%** | 2.0% | 25.9% | 31.6–21.2 | Argentina (72.1%) |
-| 2026-07-11 | Nations Championship | New Zealand v Italy | **90.1%** | 1.0% | 8.9% | 36.1–14.1 | New Zealand (90.1%) |
-| 2026-07-11 | Nations Championship | Australia v France | 8.6% | 1.0% | **90.5%** | 17.6–40.0 | France (90.5%) |
-| 2026-07-11 | Nations Championship | Japan v Ireland | 3.5% | 0.5% | **96.0%** | 17.5–47.4 | Ireland (96.0%) |
-| 2026-07-11 | Nations Championship | Fiji v England | 37.2% | 2.3% | **60.5%** | 27.2–32.2 | England (60.5%) |
-| 2026-07-11 | Nations Championship | South Africa v Scotland | **81.4%** | 1.6% | 17.1% | 37.0–21.6 | South Africa (81.4%) |
-| 2026-07-11 | Nations Championship | Argentina v Wales | **84.0%** | 1.4% | 14.5% | 30.4–13.3 | Argentina (84.0%) |
-| 2026-07-18 | Nations Championship | Argentina v England | **71.4%** | 2.0% | 26.6% | 31.6–21.7 | Argentina (71.4%) |
-| 2026-07-18 | Nations Championship | South Africa v Wales | **98.8%** | 0.2% | 1.0% | 48.1–9.6 | South Africa (98.8%) |
-| 2026-07-18 | Nations Championship | Fiji v Scotland | 40.0% | 2.3% | **57.6%** | 25.8–29.5 | Scotland (57.6%) |
-| 2026-07-18 | Nations Championship | New Zealand v Ireland | **59.1%** | 2.3% | 38.6% | 26.7–22.4 | New Zealand (59.1%) |
-| 2026-07-18 | Nations Championship | Japan v France | 3.3% | 0.5% | **96.2%** | 16.9–47.1 | France (96.2%) |
-| 2026-07-18 | Nations Championship | Australia v Italy | **71.7%** | 2.0% | 26.3% | 25.5–15.4 | Australia (71.7%) |
 | 2026-08-08 | International Test Match | Japan v Australia | 26.9% | 2.0% | **71.0%** | 22.3–32.1 | Australia (71.0%) |
 | 2026-08-08 | International Test Match | Argentina v South Africa | 27.8% | 2.0% | **70.2%** | 22.5–31.9 | South Africa (70.2%) |
 | 2026-08-15 | International Test Match | Australia v Japan | **84.4%** | 1.4% | 14.2% | 33.5–16.0 | Australia (84.4%) |
 | 2026-08-22 | International Test Match | South Africa v New Zealand | **72.0%** | 2.0% | 26.1% | 28.6–18.4 | South Africa (72.0%) |
-| 2026-08-29 | International Test Match | Argentina v Australia | **66.3%** | 2.1% | 31.5% | 26.7–19.2 | Argentina (66.3%) |
 | 2026-08-29 | International Test Match | South Africa v New Zealand | **72.0%** | 2.0% | 26.1% | 28.6–18.4 | South Africa (72.0%) |
+| 2026-08-29 | International Test Match | Argentina v Australia | **66.3%** | 2.1% | 31.5% | 26.7–19.2 | Argentina (66.3%) |
+| 2026-09-05 | International Test Match | Japan v Canada | **93.7%** | 0.7% | 5.6% | 44.0–17.8 | Japan (93.7%) |
+| 2026-09-05 | International Test Match | South Africa v New Zealand | **72.0%** | 2.0% | 26.1% | 28.6–18.4 | South Africa (72.0%) |
 | 2026-09-05 | International Test Match | Argentina v Australia | **66.3%** | 2.1% | 31.5% | 26.7–19.2 | Argentina (66.3%) |
+| 2026-09-12 | International Test Match | South Africa v New Zealand | **72.0%** | 2.0% | 26.1% | 28.6–18.4 | South Africa (72.0%) |
+| 2026-09-27 | International Test Match | Australia v South Africa | 18.5% | 1.6% | **79.9%** | 21.6–36.1 | South Africa (79.9%) |
+| 2026-10-10 | International Test Match | New Zealand v Australia | **79.9%** | 1.6% | 18.4% | 32.0–17.5 | New Zealand (79.9%) |
+| 2026-10-17 | International Test Match | Australia v New Zealand | 24.3% | 1.9% | **73.8%** | 20.6–31.7 | New Zealand (73.8%) |
+| 2026-11-06 | Nations Championship | Ireland v Argentina | **74.3%** | 1.9% | 23.8% | 33.9–22.5 | Ireland (74.3%) |
+| 2026-11-07 | Nations Championship | France v Fiji | **90.2%** | 1.0% | 8.8% | 38.8–16.7 | France (90.2%) |
+| 2026-11-07 | Nations Championship | Wales v Japan | **54.2%** | 2.4% | 43.4% | 27.2–24.9 | Wales (54.2%) |
+| 2026-11-07 | Nations Championship | Scotland v New Zealand | 42.8% | 2.4% | **54.8%** | 25.5–28.0 | New Zealand (54.8%) |
+| 2026-11-07 | Nations Championship | Italy v South Africa | 6.9% | 0.8% | **92.2%** | 13.3–37.6 | South Africa (92.2%) |
+| 2026-11-08 | Nations Championship | England v Australia | **66.4%** | 2.1% | 31.4% | 28.7–21.1 | England (66.4%) |
+| 2026-11-13 | Nations Championship | France v South Africa | **49.0%** | 2.4% | 48.6% | 27.3–27.3 | France (49.0%) |
+| 2026-11-14 | Nations Championship | Italy v Argentina | 34.2% | 2.2% | **63.6%** | 23.8–30.1 | Argentina (63.6%) |
+| 2026-11-14 | Nations Championship | Wales v New Zealand | 3.6% | 0.5% | **95.9%** | 14.7–44.3 | New Zealand (95.9%) |
+| 2026-11-14 | Nations Championship | England v Japan | **91.7%** | 0.9% | 7.5% | 36.4–12.8 | England (91.7%) |
+| 2026-11-14 | Nations Championship | Ireland v Fiji | **93.0%** | 0.8% | 6.2% | 40.8–15.6 | Ireland (93.0%) |
+| 2026-11-15 | Nations Championship | Scotland v Australia | **65.2%** | 2.2% | 32.6% | 29.6–22.6 | Scotland (65.2%) |
 
-*49 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
+*31 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
 
 ## Pool projections
 
