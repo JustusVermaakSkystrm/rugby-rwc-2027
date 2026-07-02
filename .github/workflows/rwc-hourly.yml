@@ -11,8 +11,10 @@ permissions:
   id-token: write
 
 concurrency:
+  # A newer run supersedes an older one still waiting on GitHub's Pages queue,
+  # so slow deploys can't pile up and block each other.
   group: rwc-hourly
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -68,6 +70,13 @@ jobs:
         with:
           path: rugby/outputs/site
 
+      # The run's real work (results, ratings, simulations, report) is already
+      # committed and pushed above. Publishing is best-effort: GitHub's Pages
+      # deployment queue is occasionally slow, so cap the wait and don't fail
+      # the whole heartbeat over a transient publish hiccup — the freshly
+      # committed site publishes on the next healthy deploy.
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        timeout-minutes: 6
+        continue-on-error: true
