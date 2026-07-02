@@ -1,6 +1,6 @@
 # Rugby World Cup 2027 — ML Prediction Report
 
-*Generated 2026-07-01 · data through **2026-04-10** · 50,000 Monte Carlo simulations · 0/36 pool matches played*
+*Generated 2026-07-02 · data through **2026-04-10** · 50,000 Monte Carlo simulations · 0/36 pool matches played*
 
 Probabilities come from a **margin + total Gaussian model** (World Rugby ranking + Elo strength, points attack/defence, rolling form, venue/importance) trained on 1,902 internationals, simulated through the official RWC 2027 bracket with bonus-point pool standings and tiebreakers.
 
