@@ -1,50 +1,48 @@
 date,tournament,home,away,neutral,p_home_win,p_draw,p_away_win,exp_home,exp_away,most_likely_score,favourite,fav_prob
-2026-07-04,Nations Championship,New Zealand,France,False,0.7178,0.0198,0.2623,32.0,21.9,32-22,New Zealand,0.7178
-2026-07-04,Nations Championship,Japan,Italy,False,0.3584,0.0226,0.6191,21.8,27.3,22-27,Italy,0.6191
-2026-07-04,Nations Championship,Australia,Ireland,False,0.384,0.023,0.5929,20.4,24.9,20-25,Ireland,0.5929
-2026-07-04,Nations Championship,Fiji,Wales,False,0.6215,0.0225,0.356,25.3,19.6,25-20,Fiji,0.6215
-2026-07-04,Nations Championship,South Africa,England,False,0.8339,0.0145,0.1516,35.9,19.1,36-19,South Africa,0.8339
-2026-07-04,Nations Championship,Argentina,Scotland,False,0.7212,0.0197,0.259,31.6,21.2,32-21,Argentina,0.7212
-2026-07-11,Nations Championship,New Zealand,Italy,False,0.9011,0.01,0.0889,36.1,14.1,36-14,New Zealand,0.9011
-2026-07-11,Nations Championship,Australia,France,False,0.0857,0.0097,0.9046,17.6,40.0,18-40,France,0.9046
-2026-07-11,Nations Championship,Japan,Ireland,False,0.0349,0.0049,0.9602,17.5,47.4,18-47,Ireland,0.9602
-2026-07-11,Nations Championship,Fiji,England,False,0.3718,0.0228,0.6054,27.2,32.2,27-32,England,0.6054
-2026-07-11,Nations Championship,South Africa,Scotland,False,0.8137,0.0156,0.1707,37.0,21.6,37-22,South Africa,0.8137
-2026-07-11,Nations Championship,Argentina,Wales,False,0.8405,0.0141,0.1454,30.4,13.3,30-13,Argentina,0.8405
-2026-07-18,Nations Championship,Argentina,England,False,0.7136,0.02,0.2664,31.6,21.7,32-22,Argentina,0.7136
-2026-07-18,Nations Championship,South Africa,Wales,False,0.9883,0.0017,0.01,48.1,9.6,48-10,South Africa,0.9883
-2026-07-18,Nations Championship,Fiji,Scotland,False,0.4004,0.0233,0.5763,25.8,29.5,26-29,Scotland,0.5763
-2026-07-18,Nations Championship,New Zealand,Ireland,False,0.5909,0.023,0.3861,26.7,22.4,27-22,New Zealand,0.5909
-2026-07-18,Nations Championship,Japan,France,False,0.0329,0.0046,0.9625,16.9,47.1,17-47,France,0.9625
-2026-07-18,Nations Championship,Australia,Italy,False,0.717,0.0199,0.2632,25.5,15.4,26-15,Australia,0.717
-2026-08-08,International Test Match,Japan,Australia,False,0.2694,0.0201,0.7105,22.3,32.1,22-32,Australia,0.7105
-2026-08-08,International Test Match,Argentina,South Africa,False,0.2778,0.0204,0.7018,22.5,31.9,23-32,South Africa,0.7018
-2026-08-15,International Test Match,Australia,Japan,False,0.8441,0.0139,0.1421,33.5,16.0,33-16,Australia,0.8441
-2026-08-22,International Test Match,South Africa,New Zealand,False,0.7195,0.0198,0.2607,28.6,18.4,29-18,South Africa,0.7195
-2026-08-29,International Test Match,Argentina,Australia,False,0.6634,0.0215,0.315,26.7,19.2,27-19,Argentina,0.6634
-2026-08-29,International Test Match,South Africa,New Zealand,False,0.7195,0.0198,0.2607,28.6,18.4,29-18,South Africa,0.7195
-2026-09-05,International Test Match,Argentina,Australia,False,0.6634,0.0215,0.315,26.7,19.2,27-19,Argentina,0.6634
-2026-09-05,International Test Match,Japan,Canada,False,0.937,0.0071,0.0559,44.0,17.8,44-18,Japan,0.937
-2026-09-05,International Test Match,South Africa,New Zealand,False,0.7195,0.0198,0.2607,28.6,18.4,29-18,South Africa,0.7195
-2026-09-12,International Test Match,South Africa,New Zealand,False,0.7195,0.0198,0.2607,28.6,18.4,29-18,South Africa,0.7195
-2026-09-27,International Test Match,Australia,South Africa,False,0.1848,0.0164,0.7989,21.6,36.1,22-36,South Africa,0.7989
-2026-10-10,International Test Match,New Zealand,Australia,False,0.7993,0.0163,0.1844,32.0,17.5,32-17,New Zealand,0.7993
-2026-10-17,International Test Match,Australia,New Zealand,False,0.2431,0.0191,0.7378,20.6,31.7,21-32,New Zealand,0.7378
-2026-11-06,Nations Championship,Ireland,Argentina,False,0.7432,0.0189,0.238,33.9,22.5,34-23,Ireland,0.7432
-2026-11-07,Nations Championship,France,Fiji,False,0.9016,0.01,0.0885,38.8,16.7,39-17,France,0.9016
-2026-11-07,Nations Championship,Italy,South Africa,False,0.0693,0.0083,0.9224,13.3,37.6,13-38,South Africa,0.9224
-2026-11-07,Nations Championship,Scotland,New Zealand,False,0.4281,0.0236,0.5483,25.5,28.0,25-28,New Zealand,0.5483
-2026-11-07,Nations Championship,Wales,Japan,False,0.5423,0.0236,0.4341,27.2,24.9,27-25,Wales,0.5423
-2026-11-08,Nations Championship,England,Australia,False,0.6642,0.0215,0.3143,28.7,21.1,29-21,England,0.6642
-2026-11-13,Nations Championship,France,South Africa,False,0.4897,0.0238,0.4865,27.3,27.3,27-27,France,0.4897
-2026-11-14,Nations Championship,Italy,Argentina,False,0.3418,0.0222,0.636,23.8,30.1,24-30,Argentina,0.636
-2026-11-14,Nations Championship,Wales,New Zealand,False,0.0359,0.005,0.9591,14.7,44.3,15-44,New Zealand,0.9591
-2026-11-14,Nations Championship,England,Japan,False,0.9166,0.0088,0.0746,36.4,12.8,36-13,England,0.9166
-2026-11-14,Nations Championship,Ireland,Fiji,False,0.9299,0.0077,0.0624,40.8,15.6,41-16,Ireland,0.9299
-2026-11-15,Nations Championship,Scotland,Australia,False,0.6521,0.0218,0.326,29.6,22.6,30-23,Scotland,0.6521
-2026-11-21,Nations Championship,Italy,Fiji,False,0.6568,0.0217,0.3215,27.4,20.1,27-20,Italy,0.6568
-2026-11-21,Nations Championship,Ireland,South Africa,False,0.4355,0.0236,0.5409,24.6,26.8,25-27,South Africa,0.5409
-2026-11-21,Nations Championship,France,Argentina,False,0.7026,0.0204,0.277,33.5,24.1,34-24,France,0.7026
-2026-11-21,Nations Championship,England,New Zealand,False,0.4333,0.0236,0.543,25.6,28.0,26-28,New Zealand,0.543
-2026-11-21,Nations Championship,Scotland,Japan,False,0.8926,0.0106,0.0968,36.9,15.6,37-16,Scotland,0.8926
-2026-11-21,Nations Championship,Wales,Australia,False,0.3456,0.0223,0.6321,23.4,29.5,23-29,Australia,0.6321
+2026-07-04,Nations Championship,Australia,Ireland,False,0.4099,0.0236,0.5665,19.9,23.2,20-23,Ireland,0.5665
+2026-07-04,Nations Championship,Fiji,Wales,False,0.5049,0.024,0.4711,24.6,23.9,25-24,Fiji,0.5049
+2026-07-04,Nations Championship,South Africa,England,False,0.8431,0.014,0.1429,37.9,20.7,38-21,South Africa,0.8431
+2026-07-04,Nations Championship,Argentina,Scotland,False,0.7231,0.0198,0.257,31.6,21.3,32-21,Argentina,0.7231
+2026-07-11,Nations Championship,New Zealand,Italy,False,0.9163,0.0089,0.0748,38.1,14.7,38-15,New Zealand,0.9163
+2026-07-11,Nations Championship,Australia,France,False,0.1438,0.0141,0.8421,21.0,38.1,21-38,France,0.8421
+2026-07-11,Nations Championship,Japan,Ireland,False,0.0459,0.0061,0.948,15.9,43.4,16-43,Ireland,0.948
+2026-07-11,Nations Championship,Fiji,England,False,0.3139,0.0217,0.6644,23.9,31.4,24-31,England,0.6644
+2026-07-11,Nations Championship,South Africa,Scotland,False,0.809,0.016,0.175,36.4,21.4,36-21,South Africa,0.809
+2026-07-11,Nations Championship,Argentina,Wales,False,0.8538,0.0134,0.1328,34.3,16.4,34-16,Argentina,0.8538
+2026-07-18,Nations Championship,Argentina,England,False,0.7275,0.0197,0.2528,32.0,21.5,32-21,Argentina,0.7275
+2026-07-18,Nations Championship,South Africa,Wales,False,0.9834,0.0023,0.0142,46.6,10.8,47-11,South Africa,0.9834
+2026-07-18,Nations Championship,Fiji,Scotland,False,0.3822,0.0232,0.5946,24.6,29.1,25-29,Scotland,0.5946
+2026-07-18,Nations Championship,Japan,France,False,0.0351,0.0049,0.96,15.1,44.7,15-45,France,0.96
+2026-07-18,Nations Championship,New Zealand,Ireland,False,0.4962,0.024,0.4798,23.5,23.2,24-23,New Zealand,0.4962
+2026-07-18,Nations Championship,Australia,Italy,False,0.7774,0.0176,0.205,30.5,17.3,30-17,Australia,0.7774
+2026-08-08,International Test Match,Japan,Australia,False,0.3459,0.0225,0.6317,22.2,28.3,22-28,Australia,0.6317
+2026-08-08,International Test Match,Argentina,South Africa,False,0.3298,0.0221,0.6481,23.2,30.0,23-30,South Africa,0.6481
+2026-08-15,International Test Match,Australia,Japan,False,0.84,0.0142,0.1458,35.2,18.2,35-18,Australia,0.84
+2026-08-22,International Test Match,South Africa,New Zealand,False,0.6826,0.0212,0.2963,28.1,19.7,28-20,South Africa,0.6826
+2026-08-29,International Test Match,Argentina,Australia,False,0.6698,0.0215,0.3086,29.1,21.3,29-21,Argentina,0.6698
+2026-08-29,International Test Match,South Africa,New Zealand,False,0.6826,0.0212,0.2963,28.1,19.7,28-20,South Africa,0.6826
+2026-09-05,International Test Match,Argentina,Australia,False,0.6698,0.0215,0.3086,29.1,21.3,29-21,Argentina,0.6698
+2026-09-05,International Test Match,South Africa,New Zealand,False,0.6826,0.0212,0.2963,28.1,19.7,28-20,South Africa,0.6826
+2026-09-05,International Test Match,Japan,Canada,False,0.9654,0.0044,0.0303,44.4,13.7,44-14,Japan,0.9654
+2026-09-12,International Test Match,South Africa,New Zealand,False,0.6826,0.0212,0.2963,28.1,19.7,28-20,South Africa,0.6826
+2026-09-27,International Test Match,Australia,South Africa,False,0.1911,0.0169,0.792,20.0,34.0,20-34,South Africa,0.792
+2026-10-10,International Test Match,New Zealand,Australia,False,0.7974,0.0166,0.186,32.1,17.8,32-18,New Zealand,0.7974
+2026-10-17,International Test Match,Australia,New Zealand,False,0.2924,0.0211,0.6865,20.9,29.4,21-29,New Zealand,0.6865
+2026-11-06,Nations Championship,Ireland,Argentina,False,0.7033,0.0205,0.2762,31.9,22.5,32-23,Ireland,0.7033
+2026-11-07,Nations Championship,Italy,South Africa,False,0.0791,0.0093,0.9116,13.6,36.5,14-37,South Africa,0.9116
+2026-11-07,Nations Championship,Scotland,New Zealand,False,0.364,0.0229,0.6131,23.8,29.1,24-29,New Zealand,0.6131
+2026-11-07,Nations Championship,Wales,Japan,False,0.6168,0.0228,0.3604,28.6,23.1,29-23,Wales,0.6168
+2026-11-07,Nations Championship,France,Fiji,False,0.8916,0.0108,0.0976,39.2,18.3,39-18,France,0.8916
+2026-11-08,Nations Championship,England,Australia,False,0.6778,0.0213,0.3009,31.1,23.0,31-23,England,0.6778
+2026-11-13,Nations Championship,France,South Africa,False,0.261,0.02,0.719,23.0,33.2,23-33,South Africa,0.719
+2026-11-14,Nations Championship,Italy,Argentina,False,0.2156,0.0181,0.7664,20.9,33.5,21-34,Argentina,0.7664
+2026-11-14,Nations Championship,Wales,New Zealand,False,0.0407,0.0056,0.9537,15.2,43.6,15-44,New Zealand,0.9537
+2026-11-14,Nations Championship,England,Japan,False,0.947,0.0062,0.0468,42.2,14.9,42-15,England,0.947
+2026-11-14,Nations Championship,Ireland,Fiji,False,0.9323,0.0075,0.0601,41.1,15.8,41-16,Ireland,0.9323
+2026-11-15,Nations Championship,Scotland,Australia,False,0.6423,0.0223,0.3354,30.4,23.9,30-24,Scotland,0.6423
+2026-11-21,Nations Championship,England,New Zealand,False,0.4326,0.0238,0.5436,24.4,26.7,24-27,New Zealand,0.5436
+2026-11-21,Nations Championship,Scotland,Japan,False,0.9151,0.009,0.0759,40.2,16.9,40-17,Scotland,0.9151
+2026-11-21,Nations Championship,Ireland,South Africa,False,0.3393,0.0223,0.6384,23.5,29.9,23-30,South Africa,0.6384
+2026-11-21,Nations Championship,Italy,Fiji,False,0.5963,0.0232,0.3805,25.9,21.3,26-21,Italy,0.5963
+2026-11-21,Nations Championship,France,Argentina,False,0.7288,0.0196,0.2516,33.2,22.6,33-23,France,0.7288
+2026-11-21,Nations Championship,Wales,Australia,False,0.3881,0.0233,0.5887,24.4,28.6,24-29,Australia,0.5887

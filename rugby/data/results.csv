@@ -1406,24 +1406,24 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 1995-05-27,England,Argentina,24,18,Rugby World Cup,Durban,South Africa,True,,
 1995-05-27,Ireland,New Zealand,19,43,Rugby World Cup,Johannesburg,South Africa,True,,
 1995-05-27,Samoa,Italy,42,18,Rugby World Cup,East London,South Africa,True,,
-1995-05-27,Wales,Japan,57,10,Rugby World Cup,Bloemfontein,South Africa,True,7,2
-1995-05-30,Argentina,Samoa,26,32,Rugby World Cup,East London,South Africa,True,2,3
+1995-05-27,Wales,Japan,57,10,Rugby World Cup,Bloemfontein,South Africa,True,7.0,2.0
+1995-05-30,Argentina,Samoa,26,32,Rugby World Cup,East London,South Africa,True,2.0,3.0
 1995-05-30,South Africa,Romania,21,8,Rugby World Cup,Cape Town,South Africa,False,,
 1995-05-30,Scotland,Tonga,41,5,Rugby World Cup,Pretoria,South Africa,True,,
-1995-05-31,Wales,New Zealand,9,34,Rugby World Cup,Johannesburg,South Africa,True,,3
+1995-05-31,Wales,New Zealand,9,34,Rugby World Cup,Johannesburg,South Africa,True,,3.0
 1995-05-31,England,Italy,27,20,Rugby World Cup,Durban,South Africa,True,,
-1995-05-31,Ireland,Japan,50,28,Rugby World Cup,Bloemfontein,South Africa,True,7,4
+1995-05-31,Ireland,Japan,50,28,Rugby World Cup,Bloemfontein,South Africa,True,7.0,4.0
 1995-05-31,Australia,Canada,27,11,Rugby World Cup,Port Elizabeth,South Africa,True,,
 1995-06-03,Tonga,Ivory Coast,29,11,Rugby World Cup,Rustenburg,South Africa,True,,
-1995-06-03,Australia,Romania,42,3,Rugby World Cup,Stellenbosch,South Africa,True,6,
+1995-06-03,Australia,Romania,42,3,Rugby World Cup,Stellenbosch,South Africa,True,6.0,
 1995-06-03,South Africa,Canada,20,0,Rugby World Cup,Port Elizabeth,South Africa,False,,
 1995-06-03,Scotland,France,19,22,Rugby World Cup,Pretoria,South Africa,True,,
 1995-06-04,Argentina,Italy,25,31,Rugby World Cup,East London,South Africa,True,,
-1995-06-04,New Zealand,Japan,145,17,Rugby World Cup,Bloemfontein,South Africa,True,21,2
+1995-06-04,New Zealand,Japan,145,17,Rugby World Cup,Bloemfontein,South Africa,True,21.0,2.0
 1995-06-04,Ireland,Wales,24,23,Rugby World Cup,Johannesburg,South Africa,True,,
 1995-06-04,England,Samoa,44,22,Rugby World Cup,Durban,South Africa,True,,
 1995-06-10,Ireland,France,12,36,Rugby World Cup,Durban,South Africa,True,,
-1995-06-10,South Africa,Samoa,42,14,Rugby World Cup,Johannesburg,South Africa,False,6,2
+1995-06-10,South Africa,Samoa,42,14,Rugby World Cup,Johannesburg,South Africa,False,6.0,2.0
 1995-06-11,England,Australia,25,22,Rugby World Cup,Cape Town,South Africa,True,,
 1995-06-11,Scotland,New Zealand,30,48,Rugby World Cup,Pretoria,South Africa,True,,
 1995-06-17,South Africa,France,19,15,Rugby World Cup,Durban,South Africa,False,,
@@ -1595,46 +1595,46 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 1999-08-28,Wales,France,34,23,1999 Rugby World Cup warm-up match,Cardiff,Wales,False,,
 1999-08-28,Ireland,Argentina,32,24,1999 Rugby World Cup warm-up,Dublin,Ireland,False,,
 1999-08-28,Australia,New Zealand,28,7,Rugby Championship,Sydney,Australia,False,,
-1999-10-01,Wales,Argentina,23,18,Rugby World Cup,Cardiff,Wales,False,2,
+1999-10-01,Wales,Argentina,23,18,Rugby World Cup,Cardiff,Wales,False,2.0,
 1999-10-01,Fiji,Namibia,67,18,Rugby World Cup,Beziers,France,True,,
 1999-10-02,England,Italy,67,7,Rugby World Cup,London,England,False,,
-1999-10-02,France,Canada,33,20,Rugby World Cup,Beziers,France,False,4,2
+1999-10-02,France,Canada,33,20,Rugby World Cup,Beziers,France,False,4.0,2.0
 1999-10-02,Ireland,United States,53,8,Rugby World Cup,Dublin,Ireland,False,,
 1999-10-03,Australia,Romania,57,9,Rugby World Cup,Belfast,Ireland,True,,
 1999-10-03,Scotland,South Africa,29,46,Rugby World Cup,Edinburgh,Scotland,False,,
-1999-10-03,New Zealand,Tonga,45,9,Rugby World Cup,Bristol,England,True,5,
+1999-10-03,New Zealand,Tonga,45,9,Rugby World Cup,Bristol,England,True,5.0,
 1999-10-03,Samoa,Japan,43,9,Rugby World Cup,Wrexham,Wales,True,,
-1999-10-08,Scotland,Uruguay,43,12,Rugby World Cup,Edinburgh,Scotland,False,6,
-1999-10-08,France,Namibia,47,13,Rugby World Cup,Bordeaux,France,False,6,1
-1999-10-09,Fiji,Canada,38,22,Rugby World Cup,Bordeaux,France,True,4,1
-1999-10-09,Wales,Japan,64,15,Rugby World Cup,Cardiff,Wales,False,9,2
-1999-10-09,England,New Zealand,16,30,Rugby World Cup,London,England,False,1,3
+1999-10-08,Scotland,Uruguay,43,12,Rugby World Cup,Edinburgh,Scotland,False,6.0,
+1999-10-08,France,Namibia,47,13,Rugby World Cup,Bordeaux,France,False,6.0,1.0
+1999-10-09,Fiji,Canada,38,22,Rugby World Cup,Bordeaux,France,True,4.0,1.0
+1999-10-09,Wales,Japan,64,15,Rugby World Cup,Cardiff,Wales,False,9.0,2.0
+1999-10-09,England,New Zealand,16,30,Rugby World Cup,London,England,False,1.0,3.0
 1999-10-09,United States,Romania,25,27,Rugby World Cup,Dublin,Ireland,True,,
 1999-10-10,Argentina,Samoa,32,16,Rugby World Cup,Llanelli,Wales,True,,
-1999-10-10,South Africa,Spain,47,3,Rugby World Cup,Edinburgh,Scotland,True,7,
-1999-10-10,Tonga,Italy,28,25,Rugby World Cup,Leicester,England,True,3,1
-1999-10-10,Ireland,Australia,3,23,Rugby World Cup,Dublin,Ireland,False,,2
+1999-10-10,South Africa,Spain,47,3,Rugby World Cup,Edinburgh,Scotland,True,7.0,
+1999-10-10,Tonga,Italy,28,25,Rugby World Cup,Leicester,England,True,3.0,1.0
+1999-10-10,Ireland,Australia,3,23,Rugby World Cup,Dublin,Ireland,False,,2.0
 1999-10-14,New Zealand,Italy,101,3,Rugby World Cup,Huddersfield,England,True,,
-1999-10-14,Wales,Samoa,31,38,Rugby World Cup,Cardiff,Wales,False,3,5
-1999-10-14,Canada,Namibia,72,11,Rugby World Cup,Toulouse,France,True,9,1
+1999-10-14,Wales,Samoa,31,38,Rugby World Cup,Cardiff,Wales,False,3.0,5.0
+1999-10-14,Canada,Namibia,72,11,Rugby World Cup,Toulouse,France,True,9.0,1.0
 1999-10-14,Australia,United States,55,19,Rugby World Cup,Limerick,Ireland,True,,
-1999-10-15,Ireland,Romania,44,14,Rugby World Cup,Dublin,Ireland,False,5,1
-1999-10-15,South Africa,Uruguay,39,3,Rugby World Cup,Glasgow,Scotland,True,5,
-1999-10-15,England,Tonga,101,10,Rugby World Cup,London,England,False,13,1
-1999-10-16,Scotland,Spain,48,0,Rugby World Cup,Edinburgh,Scotland,False,7,
-1999-10-16,France,Fiji,28,19,Rugby World Cup,Toulouse,France,False,3,1
-1999-10-16,Argentina,Japan,33,12,Rugby World Cup,Cardiff,Wales,True,2,
-1999-10-20,Ireland,Argentina,24,28,Rugby World Cup,Lens,France,True,,1
+1999-10-15,Ireland,Romania,44,14,Rugby World Cup,Dublin,Ireland,False,5.0,1.0
+1999-10-15,South Africa,Uruguay,39,3,Rugby World Cup,Glasgow,Scotland,True,5.0,
+1999-10-15,England,Tonga,101,10,Rugby World Cup,London,England,False,13.0,1.0
+1999-10-16,Scotland,Spain,48,0,Rugby World Cup,Edinburgh,Scotland,False,7.0,
+1999-10-16,France,Fiji,28,19,Rugby World Cup,Toulouse,France,False,3.0,1.0
+1999-10-16,Argentina,Japan,33,12,Rugby World Cup,Cardiff,Wales,True,2.0,
+1999-10-20,Ireland,Argentina,24,28,Rugby World Cup,Lens,France,True,,1.0
 1999-10-20,England,Fiji,45,24,Rugby World Cup,London,England,False,,
-1999-10-20,Scotland,Samoa,35,20,Rugby World Cup,Edinburgh,Scotland,False,3,2
+1999-10-20,Scotland,Samoa,35,20,Rugby World Cup,Edinburgh,Scotland,False,3.0,2.0
 1999-10-23,Wales,Australia,9,24,Rugby World Cup,Cardiff,Wales,False,,
-1999-10-24,Scotland,New Zealand,18,30,Rugby World Cup,Edinburgh,Scotland,False,2,4
-1999-10-24,France,Argentina,47,26,Rugby World Cup,Dublin,Ireland,True,5,2
-1999-10-24,England,South Africa,21,44,Rugby World Cup,Saint-Denis,Reunion,True,,2
+1999-10-24,Scotland,New Zealand,18,30,Rugby World Cup,Edinburgh,Scotland,False,2.0,4.0
+1999-10-24,France,Argentina,47,26,Rugby World Cup,Dublin,Ireland,True,5.0,2.0
+1999-10-24,England,South Africa,21,44,Rugby World Cup,Saint-Denis,Reunion,True,,2.0
 1999-10-30,South Africa,Australia,21,27,Rugby World Cup,London,England,True,,
-1999-10-31,New Zealand,France,31,43,Rugby World Cup,London,England,True,3,4
-1999-11-04,South Africa,New Zealand,22,18,Rugby World Cup,Cardiff,Wales,True,1,
-1999-11-06,Australia,France,35,12,Rugby World Cup,Cardiff,Wales,True,2,
+1999-10-31,New Zealand,France,31,43,Rugby World Cup,London,England,True,3.0,4.0
+1999-11-04,South Africa,New Zealand,22,18,Rugby World Cup,Cardiff,Wales,True,1.0,
+1999-11-06,Australia,France,35,12,Rugby World Cup,Cardiff,Wales,True,2.0,
 2000-02-05,England,Ireland,50,18,Six Nations,London,England,False,,
 2000-02-05,Wales,France,3,36,Six Nations,Cardiff,Wales,False,,
 2000-02-05,Italy,Scotland,34,20,Six Nations,Rome,Italy,False,,
@@ -1892,7 +1892,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2004-11-27,England,Australia,19,21,2004 Autumn International,London,England,False,,
 2004-11-27,Ireland,Argentina,21,19,2004 Autumn Internationals,Dublin,Ireland,False,,
 2004-12-04,Argentina,South Africa,7,39,2004 end-of-year test,Buenos Aires,Argentina,False,,
-2005-02-05,France,Scotland,16,9,Six Nations,Saint-Denis,Reunion,False,1,
+2005-02-05,France,Scotland,16,9,Six Nations,Saint-Denis,Reunion,False,1.0,
 2005-02-05,Wales,England,11,9,Six Nations,Cardiff,Wales,False,,
 2005-02-06,Italy,Ireland,17,28,Six Nations,Rome,Italy,False,,
 2005-02-12,Italy,Wales,8,38,Six Nations,Rome,Italy,False,,
@@ -1936,7 +1936,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2005-11-26,Wales,Australia,24,22,2005 Autumn International,Cardiff,Wales,False,,
 2005-11-26,Scotland,New Zealand,10,29,2005 end of year rugby union tests,Edinburgh,Scotland,False,,
 2005-11-26,France,South Africa,26,20,2005 Autumn International,Saint-Denis,France,False,,
-2006-02-04,Ireland,Italy,26,16,Six Nations,Dublin,Ireland,False,2,1
+2006-02-04,Ireland,Italy,26,16,Six Nations,Dublin,Ireland,False,2.0,1.0
 2006-02-04,England,Wales,47,13,Six Nations,London,England,False,,
 2006-02-05,Scotland,France,20,16,Six Nations,Edinburgh,Scotland,False,,
 2006-02-11,Italy,England,16,31,Six Nations,Rome,Italy,False,,
@@ -1962,15 +1962,15 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2006-06-24,South Africa,France,26,36,2006 mid-year test,Cape Town,South Africa,False,,
 2006-06-24,Australia,Ireland,37,15,2006 Summer International,Perth,Australia,False,,
 2006-06-24,Argentina,New Zealand,19,25,2006 New Zealand tour of Argentina and Europe,Buenos Aires,Argentina,False,,
-2006-07-08,New Zealand,Australia,32,12,Rugby Championship,Christchurch,New Zealand,False,4,2
-2006-07-15,Australia,South Africa,49,0,Rugby Championship,Brisbane,Australia,False,6,
-2006-07-22,New Zealand,South Africa,35,17,Rugby Championship,Wellington,New Zealand,False,2,2
-2006-07-29,Australia,New Zealand,9,13,Rugby Championship,Brisbane,Australia,False,,1
-2006-08-05,Australia,South Africa,20,18,Rugby Championship,Sydney,Australia,False,2,2
-2006-08-19,New Zealand,Australia,34,27,Rugby Championship,Auckland,New Zealand,False,3,3
-2006-08-26,South Africa,New Zealand,26,45,Rugby Championship,Pretoria,South Africa,False,3,5
-2006-09-02,South Africa,New Zealand,21,20,Rugby Championship,Rustenburg,South Africa,False,2,2
-2006-09-09,South Africa,Australia,24,16,Rugby Championship,Johannesburg,South Africa,False,2,1
+2006-07-08,New Zealand,Australia,32,12,Rugby Championship,Christchurch,New Zealand,False,4.0,2.0
+2006-07-15,Australia,South Africa,49,0,Rugby Championship,Brisbane,Australia,False,6.0,
+2006-07-22,New Zealand,South Africa,35,17,Rugby Championship,Wellington,New Zealand,False,2.0,2.0
+2006-07-29,Australia,New Zealand,9,13,Rugby Championship,Brisbane,Australia,False,,1.0
+2006-08-05,Australia,South Africa,20,18,Rugby Championship,Sydney,Australia,False,2.0,2.0
+2006-08-19,New Zealand,Australia,34,27,Rugby Championship,Auckland,New Zealand,False,3.0,3.0
+2006-08-26,South Africa,New Zealand,26,45,Rugby Championship,Pretoria,South Africa,False,3.0,5.0
+2006-09-02,South Africa,New Zealand,21,20,Rugby Championship,Rustenburg,South Africa,False,2.0,2.0
+2006-09-09,South Africa,Australia,24,16,Rugby Championship,Johannesburg,South Africa,False,2.0,1.0
 2006-11-04,Wales,Australia,29,29,2006 Autumn International,Cardiff,Wales,False,,
 2006-11-05,England,New Zealand,20,41,2006 Autumn International,London,England,False,,
 2006-11-11,Ireland,South Africa,32,15,2006 end-of-year test,Dublin,Ireland,False,,
@@ -2009,12 +2009,12 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2007-06-02,New Zealand,France,42,11,2007 mid-year rugby union tests,Auckland,New Zealand,False,,
 2007-06-09,New Zealand,France,61,10,2007 mid-year rugby union tests,Wellington,New Zealand,False,,
 2007-06-09,Argentina,Italy,24,6,2007 mid year test,Mendoza,Argentina,False,,
-2007-06-16,South Africa,Australia,22,19,Rugby Championship,Cape Town,South Africa,False,1,1
-2007-06-23,South Africa,New Zealand,21,26,Rugby Championship,Durban,South Africa,False,2,2
-2007-06-30,Australia,New Zealand,20,15,Rugby Championship,Melbourne,Australia,False,2,2
-2007-07-07,Australia,South Africa,25,17,Rugby Championship,Sydney,Australia,False,3,2
-2007-07-14,New Zealand,South Africa,33,6,Rugby Championship,Christchurch,New Zealand,False,3,
-2007-07-21,New Zealand,Australia,26,12,Rugby Championship,Auckland,New Zealand,False,1,
+2007-06-16,South Africa,Australia,22,19,Rugby Championship,Cape Town,South Africa,False,1.0,1.0
+2007-06-23,South Africa,New Zealand,21,26,Rugby Championship,Durban,South Africa,False,2.0,2.0
+2007-06-30,Australia,New Zealand,20,15,Rugby Championship,Melbourne,Australia,False,2.0,2.0
+2007-07-07,Australia,South Africa,25,17,Rugby Championship,Sydney,Australia,False,3.0,2.0
+2007-07-14,New Zealand,South Africa,33,6,Rugby Championship,Christchurch,New Zealand,False,3.0,
+2007-07-21,New Zealand,Australia,26,12,Rugby Championship,Auckland,New Zealand,False,1.0,
 2007-08-04,England,Wales,62,5,2007 Rugby World Cup warm-up,London,England,False,,
 2007-08-11,Scotland,Ireland,31,21,2007 Rugby World Cup warm-up tests,Edinburgh,Scotland,False,,
 2007-08-11,England,France,15,21,2007 Rugby World Cup warm-up,London,England,False,,
@@ -2028,7 +2028,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2007-09-08,Australia,Japan,91,3,Rugby World Cup,Lyon,France,True,,
 2007-09-08,England,United States,28,10,Rugby World Cup,Lens,France,True,,
 2007-09-09,Wales,Canada,42,17,Rugby World Cup,Nantes,France,True,,
-2007-09-09,South Africa,Samoa,59,7,Rugby World Cup,Paris,France,True,8,1
+2007-09-09,South Africa,Samoa,59,7,Rugby World Cup,Paris,France,True,8.0,1.0
 2007-09-09,Scotland,Portugal,56,10,Rugby World Cup,Saint-Etienne,France,True,,
 2007-09-09,Ireland,Namibia,32,17,Rugby World Cup,Bordeaux,France,True,,
 2007-09-11,Argentina,Georgia,33,3,Rugby World Cup,Lyon,France,True,,
@@ -2099,16 +2099,16 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2008-06-28,Argentina,Italy,12,13,2008 mid year test,Córdoba,Argentina,False,,
 2008-06-28,Australia,France,34,13,2008 France tour of Australia,Sydney,Australia,False,,
 2008-07-05,Australia,France,40,10,2008 France tour of Australia,Brisbane,Australia,False,,
-2008-07-05,New Zealand,South Africa,19,8,Rugby Championship,Wellington,New Zealand,False,1,1
-2008-07-12,New Zealand,South Africa,28,30,Rugby Championship,Dunedin,New Zealand,False,1,2
-2008-07-19,Australia,South Africa,16,9,Rugby Championship,Perth (WA),Australia,False,2,
-2008-07-26,Australia,New Zealand,34,19,Rugby Championship,Sydney,Australia,False,4,3
-2008-08-02,New Zealand,Australia,39,10,Rugby Championship,Auckland,New Zealand,False,4,1
+2008-07-05,New Zealand,South Africa,19,8,Rugby Championship,Wellington,New Zealand,False,1.0,1.0
+2008-07-12,New Zealand,South Africa,28,30,Rugby Championship,Dunedin,New Zealand,False,1.0,2.0
+2008-07-19,Australia,South Africa,16,9,Rugby Championship,Perth (WA),Australia,False,2.0,
+2008-07-26,Australia,New Zealand,34,19,Rugby Championship,Sydney,Australia,False,4.0,3.0
+2008-08-02,New Zealand,Australia,39,10,Rugby Championship,Auckland,New Zealand,False,4.0,1.0
 2008-08-09,South Africa,Argentina,63,9,2008 mid-year test,Johannesburg,South Africa,False,,
-2008-08-16,South Africa,New Zealand,0,19,Rugby Championship,Cape Town,South Africa,False,,3
-2008-08-23,South Africa,Australia,15,27,Rugby Championship,Durban,South Africa,False,2,3
-2008-08-30,South Africa,Australia,53,8,Rugby Championship,Johannesburg,South Africa,False,8,1
-2008-09-13,Australia,New Zealand,24,28,Rugby Championship,Brisbane,Australia,False,3,4
+2008-08-16,South Africa,New Zealand,0,19,Rugby Championship,Cape Town,South Africa,False,,3.0
+2008-08-23,South Africa,Australia,15,27,Rugby Championship,Durban,South Africa,False,2.0,3.0
+2008-08-30,South Africa,Australia,53,8,Rugby Championship,Johannesburg,South Africa,False,8.0,1.0
+2008-09-13,Australia,New Zealand,24,28,Rugby Championship,Brisbane,Australia,False,3.0,4.0
 2008-11-01,New Zealand,Australia,19,14,2008 Autumn International,Hong Kong,Hong Kong,True,,
 2008-11-08,Scotland,New Zealand,6,32,2008 end of year rugby tests,Edinburgh,Scotland,False,,
 2008-11-08,France,Argentina,12,6,2008 Autumn International,Marseille,France,False,,
@@ -2124,21 +2124,21 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2008-11-22,Ireland,Argentina,17,3,2008 Autumn Internationals,Dublin,Ireland,False,,
 2008-11-29,England,New Zealand,6,32,2008 Autumn International,London,England,False,,
 2008-11-29,Wales,Australia,21,18,2008 Autumn International,Cardiff,Wales,False,,
-2009-02-07,England,Italy,36,11,Six Nations,London,England,False,5,1
-2009-02-07,Ireland,France,30,21,Six Nations,Dublin,Ireland,False,3,2
-2009-02-08,Scotland,Wales,13,26,Six Nations,Edinburgh,Scotland,False,1,4
-2009-02-14,Wales,England,23,15,Six Nations,Cardiff,Wales,False,1,2
-2009-02-14,France,Scotland,22,13,Six Nations,Saint-Denis,Reunion,False,1,1
-2009-02-15,Italy,Ireland,9,38,Six Nations,Rome,Italy,False,,5
-2009-02-27,France,Wales,21,16,Six Nations,Saint-Denis,Reunion,False,2,1
-2009-02-28,Ireland,England,14,13,Six Nations,Dublin,Ireland,False,1,1
-2009-02-28,Scotland,Italy,26,6,Six Nations,Edinburgh,Scotland,False,2,
-2009-03-14,Italy,Wales,15,20,Six Nations,Rome,Italy,False,,2
-2009-03-14,Scotland,Ireland,15,22,Six Nations,Edinburgh,Scotland,False,,1
-2009-03-15,England,France,34,10,Six Nations,London,England,False,5,2
-2009-03-21,Italy,France,8,50,Six Nations,Rome,Italy,False,1,7
-2009-03-21,England,Scotland,26,12,Six Nations,London,England,False,3,
-2009-03-21,Wales,Ireland,15,17,Six Nations,Cardiff,Wales,False,,2
+2009-02-07,England,Italy,36,11,Six Nations,London,England,False,5.0,1.0
+2009-02-07,Ireland,France,30,21,Six Nations,Dublin,Ireland,False,3.0,2.0
+2009-02-08,Scotland,Wales,13,26,Six Nations,Edinburgh,Scotland,False,1.0,4.0
+2009-02-14,Wales,England,23,15,Six Nations,Cardiff,Wales,False,1.0,2.0
+2009-02-14,France,Scotland,22,13,Six Nations,Saint-Denis,Reunion,False,1.0,1.0
+2009-02-15,Italy,Ireland,9,38,Six Nations,Rome,Italy,False,,5.0
+2009-02-27,France,Wales,21,16,Six Nations,Saint-Denis,Reunion,False,2.0,1.0
+2009-02-28,Ireland,England,14,13,Six Nations,Dublin,Ireland,False,1.0,1.0
+2009-02-28,Scotland,Italy,26,6,Six Nations,Edinburgh,Scotland,False,2.0,
+2009-03-14,Italy,Wales,15,20,Six Nations,Rome,Italy,False,,2.0
+2009-03-14,Scotland,Ireland,15,22,Six Nations,Edinburgh,Scotland,False,,1.0
+2009-03-15,England,France,34,10,Six Nations,London,England,False,5.0,2.0
+2009-03-21,Italy,France,8,50,Six Nations,Rome,Italy,False,1.0,7.0
+2009-03-21,England,Scotland,26,12,Six Nations,London,England,False,3.0,
+2009-03-21,Wales,Ireland,15,17,Six Nations,Cardiff,Wales,False,,2.0
 2009-06-06,England,Argentina,37,15,2009 Summer International,Manchester,England,False,,
 2009-06-13,Australia,Italy,31,8,2009 Summer International,Canberra,Australia,False,,
 2009-06-13,Argentina,England,24,22,2009 Summer International,Salta,Argentina,False,,
@@ -2147,15 +2147,15 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2009-06-20,Australia,Italy,34,12,2009 Summer International,Melbourne,Australia,False,,
 2009-06-27,Australia,France,22,6,2009 Summer International,Sydney,Australia,False,,
 2009-06-27,New Zealand,Italy,27,6,2009 mid-year internationals,Christchurch,New Zealand,False,,
-2009-07-18,New Zealand,Australia,22,16,Rugby Championship,Auckland,New Zealand,False,1,1
-2009-07-25,South Africa,New Zealand,28,19,Rugby Championship,Bloemfontein,South Africa,False,2,1
-2009-08-01,South Africa,New Zealand,31,19,Rugby Championship,Durban,South Africa,False,1,1
-2009-08-08,South Africa,Australia,29,17,Rugby Championship,Cape Town,South Africa,False,1,2
-2009-08-22,Australia,New Zealand,18,19,Rugby Championship,Sydney,Australia,False,,1
-2009-08-29,Australia,South Africa,25,32,Rugby Championship,Perth (WA),Australia,False,3,4
-2009-09-05,Australia,South Africa,21,6,Rugby Championship,Brisbane,Australia,False,2,
-2009-09-12,New Zealand,South Africa,29,32,Rugby Championship,Hamilton,New Zealand,False,2,2
-2009-09-19,New Zealand,Australia,33,6,Rugby Championship,Wellington,New Zealand,False,3,
+2009-07-18,New Zealand,Australia,22,16,Rugby Championship,Auckland,New Zealand,False,1.0,1.0
+2009-07-25,South Africa,New Zealand,28,19,Rugby Championship,Bloemfontein,South Africa,False,2.0,1.0
+2009-08-01,South Africa,New Zealand,31,19,Rugby Championship,Durban,South Africa,False,1.0,1.0
+2009-08-08,South Africa,Australia,29,17,Rugby Championship,Cape Town,South Africa,False,1.0,2.0
+2009-08-22,Australia,New Zealand,18,19,Rugby Championship,Sydney,Australia,False,,1.0
+2009-08-29,Australia,South Africa,25,32,Rugby Championship,Perth (WA),Australia,False,3.0,4.0
+2009-09-05,Australia,South Africa,21,6,Rugby Championship,Brisbane,Australia,False,2.0,
+2009-09-12,New Zealand,South Africa,29,32,Rugby Championship,Hamilton,New Zealand,False,2.0,2.0
+2009-09-19,New Zealand,Australia,33,6,Rugby Championship,Wellington,New Zealand,False,3.0,
 2009-10-31,New Zealand,Australia,32,19,2009 Autumn International,Tokyo,Japan,True,,
 2009-11-07,Wales,New Zealand,12,19,2009 Autumn International,Cardiff,Wales,False,,
 2009-11-07,England,Australia,9,18,2009 Autumn International,London,England,False,,
@@ -2171,21 +2171,21 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2009-11-28,Ireland,South Africa,15,10,2009 end-of-year test,Dublin,Ireland,False,,
 2009-11-28,Scotland,Argentina,6,9,2009 Autumn International,Edinburgh,Scotland,False,,
 2009-11-28,France,New Zealand,12,39,2009 end of year rugby union tests,Marseilles,France,False,,
-2010-02-06,Ireland,Italy,29,11,Six Nations,Dublin,Ireland,False,2,1
-2010-02-06,England,Wales,30,17,Six Nations,London,England,False,3,2
-2010-02-07,Scotland,France,9,18,Six Nations,Edinburgh,Scotland,False,,2
-2010-02-13,Wales,Scotland,31,24,Six Nations,Cardiff,Wales,False,3,2
-2010-02-13,France,Ireland,33,10,Six Nations,Saint-Denis,Reunion,False,3,1
-2010-02-14,Italy,England,12,17,Six Nations,Rome,Italy,False,,1
-2010-02-26,Wales,France,20,26,Six Nations,Cardiff,Wales,False,2,2
-2010-02-27,England,Ireland,16,20,Six Nations,London,England,False,1,3
-2010-02-27,Italy,Scotland,16,12,Six Nations,Rome,Italy,False,1,
-2010-03-13,Ireland,Wales,27,12,Six Nations,Dublin,Ireland,False,3,
+2010-02-06,Ireland,Italy,29,11,Six Nations,Dublin,Ireland,False,2.0,1.0
+2010-02-06,England,Wales,30,17,Six Nations,London,England,False,3.0,2.0
+2010-02-07,Scotland,France,9,18,Six Nations,Edinburgh,Scotland,False,,2.0
+2010-02-13,Wales,Scotland,31,24,Six Nations,Cardiff,Wales,False,3.0,2.0
+2010-02-13,France,Ireland,33,10,Six Nations,Saint-Denis,Reunion,False,3.0,1.0
+2010-02-14,Italy,England,12,17,Six Nations,Rome,Italy,False,,1.0
+2010-02-26,Wales,France,20,26,Six Nations,Cardiff,Wales,False,2.0,2.0
+2010-02-27,England,Ireland,16,20,Six Nations,London,England,False,1.0,3.0
+2010-02-27,Italy,Scotland,16,12,Six Nations,Rome,Italy,False,1.0,
+2010-03-13,Ireland,Wales,27,12,Six Nations,Dublin,Ireland,False,3.0,
 2010-03-13,Scotland,England,15,15,Six Nations,Edinburgh,Scotland,False,,
-2010-03-14,France,Italy,46,20,Six Nations,Saint-Denis,Reunion,False,6,2
-2010-03-20,Ireland,Scotland,20,23,Six Nations,Dublin,Ireland,False,2,1
-2010-03-20,France,England,12,10,Six Nations,Saint-Denis,Reunion,False,,1
-2010-03-20,Wales,Italy,33,10,Six Nations,Cardiff,Wales,False,3,1
+2010-03-14,France,Italy,46,20,Six Nations,Saint-Denis,Reunion,False,6.0,2.0
+2010-03-20,Ireland,Scotland,20,23,Six Nations,Dublin,Ireland,False,2.0,1.0
+2010-03-20,France,England,12,10,Six Nations,Saint-Denis,Reunion,False,,1.0
+2010-03-20,Wales,Italy,33,10,Six Nations,Cardiff,Wales,False,3.0,1.0
 2010-06-05,Wales,South Africa,31,34,2010 mid-year test,Cardiff,Wales,False,,
 2010-06-12,South Africa,France,42,17,2010 mid-year test,Cape Town,South Africa,False,,
 2010-06-12,New Zealand,Ireland,66,28,2010 Ireland rugby union tour of New Zealand and Australia,New Plymouth,New Zealand,False,,
@@ -2199,15 +2199,15 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2010-06-26,Argentina,France,41,13,2010 Summer International,Buenos Aires,Argentina,False,,
 2010-06-26,Australia,Ireland,22,15,2010 Summer International,Brisbane,Australia,False,,
 2010-06-26,South Africa,Italy,55,11,2010 mid-year test,East London,South Africa,False,,
-2010-07-10,New Zealand,South Africa,32,12,Rugby Championship,Auckland,New Zealand,False,4,
-2010-07-17,New Zealand,South Africa,31,17,Rugby Championship,Wellington,New Zealand,False,4,2
-2010-07-24,Australia,South Africa,30,13,Rugby Championship,Brisbane,Australia,False,2,2
-2010-07-31,Australia,New Zealand,28,49,Rugby Championship,Melbourne,Australia,False,3,7
-2010-08-07,New Zealand,Australia,20,10,Rugby Championship,Christchurch,New Zealand,False,2,1
-2010-08-21,South Africa,New Zealand,22,29,Rugby Championship,Johannesburg,South Africa,False,1,3
-2010-08-28,South Africa,Australia,44,31,Rugby Championship,Pretoria,South Africa,False,5,4
-2010-09-04,South Africa,Australia,39,41,Rugby Championship,Bloemfontein,South Africa,False,3,5
-2010-09-11,Australia,New Zealand,22,23,Rugby Championship,Sydney,Australia,False,2,2
+2010-07-10,New Zealand,South Africa,32,12,Rugby Championship,Auckland,New Zealand,False,4.0,
+2010-07-17,New Zealand,South Africa,31,17,Rugby Championship,Wellington,New Zealand,False,4.0,2.0
+2010-07-24,Australia,South Africa,30,13,Rugby Championship,Brisbane,Australia,False,2.0,2.0
+2010-07-31,Australia,New Zealand,28,49,Rugby Championship,Melbourne,Australia,False,3.0,7.0
+2010-08-07,New Zealand,Australia,20,10,Rugby Championship,Christchurch,New Zealand,False,2.0,1.0
+2010-08-21,South Africa,New Zealand,22,29,Rugby Championship,Johannesburg,South Africa,False,1.0,3.0
+2010-08-28,South Africa,Australia,44,31,Rugby Championship,Pretoria,South Africa,False,5.0,4.0
+2010-09-04,South Africa,Australia,39,41,Rugby Championship,Bloemfontein,South Africa,False,3.0,5.0
+2010-09-11,Australia,New Zealand,22,23,Rugby Championship,Sydney,Australia,False,2.0,2.0
 2010-10-30,Australia,New Zealand,26,24,2010 Autumn International,Hong Kong,Hong Kong,True,,
 2010-11-06,Wales,Australia,16,25,2010 Autumn International,Cardiff,Wales,False,,
 2010-11-06,England,New Zealand,16,26,2010 Autumn International,London,England,False,,
@@ -2224,99 +2224,99 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2010-11-27,France,Australia,16,59,2010 Autumn International,Saint-Denis,France,False,,
 2010-11-27,England,South Africa,11,21,2010 Autumn International,London,England,False,,
 2010-11-28,Ireland,Argentina,29,9,2010 Autumn Internationals,Dublin,Ireland,False,,
-2011-02-04,Wales,England,19,26,Six Nations,Cardiff,Wales,False,1,2
-2011-02-05,Italy,Ireland,11,13,Six Nations,Rome,Italy,False,1,1
-2011-02-05,France,Scotland,34,21,Six Nations,Saint-Denis,Reunion,False,4,3
-2011-02-12,England,Italy,59,13,Six Nations,London,England,False,8,1
-2011-02-12,Scotland,Wales,6,24,Six Nations,Edinburgh,Scotland,False,,2
-2011-02-13,Ireland,France,22,25,Six Nations,Dublin,Ireland,False,3,1
-2011-02-26,England,France,17,9,Six Nations,London,England,False,1,
-2011-02-26,Italy,Wales,16,24,Six Nations,Rome,Italy,False,2,2
-2011-02-27,Scotland,Ireland,18,21,Six Nations,Edinburgh,Scotland,False,,3
-2011-03-12,Italy,France,22,21,Six Nations,Rome,Italy,False,1,2
-2011-03-12,Wales,Ireland,19,13,Six Nations,Cardiff,Wales,False,1,1
-2011-03-13,England,Scotland,22,16,Six Nations,London,England,False,1,1
-2011-03-19,Scotland,Italy,21,8,Six Nations,Edinburgh,Scotland,False,2,1
-2011-03-19,Ireland,England,24,8,Six Nations,Dublin,Ireland,False,2,1
-2011-03-19,France,Wales,28,9,Six Nations,Saint-Denis,Reunion,False,3,
-2011-07-23,Australia,South Africa,39,20,Rugby Championship,Sydney,Australia,False,5,2
-2011-07-30,New Zealand,South Africa,40,7,Rugby Championship,Wellington,New Zealand,False,6,1
-2011-08-06,New Zealand,Australia,30,14,Rugby Championship,Auckland,New Zealand,False,3,2
+2011-02-04,Wales,England,19,26,Six Nations,Cardiff,Wales,False,1.0,2.0
+2011-02-05,Italy,Ireland,11,13,Six Nations,Rome,Italy,False,1.0,1.0
+2011-02-05,France,Scotland,34,21,Six Nations,Saint-Denis,Reunion,False,4.0,3.0
+2011-02-12,England,Italy,59,13,Six Nations,London,England,False,8.0,1.0
+2011-02-12,Scotland,Wales,6,24,Six Nations,Edinburgh,Scotland,False,,2.0
+2011-02-13,Ireland,France,22,25,Six Nations,Dublin,Ireland,False,3.0,1.0
+2011-02-26,England,France,17,9,Six Nations,London,England,False,1.0,
+2011-02-26,Italy,Wales,16,24,Six Nations,Rome,Italy,False,2.0,2.0
+2011-02-27,Scotland,Ireland,18,21,Six Nations,Edinburgh,Scotland,False,,3.0
+2011-03-12,Italy,France,22,21,Six Nations,Rome,Italy,False,1.0,2.0
+2011-03-12,Wales,Ireland,19,13,Six Nations,Cardiff,Wales,False,1.0,1.0
+2011-03-13,England,Scotland,22,16,Six Nations,London,England,False,1.0,1.0
+2011-03-19,Scotland,Italy,21,8,Six Nations,Edinburgh,Scotland,False,2.0,1.0
+2011-03-19,Ireland,England,24,8,Six Nations,Dublin,Ireland,False,2.0,1.0
+2011-03-19,France,Wales,28,9,Six Nations,Saint-Denis,Reunion,False,3.0,
+2011-07-23,Australia,South Africa,39,20,Rugby Championship,Sydney,Australia,False,5.0,2.0
+2011-07-30,New Zealand,South Africa,40,7,Rugby Championship,Wellington,New Zealand,False,6.0,1.0
+2011-08-06,New Zealand,Australia,30,14,Rugby Championship,Auckland,New Zealand,False,3.0,2.0
 2011-08-06,England,Wales,23,19,2011 Rugby World Cup warm-up,London,England,False,,
 2011-08-06,Scotland,Ireland,10,6,2011 Rugby World Cup warm-up tests,Edinburgh,Scotland,False,,
 2011-08-13,Wales,England,19,9,2011 Rugby World Cup warm-up,Cardiff,Wales,False,,
 2011-08-13,France,Ireland,19,12,2011 Rugby World Cup warm up,Bordeaux,France,False,,
-2011-08-13,South Africa,Australia,9,14,Rugby Championship,Durban,South Africa,False,,1
+2011-08-13,South Africa,Australia,9,14,Rugby Championship,Durban,South Africa,False,,1.0
 2011-08-20,Scotland,Italy,23,12,2011 Rugby World Cup Warm up,Edinburgh,Scotland,False,,
 2011-08-20,Wales,Argentina,28,13,2011 Rugby World Cup warm-up match,Cardiff,Wales,False,,
 2011-08-20,Ireland,France,22,26,2011 Rugby World Cup warm up,Dublin,Ireland,False,,
-2011-08-20,South Africa,New Zealand,18,5,Rugby Championship,Port Elizabeth,South Africa,False,,1
+2011-08-20,South Africa,New Zealand,18,5,Rugby Championship,Port Elizabeth,South Africa,False,,1.0
 2011-08-27,Ireland,England,9,20,2011 Rugby World Cup Warm-up,Dublin,Ireland,False,,
-2011-08-27,Australia,New Zealand,25,20,Rugby Championship,Brisbane,Australia,False,3,2
-2011-09-09,New Zealand,Tonga,41,10,Rugby World Cup,Auckland,New Zealand,False,6,1
-2011-09-10,France,Japan,47,21,Rugby World Cup,Albany,United States of America,True,6,2
-2011-09-10,England,Argentina,13,9,Rugby World Cup,Dunedin,New Zealand,True,1,
-2011-09-10,Fiji,Namibia,49,25,Rugby World Cup,Rotorua,New Zealand,True,6,2
-2011-09-10,Scotland,Romania,34,24,Rugby World Cup,Invercargill,New Zealand,True,4,2
-2011-09-11,Wales,South Africa,16,17,Rugby World Cup,Wellington,New Zealand,True,1,2
-2011-09-11,Ireland,United States,22,10,Rugby World Cup,New Plymouth,New Zealand,True,3,1
-2011-09-11,Australia,Italy,32,6,Rugby World Cup,Albany,United States of America,True,4,
+2011-08-27,Australia,New Zealand,25,20,Rugby Championship,Brisbane,Australia,False,3.0,2.0
+2011-09-09,New Zealand,Tonga,41,10,Rugby World Cup,Auckland,New Zealand,False,6.0,1.0
+2011-09-10,France,Japan,47,21,Rugby World Cup,Albany,United States of America,True,6.0,2.0
+2011-09-10,England,Argentina,13,9,Rugby World Cup,Dunedin,New Zealand,True,1.0,
+2011-09-10,Fiji,Namibia,49,25,Rugby World Cup,Rotorua,New Zealand,True,6.0,2.0
+2011-09-10,Scotland,Romania,34,24,Rugby World Cup,Invercargill,New Zealand,True,4.0,2.0
+2011-09-11,Wales,South Africa,16,17,Rugby World Cup,Wellington,New Zealand,True,1.0,2.0
+2011-09-11,Ireland,United States,22,10,Rugby World Cup,New Plymouth,New Zealand,True,3.0,1.0
+2011-09-11,Australia,Italy,32,6,Rugby World Cup,Albany,United States of America,True,4.0,
 2011-09-14,Scotland,Georgia,15,6,Rugby World Cup,Invercargill,New Zealand,True,,
-2011-09-14,Tonga,Canada,20,25,Rugby World Cup,Whangarei,New Zealand,True,2,3
-2011-09-14,Samoa,Namibia,49,12,Rugby World Cup,Rotorua,New Zealand,True,6,2
-2011-09-15,United States,Russia,13,6,Rugby World Cup,New Plymouth,New Zealand,True,1,
-2011-09-16,New Zealand,Japan,83,7,Rugby World Cup,Hamilton,New Zealand,False,13,1
-2011-09-17,Argentina,Romania,43,8,Rugby World Cup,Invercargill,New Zealand,True,6,1
+2011-09-14,Tonga,Canada,20,25,Rugby World Cup,Whangarei,New Zealand,True,2.0,3.0
+2011-09-14,Samoa,Namibia,49,12,Rugby World Cup,Rotorua,New Zealand,True,6.0,2.0
+2011-09-15,United States,Russia,13,6,Rugby World Cup,New Plymouth,New Zealand,True,1.0,
+2011-09-16,New Zealand,Japan,83,7,Rugby World Cup,Hamilton,New Zealand,False,13.0,1.0
+2011-09-17,Argentina,Romania,43,8,Rugby World Cup,Invercargill,New Zealand,True,6.0,1.0
 2011-09-17,Ireland,Australia,15,6,Rugby World Cup,Auckland,New Zealand,True,,
-2011-09-17,South Africa,Fiji,49,3,Rugby World Cup,Wellington,New Zealand,True,6,
-2011-09-18,Wales,Samoa,17,10,Rugby World Cup,Hamilton,New Zealand,True,1,1
-2011-09-18,England,Georgia,41,10,Rugby World Cup,Dunedin,New Zealand,True,6,1
-2011-09-18,France,Canada,46,19,Rugby World Cup,Napier,New Zealand,True,4,1
-2011-09-20,Italy,Russia,53,17,Rugby World Cup,Nelson,New Zealand,True,9,3
-2011-09-21,Tonga,Japan,31,18,Rugby World Cup,Whangarei,New Zealand,True,3,3
-2011-09-22,South Africa,Namibia,87,0,Rugby World Cup,Albany,United States of America,True,12,
-2011-09-23,Australia,United States,67,5,Rugby World Cup,Wellington,New Zealand,True,11,1
-2011-09-24,England,Romania,67,3,Rugby World Cup,Dunedin,New Zealand,True,10,
-2011-09-24,New Zealand,France,37,17,Rugby World Cup,Auckland,New Zealand,False,5,2
-2011-09-25,Fiji,Samoa,7,27,Rugby World Cup,Auckland,New Zealand,True,1,2
-2011-09-25,Ireland,Russia,62,12,Rugby World Cup,Rotorua,New Zealand,True,9,2
-2011-09-25,Scotland,Argentina,12,13,Rugby World Cup,Wellington,New Zealand,True,,1
-2011-09-26,Wales,Namibia,81,7,Rugby World Cup,New Plymouth,New Zealand,True,12,1
-2011-09-27,Japan,Canada,23,23,Rugby World Cup,Napier,New Zealand,True,2,3
-2011-09-27,United States,Italy,10,27,Rugby World Cup,Nelson,New Zealand,True,1,4
-2011-09-28,Romania,Georgia,9,25,Rugby World Cup,Palmerston North,New Zealand,True,,1
-2011-09-30,South Africa,Samoa,13,5,Rugby World Cup,Albany,United States of America,True,1,1
-2011-10-01,England,Scotland,16,12,Rugby World Cup,Auckland,New Zealand,True,1,
-2011-10-01,Australia,Russia,68,22,Rugby World Cup,Nelson,New Zealand,True,10,3
-2011-10-01,France,Tonga,14,19,Rugby World Cup,Wellington,New Zealand,True,1,1
-2011-10-02,Argentina,Georgia,25,7,Rugby World Cup,Palmerston North,New Zealand,True,3,1
-2011-10-02,New Zealand,Canada,79,15,Rugby World Cup,Wellington,New Zealand,False,12,2
-2011-10-02,Wales,Fiji,66,0,Rugby World Cup,Hamilton,New Zealand,True,9,
-2011-10-02,Ireland,Italy,36,6,Rugby World Cup,Dunedin,New Zealand,True,3,
-2011-10-08,Ireland,Wales,10,22,Rugby World Cup,Wellington,New Zealand,True,1,3
-2011-10-08,England,France,12,19,Rugby World Cup,Auckland,New Zealand,True,2,2
-2011-10-09,South Africa,Australia,9,11,Rugby World Cup,Wellington,New Zealand,True,,1
-2011-10-09,New Zealand,Argentina,33,10,Rugby World Cup,Auckland,New Zealand,False,2,1
-2011-10-15,Wales,France,8,9,Rugby World Cup,Auckland,New Zealand,True,1,
-2011-10-16,New Zealand,Australia,20,6,Rugby World Cup,Auckland,New Zealand,False,1,
-2011-10-21,Wales,Australia,18,21,Rugby World Cup,Auckland,New Zealand,True,2,2
-2011-10-23,New Zealand,France,8,7,Rugby World Cup,Auckland,New Zealand,False,1,1
+2011-09-17,South Africa,Fiji,49,3,Rugby World Cup,Wellington,New Zealand,True,6.0,
+2011-09-18,Wales,Samoa,17,10,Rugby World Cup,Hamilton,New Zealand,True,1.0,1.0
+2011-09-18,England,Georgia,41,10,Rugby World Cup,Dunedin,New Zealand,True,6.0,1.0
+2011-09-18,France,Canada,46,19,Rugby World Cup,Napier,New Zealand,True,4.0,1.0
+2011-09-20,Italy,Russia,53,17,Rugby World Cup,Nelson,New Zealand,True,9.0,3.0
+2011-09-21,Tonga,Japan,31,18,Rugby World Cup,Whangarei,New Zealand,True,3.0,3.0
+2011-09-22,South Africa,Namibia,87,0,Rugby World Cup,Albany,United States of America,True,12.0,
+2011-09-23,Australia,United States,67,5,Rugby World Cup,Wellington,New Zealand,True,11.0,1.0
+2011-09-24,England,Romania,67,3,Rugby World Cup,Dunedin,New Zealand,True,10.0,
+2011-09-24,New Zealand,France,37,17,Rugby World Cup,Auckland,New Zealand,False,5.0,2.0
+2011-09-25,Fiji,Samoa,7,27,Rugby World Cup,Auckland,New Zealand,True,1.0,2.0
+2011-09-25,Ireland,Russia,62,12,Rugby World Cup,Rotorua,New Zealand,True,9.0,2.0
+2011-09-25,Scotland,Argentina,12,13,Rugby World Cup,Wellington,New Zealand,True,,1.0
+2011-09-26,Wales,Namibia,81,7,Rugby World Cup,New Plymouth,New Zealand,True,12.0,1.0
+2011-09-27,Japan,Canada,23,23,Rugby World Cup,Napier,New Zealand,True,2.0,3.0
+2011-09-27,United States,Italy,10,27,Rugby World Cup,Nelson,New Zealand,True,1.0,4.0
+2011-09-28,Romania,Georgia,9,25,Rugby World Cup,Palmerston North,New Zealand,True,,1.0
+2011-09-30,South Africa,Samoa,13,5,Rugby World Cup,Albany,United States of America,True,1.0,1.0
+2011-10-01,England,Scotland,16,12,Rugby World Cup,Auckland,New Zealand,True,1.0,
+2011-10-01,Australia,Russia,68,22,Rugby World Cup,Nelson,New Zealand,True,10.0,3.0
+2011-10-01,France,Tonga,14,19,Rugby World Cup,Wellington,New Zealand,True,1.0,1.0
+2011-10-02,Argentina,Georgia,25,7,Rugby World Cup,Palmerston North,New Zealand,True,3.0,1.0
+2011-10-02,New Zealand,Canada,79,15,Rugby World Cup,Wellington,New Zealand,False,12.0,2.0
+2011-10-02,Wales,Fiji,66,0,Rugby World Cup,Hamilton,New Zealand,True,9.0,
+2011-10-02,Ireland,Italy,36,6,Rugby World Cup,Dunedin,New Zealand,True,3.0,
+2011-10-08,Ireland,Wales,10,22,Rugby World Cup,Wellington,New Zealand,True,1.0,3.0
+2011-10-08,England,France,12,19,Rugby World Cup,Auckland,New Zealand,True,2.0,2.0
+2011-10-09,South Africa,Australia,9,11,Rugby World Cup,Wellington,New Zealand,True,,1.0
+2011-10-09,New Zealand,Argentina,33,10,Rugby World Cup,Auckland,New Zealand,False,2.0,1.0
+2011-10-15,Wales,France,8,9,Rugby World Cup,Auckland,New Zealand,True,1.0,
+2011-10-16,New Zealand,Australia,20,6,Rugby World Cup,Auckland,New Zealand,False,1.0,
+2011-10-21,Wales,Australia,18,21,Rugby World Cup,Auckland,New Zealand,True,2.0,2.0
+2011-10-23,New Zealand,France,8,7,Rugby World Cup,Auckland,New Zealand,False,1.0,1.0
 2011-12-03,Wales,Australia,18,24,2011 Autumn International,Cardiff,Wales,False,,
-2012-02-04,Scotland,England,6,13,Six Nations,Edinburgh,Scotland,False,,1
-2012-02-04,France,Italy,30,12,Six Nations,Saint-Denis,Reunion,False,4,
-2012-02-05,Ireland,Wales,21,23,Six Nations,Dublin,Ireland,False,2,3
-2012-02-11,Italy,England,15,19,Six Nations,Rome,Italy,False,2,1
-2012-02-12,Wales,Scotland,27,13,Six Nations,Cardiff,Wales,False,3,1
-2012-02-25,Ireland,Italy,42,10,Six Nations,Dublin,Ireland,False,5,1
-2012-02-25,England,Wales,12,19,Six Nations,London,England,False,,1
-2012-02-26,Scotland,France,17,23,Six Nations,Edinburgh,Scotland,False,2,2
-2012-03-04,France,Ireland,17,17,Six Nations,Saint-Denis,Reunion,False,1,2
-2012-03-10,Ireland,Scotland,32,14,Six Nations,Dublin,Ireland,False,4,1
-2012-03-10,Wales,Italy,24,3,Six Nations,Cardiff,Wales,False,2,
-2012-03-11,France,England,22,24,Six Nations,Saint-Denis,Reunion,False,1,3
-2012-03-17,England,Ireland,30,9,Six Nations,London,England,False,2,
-2012-03-17,Italy,Scotland,13,6,Six Nations,Rome,Italy,False,1,
-2012-03-17,Wales,France,16,9,Six Nations,Cardiff,Wales,False,1,
+2012-02-04,Scotland,England,6,13,Six Nations,Edinburgh,Scotland,False,,1.0
+2012-02-04,France,Italy,30,12,Six Nations,Saint-Denis,Reunion,False,4.0,
+2012-02-05,Ireland,Wales,21,23,Six Nations,Dublin,Ireland,False,2.0,3.0
+2012-02-11,Italy,England,15,19,Six Nations,Rome,Italy,False,2.0,1.0
+2012-02-12,Wales,Scotland,27,13,Six Nations,Cardiff,Wales,False,3.0,1.0
+2012-02-25,Ireland,Italy,42,10,Six Nations,Dublin,Ireland,False,5.0,1.0
+2012-02-25,England,Wales,12,19,Six Nations,London,England,False,,1.0
+2012-02-26,Scotland,France,17,23,Six Nations,Edinburgh,Scotland,False,2.0,2.0
+2012-03-04,France,Ireland,17,17,Six Nations,Saint-Denis,Reunion,False,1.0,2.0
+2012-03-10,Ireland,Scotland,32,14,Six Nations,Dublin,Ireland,False,4.0,1.0
+2012-03-10,Wales,Italy,24,3,Six Nations,Cardiff,Wales,False,2.0,
+2012-03-11,France,England,22,24,Six Nations,Saint-Denis,Reunion,False,1.0,3.0
+2012-03-17,England,Ireland,30,9,Six Nations,London,England,False,2.0,
+2012-03-17,Italy,Scotland,13,6,Six Nations,Rome,Italy,False,1.0,
+2012-03-17,Wales,France,16,9,Six Nations,Cardiff,Wales,False,1.0,
 2012-06-05,Australia,Scotland,6,9,"2012 Scotland tour of Australia, Fiji and Samoa",Newcastle,Australia,False,,
 2012-06-09,New Zealand,Ireland,42,10,2012 Ireland rugby union tour of New Zealand,Auckland,New Zealand,False,,
 2012-06-09,Argentina,Italy,37,22,2012 June rugby union tests,San Juan,Argentina,False,,
@@ -2330,18 +2330,18 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2012-06-23,Argentina,France,10,49,2012 France tour of Argentina,Tucumán,Argentina,False,,
 2012-06-23,New Zealand,Ireland,60,0,2012 Ireland rugby union tour of New Zealand,Hamilton,New Zealand,False,,
 2012-06-23,Australia,Wales,20,19,2012 Wales tour of Australia,Sydney,Australia,False,,
-2012-08-18,South Africa,Argentina,27,6,Rugby Championship,Cape Town,South Africa,False,3,
-2012-08-18,Australia,New Zealand,19,27,Rugby Championship,Sydney,Australia,False,1,2
-2012-08-25,Argentina,South Africa,16,16,Rugby Championship,Mendoza,Argentina,False,1,1
-2012-08-25,New Zealand,Australia,22,0,Rugby Championship,Auckland,New Zealand,False,1,
-2012-09-08,Australia,South Africa,26,19,Rugby Championship,Perth (WA),Australia,False,2,1
-2012-09-08,New Zealand,Argentina,21,5,Rugby Championship,Wellington,New Zealand,False,2,1
-2012-09-15,New Zealand,South Africa,21,11,Rugby Championship,Dunedin,New Zealand,False,2,1
-2012-09-15,Australia,Argentina,23,19,Rugby Championship,Gold Coast,Australia,False,2,2
-2012-09-29,South Africa,Australia,31,8,Rugby Championship,Pretoria,South Africa,False,5,1
-2012-09-29,Argentina,New Zealand,15,54,Rugby Championship,La Plata,Argentina,False,2,7
-2012-10-06,Argentina,Australia,19,25,Rugby Championship,Rosario,Argentina,False,1,1
-2012-10-06,South Africa,New Zealand,16,32,Rugby Championship,Johannesburg,South Africa,False,1,4
+2012-08-18,South Africa,Argentina,27,6,Rugby Championship,Cape Town,South Africa,False,3.0,
+2012-08-18,Australia,New Zealand,19,27,Rugby Championship,Sydney,Australia,False,1.0,2.0
+2012-08-25,Argentina,South Africa,16,16,Rugby Championship,Mendoza,Argentina,False,1.0,1.0
+2012-08-25,New Zealand,Australia,22,0,Rugby Championship,Auckland,New Zealand,False,1.0,
+2012-09-08,Australia,South Africa,26,19,Rugby Championship,Perth (WA),Australia,False,2.0,1.0
+2012-09-08,New Zealand,Argentina,21,5,Rugby Championship,Wellington,New Zealand,False,2.0,1.0
+2012-09-15,New Zealand,South Africa,21,11,Rugby Championship,Dunedin,New Zealand,False,2.0,1.0
+2012-09-15,Australia,Argentina,23,19,Rugby Championship,Gold Coast,Australia,False,2.0,2.0
+2012-09-29,South Africa,Australia,31,8,Rugby Championship,Pretoria,South Africa,False,5.0,1.0
+2012-09-29,Argentina,New Zealand,15,54,Rugby Championship,La Plata,Argentina,False,2.0,7.0
+2012-10-06,Argentina,Australia,19,25,Rugby Championship,Rosario,Argentina,False,1.0,1.0
+2012-10-06,South Africa,New Zealand,16,32,Rugby Championship,Johannesburg,South Africa,False,1.0,4.0
 2012-10-20,Australia,New Zealand,18,18,2012 Autumn International,Brisbane,Australia,False,,
 2012-11-10,Wales,Argentina,12,26,2012 Autumn International,Cardiff,Wales,False,,
 2012-11-10,France,Australia,33,6,2012 Autumn International,Saint-Denis,France,False,,
@@ -2357,21 +2357,21 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2012-11-24,Italy,Australia,19,22,2012 Autumn International,Florence,Italy,False,,
 2012-12-01,England,New Zealand,38,21,2012 Autumn International,London,England,False,,
 2012-12-01,Wales,Australia,12,14,2012 Autumn International,Cardiff,Wales,False,,
-2013-02-02,England,Scotland,38,18,Six Nations,London,England,False,4,2
-2013-02-02,Wales,Ireland,22,30,Six Nations,Cardiff,Wales,False,3,3
-2013-02-03,Italy,France,23,18,Six Nations,Rome,Italy,False,2,2
-2013-02-09,France,Wales,6,16,Six Nations,Saint-Denis,Reunion,False,,1
-2013-02-09,Scotland,Italy,34,10,Six Nations,Edinburgh,Scotland,False,4,1
+2013-02-02,England,Scotland,38,18,Six Nations,London,England,False,4.0,2.0
+2013-02-02,Wales,Ireland,22,30,Six Nations,Cardiff,Wales,False,3.0,3.0
+2013-02-03,Italy,France,23,18,Six Nations,Rome,Italy,False,2.0,2.0
+2013-02-09,France,Wales,6,16,Six Nations,Saint-Denis,Reunion,False,,1.0
+2013-02-09,Scotland,Italy,34,10,Six Nations,Edinburgh,Scotland,False,4.0,1.0
 2013-02-10,Ireland,England,6,12,Six Nations,Dublin,Ireland,False,,
-2013-02-23,Italy,Wales,9,26,Six Nations,Rome,Italy,False,,2
-2013-02-23,England,France,23,13,Six Nations,London,England,False,1,1
-2013-02-24,Scotland,Ireland,12,8,Six Nations,Edinburgh,Scotland,False,,1
-2013-03-09,Ireland,France,13,13,Six Nations,Dublin,Ireland,False,1,1
-2013-03-09,Scotland,Wales,28,28,Six Nations,Edinburgh,Scotland,False,,1
-2013-03-10,England,Italy,18,11,Six Nations,London,England,False,,1
-2013-03-16,France,Scotland,23,16,Six Nations,Saint-Denis,Reunion,False,2,1
-2013-03-16,Wales,England,30,3,Six Nations,Cardiff,Wales,False,2,
-2013-03-16,Italy,Ireland,22,15,Six Nations,Rome,Italy,False,1,
+2013-02-23,Italy,Wales,9,26,Six Nations,Rome,Italy,False,,2.0
+2013-02-23,England,France,23,13,Six Nations,London,England,False,1.0,1.0
+2013-02-24,Scotland,Ireland,12,8,Six Nations,Edinburgh,Scotland,False,,1.0
+2013-03-09,Ireland,France,13,13,Six Nations,Dublin,Ireland,False,1.0,1.0
+2013-03-09,Scotland,Wales,28,28,Six Nations,Edinburgh,Scotland,False,,1.0
+2013-03-10,England,Italy,18,11,Six Nations,London,England,False,,1.0
+2013-03-16,France,Scotland,23,16,Six Nations,Saint-Denis,Reunion,False,2.0,1.0
+2013-03-16,Wales,England,30,3,Six Nations,Cardiff,Wales,False,2.0,
+2013-03-16,Italy,Ireland,22,15,Six Nations,Rome,Italy,False,1.0,
 2013-06-08,Argentina,England,3,32,2013 England tour of Argentina,Salta,Argentina,False,,
 2013-06-08,New Zealand,France,23,13,2013 French tour to New Zealand,Auckland,New Zealand,False,,
 2013-06-08,South Africa,Italy,44,10,2013 South African quadrangular tournament,Durban,South Africa,False,,
@@ -2380,18 +2380,18 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2013-06-15,New Zealand,France,30,0,2013 French tour to New Zealand,Christchurch,New Zealand,False,,
 2013-06-22,New Zealand,France,24,9,2013 French tour to New Zealand,New Plymouth,New Zealand,False,,
 2013-06-22,Scotland,Italy,30,29,South African Quadrangular tournament third place final,Pretoria,South Africa,True,,
-2013-08-17,South Africa,Argentina,73,13,Rugby Championship,Johannesburg,South Africa,False,9,1
-2013-08-17,Australia,New Zealand,29,47,Rugby Championship,Sydney,Australia,False,2,6
-2013-08-24,New Zealand,Australia,27,16,Rugby Championship,Wellington,New Zealand,False,2,1
-2013-08-24,Argentina,South Africa,17,22,Rugby Championship,Mendoza,Argentina,False,2,1
-2013-09-07,Australia,South Africa,12,38,Rugby Championship,Brisbane,Australia,False,,4
-2013-09-07,New Zealand,Argentina,28,13,Rugby Championship,Hamilton,New Zealand,False,3,1
-2013-09-14,New Zealand,South Africa,29,15,Rugby Championship,Auckland,New Zealand,False,4,2
-2013-09-14,Australia,Argentina,14,13,Rugby Championship,Perth (WA),Australia,False,1,1
-2013-09-28,Argentina,New Zealand,15,33,Rugby Championship,La Plata,Argentina,False,,4
-2013-09-28,South Africa,Australia,28,8,Rugby Championship,Cape Town,South Africa,False,3,1
-2013-10-05,South Africa,New Zealand,27,38,Rugby Championship,Johannesburg,South Africa,False,4,5
-2013-10-05,Argentina,Australia,17,54,Rugby Championship,Rosario,Argentina,False,2,7
+2013-08-17,South Africa,Argentina,73,13,Rugby Championship,Johannesburg,South Africa,False,9.0,1.0
+2013-08-17,Australia,New Zealand,29,47,Rugby Championship,Sydney,Australia,False,2.0,6.0
+2013-08-24,New Zealand,Australia,27,16,Rugby Championship,Wellington,New Zealand,False,2.0,1.0
+2013-08-24,Argentina,South Africa,17,22,Rugby Championship,Mendoza,Argentina,False,2.0,1.0
+2013-09-07,Australia,South Africa,12,38,Rugby Championship,Brisbane,Australia,False,,4.0
+2013-09-07,New Zealand,Argentina,28,13,Rugby Championship,Hamilton,New Zealand,False,3.0,1.0
+2013-09-14,New Zealand,South Africa,29,15,Rugby Championship,Auckland,New Zealand,False,4.0,2.0
+2013-09-14,Australia,Argentina,14,13,Rugby Championship,Perth (WA),Australia,False,1.0,1.0
+2013-09-28,Argentina,New Zealand,15,33,Rugby Championship,La Plata,Argentina,False,,4.0
+2013-09-28,South Africa,Australia,28,8,Rugby Championship,Cape Town,South Africa,False,3.0,1.0
+2013-10-05,South Africa,New Zealand,27,38,Rugby Championship,Johannesburg,South Africa,False,4.0,5.0
+2013-10-05,Argentina,Australia,17,54,Rugby Championship,Rosario,Argentina,False,2.0,7.0
 2013-10-19,New Zealand,Australia,41,33,2013 Autumn International,Dunedin,New Zealand,False,,
 2013-11-02,England,Australia,20,13,2013 Autumn International,London,England,False,,
 2013-11-09,Wales,South Africa,15,24,2013 end-of-year test,Cardiff,Wales,False,,
@@ -2407,21 +2407,21 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2013-11-23,France,South Africa,10,19,2013 end-of-year test,Saint-Denis,France,False,,
 2013-11-24,Ireland,New Zealand,22,24,2013 Autumn International,Dublin,Ireland,False,,
 2013-11-30,Wales,Australia,26,30,2013 Autumn International,Cardiff,Wales,False,,
-2014-02-01,Wales,Italy,23,15,Six Nations,Cardiff,Wales,False,2,2
-2014-02-01,France,England,26,24,Six Nations,Saint-Denis,Reunion,False,3,2
-2014-02-02,Ireland,Scotland,28,6,Six Nations,Dublin,Ireland,False,3,
-2014-02-08,Scotland,England,0,20,Six Nations,Edinburgh,Scotland,False,,2
-2014-02-08,Ireland,Wales,26,3,Six Nations,Dublin,Ireland,False,2,
-2014-02-09,France,Italy,30,10,Six Nations,Saint-Denis,Reunion,False,3,1
-2014-02-21,Wales,France,27,6,Six Nations,Cardiff,Wales,False,2,
-2014-02-22,Italy,Scotland,20,21,Six Nations,Rome,Italy,False,2,2
-2014-02-22,England,Ireland,13,10,Six Nations,London,England,False,1,1
-2014-03-08,Ireland,Italy,46,7,Six Nations,Dublin,Ireland,False,7,1
-2014-03-08,Scotland,France,17,19,Six Nations,Edinburgh,Scotland,False,2,1
-2014-03-09,England,Wales,29,18,Six Nations,London,England,False,2,
-2014-03-15,Italy,England,11,52,Six Nations,Rome,Italy,False,1,7
-2014-03-15,Wales,Scotland,51,3,Six Nations,Cardiff,Wales,False,7,
-2014-03-15,France,Ireland,20,22,Six Nations,Saint-Denis,Reunion,False,2,3
+2014-02-01,Wales,Italy,23,15,Six Nations,Cardiff,Wales,False,2.0,2.0
+2014-02-01,France,England,26,24,Six Nations,Saint-Denis,Reunion,False,3.0,2.0
+2014-02-02,Ireland,Scotland,28,6,Six Nations,Dublin,Ireland,False,3.0,
+2014-02-08,Scotland,England,0,20,Six Nations,Edinburgh,Scotland,False,,2.0
+2014-02-08,Ireland,Wales,26,3,Six Nations,Dublin,Ireland,False,2.0,
+2014-02-09,France,Italy,30,10,Six Nations,Saint-Denis,Reunion,False,3.0,1.0
+2014-02-21,Wales,France,27,6,Six Nations,Cardiff,Wales,False,2.0,
+2014-02-22,Italy,Scotland,20,21,Six Nations,Rome,Italy,False,2.0,2.0
+2014-02-22,England,Ireland,13,10,Six Nations,London,England,False,1.0,1.0
+2014-03-08,Ireland,Italy,46,7,Six Nations,Dublin,Ireland,False,7.0,1.0
+2014-03-08,Scotland,France,17,19,Six Nations,Edinburgh,Scotland,False,2.0,1.0
+2014-03-09,England,Wales,29,18,Six Nations,London,England,False,2.0,
+2014-03-15,Italy,England,11,52,Six Nations,Rome,Italy,False,1.0,7.0
+2014-03-15,Wales,Scotland,51,3,Six Nations,Cardiff,Wales,False,7.0,
+2014-03-15,France,Ireland,20,22,Six Nations,Saint-Denis,Reunion,False,2.0,3.0
 2014-06-07,Australia,France,50,23,2014 France tour of Australia,Brisbane,Australia,False,,
 2014-06-07,New Zealand,England,20,15,2014 England rugby union tour of New Zealand,Auckland,New Zealand,False,,
 2014-06-07,Argentina,Ireland,17,29,2014 Ireland rugby union tour of Argentina,Resistencia,Argentina,False,,
@@ -2435,17 +2435,17 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2014-06-21,Australia,France,39,13,2014 France tour of Australia,Sydney,Australia,False,,
 2014-06-28,South Africa,Scotland,55,6,2014 Mid-year Test,Port Elizabeth,South Africa,False,,
 2014-08-16,Australia,New Zealand,12,12,Rugby Championship,Sydney,Australia,False,,
-2014-08-16,South Africa,Argentina,13,6,Rugby Championship,Pretoria,South Africa,False,1,
-2014-08-23,Argentina,South Africa,31,33,Rugby Championship,Salta,Argentina,False,3,3
-2014-08-23,New Zealand,Australia,51,20,Rugby Championship,Auckland,New Zealand,False,6,2
-2014-09-06,Australia,South Africa,24,23,Rugby Championship,Perth (WA),Australia,False,2,1
-2014-09-06,New Zealand,Argentina,28,9,Rugby Championship,Napier,New Zealand,False,4,
-2014-09-13,Australia,Argentina,32,25,Rugby Championship,Gold Coast,Australia,False,3,3
-2014-09-13,New Zealand,South Africa,14,10,Rugby Championship,Wellington,New Zealand,False,1,1
-2014-09-27,Argentina,New Zealand,13,34,Rugby Championship,La Plata,Argentina,False,1,4
-2014-09-27,South Africa,Australia,28,10,Rugby Championship,Cape Town,South Africa,False,4,1
-2014-10-04,South Africa,New Zealand,27,25,Rugby Championship,Johannesburg,South Africa,False,3,3
-2014-10-04,Argentina,Australia,21,17,Rugby Championship,Mendoza,Argentina,False,2,2
+2014-08-16,South Africa,Argentina,13,6,Rugby Championship,Pretoria,South Africa,False,1.0,
+2014-08-23,Argentina,South Africa,31,33,Rugby Championship,Salta,Argentina,False,3.0,3.0
+2014-08-23,New Zealand,Australia,51,20,Rugby Championship,Auckland,New Zealand,False,6.0,2.0
+2014-09-06,Australia,South Africa,24,23,Rugby Championship,Perth (WA),Australia,False,2.0,1.0
+2014-09-06,New Zealand,Argentina,28,9,Rugby Championship,Napier,New Zealand,False,4.0,
+2014-09-13,Australia,Argentina,32,25,Rugby Championship,Gold Coast,Australia,False,3.0,3.0
+2014-09-13,New Zealand,South Africa,14,10,Rugby Championship,Wellington,New Zealand,False,1.0,1.0
+2014-09-27,Argentina,New Zealand,13,34,Rugby Championship,La Plata,Argentina,False,1.0,4.0
+2014-09-27,South Africa,Australia,28,10,Rugby Championship,Cape Town,South Africa,False,4.0,1.0
+2014-10-04,South Africa,New Zealand,27,25,Rugby Championship,Johannesburg,South Africa,False,3.0,3.0
+2014-10-04,Argentina,Australia,21,17,Rugby Championship,Mendoza,Argentina,False,2.0,2.0
 2014-10-18,Australia,New Zealand,28,29,2014 Autumn International,Brisbane,Australia,False,,
 2014-11-08,England,New Zealand,21,24,2014 Autumn International,London,England,False,,
 2014-11-08,Wales,Australia,28,33,2014 Autumn International,Cardiff,Wales,False,,
@@ -2461,31 +2461,31 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2014-11-22,Wales,New Zealand,16,34,2014 Autumn International,Cardiff,Wales,False,,
 2014-11-29,Wales,South Africa,12,6,2014 Autumn International,Cardiff,Wales,False,,
 2014-11-29,England,Australia,26,17,2014 Autumn International,London,England,False,,
-2015-02-06,Wales,England,16,21,Six Nations,Cardiff,Wales,False,1,2
-2015-02-07,France,Scotland,15,8,Six Nations,Saint-Denis,Reunion,False,,1
-2015-02-07,Italy,Ireland,3,26,Six Nations,Rome,Italy,False,,2
-2015-02-14,Ireland,France,18,11,Six Nations,Dublin,Ireland,False,,1
-2015-02-14,England,Italy,47,17,Six Nations,London,England,False,6,3
-2015-02-15,Scotland,Wales,23,26,Six Nations,Edinburgh,Scotland,False,2,2
-2015-02-28,Scotland,Italy,19,22,Six Nations,Edinburgh,Scotland,False,1,3
-2015-02-28,France,Wales,13,20,Six Nations,Saint-Denis,Reunion,False,1,1
-2015-03-01,Ireland,England,19,9,Six Nations,Dublin,Ireland,False,1,
-2015-03-14,Wales,Ireland,23,16,Six Nations,Cardiff,Wales,False,1,1
-2015-03-14,England,Scotland,25,13,Six Nations,London,England,False,3,1
-2015-03-15,Italy,France,0,29,Six Nations,Rome,Italy,False,,2
-2015-03-21,Italy,Wales,20,61,Six Nations,Rome,Italy,False,2,8
-2015-03-21,Scotland,Ireland,10,40,Six Nations,Edinburgh,Scotland,False,1,4
-2015-03-21,England,France,55,35,Six Nations,London,England,False,7,5
+2015-02-06,Wales,England,16,21,Six Nations,Cardiff,Wales,False,1.0,2.0
+2015-02-07,France,Scotland,15,8,Six Nations,Saint-Denis,Reunion,False,,1.0
+2015-02-07,Italy,Ireland,3,26,Six Nations,Rome,Italy,False,,2.0
+2015-02-14,Ireland,France,18,11,Six Nations,Dublin,Ireland,False,,1.0
+2015-02-14,England,Italy,47,17,Six Nations,London,England,False,6.0,3.0
+2015-02-15,Scotland,Wales,23,26,Six Nations,Edinburgh,Scotland,False,2.0,2.0
+2015-02-28,Scotland,Italy,19,22,Six Nations,Edinburgh,Scotland,False,1.0,3.0
+2015-02-28,France,Wales,13,20,Six Nations,Saint-Denis,Reunion,False,1.0,1.0
+2015-03-01,Ireland,England,19,9,Six Nations,Dublin,Ireland,False,1.0,
+2015-03-14,Wales,Ireland,23,16,Six Nations,Cardiff,Wales,False,1.0,1.0
+2015-03-14,England,Scotland,25,13,Six Nations,London,England,False,3.0,1.0
+2015-03-15,Italy,France,0,29,Six Nations,Rome,Italy,False,,2.0
+2015-03-21,Italy,Wales,20,61,Six Nations,Rome,Italy,False,2.0,8.0
+2015-03-21,Scotland,Ireland,10,40,Six Nations,Edinburgh,Scotland,False,1.0,4.0
+2015-03-21,England,France,55,35,Six Nations,London,England,False,7.0,5.0
 2015-07-08,Samoa,New Zealand,16,25,International Test Match,Apia,Samoa,False,,
 2015-07-11,Namibia,Russia,39,19,International Test Match,Windhoek,Namibia,False,,
-2015-07-17,New Zealand,Argentina,39,18,Rugby Championship,Christchurch,New Zealand,False,5,2
+2015-07-17,New Zealand,Argentina,39,18,Rugby Championship,Christchurch,New Zealand,False,5.0,2.0
 2015-07-18,Namibia,Russia,45,5,International Test Match,Windhoek,Namibia,False,,
-2015-07-18,Australia,South Africa,24,20,Rugby Championship,Brisbane,Australia,False,3,2
-2015-07-25,Argentina,Australia,9,34,Rugby Championship,Mendoza,Argentina,False,,4
-2015-07-25,South Africa,New Zealand,20,27,Rugby Championship,Johannesburg,South Africa,False,2,3
-2015-08-08,Australia,New Zealand,27,19,Rugby Championship,Sydney,Australia,False,3,2
+2015-07-18,Australia,South Africa,24,20,Rugby Championship,Brisbane,Australia,False,3.0,2.0
+2015-07-25,Argentina,Australia,9,34,Rugby Championship,Mendoza,Argentina,False,,4.0
+2015-07-25,South Africa,New Zealand,20,27,Rugby Championship,Johannesburg,South Africa,False,2.0,3.0
+2015-08-08,Australia,New Zealand,27,19,Rugby Championship,Sydney,Australia,False,3.0,2.0
 2015-08-08,Wales,Ireland,21,35,International Test Match,Cardiff,Wales,False,,
-2015-08-08,South Africa,Argentina,25,37,Rugby Championship,Durban,South Africa,False,3,4
+2015-08-08,South Africa,Argentina,25,37,Rugby Championship,Durban,South Africa,False,3.0,4.0
 2015-08-15,New Zealand,Australia,41,13,International Test Match,Auckland,New Zealand,False,,
 2015-08-15,England,France,19,14,International Test Match,London,England,False,,
 2015-08-15,Argentina,South Africa,12,26,International Test Match,Buenos Aires,Argentina,False,,
@@ -2502,72 +2502,72 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2015-09-05,France,Scotland,19,16,International Test Match,Saint-Denis,Reunion,False,,
 2015-09-05,Wales,Italy,23,19,International Test Match,Cardiff,Wales,False,,
 2015-09-05,Japan,Georgia,10,13,International Test Match,Gloucester,England,False,,
-2015-09-05,England,Ireland,21,13,International Test Match,London,England,False,2,1
+2015-09-05,England,Ireland,21,13,International Test Match,London,England,False,2.0,1.0
 2015-09-05,United States,Australia,10,47,International Test Match,Chicago,United States of America,False,,
 2015-09-06,Fiji,Canada,18,47,International Test Match,London,England,False,,
-2015-09-18,England,Fiji,35,11,Rugby World Cup,London,England,False,4,1
-2015-09-19,France,Italy,32,10,Rugby World Cup,London,England,True,2,1
-2015-09-19,Ireland,Canada,50,7,Rugby World Cup,Cardiff,Wales,True,7,1
-2015-09-19,Tonga,Georgia,10,17,Rugby World Cup,Gloucester,England,True,1,2
-2015-09-19,South Africa,Japan,32,34,Rugby World Cup,Brighton,England,True,4,3
-2015-09-20,New Zealand,Argentina,26,16,Rugby World Cup,London,England,True,2,1
-2015-09-20,United States,Samoa,16,25,Rugby World Cup,Brighton,England,True,2,2
-2015-09-20,Wales,Uruguay,54,9,Rugby World Cup,Cardiff,Wales,False,8,
-2015-09-23,Scotland,Japan,45,10,Rugby World Cup,Gloucester,England,True,5,1
-2015-09-23,Australia,Fiji,28,13,Rugby World Cup,Cardiff,Wales,True,3,1
-2015-09-23,France,Romania,38,11,Rugby World Cup,London,England,True,5,1
-2015-09-24,New Zealand,Namibia,58,14,Rugby World Cup,London,England,True,9,1
-2015-09-25,Argentina,Georgia,54,9,Rugby World Cup,Gloucester,England,True,7,
-2015-09-26,England,Wales,25,28,Rugby World Cup,London,England,False,1,1
-2015-09-26,Italy,Canada,23,18,Rugby World Cup,Leeds,England,True,2,2
-2015-09-26,South Africa,Samoa,46,6,Rugby World Cup,Birmingham,England,True,6,
-2015-09-27,Australia,Uruguay,65,3,Rugby World Cup,Birmingham,England,True,11,
-2015-09-27,Scotland,United States,39,16,Rugby World Cup,Leeds,England,True,5,1
-2015-09-27,Ireland,Romania,44,10,Rugby World Cup,London,England,True,6,1
-2015-09-29,Tonga,Namibia,35,21,Rugby World Cup,Exeter,England,True,5,3
-2015-10-01,France,Canada,41,18,Rugby World Cup,Milton Keynes,England,True,5,2
-2015-10-01,Wales,Fiji,23,13,Rugby World Cup,Cardiff,Wales,False,2,1
-2015-10-02,New Zealand,Georgia,43,10,Rugby World Cup,Cardiff,Wales,True,7,1
-2015-10-03,Scotland,South Africa,16,34,Rugby World Cup,Newcastle,Australia,True,1,3
-2015-10-03,Samoa,Japan,5,26,Rugby World Cup,Milton Keynes,England,True,1,2
-2015-10-03,England,Australia,13,33,Rugby World Cup,London,England,False,1,3
-2015-10-04,Ireland,Italy,16,9,Rugby World Cup,London,England,True,1,
-2015-10-04,Argentina,Tonga,45,16,Rugby World Cup,Leicester,England,True,5,2
-2015-10-06,Romania,Canada,17,15,Rugby World Cup,Leicester,England,True,2,2
-2015-10-06,Fiji,Uruguay,47,15,Rugby World Cup,Milton Keynes,England,True,7,2
-2015-10-07,South Africa,United States,64,0,Rugby World Cup,London,England,True,10,
-2015-10-07,Georgia,Namibia,17,16,Rugby World Cup,Exeter,England,True,2,1
-2015-10-09,New Zealand,Tonga,47,9,Rugby World Cup,Newcastle,Australia,True,7,
-2015-10-10,England,Uruguay,60,3,Rugby World Cup,Manchester,England,False,10,
+2015-09-18,England,Fiji,35,11,Rugby World Cup,London,England,False,4.0,1.0
+2015-09-19,France,Italy,32,10,Rugby World Cup,London,England,True,2.0,1.0
+2015-09-19,Ireland,Canada,50,7,Rugby World Cup,Cardiff,Wales,True,7.0,1.0
+2015-09-19,Tonga,Georgia,10,17,Rugby World Cup,Gloucester,England,True,1.0,2.0
+2015-09-19,South Africa,Japan,32,34,Rugby World Cup,Brighton,England,True,4.0,3.0
+2015-09-20,New Zealand,Argentina,26,16,Rugby World Cup,London,England,True,2.0,1.0
+2015-09-20,United States,Samoa,16,25,Rugby World Cup,Brighton,England,True,2.0,2.0
+2015-09-20,Wales,Uruguay,54,9,Rugby World Cup,Cardiff,Wales,False,8.0,
+2015-09-23,Scotland,Japan,45,10,Rugby World Cup,Gloucester,England,True,5.0,1.0
+2015-09-23,Australia,Fiji,28,13,Rugby World Cup,Cardiff,Wales,True,3.0,1.0
+2015-09-23,France,Romania,38,11,Rugby World Cup,London,England,True,5.0,1.0
+2015-09-24,New Zealand,Namibia,58,14,Rugby World Cup,London,England,True,9.0,1.0
+2015-09-25,Argentina,Georgia,54,9,Rugby World Cup,Gloucester,England,True,7.0,
+2015-09-26,England,Wales,25,28,Rugby World Cup,London,England,False,1.0,1.0
+2015-09-26,Italy,Canada,23,18,Rugby World Cup,Leeds,England,True,2.0,2.0
+2015-09-26,South Africa,Samoa,46,6,Rugby World Cup,Birmingham,England,True,6.0,
+2015-09-27,Australia,Uruguay,65,3,Rugby World Cup,Birmingham,England,True,11.0,
+2015-09-27,Scotland,United States,39,16,Rugby World Cup,Leeds,England,True,5.0,1.0
+2015-09-27,Ireland,Romania,44,10,Rugby World Cup,London,England,True,6.0,1.0
+2015-09-29,Tonga,Namibia,35,21,Rugby World Cup,Exeter,England,True,5.0,3.0
+2015-10-01,France,Canada,41,18,Rugby World Cup,Milton Keynes,England,True,5.0,2.0
+2015-10-01,Wales,Fiji,23,13,Rugby World Cup,Cardiff,Wales,False,2.0,1.0
+2015-10-02,New Zealand,Georgia,43,10,Rugby World Cup,Cardiff,Wales,True,7.0,1.0
+2015-10-03,Scotland,South Africa,16,34,Rugby World Cup,Newcastle,Australia,True,1.0,3.0
+2015-10-03,Samoa,Japan,5,26,Rugby World Cup,Milton Keynes,England,True,1.0,2.0
+2015-10-03,England,Australia,13,33,Rugby World Cup,London,England,False,1.0,3.0
+2015-10-04,Ireland,Italy,16,9,Rugby World Cup,London,England,True,1.0,
+2015-10-04,Argentina,Tonga,45,16,Rugby World Cup,Leicester,England,True,5.0,2.0
+2015-10-06,Romania,Canada,17,15,Rugby World Cup,Leicester,England,True,2.0,2.0
+2015-10-06,Fiji,Uruguay,47,15,Rugby World Cup,Milton Keynes,England,True,7.0,2.0
+2015-10-07,South Africa,United States,64,0,Rugby World Cup,London,England,True,10.0,
+2015-10-07,Georgia,Namibia,17,16,Rugby World Cup,Exeter,England,True,2.0,1.0
+2015-10-09,New Zealand,Tonga,47,9,Rugby World Cup,Newcastle,Australia,True,7.0,
+2015-10-10,England,Uruguay,60,3,Rugby World Cup,Manchester,England,False,10.0,
 2015-10-10,Wales,Australia,6,15,Rugby World Cup,London,England,True,,
-2015-10-10,Scotland,Samoa,36,33,Rugby World Cup,Newcastle,Australia,True,3,4
-2015-10-11,Romania,Italy,22,32,Rugby World Cup,Exeter,England,True,3,4
-2015-10-11,Ireland,France,24,9,Rugby World Cup,Cardiff,Wales,True,2,
-2015-10-11,United States,Japan,18,28,Rugby World Cup,Gloucester,England,True,2,3
-2015-10-11,Argentina,Namibia,64,19,Rugby World Cup,Leicester,England,True,9,3
-2015-10-17,New Zealand,France,62,13,Rugby World Cup,Cardiff,Wales,True,9,1
-2015-10-17,Wales,South Africa,19,23,Rugby World Cup,London,England,True,1,1
-2015-10-18,Scotland,Australia,34,35,Rugby World Cup,London,England,True,3,5
-2015-10-18,Ireland,Argentina,20,43,Rugby World Cup,Cardiff,Wales,True,2,4
-2015-10-24,South Africa,New Zealand,18,20,Rugby World Cup,London,England,True,,2
-2015-10-25,Australia,Argentina,29,15,Rugby World Cup,London,England,True,4,
-2015-10-30,South Africa,Argentina,24,13,Rugby World Cup,London,England,True,2,1
-2015-10-31,Australia,New Zealand,17,34,Rugby World Cup,London,England,True,2,3
-2016-02-06,France,Italy,23,21,Six Nations,Saint-Denis,Reunion,False,3,2
-2016-02-06,Scotland,England,9,15,Six Nations,Edinburgh,Scotland,False,,2
-2016-02-07,Ireland,Wales,16,16,Six Nations,Dublin,Ireland,False,1,1
-2016-02-13,Wales,Scotland,27,23,Six Nations,Cardiff,Wales,False,3,2
-2016-02-13,France,Ireland,10,9,Six Nations,Saint-Denis,Reunion,False,1,
-2016-02-14,Italy,England,9,40,Six Nations,Rome,Italy,False,,5
-2016-02-26,Wales,France,19,10,Six Nations,Cardiff,Wales,False,1,1
-2016-02-27,England,Ireland,21,10,Six Nations,London,England,False,2,1
-2016-02-27,Italy,Scotland,20,36,Six Nations,Rome,Italy,False,2,3
-2016-03-12,Ireland,Italy,58,15,Six Nations,Dublin,Ireland,False,9,2
-2016-03-12,England,Wales,25,21,Six Nations,London,England,False,1,3
-2016-03-13,Scotland,France,29,18,Six Nations,Edinburgh,Scotland,False,3,2
-2016-03-19,Wales,Italy,67,14,Six Nations,Cardiff,Wales,False,9,2
-2016-03-19,Ireland,Scotland,35,25,Six Nations,Dublin,Ireland,False,4,3
-2016-03-19,France,England,21,31,Six Nations,Saint-Denis,Reunion,False,,3
+2015-10-10,Scotland,Samoa,36,33,Rugby World Cup,Newcastle,Australia,True,3.0,4.0
+2015-10-11,Romania,Italy,22,32,Rugby World Cup,Exeter,England,True,3.0,4.0
+2015-10-11,Ireland,France,24,9,Rugby World Cup,Cardiff,Wales,True,2.0,
+2015-10-11,United States,Japan,18,28,Rugby World Cup,Gloucester,England,True,2.0,3.0
+2015-10-11,Argentina,Namibia,64,19,Rugby World Cup,Leicester,England,True,9.0,3.0
+2015-10-17,New Zealand,France,62,13,Rugby World Cup,Cardiff,Wales,True,9.0,1.0
+2015-10-17,Wales,South Africa,19,23,Rugby World Cup,London,England,True,1.0,1.0
+2015-10-18,Scotland,Australia,34,35,Rugby World Cup,London,England,True,3.0,5.0
+2015-10-18,Ireland,Argentina,20,43,Rugby World Cup,Cardiff,Wales,True,2.0,4.0
+2015-10-24,South Africa,New Zealand,18,20,Rugby World Cup,London,England,True,,2.0
+2015-10-25,Australia,Argentina,29,15,Rugby World Cup,London,England,True,4.0,
+2015-10-30,South Africa,Argentina,24,13,Rugby World Cup,London,England,True,2.0,1.0
+2015-10-31,Australia,New Zealand,17,34,Rugby World Cup,London,England,True,2.0,3.0
+2016-02-06,France,Italy,23,21,Six Nations,Saint-Denis,Reunion,False,3.0,2.0
+2016-02-06,Scotland,England,9,15,Six Nations,Edinburgh,Scotland,False,,2.0
+2016-02-07,Ireland,Wales,16,16,Six Nations,Dublin,Ireland,False,1.0,1.0
+2016-02-13,Wales,Scotland,27,23,Six Nations,Cardiff,Wales,False,3.0,2.0
+2016-02-13,France,Ireland,10,9,Six Nations,Saint-Denis,Reunion,False,1.0,
+2016-02-14,Italy,England,9,40,Six Nations,Rome,Italy,False,,5.0
+2016-02-26,Wales,France,19,10,Six Nations,Cardiff,Wales,False,1.0,1.0
+2016-02-27,England,Ireland,21,10,Six Nations,London,England,False,2.0,1.0
+2016-02-27,Italy,Scotland,20,36,Six Nations,Rome,Italy,False,2.0,3.0
+2016-03-12,Ireland,Italy,58,15,Six Nations,Dublin,Ireland,False,9.0,2.0
+2016-03-12,England,Wales,25,21,Six Nations,London,England,False,1.0,3.0
+2016-03-13,Scotland,France,29,18,Six Nations,Edinburgh,Scotland,False,3.0,2.0
+2016-03-19,Wales,Italy,67,14,Six Nations,Cardiff,Wales,False,9.0,2.0
+2016-03-19,Ireland,Scotland,35,25,Six Nations,Dublin,Ireland,False,4.0,3.0
+2016-03-19,France,England,21,31,Six Nations,Saint-Denis,Reunion,False,,3.0
 2016-05-29,England,Wales,27,13,International Test Match,London,England,False,,
 2016-06-11,Canada,Japan,22,26,International Test Match,,,False,,
 2016-06-11,Argentina,Italy,30,24,International Test Match,Santa Fe,Argentina,False,,
@@ -2591,18 +2591,18 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2016-06-25,Australia,England,40,44,International Test Match,Sydney,Australia,False,,
 2016-06-26,Canada,Italy,18,20,International Test Match,Toronto,Canada,False,,
 2016-06-26,United States,Russia,25,0,International Test Match,,,False,,
-2016-08-20,Australia,New Zealand,8,42,Rugby Championship,Sydney,Australia,False,1,6
-2016-08-20,South Africa,Argentina,30,23,Rugby Championship,Nelspruit,South Africa,False,3,2
-2016-08-27,Argentina,South Africa,26,24,Rugby Championship,Salta,Argentina,False,2,2
-2016-08-27,New Zealand,Australia,29,9,Rugby Championship,Wellington,New Zealand,False,4,
-2016-09-10,Australia,South Africa,23,17,Rugby Championship,Brisbane,Australia,False,2,2
-2016-09-10,New Zealand,Argentina,57,22,Rugby Championship,Hamilton,New Zealand,False,8,1
-2016-09-17,New Zealand,South Africa,41,13,Rugby Championship,Christchurch,New Zealand,False,6,1
-2016-09-17,Australia,Argentina,36,20,Rugby Championship,Perth,Australia,False,5,2
-2016-10-01,South Africa,Australia,18,10,Rugby Championship,Pretoria,South Africa,False,,1
-2016-10-01,Argentina,New Zealand,17,36,Rugby Championship,Buenos Aires,Argentina,False,2,5
-2016-10-08,South Africa,New Zealand,15,57,Rugby Championship,Durban,South Africa,False,,9
-2016-10-08,Argentina,Australia,21,33,Rugby Championship,London,England,False,2,4
+2016-08-20,Australia,New Zealand,8,42,Rugby Championship,Sydney,Australia,False,1.0,6.0
+2016-08-20,South Africa,Argentina,30,23,Rugby Championship,Nelspruit,South Africa,False,3.0,2.0
+2016-08-27,Argentina,South Africa,26,24,Rugby Championship,Salta,Argentina,False,2.0,2.0
+2016-08-27,New Zealand,Australia,29,9,Rugby Championship,Wellington,New Zealand,False,4.0,
+2016-09-10,Australia,South Africa,23,17,Rugby Championship,Brisbane,Australia,False,2.0,2.0
+2016-09-10,New Zealand,Argentina,57,22,Rugby Championship,Hamilton,New Zealand,False,8.0,1.0
+2016-09-17,New Zealand,South Africa,41,13,Rugby Championship,Christchurch,New Zealand,False,6.0,1.0
+2016-09-17,Australia,Argentina,36,20,Rugby Championship,Perth,Australia,False,5.0,2.0
+2016-10-01,South Africa,Australia,18,10,Rugby Championship,Pretoria,South Africa,False,,1.0
+2016-10-01,Argentina,New Zealand,17,36,Rugby Championship,Buenos Aires,Argentina,False,2.0,5.0
+2016-10-08,South Africa,New Zealand,15,57,Rugby Championship,Durban,South Africa,False,,9.0
+2016-10-08,Argentina,Australia,21,33,Rugby Championship,London,England,False,2.0,4.0
 2016-10-22,New Zealand,Australia,37,10,International Test Match,Auckland,New Zealand,False,,
 2016-11-05,Wales,Australia,8,32,International Test Match,Cardiff,Wales,False,,
 2016-11-05,Ireland,New Zealand,40,29,International Test Match,Chicago,United States of America,False,,
@@ -2634,22 +2634,22 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2016-11-26,England,Argentina,27,14,International Test Match,London,England,False,,
 2016-11-26,Romania,Uruguay,36,10,International Test Match,Bucharest,Romania,False,,
 2016-11-26,Fiji,Japan,38,25,International Test Match,Vannes,France,False,,
-2016-12-03,England,Australia,37,21,International Test Match,London,England,False,4,2
-2017-02-04,Scotland,Ireland,27,22,Six Nations,Edinburgh,Scotland,False,3,3
-2017-02-04,England,France,19,16,Six Nations,London,England,False,1,1
-2017-02-05,Italy,Wales,7,33,Six Nations,Rome,Italy,False,1,3
-2017-02-11,Wales,England,16,21,Six Nations,Cardiff,Wales,False,1,2
-2017-02-11,Italy,Ireland,10,63,Six Nations,Rome,Italy,False,1,9
-2017-02-12,France,Scotland,22,16,Six Nations,Saint-Denis,Reunion,False,1,2
-2017-02-25,Scotland,Wales,29,13,Six Nations,Edinburgh,Scotland,False,2,1
-2017-02-25,Ireland,France,19,9,Six Nations,Dublin,Ireland,False,1,
-2017-02-26,England,Italy,36,15,Six Nations,London,England,False,6,2
-2017-03-10,Wales,Ireland,22,9,Six Nations,Cardiff,Wales,False,3,
-2017-03-11,England,Scotland,61,21,Six Nations,London,England,False,7,3
-2017-03-11,Italy,France,18,40,Six Nations,Rome,Italy,False,2,4
-2017-03-18,France,Wales,20,18,Six Nations,Saint-Denis,Reunion,False,2,
-2017-03-18,Ireland,England,13,9,Six Nations,Dublin,Ireland,False,1,
-2017-03-18,Scotland,Italy,29,0,Six Nations,Edinburgh,Scotland,False,4,
+2016-12-03,England,Australia,37,21,International Test Match,London,England,False,4.0,2.0
+2017-02-04,Scotland,Ireland,27,22,Six Nations,Edinburgh,Scotland,False,3.0,3.0
+2017-02-04,England,France,19,16,Six Nations,London,England,False,1.0,1.0
+2017-02-05,Italy,Wales,7,33,Six Nations,Rome,Italy,False,1.0,3.0
+2017-02-11,Wales,England,16,21,Six Nations,Cardiff,Wales,False,1.0,2.0
+2017-02-11,Italy,Ireland,10,63,Six Nations,Rome,Italy,False,1.0,9.0
+2017-02-12,France,Scotland,22,16,Six Nations,Saint-Denis,Reunion,False,1.0,2.0
+2017-02-25,Scotland,Wales,29,13,Six Nations,Edinburgh,Scotland,False,2.0,1.0
+2017-02-25,Ireland,France,19,9,Six Nations,Dublin,Ireland,False,1.0,
+2017-02-26,England,Italy,36,15,Six Nations,London,England,False,6.0,2.0
+2017-03-10,Wales,Ireland,22,9,Six Nations,Cardiff,Wales,False,3.0,
+2017-03-11,England,Scotland,61,21,Six Nations,London,England,False,7.0,3.0
+2017-03-11,Italy,France,18,40,Six Nations,Rome,Italy,False,2.0,4.0
+2017-03-18,France,Wales,20,18,Six Nations,Saint-Denis,Reunion,False,2.0,
+2017-03-18,Ireland,England,13,9,Six Nations,Dublin,Ireland,False,1.0,
+2017-03-18,Scotland,Italy,29,0,Six Nations,Edinburgh,Scotland,False,4.0,
 2017-06-10,Italy,Scotland,13,34,International Test Match,Singapore,Singapore,False,,
 2017-06-10,Australia,Fiji,37,14,International Test Match,Melbourne,Australia,False,,
 2017-06-10,South Africa,France,37,14,International Test Match,Pretoria,South Africa,False,,
@@ -2675,20 +2675,20 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2017-06-24,Romania,Brazil,56,5,International Test Match,Bucharest,Romania,False,,
 2017-06-24,Fiji,Scotland,27,22,International Test Match,Suva,Fiji,False,,
 2017-07-01,United States,Canada,52,16,International Test Match,San Diego,United States of America,False,,
-2017-08-19,South Africa,Argentina,37,15,Rugby Championship,Port Elizabeth,South Africa,False,4,2
-2017-08-19,Australia,New Zealand,34,54,Rugby Championship,Sydney,Australia,False,4,8
-2017-08-26,Argentina,South Africa,23,41,Rugby Championship,Salta,Argentina,False,2,5
-2017-08-26,New Zealand,Australia,35,29,Rugby Championship,Dunedin,New Zealand,False,5,5
-2017-09-09,Australia,South Africa,23,23,Rugby Championship,Perth,Australia,False,2,2
-2017-09-09,New Zealand,Argentina,39,22,Rugby Championship,New Plymouth,New Zealand,False,6,1
-2017-09-16,New Zealand,South Africa,57,0,Rugby Championship,Albany,United States of America,False,8,
-2017-09-16,Australia,Argentina,45,20,Rugby Championship,Canberra,Australia,False,6,2
-2017-09-30,South Africa,Australia,27,27,Rugby Championship,Bloemfontein,South Africa,False,3,3
-2017-09-30,Argentina,New Zealand,10,36,Rugby Championship,Buenos Aires,Argentina,False,1,5
-2017-10-07,South Africa,New Zealand,24,25,Rugby Championship,Cape Town,South Africa,False,3,3
-2017-10-07,Argentina,Australia,20,37,Rugby Championship,Mendoza,Argentina,False,2,5
+2017-08-19,South Africa,Argentina,37,15,Rugby Championship,Port Elizabeth,South Africa,False,4.0,2.0
+2017-08-19,Australia,New Zealand,34,54,Rugby Championship,Sydney,Australia,False,4.0,8.0
+2017-08-26,Argentina,South Africa,23,41,Rugby Championship,Salta,Argentina,False,2.0,5.0
+2017-08-26,New Zealand,Australia,35,29,Rugby Championship,Dunedin,New Zealand,False,5.0,5.0
+2017-09-09,Australia,South Africa,23,23,Rugby Championship,Perth,Australia,False,2.0,2.0
+2017-09-09,New Zealand,Argentina,39,22,Rugby Championship,New Plymouth,New Zealand,False,6.0,1.0
+2017-09-16,New Zealand,South Africa,57,0,Rugby Championship,Albany,United States of America,False,8.0,
+2017-09-16,Australia,Argentina,45,20,Rugby Championship,Canberra,Australia,False,6.0,2.0
+2017-09-30,South Africa,Australia,27,27,Rugby Championship,Bloemfontein,South Africa,False,3.0,3.0
+2017-09-30,Argentina,New Zealand,10,36,Rugby Championship,Buenos Aires,Argentina,False,1.0,5.0
+2017-10-07,South Africa,New Zealand,24,25,Rugby Championship,Cape Town,South Africa,False,3.0,3.0
+2017-10-07,Argentina,Australia,20,37,Rugby Championship,Mendoza,Argentina,False,2.0,5.0
 2017-10-21,Australia,New Zealand,23,18,International Test Match,Brisbane,Australia,False,,
-2017-11-04,Japan,Australia,30,63,International Test Match,Yokohama,Japan,False,3,9
+2017-11-04,Japan,Australia,30,63,International Test Match,Yokohama,Japan,False,3.0,9.0
 2017-11-11,France,New Zealand,18,38,International Test Match,Saint-Denis,Reunion,False,,
 2017-11-11,Georgia,Canada,54,22,International Test Match,Tbilisi,Georgia,False,,
 2017-11-11,Scotland,Samoa,44,38,International Test Match,Edinburgh,Scotland,False,,
@@ -2723,21 +2723,21 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2017-11-25,Spain,Brazil,67,28,International Test Match,Villajoyosa,Spain,False,,
 2017-12-02,Wales,South Africa,24,22,International Test Match,Cardiff,Wales,False,,
 2018-02-03,Uruguay,Canada,32,31,International Test Match,Montevideo,Uruguay,False,,
-2018-02-03,France,Ireland,13,15,Six Nations,Saint-Denis,Reunion,False,1,
-2018-02-03,Wales,Scotland,34,7,Six Nations,Cardiff,Wales,False,4,1
-2018-02-04,Italy,England,15,46,Six Nations,Rome,Italy,False,2,7
-2018-02-10,England,Wales,12,6,Six Nations,London,England,False,2,
-2018-02-10,Ireland,Italy,56,19,Six Nations,Dublin,Ireland,False,8,3
-2018-02-11,Scotland,France,32,26,Six Nations,Edinburgh,Scotland,False,2,2
-2018-02-23,France,Italy,34,17,Six Nations,Marseille,France,False,3,2
-2018-02-24,Ireland,Wales,37,27,Six Nations,Dublin,Ireland,False,5,3
-2018-02-24,Scotland,England,25,13,Six Nations,Edinburgh,Scotland,False,3,1
-2018-03-10,France,England,22,16,Six Nations,Saint-Denis,Reunion,False,1,1
-2018-03-10,Ireland,Scotland,28,8,Six Nations,Dublin,Ireland,False,4,1
-2018-03-11,Wales,Italy,38,14,Six Nations,Cardiff,Wales,False,5,2
-2018-03-17,Italy,Scotland,27,29,Six Nations,Rome,Italy,False,3,4
-2018-03-17,England,Ireland,15,24,Six Nations,London,England,False,3,3
-2018-03-17,Wales,France,14,13,Six Nations,Cardiff,Wales,False,1,1
+2018-02-03,France,Ireland,13,15,Six Nations,Saint-Denis,Reunion,False,1.0,
+2018-02-03,Wales,Scotland,34,7,Six Nations,Cardiff,Wales,False,4.0,1.0
+2018-02-04,Italy,England,15,46,Six Nations,Rome,Italy,False,2.0,7.0
+2018-02-10,England,Wales,12,6,Six Nations,London,England,False,2.0,
+2018-02-10,Ireland,Italy,56,19,Six Nations,Dublin,Ireland,False,8.0,3.0
+2018-02-11,Scotland,France,32,26,Six Nations,Edinburgh,Scotland,False,2.0,2.0
+2018-02-23,France,Italy,34,17,Six Nations,Marseille,France,False,3.0,2.0
+2018-02-24,Ireland,Wales,37,27,Six Nations,Dublin,Ireland,False,5.0,3.0
+2018-02-24,Scotland,England,25,13,Six Nations,Edinburgh,Scotland,False,3.0,1.0
+2018-03-10,France,England,22,16,Six Nations,Saint-Denis,Reunion,False,1.0,1.0
+2018-03-10,Ireland,Scotland,28,8,Six Nations,Dublin,Ireland,False,4.0,1.0
+2018-03-11,Wales,Italy,38,14,Six Nations,Cardiff,Wales,False,5.0,2.0
+2018-03-17,Italy,Scotland,27,29,Six Nations,Rome,Italy,False,3.0,4.0
+2018-03-17,England,Ireland,15,24,Six Nations,London,England,False,3.0,3.0
+2018-03-17,Wales,France,14,13,Six Nations,Cardiff,Wales,False,1.0,1.0
 2018-06-02,South Africa,Wales,20,22,International Test Match,,,False,,
 2018-06-09,Australia,Ireland,18,9,International Test Match,Brisbane,Australia,False,,
 2018-06-09,New Zealand,France,52,11,International Test Match,Auckland,New Zealand,False,,
@@ -2763,18 +2763,18 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2018-06-23,Canada,United States,17,42,International Test Match,Halifax,Canada,False,,
 2018-06-30,Samoa,Germany,66,15,International Test Match,Apia,Samoa,False,,
 2018-07-14,Germany,Samoa,28,42,International Test Match,,,False,,
-2018-08-18,South Africa,Argentina,34,21,Rugby Championship,Durban,South Africa,False,6,3
-2018-08-18,Australia,New Zealand,13,38,Rugby Championship,Sydney,Australia,False,1,6
-2018-08-25,Argentina,South Africa,32,19,Rugby Championship,Mendoza,Argentina,False,4,3
-2018-08-25,New Zealand,Australia,40,12,Rugby Championship,Auckland,New Zealand,False,6,2
-2018-09-08,Australia,South Africa,23,18,Rugby Championship,Brisbane,Australia,False,2,2
-2018-09-08,New Zealand,Argentina,46,24,Rugby Championship,Nelson,New Zealand,False,6,3
-2018-09-15,Australia,Argentina,19,23,Rugby Championship,Gold Coast,Australia,False,3,2
-2018-09-15,New Zealand,South Africa,34,36,Rugby Championship,Wellington,New Zealand,False,6,5
-2018-09-29,South Africa,Australia,23,12,Rugby Championship,Port Elizabeth,South Africa,False,2,2
-2018-09-29,Argentina,New Zealand,17,35,Rugby Championship,Buenos Aires,Argentina,False,2,5
-2018-10-06,Argentina,Australia,34,45,Rugby Championship,Salta,Argentina,False,4,6
-2018-10-06,South Africa,New Zealand,30,32,Rugby Championship,Pretoria,South Africa,False,3,4
+2018-08-18,South Africa,Argentina,34,21,Rugby Championship,Durban,South Africa,False,6.0,3.0
+2018-08-18,Australia,New Zealand,13,38,Rugby Championship,Sydney,Australia,False,1.0,6.0
+2018-08-25,Argentina,South Africa,32,19,Rugby Championship,Mendoza,Argentina,False,4.0,3.0
+2018-08-25,New Zealand,Australia,40,12,Rugby Championship,Auckland,New Zealand,False,6.0,2.0
+2018-09-08,Australia,South Africa,23,18,Rugby Championship,Brisbane,Australia,False,2.0,2.0
+2018-09-08,New Zealand,Argentina,46,24,Rugby Championship,Nelson,New Zealand,False,6.0,3.0
+2018-09-15,Australia,Argentina,19,23,Rugby Championship,Gold Coast,Australia,False,3.0,2.0
+2018-09-15,New Zealand,South Africa,34,36,Rugby Championship,Wellington,New Zealand,False,6.0,5.0
+2018-09-29,South Africa,Australia,23,12,Rugby Championship,Port Elizabeth,South Africa,False,2.0,2.0
+2018-09-29,Argentina,New Zealand,17,35,Rugby Championship,Buenos Aires,Argentina,False,2.0,5.0
+2018-10-06,Argentina,Australia,34,45,Rugby Championship,Salta,Argentina,False,4.0,6.0
+2018-10-06,South Africa,New Zealand,30,32,Rugby Championship,Pretoria,South Africa,False,3.0,4.0
 2018-10-27,New Zealand,Australia,37,20,International Test Match,Yokohama,Japan,False,,
 2018-11-03,Wales,Scotland,21,10,International Test Match,Cardiff,Wales,False,,
 2018-11-03,Japan,New Zealand,31,69,International Test Match,Tokyo,Japan,False,,
@@ -2811,33 +2811,33 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2018-11-24,Ireland,United States,57,14,International Test Match,Dublin,Ireland,False,,
 2018-11-24,France,Fiji,14,21,International Test Match,Saint-Denis,Reunion,False,,
 2018-11-24,Spain,Samoa,10,28,International Test Match,Madrid,Spain,False,,
-2019-02-01,France,Wales,19,24,Six Nations,Saint-Denis,Reunion,False,2,3
-2019-02-02,Scotland,Italy,33,20,Six Nations,Edinburgh,Scotland,False,5,3
-2019-02-02,Ireland,England,20,32,Six Nations,Dublin,Ireland,False,2,4
-2019-02-09,Scotland,Ireland,13,22,Six Nations,Edinburgh,Scotland,False,1,3
-2019-02-09,Italy,Wales,15,26,Six Nations,Rome,Italy,False,2,2
-2019-02-10,England,France,44,8,Six Nations,London,England,False,6,1
-2019-02-23,France,Scotland,27,10,Six Nations,Saint-Denis,Reunion,False,4,1
-2019-02-23,Wales,England,21,13,Six Nations,Cardiff,Wales,False,2,1
-2019-02-24,Italy,Ireland,16,26,Six Nations,Rome,Italy,False,2,4
-2019-03-09,England,Italy,57,14,Six Nations,London,England,False,8,2
-2019-03-09,Scotland,Wales,11,18,Six Nations,Edinburgh,Scotland,False,1,2
-2019-03-10,Ireland,France,26,14,Six Nations,Dublin,Ireland,False,4,2
-2019-03-16,Italy,France,14,25,Six Nations,Rome,Italy,False,1,3
-2019-03-16,Wales,Ireland,25,7,Six Nations,Cardiff,Wales,False,1,1
-2019-03-16,England,Scotland,38,38,Six Nations,London,England,False,5,6
+2019-02-01,France,Wales,19,24,Six Nations,Saint-Denis,Reunion,False,2.0,3.0
+2019-02-02,Scotland,Italy,33,20,Six Nations,Edinburgh,Scotland,False,5.0,3.0
+2019-02-02,Ireland,England,20,32,Six Nations,Dublin,Ireland,False,2.0,4.0
+2019-02-09,Scotland,Ireland,13,22,Six Nations,Edinburgh,Scotland,False,1.0,3.0
+2019-02-09,Italy,Wales,15,26,Six Nations,Rome,Italy,False,2.0,2.0
+2019-02-10,England,France,44,8,Six Nations,London,England,False,6.0,1.0
+2019-02-23,France,Scotland,27,10,Six Nations,Saint-Denis,Reunion,False,4.0,1.0
+2019-02-23,Wales,England,21,13,Six Nations,Cardiff,Wales,False,2.0,1.0
+2019-02-24,Italy,Ireland,16,26,Six Nations,Rome,Italy,False,2.0,4.0
+2019-03-09,England,Italy,57,14,Six Nations,London,England,False,8.0,2.0
+2019-03-09,Scotland,Wales,11,18,Six Nations,Edinburgh,Scotland,False,1.0,2.0
+2019-03-10,Ireland,France,26,14,Six Nations,Dublin,Ireland,False,4.0,2.0
+2019-03-16,Italy,France,14,25,Six Nations,Rome,Italy,False,1.0,3.0
+2019-03-16,Wales,Ireland,25,7,Six Nations,Cardiff,Wales,False,1.0,1.0
+2019-03-16,England,Scotland,38,38,Six Nations,London,England,False,5.0,6.0
 2019-06-08,Chile,Romania,11,27,International Test Match,,,False,,
 2019-06-08,Brazil,Spain,16,22,International Test Match,,,False,,
 2019-06-15,Brazil,Romania,21,22,International Test Match,,,False,,
 2019-06-15,Chile,Spain,22,29,International Test Match,,,False,,
 2019-06-15,Germany,Portugal,32,37,International Test Match,,,False,,
-2019-06-22,Uruguay,Spain,21,41,International Test Match,Montevideo,Uruguay,False,3,6
-2019-07-20,Argentina,New Zealand,16,20,Rugby Championship,Buenos Aires,Argentina,False,1,2
-2019-07-20,South Africa,Australia,35,17,Rugby Championship,Johannesburg,South Africa,False,5,2
-2019-07-27,New Zealand,South Africa,16,16,Rugby Championship,Wellington,New Zealand,False,1,1
-2019-07-27,Australia,Argentina,16,10,Rugby Championship,Brisbane,Australia,False,1,1
-2019-08-10,Australia,New Zealand,47,26,Rugby Championship,Perth,Australia,False,6,4
-2019-08-10,Argentina,South Africa,13,46,Rugby Championship,Salta,Argentina,False,1,5
+2019-06-22,Uruguay,Spain,21,41,International Test Match,Montevideo,Uruguay,False,3.0,6.0
+2019-07-20,Argentina,New Zealand,16,20,Rugby Championship,Buenos Aires,Argentina,False,1.0,2.0
+2019-07-20,South Africa,Australia,35,17,Rugby Championship,Johannesburg,South Africa,False,5.0,2.0
+2019-07-27,New Zealand,South Africa,16,16,Rugby Championship,Wellington,New Zealand,False,1.0,1.0
+2019-07-27,Australia,Argentina,16,10,Rugby Championship,Brisbane,Australia,False,1.0,1.0
+2019-08-10,Australia,New Zealand,47,26,Rugby Championship,Perth,Australia,False,6.0,4.0
+2019-08-10,Argentina,South Africa,13,46,Rugby Championship,Salta,Argentina,False,1.0,5.0
 2019-08-10,Ireland,Italy,29,10,International Test Match,Dublin,Ireland,False,,
 2019-08-11,England,Wales,33,19,International Test Match,London,England,False,,
 2019-08-17,New Zealand,Australia,36,0,International Test Match,Auckland,New Zealand,False,,
@@ -2859,74 +2859,74 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2019-09-07,Australia,Samoa,34,15,International Test Match,Sydney,Australia,False,,
 2019-09-07,Ireland,Wales,19,10,International Test Match,Dublin,Ireland,False,,
 2019-09-08,Canada,United States,15,20,International Test Match,,,False,,
-2019-09-20,Japan,Russia,30,10,Rugby World Cup,Tokyo,Japan,False,4,1
-2019-09-21,New Zealand,South Africa,23,13,Rugby World Cup,Yokohama,Japan,False,2,1
-2019-09-21,France,Argentina,23,21,Rugby World Cup,Tokyo,Japan,False,2,2
-2019-09-21,Australia,Fiji,39,21,Rugby World Cup,Sapporo,Japan,False,6,2
-2019-09-22,England,Tonga,35,3,Rugby World Cup,Sapporo,Japan,False,4,
-2019-09-22,Italy,Namibia,47,22,Rugby World Cup,Osaka,Japan,False,7,3
-2019-09-22,Ireland,Scotland,27,3,Rugby World Cup,Yokohama,Japan,False,4,
-2019-09-23,Wales,Georgia,43,14,Rugby World Cup,,,False,6,2
-2019-09-24,Russia,Samoa,9,34,Rugby World Cup,Saitama,Japan,False,,6
-2019-09-25,Fiji,Uruguay,27,30,Rugby World Cup,,,False,5,3
-2019-09-26,England,United States,45,7,Rugby World Cup,Kobe,Japan,False,7,1
-2019-09-26,Italy,Canada,48,7,Rugby World Cup,Fukuoka,Japan,False,7,1
-2019-09-28,South Africa,Namibia,57,3,Rugby World Cup,,,False,9,
-2019-09-28,Japan,Ireland,19,12,Rugby World Cup,,,False,1,2
-2019-09-28,Argentina,Tonga,28,12,Rugby World Cup,Osaka,Japan,False,4,2
-2019-09-29,Australia,Wales,25,29,Rugby World Cup,Tokyo,Japan,False,3,2
-2019-09-29,Georgia,Uruguay,33,7,Rugby World Cup,Saitama,Japan,False,5,1
-2019-09-30,Scotland,Samoa,34,0,Rugby World Cup,Kobe,Japan,False,4,
-2019-10-02,France,United States,33,9,Rugby World Cup,Fukuoka,Japan,False,5,
-2019-10-02,New Zealand,Canada,63,0,Rugby World Cup,Oita,Japan,False,9,
-2019-10-03,Ireland,Russia,35,0,Rugby World Cup,Kobe,Japan,False,5,
-2019-10-03,Georgia,Fiji,10,45,Rugby World Cup,Osaka,Japan,False,1,7
-2019-10-04,South Africa,Italy,49,3,Rugby World Cup,,,False,7,
-2019-10-05,Japan,Samoa,38,19,Rugby World Cup,,,False,4,1
-2019-10-05,Australia,Uruguay,45,10,Rugby World Cup,Oita,Japan,False,7,1
-2019-10-05,England,Argentina,39,10,Rugby World Cup,Tokyo,Japan,False,6,1
-2019-10-06,New Zealand,Namibia,71,9,Rugby World Cup,Tokyo,Japan,False,11,
-2019-10-06,France,Tonga,23,21,Rugby World Cup,,,False,2,3
-2019-10-08,South Africa,Canada,66,7,Rugby World Cup,Kobe,Japan,False,10,1
-2019-10-09,Argentina,United States,47,17,Rugby World Cup,Saitama,Japan,False,7,3
-2019-10-09,Scotland,Russia,61,0,Rugby World Cup,,,False,9,
-2019-10-09,Wales,Fiji,29,17,Rugby World Cup,Oita,Japan,False,4,3
-2019-10-11,Australia,Georgia,27,8,Rugby World Cup,,,False,4,1
+2019-09-20,Japan,Russia,30,10,Rugby World Cup,Tokyo,Japan,False,4.0,1.0
+2019-09-21,New Zealand,South Africa,23,13,Rugby World Cup,Yokohama,Japan,False,2.0,1.0
+2019-09-21,France,Argentina,23,21,Rugby World Cup,Tokyo,Japan,False,2.0,2.0
+2019-09-21,Australia,Fiji,39,21,Rugby World Cup,Sapporo,Japan,False,6.0,2.0
+2019-09-22,England,Tonga,35,3,Rugby World Cup,Sapporo,Japan,False,4.0,
+2019-09-22,Italy,Namibia,47,22,Rugby World Cup,Osaka,Japan,False,7.0,3.0
+2019-09-22,Ireland,Scotland,27,3,Rugby World Cup,Yokohama,Japan,False,4.0,
+2019-09-23,Wales,Georgia,43,14,Rugby World Cup,,,False,6.0,2.0
+2019-09-24,Russia,Samoa,9,34,Rugby World Cup,Saitama,Japan,False,,6.0
+2019-09-25,Fiji,Uruguay,27,30,Rugby World Cup,,,False,5.0,3.0
+2019-09-26,England,United States,45,7,Rugby World Cup,Kobe,Japan,False,7.0,1.0
+2019-09-26,Italy,Canada,48,7,Rugby World Cup,Fukuoka,Japan,False,7.0,1.0
+2019-09-28,South Africa,Namibia,57,3,Rugby World Cup,,,False,9.0,
+2019-09-28,Japan,Ireland,19,12,Rugby World Cup,,,False,1.0,2.0
+2019-09-28,Argentina,Tonga,28,12,Rugby World Cup,Osaka,Japan,False,4.0,2.0
+2019-09-29,Australia,Wales,25,29,Rugby World Cup,Tokyo,Japan,False,3.0,2.0
+2019-09-29,Georgia,Uruguay,33,7,Rugby World Cup,Saitama,Japan,False,5.0,1.0
+2019-09-30,Scotland,Samoa,34,0,Rugby World Cup,Kobe,Japan,False,4.0,
+2019-10-02,France,United States,33,9,Rugby World Cup,Fukuoka,Japan,False,5.0,
+2019-10-02,New Zealand,Canada,63,0,Rugby World Cup,Oita,Japan,False,9.0,
+2019-10-03,Ireland,Russia,35,0,Rugby World Cup,Kobe,Japan,False,5.0,
+2019-10-03,Georgia,Fiji,10,45,Rugby World Cup,Osaka,Japan,False,1.0,7.0
+2019-10-04,South Africa,Italy,49,3,Rugby World Cup,,,False,7.0,
+2019-10-05,Japan,Samoa,38,19,Rugby World Cup,,,False,4.0,1.0
+2019-10-05,Australia,Uruguay,45,10,Rugby World Cup,Oita,Japan,False,7.0,1.0
+2019-10-05,England,Argentina,39,10,Rugby World Cup,Tokyo,Japan,False,6.0,1.0
+2019-10-06,New Zealand,Namibia,71,9,Rugby World Cup,Tokyo,Japan,False,11.0,
+2019-10-06,France,Tonga,23,21,Rugby World Cup,,,False,2.0,3.0
+2019-10-08,South Africa,Canada,66,7,Rugby World Cup,Kobe,Japan,False,10.0,1.0
+2019-10-09,Argentina,United States,47,17,Rugby World Cup,Saitama,Japan,False,7.0,3.0
+2019-10-09,Scotland,Russia,61,0,Rugby World Cup,,,False,9.0,
+2019-10-09,Wales,Fiji,29,17,Rugby World Cup,Oita,Japan,False,4.0,3.0
+2019-10-11,Australia,Georgia,27,8,Rugby World Cup,,,False,4.0,1.0
 2019-10-12,New Zealand,Italy,0,0,Rugby World Cup,,,False,,
-2019-10-12,Ireland,Samoa,47,5,Rugby World Cup,Fukuoka,Japan,False,7,1
+2019-10-12,Ireland,Samoa,47,5,Rugby World Cup,Fukuoka,Japan,False,7.0,1.0
 2019-10-12,England,France,0,0,Rugby World Cup,Yokohama,Japan,False,,
 2019-10-13,Namibia,Canada,0,0,Rugby World Cup,,,False,,
-2019-10-13,United States,Tonga,19,31,Rugby World Cup,Osaka,Japan,False,3,4
-2019-10-13,Wales,Uruguay,35,13,Rugby World Cup,,,False,5,1
-2019-10-13,Japan,Scotland,28,21,Rugby World Cup,Yokohama,Japan,False,4,3
-2019-10-19,New Zealand,Ireland,46,14,Rugby World Cup,Tokyo,Japan,False,7,2
-2019-10-19,England,Australia,40,16,Rugby World Cup,Oita,Japan,False,4,1
-2019-10-20,Japan,South Africa,3,26,Rugby World Cup,Tokyo,Japan,False,,3
-2019-10-20,Wales,France,20,19,Rugby World Cup,Oita,Japan,False,2,3
-2019-10-26,England,New Zealand,19,7,Rugby World Cup,Yokohama,Japan,False,1,1
-2019-10-27,Wales,South Africa,16,19,Rugby World Cup,Yokohama,Japan,False,1,1
-2019-11-01,New Zealand,Wales,40,17,Rugby World Cup,Tokyo,Japan,False,6,2
-2019-11-02,England,South Africa,12,32,Rugby World Cup,Yokohama,Japan,False,,2
-2020-02-01,Ireland,Scotland,19,12,Six Nations,Dublin,Ireland,False,1,
-2020-02-01,Wales,Italy,42,0,Six Nations,Cardiff,Wales,False,5,
-2020-02-02,France,England,24,17,Six Nations,Saint-Denis,Reunion,False,3,2
-2020-02-08,Scotland,England,6,13,Six Nations,Edinburgh,Scotland,False,,1
-2020-02-08,Ireland,Wales,24,14,Six Nations,Dublin,Ireland,False,4,2
-2020-02-09,France,Italy,35,22,Six Nations,Saint-Denis,Reunion,False,5,3
-2020-02-22,Wales,France,23,27,Six Nations,Cardiff,Wales,False,2,3
-2020-02-22,Italy,Scotland,0,17,Six Nations,Rome,Italy,False,,3
-2020-02-23,England,Ireland,24,12,Six Nations,London,England,False,3,2
-2020-03-07,England,Wales,33,30,Six Nations,London,England,False,3,3
-2020-03-08,Scotland,France,28,17,Six Nations,Edinburgh,Scotland,False,3,2
+2019-10-13,United States,Tonga,19,31,Rugby World Cup,Osaka,Japan,False,3.0,4.0
+2019-10-13,Wales,Uruguay,35,13,Rugby World Cup,,,False,5.0,1.0
+2019-10-13,Japan,Scotland,28,21,Rugby World Cup,Yokohama,Japan,False,4.0,3.0
+2019-10-19,New Zealand,Ireland,46,14,Rugby World Cup,Tokyo,Japan,False,7.0,2.0
+2019-10-19,England,Australia,40,16,Rugby World Cup,Oita,Japan,False,4.0,1.0
+2019-10-20,Japan,South Africa,3,26,Rugby World Cup,Tokyo,Japan,False,,3.0
+2019-10-20,Wales,France,20,19,Rugby World Cup,Oita,Japan,False,2.0,3.0
+2019-10-26,England,New Zealand,19,7,Rugby World Cup,Yokohama,Japan,False,1.0,1.0
+2019-10-27,Wales,South Africa,16,19,Rugby World Cup,Yokohama,Japan,False,1.0,1.0
+2019-11-01,New Zealand,Wales,40,17,Rugby World Cup,Tokyo,Japan,False,6.0,2.0
+2019-11-02,England,South Africa,12,32,Rugby World Cup,Yokohama,Japan,False,,2.0
+2020-02-01,Ireland,Scotland,19,12,Six Nations,Dublin,Ireland,False,1.0,
+2020-02-01,Wales,Italy,42,0,Six Nations,Cardiff,Wales,False,5.0,
+2020-02-02,France,England,24,17,Six Nations,Saint-Denis,Reunion,False,3.0,2.0
+2020-02-08,Scotland,England,6,13,Six Nations,Edinburgh,Scotland,False,,1.0
+2020-02-08,Ireland,Wales,24,14,Six Nations,Dublin,Ireland,False,4.0,2.0
+2020-02-09,France,Italy,35,22,Six Nations,Saint-Denis,Reunion,False,5.0,3.0
+2020-02-22,Wales,France,23,27,Six Nations,Cardiff,Wales,False,2.0,3.0
+2020-02-22,Italy,Scotland,0,17,Six Nations,Rome,Italy,False,,3.0
+2020-02-23,England,Ireland,24,12,Six Nations,London,England,False,3.0,2.0
+2020-03-07,England,Wales,33,30,Six Nations,London,England,False,3.0,3.0
+2020-03-08,Scotland,France,28,17,Six Nations,Edinburgh,Scotland,False,3.0,2.0
 2020-10-11,New Zealand,Australia,16,16,International Test Match,Wellington,New Zealand,False,,
 2020-10-18,New Zealand,Australia,27,7,International Test Match,Auckland,New Zealand,False,,
 2020-10-23,Scotland,Georgia,48,7,International Test Match,Edinburgh,Scotland,False,,
 2020-10-24,France,Wales,38,21,International Test Match,Saint-Denis,Reunion,False,,
-2020-10-24,Ireland,Italy,50,17,Six Nations,Dublin,Ireland,False,7,2
-2020-10-31,Wales,Scotland,10,14,Six Nations,Llanelli,Wales,False,1,1
-2020-10-31,France,Ireland,35,27,Six Nations,Saint-Denis,Reunion,False,4,3
+2020-10-24,Ireland,Italy,50,17,Six Nations,Dublin,Ireland,False,7.0,2.0
+2020-10-31,Wales,Scotland,10,14,Six Nations,Llanelli,Wales,False,1.0,1.0
+2020-10-31,France,Ireland,35,27,Six Nations,Saint-Denis,Reunion,False,4.0,3.0
 2020-10-31,Australia,New Zealand,5,43,2020 Tri Nations Series,Sydney,Australia,False,,
-2020-10-31,Italy,England,5,34,Six Nations,Rome,Italy,False,1,5
+2020-10-31,Italy,England,5,34,Six Nations,Rome,Italy,False,1.0,5.0
 2020-11-01,Uruguay,Spain,20,32,International Test Match,Montevideo,Uruguay,False,,
 2020-11-06,Uruguay,Spain,19,10,International Test Match,Montevideo,Uruguay,False,,
 2020-11-07,Australia,New Zealand,24,22,2020 Tri Nations Series,Brisbane,Australia,False,,
@@ -2945,21 +2945,21 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2020-12-05,Wales,Italy,38,18,Autumn Nations Cup,Llanelli,Wales,False,,
 2020-12-05,Ireland,Scotland,31,16,Autumn Nations Cup,Dublin,Ireland,False,,
 2020-12-06,England,France,22,19,Autumn Nations Cup Final,London,England,False,,
-2021-02-06,England,Scotland,6,11,Six Nations,London,England,False,,1
-2021-02-06,Italy,France,10,50,Six Nations,Rome,Italy,False,1,7
-2021-02-07,Wales,Ireland,21,16,Six Nations,Cardiff,Wales,False,2,1
-2021-02-13,Scotland,Wales,24,25,Six Nations,Edinburgh,Scotland,False,3,4
-2021-02-13,England,Italy,41,18,Six Nations,London,England,False,6,2
-2021-02-14,Ireland,France,13,15,Six Nations,Dublin,Ireland,False,1,2
-2021-02-27,Italy,Ireland,10,48,Six Nations,Rome,Italy,False,1,6
-2021-02-27,Wales,England,40,24,Six Nations,Cardiff,Wales,False,4,2
-2021-03-13,Italy,Wales,7,48,Six Nations,Rome,Italy,False,1,7
-2021-03-13,England,France,23,20,Six Nations,London,England,False,2,2
-2021-03-14,Scotland,Ireland,24,27,Six Nations,Edinburgh,Scotland,False,3,2
-2021-03-20,Scotland,Italy,52,10,Six Nations,Edinburgh,Scotland,False,8,1
-2021-03-20,Ireland,England,32,18,Six Nations,Dublin,Ireland,False,2,2
-2021-03-20,France,Wales,32,30,Six Nations,Saint-Denis,Reunion,False,4,3
-2021-03-26,France,Scotland,23,27,Six Nations,Saint-Denis,Reunion,False,3,3
+2021-02-06,England,Scotland,6,11,Six Nations,London,England,False,,1.0
+2021-02-06,Italy,France,10,50,Six Nations,Rome,Italy,False,1.0,7.0
+2021-02-07,Wales,Ireland,21,16,Six Nations,Cardiff,Wales,False,2.0,1.0
+2021-02-13,Scotland,Wales,24,25,Six Nations,Edinburgh,Scotland,False,3.0,4.0
+2021-02-13,England,Italy,41,18,Six Nations,London,England,False,6.0,2.0
+2021-02-14,Ireland,France,13,15,Six Nations,Dublin,Ireland,False,1.0,2.0
+2021-02-27,Italy,Ireland,10,48,Six Nations,Rome,Italy,False,1.0,6.0
+2021-02-27,Wales,England,40,24,Six Nations,Cardiff,Wales,False,4.0,2.0
+2021-03-13,Italy,Wales,7,48,Six Nations,Rome,Italy,False,1.0,7.0
+2021-03-13,England,France,23,20,Six Nations,London,England,False,2.0,2.0
+2021-03-14,Scotland,Ireland,24,27,Six Nations,Edinburgh,Scotland,False,3.0,2.0
+2021-03-20,Scotland,Italy,52,10,Six Nations,Edinburgh,Scotland,False,8.0,1.0
+2021-03-20,Ireland,England,32,18,Six Nations,Dublin,Ireland,False,2.0,2.0
+2021-03-20,France,Wales,32,30,Six Nations,Saint-Denis,Reunion,False,4.0,3.0
+2021-03-26,France,Scotland,23,27,Six Nations,Saint-Denis,Reunion,False,3.0,3.0
 2021-05-29,Belgium,Netherlands,21,23,International Test Match,,,False,,
 2021-07-02,South Africa,Georgia,40,9,International Test Match,Pretoria,South Africa,False,,
 2021-07-03,Wales,Canada,68,12,International Test Match,Cardiff,Wales,False,,
@@ -2979,22 +2979,22 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2021-07-17,New Zealand,Fiji,60,13,International Test Match,Hamilton,New Zealand,False,,
 2021-07-17,Argentina,Wales,33,11,International Test Match,Cardiff,Wales,False,,
 2021-08-07,New Zealand,Australia,33,25,International Test Match,Auckland,New Zealand,False,,
-2021-08-14,South Africa,Argentina,32,12,Rugby Championship,Port Elizabeth,South Africa,False,3,
-2021-08-14,New Zealand,Australia,57,22,Rugby Championship,Auckland,New Zealand,False,8,3
-2021-08-21,Argentina,South Africa,10,29,Rugby Championship,Port Elizabeth,South Africa,False,1,2
+2021-08-14,South Africa,Argentina,32,12,Rugby Championship,Port Elizabeth,South Africa,False,3.0,
+2021-08-14,New Zealand,Australia,57,22,Rugby Championship,Auckland,New Zealand,False,8.0,3.0
+2021-08-21,Argentina,South Africa,10,29,Rugby Championship,Port Elizabeth,South Africa,False,1.0,2.0
 2021-09-04,Canada,United States,34,21,International Test Match,,,False,,
-2021-09-05,Australia,New Zealand,21,38,Rugby Championship,Perth,Australia,False,3,6
+2021-09-05,Australia,New Zealand,21,38,Rugby Championship,Perth,Australia,False,3.0,6.0
 2021-09-11,Argentina,New Zealand,0,39,2021 Rugby Championship,Gold Coast,Australia,True,,
 2021-09-11,Australia,South Africa,28,26,2021 Rugby Championship,Gold Coast,Australia,False,,
-2021-09-12,Australia,South Africa,28,26,Rugby Championship,Gold Coast,Australia,False,1,3
+2021-09-12,Australia,South Africa,28,26,Rugby Championship,Gold Coast,Australia,False,1.0,3.0
 2021-09-12,United States,Canada,38,16,International Test Match,Glendale,United States of America,False,,
-2021-09-12,New Zealand,Argentina,39,0,Rugby Championship,Gold Coast,Australia,False,5,
-2021-09-18,Australia,South Africa,30,17,Rugby Championship,Brisbane,Australia,False,4,1
-2021-09-18,Argentina,New Zealand,13,36,Rugby Championship,Brisbane,Australia,False,1,5
-2021-09-25,Australia,Argentina,27,8,Rugby Championship,Townsville,Australia,False,3,1
-2021-09-25,New Zealand,South Africa,19,17,Rugby Championship,Townsville,Australia,False,1,1
-2021-10-02,South Africa,New Zealand,31,29,Rugby Championship,Gold Coast,Australia,False,2,3
-2021-10-02,Australia,Argentina,32,17,Rugby Championship,Gold Coast,Australia,False,5,2
+2021-09-12,New Zealand,Argentina,39,0,Rugby Championship,Gold Coast,Australia,False,5.0,
+2021-09-18,Australia,South Africa,30,17,Rugby Championship,Brisbane,Australia,False,4.0,1.0
+2021-09-18,Argentina,New Zealand,13,36,Rugby Championship,Brisbane,Australia,False,1.0,5.0
+2021-09-25,Australia,Argentina,27,8,Rugby Championship,Townsville,Australia,False,3.0,1.0
+2021-09-25,New Zealand,South Africa,19,17,Rugby Championship,Townsville,Australia,False,1.0,1.0
+2021-10-02,South Africa,New Zealand,31,29,Rugby Championship,Gold Coast,Australia,False,2.0,3.0
+2021-10-02,Australia,Argentina,32,17,Rugby Championship,Gold Coast,Australia,False,5.0,2.0
 2021-10-03,United States,Uruguay,19,16,International Test Match,Glendale,United States of America,False,,
 2021-10-09,Uruguay,United States,34,15,International Test Match,Montevideo,Uruguay,False,,
 2021-10-23,Japan,Australia,23,32,International Test Match,Oita,Japan,False,,
@@ -3028,26 +3028,26 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2021-11-20,Italy,Uruguay,17,10,International Test Match,Parma,Italy,False,,
 2021-11-21,Ireland,Argentina,53,7,International Test Match,Dublin,Ireland,False,,
 2021-11-26,Russia,Chile,27,42,International Test Match,Sochi,Russia,False,,
-2022-02-05,Ireland,Wales,29,7,Six Nations,Dublin,Ireland,False,4,1
-2022-02-05,Scotland,England,20,17,Six Nations,Edinburgh,Scotland,False,1,1
-2022-02-06,France,Italy,37,10,Six Nations,Saint-Denis,Reunion,False,5,1
+2022-02-05,Ireland,Wales,29,7,Six Nations,Dublin,Ireland,False,4.0,1.0
+2022-02-05,Scotland,England,20,17,Six Nations,Edinburgh,Scotland,False,1.0,1.0
+2022-02-06,France,Italy,37,10,Six Nations,Saint-Denis,Reunion,False,5.0,1.0
 2022-02-07,France,Italy,37,10,2022 Six Nations Championship,Saint-Denis,France,False,,
-2022-02-12,France,Ireland,30,24,Six Nations,Saint-Denis,Reunion,False,2,3
-2022-02-12,Wales,Scotland,20,17,Six Nations,Cardiff,Wales,False,1,1
-2022-02-13,Italy,England,0,33,Six Nations,Rome,Italy,False,,5
-2022-02-26,Scotland,France,17,36,Six Nations,Edinburgh,Scotland,False,2,6
-2022-02-26,England,Wales,23,19,Six Nations,London,England,False,1,3
-2022-02-27,Ireland,Italy,57,6,Six Nations,Dublin,Ireland,False,9,
+2022-02-12,France,Ireland,30,24,Six Nations,Saint-Denis,Reunion,False,2.0,3.0
+2022-02-12,Wales,Scotland,20,17,Six Nations,Cardiff,Wales,False,1.0,1.0
+2022-02-13,Italy,England,0,33,Six Nations,Rome,Italy,False,,5.0
+2022-02-26,Scotland,France,17,36,Six Nations,Edinburgh,Scotland,False,2.0,6.0
+2022-02-26,England,Wales,23,19,Six Nations,London,England,False,1.0,3.0
+2022-02-27,Ireland,Italy,57,6,Six Nations,Dublin,Ireland,False,9.0,
 2022-02-28,Ireland,Italy,57,6,2022 Six Nations Championship,Dublin,Ireland,False,,
-2022-03-11,Wales,France,9,13,Six Nations,Cardiff,Wales,False,,1
-2022-03-12,Italy,Scotland,22,33,Six Nations,Rome,Italy,False,3,5
-2022-03-12,England,Ireland,15,32,Six Nations,London,England,False,,4
-2022-03-19,France,England,25,13,Six Nations,Saint-Denis,Reunion,False,3,1
-2022-03-19,Ireland,Scotland,26,5,Six Nations,Dublin,Ireland,False,4,1
-2022-03-19,Wales,Italy,21,22,Six Nations,Cardiff,Wales,False,3,1
+2022-03-11,Wales,France,9,13,Six Nations,Cardiff,Wales,False,,1.0
+2022-03-12,Italy,Scotland,22,33,Six Nations,Rome,Italy,False,3.0,5.0
+2022-03-12,England,Ireland,15,32,Six Nations,London,England,False,,4.0
+2022-03-19,France,England,25,13,Six Nations,Saint-Denis,Reunion,False,3.0,1.0
+2022-03-19,Ireland,Scotland,26,5,Six Nations,Dublin,Ireland,False,4.0,1.0
+2022-03-19,Wales,Italy,21,22,Six Nations,Cardiff,Wales,False,3.0,1.0
 2022-03-20,France,England,25,13,2022 Six Nations Championship,Saint-Denis,France,False,,
 2022-06-18,Japan,Uruguay,34,15,International Test Match,Tokyo,Japan,False,,
-2022-06-25,Japan,Uruguay,43,7,International Test Match,Fukuoka,Japan,False,6,1
+2022-06-25,Japan,Uruguay,43,7,International Test Match,Fukuoka,Japan,False,6.0,1.0
 2022-06-25,Portugal,Italy,31,38,International Test Match,Lisbon,Portugal,False,,
 2022-07-01,Romania,Italy,13,45,International Test Match,Bucharest,Romania,False,,
 2022-07-02,Argentina,Scotland,26,18,International Test Match,San Salvador,El Salvador,False,,
@@ -3056,7 +3056,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2022-07-02,Japan,France,23,42,International Test Match,,,False,,
 2022-07-02,Australia,England,30,28,International Test Match,Perth,Australia,False,,
 2022-07-09,Chile,United States,21,22,International Test Match,Santiago,Chile,False,,
-2022-07-09,Argentina,Scotland,6,25,International Test Match,Salta,Argentina,False,,4
+2022-07-09,Argentina,Scotland,6,25,International Test Match,Salta,Argentina,False,,4.0
 2022-07-09,South Africa,Wales,12,13,International Test Match,Bloemfontein,South Africa,False,,
 2022-07-09,New Zealand,Ireland,12,23,International Test Match,Dunedin,New Zealand,False,,
 2022-07-09,Japan,France,15,20,International Test Match,Tokyo,Japan,False,,
@@ -3067,22 +3067,22 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2022-07-16,Australia,England,17,21,International Test Match,Sydney,Australia,False,,
 2022-07-16,United States,Chile,29,31,International Test Match,Glendale,United States of America,False,,
 2022-07-16,South Africa,Wales,30,14,International Test Match,Cape Town,South Africa,False,,
-2022-07-16,Argentina,Scotland,34,31,International Test Match,,,False,4,4
+2022-07-16,Argentina,Scotland,34,31,International Test Match,,,False,4.0,4.0
 2022-07-16,New Zealand,Ireland,22,32,International Test Match,Wellington,New Zealand,False,,
 2022-07-17,Uruguay,Romania,26,20,International Test Match,Montevideo,Uruguay,False,,
-2022-07-23,Tonga,Hong Kong China,44,22,International Test Match,Bokarina,Australia,False,6,3
-2022-08-06,Argentina,Australia,24,38,Rugby Championship,Mendoza,Argentina,False,2,4
-2022-08-06,South Africa,New Zealand,21,10,Rugby Championship,Nelspruit,South Africa,False,2,1
-2022-08-13,Argentina,Australia,48,17,Rugby Championship,San Juan,Argentina,False,7,2
-2022-08-13,South Africa,New Zealand,23,35,Rugby Championship,Johannesburg,South Africa,False,2,4
-2022-08-27,Australia,South Africa,25,17,Rugby Championship,Adelaide,Australia,False,3,2
-2022-08-27,New Zealand,Argentina,18,25,Rugby Championship,Christchurch,New Zealand,False,2,1
-2022-09-03,Australia,South Africa,8,24,Rugby Championship,Sydney,Australia,False,1,4
-2022-09-03,New Zealand,Argentina,53,3,Rugby Championship,Hamilton,New Zealand,False,7,
-2022-09-15,Australia,New Zealand,37,39,Rugby Championship,Melbourne,Australia,False,4,5
-2022-09-17,Argentina,South Africa,20,36,Rugby Championship,Buenos Aires,Argentina,False,1,4
-2022-09-24,New Zealand,Australia,40,14,Rugby Championship,Auckland,New Zealand,False,4,2
-2022-09-24,South Africa,Argentina,38,21,Rugby Championship,Durban,South Africa,False,3,3
+2022-07-23,Tonga,Hong Kong China,44,22,International Test Match,Bokarina,Australia,False,6.0,3.0
+2022-08-06,Argentina,Australia,24,38,Rugby Championship,Mendoza,Argentina,False,2.0,4.0
+2022-08-06,South Africa,New Zealand,21,10,Rugby Championship,Nelspruit,South Africa,False,2.0,1.0
+2022-08-13,Argentina,Australia,48,17,Rugby Championship,San Juan,Argentina,False,7.0,2.0
+2022-08-13,South Africa,New Zealand,23,35,Rugby Championship,Johannesburg,South Africa,False,2.0,4.0
+2022-08-27,Australia,South Africa,25,17,Rugby Championship,Adelaide,Australia,False,3.0,2.0
+2022-08-27,New Zealand,Argentina,18,25,Rugby Championship,Christchurch,New Zealand,False,2.0,1.0
+2022-09-03,Australia,South Africa,8,24,Rugby Championship,Sydney,Australia,False,1.0,4.0
+2022-09-03,New Zealand,Argentina,53,3,Rugby Championship,Hamilton,New Zealand,False,7.0,
+2022-09-15,Australia,New Zealand,37,39,Rugby Championship,Melbourne,Australia,False,4.0,5.0
+2022-09-17,Argentina,South Africa,20,36,Rugby Championship,Buenos Aires,Argentina,False,1.0,4.0
+2022-09-24,New Zealand,Australia,40,14,Rugby Championship,Auckland,New Zealand,False,4.0,2.0
+2022-09-24,South Africa,Argentina,38,21,Rugby Championship,Durban,South Africa,False,3.0,3.0
 2022-10-01,Denmark,Andorra,25,10,International Test Match,Copenhagen,Denmark,False,,
 2022-10-08,Serbia,Montenegro,62,0,International Test Match,,,False,,
 2022-10-08,Hungary,Czech Republic,21,41,International Test Match,Budapest,Hungary,False,,
@@ -3105,27 +3105,27 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2022-11-05,Scotland,Fiji,28,12,International Test Match,Edinburgh,Scotland,False,,
 2022-11-05,Lithuania,Ukraine,39,20,International Test Match,Vilnius,Lithuania,False,,
 2022-11-05,Romania,Chile,30,23,International Test Match,Bucharest,Romania,False,,
-2022-11-06,Portugal,Hong Kong China,42,14,International Test Match,Dubai,Arabian Gulf,False,6,2
+2022-11-06,Portugal,Hong Kong China,42,14,International Test Match,Dubai,Arabian Gulf,False,6.0,2.0
 2022-11-06,Georgia,Uruguay,34,18,International Test Match,Tbilisi,Georgia,False,,
-2022-11-06,United States,Kenya,68,14,International Test Match,Dubai,Arabian Gulf,False,10,2
+2022-11-06,United States,Kenya,68,14,International Test Match,Dubai,Arabian Gulf,False,10.0,2.0
 2022-11-06,England,Argentina,29,30,International Test Match,London,England,False,,
 2022-11-12,England,Japan,52,13,International Test Match,London,England,False,,
 2022-11-12,Spain,Namibia,34,15,International Test Match,Madrid,Spain,False,,
 2022-11-12,Georgia,Samoa,19,20,International Test Match,Tbilisi,Georgia,False,,
 2022-11-12,Wales,Argentina,20,13,International Test Match,Cardiff,Wales,False,,
-2022-11-12,United States,Hong Kong China,49,7,International Test Match,Dubai,Arabian Gulf,False,7,1
+2022-11-12,United States,Hong Kong China,49,7,International Test Match,Dubai,Arabian Gulf,False,7.0,1.0
 2022-11-12,France,South Africa,30,26,International Test Match,Marseille,France,False,,
 2022-11-12,Switzerland,Lithuania,45,6,International Test Match,Lausanne,Switzerland,False,,
 2022-11-12,Czech Republic,Moldova,39,13,International Test Match,Zlin,Czech Republic,False,,
 2022-11-12,Tonga,Chile,39,10,International Test Match,Bucharest,Romania,False,,
-2022-11-12,Portugal,Kenya,85,0,International Test Match,Dubai,Arabian Gulf,False,12,
+2022-11-12,Portugal,Kenya,85,0,International Test Match,Dubai,Arabian Gulf,False,12.0,
 2022-11-12,Netherlands,Canada,25,37,International Test Match,Amsterdam,Netherlands,False,,
 2022-11-12,Italy,Australia,28,27,International Test Match,Florence,Italy,False,,
 2022-11-12,Ireland,Fiji,35,17,International Test Match,Dublin,Ireland,False,,
 2022-11-13,Romania,Uruguay,16,21,International Test Match,Bucharest,Romania,False,,
 2022-11-13,Scotland,New Zealand,23,31,International Test Match,Edinburgh,Scotland,False,,
 2022-11-18,Hong Kong China,Kenya,22,18,International Test Match,Dubai,Arabian Gulf,False,,
-2022-11-18,United States,Portugal,16,16,International Test Match,Dubai,Arabian Gulf,False,1,1
+2022-11-18,United States,Portugal,16,16,International Test Match,Dubai,Arabian Gulf,False,1.0,1.0
 2022-11-19,Romania,Samoa,0,22,International Test Match,Bucharest,Romania,False,,
 2022-11-19,England,New Zealand,25,25,International Test Match,London,England,False,,
 2022-11-19,Canada,Namibia,37,43,International Test Match,Amsterdam,Netherlands,False,,
@@ -3138,23 +3138,23 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2022-11-26,England,South Africa,13,27,International Test Match,London,England,False,,
 2022-11-26,Wales,Australia,34,39,International Test Match,Cardiff,Wales,False,,
 2022-12-10,Cayman Islands,Mexico,35,14,International Test Match,,,False,,
-2023-02-04,Wales,Ireland,10,34,Six Nations,Cardiff,Wales,False,1,4
-2023-02-04,England,Scotland,23,29,Six Nations,London,England,False,3,4
-2023-02-05,Italy,France,24,29,Six Nations,Rome,Italy,False,1,4
-2023-02-11,Scotland,Wales,35,7,Six Nations,Edinburgh,Scotland,False,5,1
-2023-02-11,Ireland,France,32,19,Six Nations,Dublin,Ireland,False,4,1
-2023-02-12,England,Italy,31,14,Six Nations,London,England,False,4,2
-2023-02-25,Italy,Ireland,20,34,Six Nations,Rome,Italy,False,2,5
-2023-02-25,Wales,England,10,20,Six Nations,Cardiff,Wales,False,1,3
+2023-02-04,Wales,Ireland,10,34,Six Nations,Cardiff,Wales,False,1.0,4.0
+2023-02-04,England,Scotland,23,29,Six Nations,London,England,False,3.0,4.0
+2023-02-05,Italy,France,24,29,Six Nations,Rome,Italy,False,1.0,4.0
+2023-02-11,Scotland,Wales,35,7,Six Nations,Edinburgh,Scotland,False,5.0,1.0
+2023-02-11,Ireland,France,32,19,Six Nations,Dublin,Ireland,False,4.0,1.0
+2023-02-12,England,Italy,31,14,Six Nations,London,England,False,4.0,2.0
+2023-02-25,Italy,Ireland,20,34,Six Nations,Rome,Italy,False,2.0,5.0
+2023-02-25,Wales,England,10,20,Six Nations,Cardiff,Wales,False,1.0,3.0
 2023-02-25,Botswana,Eswatini,111,3,International Test Match,,,False,,
-2023-02-26,France,Scotland,32,21,Six Nations,Saint-Denis,Reunion,False,4,3
+2023-02-26,France,Scotland,32,21,Six Nations,Saint-Denis,Reunion,False,4.0,3.0
 2023-03-11,Ukraine,Switzerland,32,59,International Test Match,Zagreb,Serbia and Montenegro,False,,
-2023-03-11,England,France,10,53,Six Nations,London,England,False,1,7
-2023-03-11,Italy,Wales,17,29,Six Nations,Rome,Italy,False,2,3
-2023-03-12,Scotland,Ireland,7,22,Six Nations,Edinburgh,Scotland,False,1,3
-2023-03-18,France,Wales,41,28,Six Nations,Saint-Denis,Reunion,False,5,4
-2023-03-18,Scotland,Italy,26,14,Six Nations,Edinburgh,Scotland,False,4,1
-2023-03-18,Ireland,England,29,16,Six Nations,Dublin,Ireland,False,4,1
+2023-03-11,England,France,10,53,Six Nations,London,England,False,1.0,7.0
+2023-03-11,Italy,Wales,17,29,Six Nations,Rome,Italy,False,2.0,3.0
+2023-03-12,Scotland,Ireland,7,22,Six Nations,Edinburgh,Scotland,False,1.0,3.0
+2023-03-18,France,Wales,41,28,Six Nations,Saint-Denis,Reunion,False,5.0,4.0
+2023-03-18,Scotland,Italy,26,14,Six Nations,Edinburgh,Scotland,False,4.0,1.0
+2023-03-18,Ireland,England,29,16,Six Nations,Dublin,Ireland,False,4.0,1.0
 2023-03-18,Ukraine,Sweden,38,15,International Test Match,Split,Serbia and Montenegro,False,,
 2023-03-25,Lithuania,Croatia,37,39,International Test Match,Vilnius,Lithuania,False,,
 2023-04-01,Lithuania,Sweden,15,18,International Test Match,Vilnius,Lithuania,False,,
@@ -3171,16 +3171,16 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-06-03,South Korea,Malaysia,27,3,International Test Match,Kuala Lumpur,Malaysia,False,,
 2023-06-10,Hong Kong China,Malaysia,88,9,International Test Match,Hong Kong,Hong Kong,False,,
 2023-06-17,Hong Kong China,South Korea,30,10,International Test Match,Hong Kong,Hong Kong,False,,
-2023-07-08,South Africa,Australia,43,12,Rugby Championship,Pretoria,South Africa,False,4,2
-2023-07-08,Argentina,New Zealand,12,41,Rugby Championship,Mendoza,Argentina,False,2,7
-2023-07-15,Australia,Argentina,31,34,Rugby Championship,Sydney,Australia,False,4,4
-2023-07-15,New Zealand,South Africa,35,20,Rugby Championship,Auckland,New Zealand,False,4,3
+2023-07-08,South Africa,Australia,43,12,Rugby Championship,Pretoria,South Africa,False,4.0,2.0
+2023-07-08,Argentina,New Zealand,12,41,Rugby Championship,Mendoza,Argentina,False,2.0,7.0
+2023-07-15,Australia,Argentina,31,34,Rugby Championship,Sydney,Australia,False,4.0,4.0
+2023-07-15,New Zealand,South Africa,35,20,Rugby Championship,Auckland,New Zealand,False,4.0,3.0
 2023-07-22,Japan,Samoa,22,24,International Test Match,Sapporo,Japan,False,,
 2023-07-22,Fiji,Tonga,36,20,International Test Match,Lautoka,Fiji,False,,
 2023-07-29,Samoa,Fiji,19,33,International Test Match,Apia,Samoa,False,,
-2023-07-29,Australia,New Zealand,7,38,Rugby Championship,Melbourne,Australia,False,1,6
+2023-07-29,Australia,New Zealand,7,38,Rugby Championship,Melbourne,Australia,False,1.0,6.0
 2023-07-29,Japan,Tonga,21,16,International Test Match,Osaka,Japan,False,,
-2023-07-29,South Africa,Argentina,22,21,Rugby Championship,Johannesburg,South Africa,False,3,2
+2023-07-29,South Africa,Argentina,22,21,Rugby Championship,Johannesburg,South Africa,False,3.0,2.0
 2023-07-29,Uruguay,Chile,26,25,International Test Match,Montevideo,Uruguay,False,,
 2023-07-29,Scotland,Italy,25,13,International Test Match,Edinburgh,Scotland,False,,
 2023-08-05,Argentina,South Africa,13,24,International Test Match,Buenos Aires,Argentina,False,,
@@ -3197,7 +3197,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-08-12,Georgia,Romania,56,6,International Test Match,Tbilisi,Georgia,False,,
 2023-08-12,France,Scotland,30,27,International Test Match,Saint-Etienne,France,False,,
 2023-08-12,Chile,Namibia,26,28,International Test Match,Temuco,Chile,False,,
-2023-08-12,Portugal,United States,46,20,International Test Match,,,False,7,2
+2023-08-12,Portugal,United States,46,20,International Test Match,,,False,7.0,2.0
 2023-08-15,Tonga,Canada,36,12,International Test Match,,,False,,
 2023-08-19,Wales,South Africa,16,52,International Test Match,Cardiff,Wales,False,,
 2023-08-19,France,Fiji,34,17,International Test Match,Nantes,France,False,,
@@ -3211,63 +3211,63 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-08-26,Spain,Argentina,3,62,International Test Match,Madrid,Spain,False,,
 2023-08-26,Scotland,Georgia,33,6,International Test Match,Edinburgh,Scotland,False,,
 2023-08-27,France,Australia,41,17,International Test Match,Saint-Denis,Reunion,False,,
-2023-09-08,France,New Zealand,27,13,Rugby World Cup,Saint-Denis,Reunion,False,2,2
-2023-09-09,England,Argentina,27,10,Rugby World Cup,Marseille,France,False,,1
-2023-09-09,Australia,Georgia,35,15,Rugby World Cup,Saint-Denis,Reunion,False,4,2
-2023-09-09,Ireland,Romania,82,8,Rugby World Cup,Bordeaux,France,False,12,1
-2023-09-09,Italy,Namibia,52,8,Rugby World Cup,Saint-Etienne,France,False,7,1
-2023-09-10,Wales,Fiji,32,26,Rugby World Cup,Bordeaux,France,False,4,4
-2023-09-10,South Africa,Scotland,18,3,Rugby World Cup,Marseille,France,False,2,
-2023-09-10,Japan,Chile,42,12,Rugby World Cup,Toulouse,France,False,6,2
-2023-09-14,France,Uruguay,27,12,Rugby World Cup,Lille,France,False,3,2
-2023-09-15,New Zealand,Namibia,71,3,Rugby World Cup,Toulouse,France,False,11,
-2023-09-16,Samoa,Chile,43,10,Rugby World Cup,Bordeaux,France,False,5,1
-2023-09-16,Ireland,Tonga,59,16,Rugby World Cup,Nantes,France,False,8,1
-2023-09-16,Wales,Portugal,28,8,Rugby World Cup,Nice,France,False,4,1
-2023-09-17,South Africa,Romania,76,0,Rugby World Cup,Bordeaux,France,False,11,
-2023-09-17,Australia,Fiji,15,22,Rugby World Cup,Saint-Etienne,France,False,2,1
-2023-09-17,England,Japan,34,12,Rugby World Cup,Nice,France,False,4,
-2023-09-20,Italy,Uruguay,38,17,Rugby World Cup,Nice,France,False,5,1
-2023-09-21,France,Namibia,96,0,Rugby World Cup,Marseille,France,False,13,
-2023-09-22,Argentina,Samoa,19,10,Rugby World Cup,Saint-Etienne,France,False,1,1
-2023-09-23,South Africa,Ireland,8,13,Rugby World Cup,Saint-Denis,Reunion,False,1,1
-2023-09-23,England,Chile,71,0,Rugby World Cup,Lille,France,False,11,
-2023-09-23,Georgia,Portugal,18,18,Rugby World Cup,Toulouse,France,False,2,2
-2023-09-24,Wales,Australia,40,6,Rugby World Cup,Lyon,France,False,3,
-2023-09-24,Scotland,Tonga,45,17,Rugby World Cup,Nice,France,False,7,2
-2023-09-27,Uruguay,Namibia,36,26,Rugby World Cup,Lyon,France,False,5,2
-2023-09-28,Japan,Samoa,28,22,Rugby World Cup,Toulouse,France,False,3,3
-2023-09-29,New Zealand,Italy,96,17,Rugby World Cup,Lyon,France,False,14,2
-2023-09-30,Scotland,Romania,84,0,Rugby World Cup,Lille,France,False,12,
-2023-09-30,Fiji,Georgia,17,12,Rugby World Cup,Bordeaux,France,False,2,
-2023-09-30,Argentina,Chile,59,5,Rugby World Cup,Nantes,France,False,8,1
+2023-09-08,France,New Zealand,27,13,Rugby World Cup,Saint-Denis,Reunion,False,2.0,2.0
+2023-09-09,England,Argentina,27,10,Rugby World Cup,Marseille,France,False,,1.0
+2023-09-09,Australia,Georgia,35,15,Rugby World Cup,Saint-Denis,Reunion,False,4.0,2.0
+2023-09-09,Ireland,Romania,82,8,Rugby World Cup,Bordeaux,France,False,12.0,1.0
+2023-09-09,Italy,Namibia,52,8,Rugby World Cup,Saint-Etienne,France,False,7.0,1.0
+2023-09-10,Wales,Fiji,32,26,Rugby World Cup,Bordeaux,France,False,4.0,4.0
+2023-09-10,South Africa,Scotland,18,3,Rugby World Cup,Marseille,France,False,2.0,
+2023-09-10,Japan,Chile,42,12,Rugby World Cup,Toulouse,France,False,6.0,2.0
+2023-09-14,France,Uruguay,27,12,Rugby World Cup,Lille,France,False,3.0,2.0
+2023-09-15,New Zealand,Namibia,71,3,Rugby World Cup,Toulouse,France,False,11.0,
+2023-09-16,Samoa,Chile,43,10,Rugby World Cup,Bordeaux,France,False,5.0,1.0
+2023-09-16,Ireland,Tonga,59,16,Rugby World Cup,Nantes,France,False,8.0,1.0
+2023-09-16,Wales,Portugal,28,8,Rugby World Cup,Nice,France,False,4.0,1.0
+2023-09-17,South Africa,Romania,76,0,Rugby World Cup,Bordeaux,France,False,11.0,
+2023-09-17,Australia,Fiji,15,22,Rugby World Cup,Saint-Etienne,France,False,2.0,1.0
+2023-09-17,England,Japan,34,12,Rugby World Cup,Nice,France,False,4.0,
+2023-09-20,Italy,Uruguay,38,17,Rugby World Cup,Nice,France,False,5.0,1.0
+2023-09-21,France,Namibia,96,0,Rugby World Cup,Marseille,France,False,13.0,
+2023-09-22,Argentina,Samoa,19,10,Rugby World Cup,Saint-Etienne,France,False,1.0,1.0
+2023-09-23,South Africa,Ireland,8,13,Rugby World Cup,Saint-Denis,Reunion,False,1.0,1.0
+2023-09-23,England,Chile,71,0,Rugby World Cup,Lille,France,False,11.0,
+2023-09-23,Georgia,Portugal,18,18,Rugby World Cup,Toulouse,France,False,2.0,2.0
+2023-09-24,Wales,Australia,40,6,Rugby World Cup,Lyon,France,False,3.0,
+2023-09-24,Scotland,Tonga,45,17,Rugby World Cup,Nice,France,False,7.0,2.0
+2023-09-27,Uruguay,Namibia,36,26,Rugby World Cup,Lyon,France,False,5.0,2.0
+2023-09-28,Japan,Samoa,28,22,Rugby World Cup,Toulouse,France,False,3.0,3.0
+2023-09-29,New Zealand,Italy,96,17,Rugby World Cup,Lyon,France,False,14.0,2.0
+2023-09-30,Scotland,Romania,84,0,Rugby World Cup,Lille,France,False,12.0,
+2023-09-30,Fiji,Georgia,17,12,Rugby World Cup,Bordeaux,France,False,2.0,
+2023-09-30,Argentina,Chile,59,5,Rugby World Cup,Nantes,France,False,8.0,1.0
 2023-09-30,Denmark,Andorra,36,8,International Test Match,Copenhagen,Denmark,False,,
 2023-09-30,Austria,Hungary,10,53,International Test Match,,,False,,
 2023-09-30,Turkey,Moldova,14,33,International Test Match,Istanbul,Türkiye,False,,
-2023-10-01,South Africa,Tonga,49,18,Rugby World Cup,Marseille,France,False,7,3
-2023-10-01,Australia,Portugal,34,14,Rugby World Cup,Saint-Etienne,France,False,5,2
-2023-10-05,New Zealand,Uruguay,73,0,Rugby World Cup,Lyon,France,False,11,
-2023-10-06,France,Italy,60,7,Rugby World Cup,Lyon,France,False,8,1
+2023-10-01,South Africa,Tonga,49,18,Rugby World Cup,Marseille,France,False,7.0,3.0
+2023-10-01,Australia,Portugal,34,14,Rugby World Cup,Saint-Etienne,France,False,5.0,2.0
+2023-10-05,New Zealand,Uruguay,73,0,Rugby World Cup,Lyon,France,False,11.0,
+2023-10-06,France,Italy,60,7,Rugby World Cup,Lyon,France,False,8.0,1.0
 2023-10-07,Moldova,Serbia,31,11,International Test Match,Chisinau,Moldova,False,,
-2023-10-07,Ireland,Scotland,36,14,Rugby World Cup,Saint-Denis,Reunion,False,6,2
-2023-10-07,England,Samoa,18,17,Rugby World Cup,Lille,France,False,2,2
-2023-10-07,Wales,Georgia,43,19,Rugby World Cup,Nantes,France,False,6,3
+2023-10-07,Ireland,Scotland,36,14,Rugby World Cup,Saint-Denis,Reunion,False,6.0,2.0
+2023-10-07,England,Samoa,18,17,Rugby World Cup,Lille,France,False,2.0,2.0
+2023-10-07,Wales,Georgia,43,19,Rugby World Cup,Nantes,France,False,6.0,3.0
 2023-10-07,Finland,Denmark,14,10,International Test Match,Helsinki,Finland,False,,
-2023-10-08,Tonga,Romania,45,24,Rugby World Cup,Lille,France,False,7,3
-2023-10-08,Japan,Argentina,27,39,Rugby World Cup,Nantes,France,False,3,5
-2023-10-08,Fiji,Portugal,23,24,Rugby World Cup,Toulouse,France,False,2,3
-2023-10-14,Wales,Argentina,17,29,Rugby World Cup,Marseille,France,False,2,2
+2023-10-08,Tonga,Romania,45,24,Rugby World Cup,Lille,France,False,7.0,3.0
+2023-10-08,Japan,Argentina,27,39,Rugby World Cup,Nantes,France,False,3.0,5.0
+2023-10-08,Fiji,Portugal,23,24,Rugby World Cup,Toulouse,France,False,2.0,3.0
+2023-10-14,Wales,Argentina,17,29,Rugby World Cup,Marseille,France,False,2.0,2.0
 2023-10-14,Bosnia-Herzegovina,Luxembourg,10,59,International Test Match,Zenica,Bosnia and Herzegovina,False,,
 2023-10-14,Hungary,Slovenia,17,29,International Test Match,Budapest,Hungary,False,,
-2023-10-14,Ireland,New Zealand,24,28,Rugby World Cup,Saint-Denis,Reunion,False,2,3
-2023-10-15,France,South Africa,28,29,Rugby World Cup,Saint-Denis,Reunion,False,3,4
-2023-10-15,England,Fiji,30,24,Rugby World Cup,Marseille,France,False,2,3
-2023-10-20,Argentina,New Zealand,6,44,Rugby World Cup,Saint-Denis,Reunion,False,,7
+2023-10-14,Ireland,New Zealand,24,28,Rugby World Cup,Saint-Denis,Reunion,False,2.0,3.0
+2023-10-15,France,South Africa,28,29,Rugby World Cup,Saint-Denis,Reunion,False,3.0,4.0
+2023-10-15,England,Fiji,30,24,Rugby World Cup,Marseille,France,False,2.0,3.0
+2023-10-20,Argentina,New Zealand,6,44,Rugby World Cup,Saint-Denis,Reunion,False,,7.0
 2023-10-21,Slovenia,Bosnia-Herzegovina,22,17,International Test Match,,,False,,
 2023-10-21,Finland,Latvia,17,46,International Test Match,Helsinki,Finland,False,,
-2023-10-21,England,South Africa,15,16,Rugby World Cup,Saint-Denis,Reunion,False,,1
-2023-10-27,Argentina,England,23,26,Rugby World Cup,Saint-Denis,Reunion,False,2,2
-2023-10-28,New Zealand,South Africa,11,12,Rugby World Cup,Saint-Denis,Reunion,False,1,
+2023-10-21,England,South Africa,15,16,Rugby World Cup,Saint-Denis,Reunion,False,,1.0
+2023-10-27,Argentina,England,23,26,Rugby World Cup,Saint-Denis,Reunion,False,2.0,2.0
+2023-10-28,New Zealand,South Africa,11,12,Rugby World Cup,Saint-Denis,Reunion,False,1.0,
 2023-10-28,Sweden,Czech Republic,48,37,International Test Match,Stockholm,Sweden,False,,
 2023-10-28,Bulgaria,Turkey,40,24,International Test Match,Sofia,Bulgaria,False,,
 2023-10-28,Uganda,Zambia,30,8,International Test Match,Kampala,Uganda,False,,
@@ -3280,36 +3280,36 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-11-04,Luxembourg,Austria,27,14,International Test Match,Luxembourg,Luxembourg,False,,
 2023-11-05,Uganda,Kenya,21,20,International Test Match,Kampala,Uganda,False,,
 2023-11-11,Spain,Canada,42,20,International Test Match,Villajoyosa,Spain,False,,
-2023-11-11,United States,Brazil,48,3,International Test Match,Villajoyosa,Spain,False,8,
+2023-11-11,United States,Brazil,48,3,International Test Match,Villajoyosa,Spain,False,8.0,
 2023-11-11,Kenya,Uganda,20,13,International Test Match,Kisumu,Kenya,False,,
 2023-11-11,Latvia,Norway,53,8,International Test Match,Jelgava,Latvia,False,,
 2023-11-11,Ukraine,Croatia,5,41,International Test Match,Makarska,Serbia and Montenegro,False,,
 2023-11-11,Lithuania,Switzerland,17,31,International Test Match,Klaipeda,Lithuania,False,,
 2023-11-14,Hong Kong China,Germany,29,16,International Test Match,Hong Kong,Hong Kong,False,,
-2023-11-18,Spain,United States,12,42,International Test Match,Villajoyosa,Spain,False,2,5
+2023-11-18,Spain,United States,12,42,International Test Match,Villajoyosa,Spain,False,2.0,5.0
 2023-11-18,Hong Kong China,Germany,46,10,International Test Match,Hong Kong,Hong Kong,False,,
 2023-11-18,Croatia,Sweden,20,22,International Test Match,Makarska,Serbia and Montenegro,False,,
 2023-11-18,Brazil,Canada,15,40,International Test Match,Villajoyosa,Spain,False,,
 2023-11-22,Tunisia,Uganda,14,20,International Test Match,Tunis,Tunisia,False,,
 2023-11-25,Czech Republic,Lithuania,34,24,International Test Match,Prague,Czech Republic,False,,
 2023-11-27,Tunisia,Uganda,53,13,International Test Match,Tunis,Tunisia,False,,
-2024-02-02,France,Ireland,17,38,Six Nations,Marseille,France,False,2,5
+2024-02-02,France,Ireland,17,38,Six Nations,Marseille,France,False,2.0,5.0
 2024-02-03,Algeria,Senegal,26,12,International Test Match,Paris,France,False,,
-2024-02-03,Wales,Scotland,26,27,Six Nations,Cardiff,Wales,False,4,3
-2024-02-03,Italy,England,24,27,Six Nations,Rome,Italy,False,3,2
-2024-02-10,Scotland,France,16,20,Six Nations,Edinburgh,Scotland,False,1,2
-2024-02-10,England,Wales,16,14,Six Nations,London,England,False,2,1
-2024-02-11,Ireland,Italy,36,0,Six Nations,Dublin,Ireland,False,6,
-2024-02-24,Scotland,England,30,21,Six Nations,Edinburgh,Scotland,False,3,2
-2024-02-24,Ireland,Wales,31,7,Six Nations,Dublin,Ireland,False,4,
-2024-02-25,France,Italy,13,13,Six Nations,Lille,France,False,1,1
-2024-03-09,Italy,Scotland,31,29,Six Nations,Rome,Italy,False,3,4
-2024-03-09,England,Ireland,23,22,Six Nations,London,England,False,3,2
+2024-02-03,Wales,Scotland,26,27,Six Nations,Cardiff,Wales,False,4.0,3.0
+2024-02-03,Italy,England,24,27,Six Nations,Rome,Italy,False,3.0,2.0
+2024-02-10,Scotland,France,16,20,Six Nations,Edinburgh,Scotland,False,1.0,2.0
+2024-02-10,England,Wales,16,14,Six Nations,London,England,False,2.0,1.0
+2024-02-11,Ireland,Italy,36,0,Six Nations,Dublin,Ireland,False,6.0,
+2024-02-24,Scotland,England,30,21,Six Nations,Edinburgh,Scotland,False,3.0,2.0
+2024-02-24,Ireland,Wales,31,7,Six Nations,Dublin,Ireland,False,4.0,
+2024-02-25,France,Italy,13,13,Six Nations,Lille,France,False,1.0,1.0
+2024-03-09,Italy,Scotland,31,29,Six Nations,Rome,Italy,False,3.0,4.0
+2024-03-09,England,Ireland,23,22,Six Nations,London,England,False,3.0,2.0
 2024-03-09,Czech Republic,Switzerland,25,41,International Test Match,Prague,Czech Republic,False,,
-2024-03-10,Wales,France,24,45,Six Nations,Cardiff,Wales,False,3,5
-2024-03-16,Wales,Italy,21,24,Six Nations,Cardiff,Wales,False,3,2
-2024-03-16,Ireland,Scotland,17,13,Six Nations,Dublin,Ireland,False,2,1
-2024-03-16,France,England,33,31,Six Nations,Lyon,France,False,3,4
+2024-03-10,Wales,France,24,45,Six Nations,Cardiff,Wales,False,3.0,5.0
+2024-03-16,Wales,Italy,21,24,Six Nations,Cardiff,Wales,False,3.0,2.0
+2024-03-16,Ireland,Scotland,17,13,Six Nations,Dublin,Ireland,False,2.0,1.0
+2024-03-16,France,England,33,31,Six Nations,Lyon,France,False,3.0,4.0
 2024-03-16,Croatia,Lithuania,37,22,International Test Match,Zagreb,Serbia and Montenegro,False,,
 2024-03-23,Ukraine,Czech Republic,18,48,International Test Match,Havirov,Czech Republic,False,,
 2024-03-23,Lithuania,Sweden,8,27,International Test Match,Vilnius,Lithuania,False,,
@@ -3346,76 +3346,76 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2024-06-08,Malaysia,Hong Kong China,6,70,International Test Match,Serdang,Malaysia,False,,
 2024-06-09,United Arab Emirates,South Korea,36,32,International Test Match,Dubai,Arabian Gulf,False,,
 2024-06-21,United Arab Emirates,Malaysia,62,19,International Test Match,Dubai,Arabian Gulf,False,,
-2024-06-22,Japan,England,17,52,International Test Match,Tokyo,Japan,False,2,8
-2024-06-22,South Africa,Wales,41,13,International Test Match,London,England,False,4,1
+2024-06-22,Japan,England,17,52,International Test Match,Tokyo,Japan,False,2.0,8.0
+2024-06-22,South Africa,Wales,41,13,International Test Match,London,England,False,4.0,1.0
 2024-06-22,Guyana,Trinidad and Tobago,3,26,International Test Match,Georgetown,Guyana,False,,
 2024-06-22,Hong Kong China,South Korea,67,7,International Test Match,Hong Kong,Hong Kong,False,,
 2024-06-29,Bahamas,Jamaica,14,48,International Test Match,Freeport,Bahamas,False,,
 2024-06-29,Singapore,Thailand,30,8,International Test Match,,,False,,
 2024-07-02,Chinese Taipei,Thailand,12,18,International Test Match,,,False,,
 2024-07-05,Singapore,Chinese Taipei,16,19,International Test Match,,,False,,
-2024-07-05,Samoa,Italy,33,25,International Test Match,Apia,Samoa,False,4,3
-2024-07-05,Georgia,Fiji,12,21,International Test Match,Batumi,Georgia,False,,3
-2024-07-06,Canada,Scotland,12,73,International Test Match,Ottawa,Canada,False,2,11
-2024-07-06,Australia,Wales,25,16,International Test Match,Sydney,Australia,False,3,
-2024-07-06,New Zealand,England,16,15,International Test Match,Dunedin,New Zealand,False,2,2
-2024-07-06,South Africa,Ireland,27,20,International Test Match,Pretoria,South Africa,False,2,3
-2024-07-06,Argentina,France,13,28,International Test Match,Mendoza,Argentina,False,2,3
+2024-07-05,Samoa,Italy,33,25,International Test Match,Apia,Samoa,False,4.0,3.0
+2024-07-05,Georgia,Fiji,12,21,International Test Match,Batumi,Georgia,False,,3.0
+2024-07-06,Canada,Scotland,12,73,International Test Match,Ottawa,Canada,False,2.0,11.0
+2024-07-06,Australia,Wales,25,16,International Test Match,Sydney,Australia,False,3.0,
+2024-07-06,New Zealand,England,16,15,International Test Match,Dunedin,New Zealand,False,2.0,2.0
+2024-07-06,South Africa,Ireland,27,20,International Test Match,Pretoria,South Africa,False,2.0,3.0
+2024-07-06,Argentina,France,13,28,International Test Match,Mendoza,Argentina,False,2.0,3.0
 2024-07-06,Chile,Hong Kong China,22,17,International Test Match,,,False,,
-2024-07-06,United States,Romania,20,22,International Test Match,,,False,2,1
-2024-07-10,Uruguay,France,28,43,International Test Match,Montevideo,Uruguay,False,3,4
-2024-07-12,Tonga,Italy,14,36,International Test Match,,,False,2,4
-2024-07-12,United States,Scotland,7,42,International Test Match,,,False,1,6
-2024-07-12,Canada,Romania,35,22,International Test Match,Ottawa,Canada,False,4,3
+2024-07-06,United States,Romania,20,22,International Test Match,,,False,2.0,1.0
+2024-07-10,Uruguay,France,28,43,International Test Match,Montevideo,Uruguay,False,3.0,4.0
+2024-07-12,Tonga,Italy,14,36,International Test Match,,,False,2.0,4.0
+2024-07-12,United States,Scotland,7,42,International Test Match,,,False,1.0,6.0
+2024-07-12,Canada,Romania,35,22,International Test Match,Ottawa,Canada,False,4.0,3.0
 2024-07-13,Chile,Belgium,33,5,International Test Match,Valparaiso,Chile,False,,
-2024-07-13,Samoa,Spain,34,30,International Test Match,Apia,Samoa,False,4,3
-2024-07-13,New Zealand,England,24,17,International Test Match,Auckland,New Zealand,False,2,2
-2024-07-13,Australia,Wales,36,28,International Test Match,Melbourne,Australia,False,4,4
-2024-07-13,Japan,Georgia,23,25,International Test Match,,,False,2,3
-2024-07-13,Namibia,Portugal,22,37,International Test Match,Windhoek,Namibia,False,1,4
-2024-07-13,South Africa,Ireland,24,25,International Test Match,Durban,South Africa,False,,1
-2024-07-13,Argentina,France,33,25,International Test Match,Buenos Aires,Argentina,False,4,3
+2024-07-13,Samoa,Spain,34,30,International Test Match,Apia,Samoa,False,4.0,3.0
+2024-07-13,New Zealand,England,24,17,International Test Match,Auckland,New Zealand,False,2.0,2.0
+2024-07-13,Australia,Wales,36,28,International Test Match,Melbourne,Australia,False,4.0,4.0
+2024-07-13,Japan,Georgia,23,25,International Test Match,,,False,2.0,3.0
+2024-07-13,Namibia,Portugal,22,37,International Test Match,Windhoek,Namibia,False,1.0,4.0
+2024-07-13,South Africa,Ireland,24,25,International Test Match,Durban,South Africa,False,,1.0
+2024-07-13,Argentina,France,33,25,International Test Match,Buenos Aires,Argentina,False,4.0,3.0
 2024-07-14,Paraguay,Hong Kong China,12,80,International Test Match,Asuncion,Paraguay,False,,
-2024-07-19,Tonga,Spain,20,29,International Test Match,,,False,3,2
-2024-07-20,Australia,Georgia,40,29,International Test Match,Sydney,Australia,False,6,4
-2024-07-20,Chile,Scotland,11,52,International Test Match,Santiago,Chile,False,1,8
+2024-07-19,Tonga,Spain,20,29,International Test Match,,,False,3.0,2.0
+2024-07-20,Australia,Georgia,40,29,International Test Match,Sydney,Australia,False,6.0,4.0
+2024-07-20,Chile,Scotland,11,52,International Test Match,Santiago,Chile,False,1.0,8.0
 2024-07-20,Brazil,Hong Kong China,25,26,International Test Match,Sao Paulo,Brazil,False,,
-2024-07-20,South Africa,Portugal,64,21,International Test Match,Bloemfontein,South Africa,False,10,3
+2024-07-20,South Africa,Portugal,64,21,International Test Match,Bloemfontein,South Africa,False,10.0,3.0
 2024-07-20,Zimbabwe,Uganda,22,20,International Test Match,Kampala,Uganda,False,,
 2024-07-20,Algeria,Ivory Coast,32,12,International Test Match,Kampala,Uganda,False,,
 2024-07-20,Kenya,Senegal,36,17,International Test Match,Kampala,Uganda,False,,
 2024-07-20,Namibia,Burkina Faso,38,5,International Test Match,Kampala,Uganda,False,,
 2024-07-20,Paraguay,Belgium,20,45,International Test Match,Asuncion,Paraguay,False,,
-2024-07-20,New Zealand,Fiji,47,5,International Test Match,San Diego,United States of America,False,7,1
-2024-07-20,Uruguay,Argentina,5,79,International Test Match,,,False,1,12
-2024-07-21,Japan,Italy,14,42,International Test Match,Sapporo,Japan,False,2,5
+2024-07-20,New Zealand,Fiji,47,5,International Test Match,San Diego,United States of America,False,7.0,1.0
+2024-07-20,Uruguay,Argentina,5,79,International Test Match,,,False,1.0,12.0
+2024-07-21,Japan,Italy,14,42,International Test Match,Sapporo,Japan,False,2.0,5.0
 2024-07-24,Uganda,Burkina Faso,25,15,International Test Match,Kampala,Uganda,False,,
 2024-07-24,Senegal,Ivory Coast,25,8,International Test Match,Kampala,Uganda,False,,
 2024-07-24,Kenya,Algeria,12,20,International Test Match,Kampala,Uganda,False,,
 2024-07-24,Zimbabwe,Namibia,32,10,International Test Match,Kampala,Uganda,False,,
-2024-07-27,Uruguay,Scotland,19,31,International Test Match,Montevideo,Uruguay,False,3,5
+2024-07-27,Uruguay,Scotland,19,31,International Test Match,Montevideo,Uruguay,False,3.0,5.0
 2024-07-27,Brazil,Belgium,47,25,International Test Match,Sao Paulo,Brazil,False,,
 2024-07-28,Uganda,Senegal,34,31,International Test Match,Kampala,Uganda,False,,
 2024-07-28,Ivory Coast,Burkina Faso,23,10,International Test Match,Kampala,Uganda,False,,
 2024-07-28,Algeria,Zimbabwe,3,29,International Test Match,Kampala,Uganda,False,,
 2024-07-28,Costa Rica,Peru,27,26,International Test Match,San Jose,Costa Rica,False,,
 2024-07-28,Kenya,Namibia,27,38,International Test Match,Kampala,Uganda,False,,
-2024-08-10,New Zealand,Argentina,30,38,Rugby Championship,Wellington,New Zealand,False,3,4
-2024-08-10,Australia,South Africa,7,33,Rugby Championship,Brisbane,Australia,False,1,5
-2024-08-17,Australia,South Africa,12,30,Rugby Championship,Perth,Australia,False,,4
-2024-08-17,New Zealand,Argentina,42,10,Rugby Championship,Auckland,New Zealand,False,6,1
+2024-08-10,New Zealand,Argentina,30,38,Rugby Championship,Wellington,New Zealand,False,3.0,4.0
+2024-08-10,Australia,South Africa,7,33,Rugby Championship,Brisbane,Australia,False,1.0,5.0
+2024-08-17,Australia,South Africa,12,30,Rugby Championship,Perth,Australia,False,,4.0
+2024-08-17,New Zealand,Argentina,42,10,Rugby Championship,Auckland,New Zealand,False,6.0,1.0
 2024-08-18,Brazil,Paraguay,77,17,International Test Match,Sao Paulo,Brazil,False,,
-2024-08-31,South Africa,New Zealand,31,27,Rugby Championship,Johannesburg,South Africa,False,3,4
-2024-08-31,Argentina,Australia,19,20,Rugby Championship,Buenos Aires,Argentina,False,1,2
-2024-09-07,Argentina,Australia,67,27,Rugby Championship,Santa Fe,Argentina,False,9,3
-2024-09-07,South Africa,New Zealand,18,12,Rugby Championship,Cape Town,South Africa,False,2,
-2024-09-21,Australia,New Zealand,28,31,Rugby Championship,Sydney,Australia,False,4,4
-2024-09-21,Argentina,South Africa,29,28,Rugby Championship,,,False,4,3
+2024-08-31,South Africa,New Zealand,31,27,Rugby Championship,Johannesburg,South Africa,False,3.0,4.0
+2024-08-31,Argentina,Australia,19,20,Rugby Championship,Buenos Aires,Argentina,False,1.0,2.0
+2024-09-07,Argentina,Australia,67,27,Rugby Championship,Santa Fe,Argentina,False,9.0,3.0
+2024-09-07,South Africa,New Zealand,18,12,Rugby Championship,Cape Town,South Africa,False,2.0,
+2024-09-21,Australia,New Zealand,28,31,Rugby Championship,Sydney,Australia,False,4.0,4.0
+2024-09-21,Argentina,South Africa,29,28,Rugby Championship,,,False,4.0,3.0
 2024-09-21,Hungary,Austria,12,39,International Test Match,Kecskemet,Hungary,False,,
 2024-09-25,Colombia,Costa Rica,136,0,International Test Match,Medellin,Colombia,False,,
 2024-09-25,Peru,Venezuela,15,27,International Test Match,Medellin,Colombia,False,,
-2024-09-28,New Zealand,Australia,33,13,Rugby Championship,Wellington,New Zealand,False,5,1
-2024-09-28,South Africa,Argentina,48,7,Rugby Championship,Nelspruit,South Africa,False,7,1
+2024-09-28,New Zealand,Australia,33,13,Rugby Championship,Wellington,New Zealand,False,5.0,1.0
+2024-09-28,South Africa,Argentina,48,7,Rugby Championship,Nelspruit,South Africa,False,7.0,1.0
 2024-09-28,Chile,Paraguay,64,0,International Test Match,Santiago,Chile,False,,
 2024-09-28,Moldova,Turkey,43,13,International Test Match,Chisinau,Moldova,False,,
 2024-09-29,Kosovo,Montenegro,10,55,International Test Match,,,False,,
@@ -3435,77 +3435,77 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2024-10-26,Lithuania,Luxembourg,47,20,International Test Match,Vilnius,Lithuania,False,,
 2024-10-26,Slovakia,Hungary,16,51,International Test Match,,,False,,
 2024-10-26,Sweden,Czech Republic,22,16,International Test Match,Trelleborg,Sweden,False,,
-2024-10-26,Japan,New Zealand,19,64,International Test Match,Yokohama,Japan,False,3,10
+2024-10-26,Japan,New Zealand,19,64,International Test Match,Yokohama,Japan,False,3.0,10.0
 2024-11-02,Lithuania,Sweden,19,46,International Test Match,,,False,,
 2024-11-02,Latvia,Estonia,62,0,International Test Match,,,False,,
-2024-11-02,England,New Zealand,22,24,International Test Match,London,England,False,1,3
-2024-11-02,Scotland,Fiji,57,17,International Test Match,Edinburgh,Scotland,False,8,3
+2024-11-02,England,New Zealand,22,24,International Test Match,London,England,False,1.0,3.0
+2024-11-02,Scotland,Fiji,57,17,International Test Match,Edinburgh,Scotland,False,8.0,3.0
 2024-11-02,Belgium,Switzerland,48,7,International Test Match,Mons,Belgium,False,,
 2024-11-05,United Arab Emirates,Zimbabwe,22,62,International Test Match,Dubai,Arabian Gulf,False,,
-2024-11-08,Ireland,New Zealand,13,23,International Test Match,Dublin,Ireland,False,1,1
+2024-11-08,Ireland,New Zealand,13,23,International Test Match,Dublin,Ireland,False,1.0,1.0
 2024-11-09,Ukraine,Slovakia,135,13,International Test Match,,,False,,
-2024-11-09,France,Japan,52,12,International Test Match,Saint-Denis,Reunion,False,8,2
-2024-11-09,Italy,Argentina,18,50,International Test Match,Udine,Italy,False,1,7
-2024-11-09,Romania,Tonga,25,15,International Test Match,Bucharest,Romania,False,2,2
-2024-11-09,Portugal,United States,17,21,International Test Match,Coimbra,Portugal,False,2,3
+2024-11-09,France,Japan,52,12,International Test Match,Saint-Denis,Reunion,False,8.0,2.0
+2024-11-09,Italy,Argentina,18,50,International Test Match,Udine,Italy,False,1.0,7.0
+2024-11-09,Romania,Tonga,25,15,International Test Match,Bucharest,Romania,False,2.0,2.0
+2024-11-09,Portugal,United States,17,21,International Test Match,Coimbra,Portugal,False,2.0,3.0
 2024-11-09,Canada,Chile,14,44,International Test Match,Bucharest,Romania,False,,
 2024-11-09,Czech Republic,Croatia,49,26,International Test Match,Prague,Czech Republic,False,,
 2024-11-09,Kenya,Uganda,27,25,International Test Match,Nairobi,Kenya,False,,
 2024-11-09,Hong Kong China,Brazil,10,23,International Test Match,Hong Kong,Hong Kong,False,,
-2024-11-09,Spain,Uruguay,33,24,International Test Match,Madrid,Spain,False,4,2
-2024-11-09,England,Australia,37,42,International Test Match,London,England,False,5,5
-2024-11-10,Wales,Fiji,19,24,International Test Match,Cardiff,Wales,False,2,2
-2024-11-10,Scotland,South Africa,15,32,International Test Match,Edinburgh,Scotland,False,,4
-2024-11-15,Ireland,Argentina,22,19,International Test Match,Dublin,Ireland,False,3,1
-2024-11-16,Scotland,Portugal,59,21,International Test Match,Edinburgh,Scotland,False,8,3
-2024-11-16,Japan,Uruguay,36,20,International Test Match,Chambery,France,False,5,2
-2024-11-16,France,New Zealand,30,29,International Test Match,Saint-Denis,Reunion,False,3,2
-2024-11-16,England,South Africa,20,29,International Test Match,London,England,False,2,4
-2024-11-16,United States,Tonga,36,17,International Test Match,Chambery,France,False,5,3
+2024-11-09,Spain,Uruguay,33,24,International Test Match,Madrid,Spain,False,4.0,2.0
+2024-11-09,England,Australia,37,42,International Test Match,London,England,False,5.0,5.0
+2024-11-10,Wales,Fiji,19,24,International Test Match,Cardiff,Wales,False,2.0,2.0
+2024-11-10,Scotland,South Africa,15,32,International Test Match,Edinburgh,Scotland,False,,4.0
+2024-11-15,Ireland,Argentina,22,19,International Test Match,Dublin,Ireland,False,3.0,1.0
+2024-11-16,Scotland,Portugal,59,21,International Test Match,Edinburgh,Scotland,False,8.0,3.0
+2024-11-16,Japan,Uruguay,36,20,International Test Match,Chambery,France,False,5.0,2.0
+2024-11-16,France,New Zealand,30,29,International Test Match,Saint-Denis,Reunion,False,3.0,2.0
+2024-11-16,England,South Africa,20,29,International Test Match,London,England,False,2.0,4.0
+2024-11-16,United States,Tonga,36,17,International Test Match,Chambery,France,False,5.0,3.0
 2024-11-16,Romania,Canada,35,27,International Test Match,Bucharest,Romania,False,,
 2024-11-16,Poland,Lithuania,40,13,International Test Match,Gdynia,Poland,False,,
 2024-11-16,Croatia,Sweden,31,42,International Test Match,Zagreb,Serbia and Montenegro,False,,
 2024-11-16,Netherlands,Chile,20,17,International Test Match,Amsterdam,Netherlands,False,,
 2024-11-16,South Korea,Zimbabwe,22,27,International Test Match,Incheon,Korea,False,,
 2024-11-16,Hong Kong China,Brazil,38,17,International Test Match,Hong Kong,Hong Kong,False,,
-2024-11-16,Spain,Fiji,19,33,International Test Match,Valladolid,Spain,False,,5
+2024-11-16,Spain,Fiji,19,33,International Test Match,Valladolid,Spain,False,,5.0
 2024-11-16,Uganda,Kenya,5,21,International Test Match,Kampala,Uganda,False,,
 2024-11-16,United Arab Emirates,Germany,20,26,International Test Match,Dubai,Arabian Gulf,False,,
-2024-11-17,Italy,Georgia,20,17,International Test Match,Genova,Italy,False,1,2
-2024-11-17,Wales,Australia,20,52,International Test Match,Cardiff,Wales,False,2,8
-2024-11-22,France,Argentina,37,23,International Test Match,Saint-Denis,Reunion,False,3,2
-2024-11-23,Ireland,Fiji,52,17,International Test Match,Dublin,Ireland,False,8,2
+2024-11-17,Italy,Georgia,20,17,International Test Match,Genova,Italy,False,1.0,2.0
+2024-11-17,Wales,Australia,20,52,International Test Match,Cardiff,Wales,False,2.0,8.0
+2024-11-22,France,Argentina,37,23,International Test Match,Saint-Denis,Reunion,False,3.0,2.0
+2024-11-23,Ireland,Fiji,52,17,International Test Match,Dublin,Ireland,False,8.0,2.0
 2024-11-23,Croatia,Lithuania,32,23,International Test Match,Zagreb,Serbia and Montenegro,False,,
-2024-11-23,Spain,United States,23,26,International Test Match,Madrid,Spain,False,3,4
+2024-11-23,Spain,United States,23,26,International Test Match,Madrid,Spain,False,3.0,4.0
 2024-11-23,Romania,Uruguay,21,23,International Test Match,Bucharest,Romania,False,,
-2024-11-23,Wales,South Africa,12,45,International Test Match,Cardiff,Wales,False,2,7
-2024-11-23,Italy,New Zealand,11,29,International Test Match,,,False,1,4
+2024-11-23,Wales,South Africa,12,45,International Test Match,Cardiff,Wales,False,2.0,7.0
+2024-11-23,Italy,New Zealand,11,29,International Test Match,,,False,1.0,4.0
 2024-11-23,Czech Republic,Poland,15,22,International Test Match,Prague,Czech Republic,False,,
-2024-11-24,Scotland,Australia,27,13,International Test Match,Edinburgh,Scotland,False,4,1
-2024-11-24,Georgia,Tonga,22,7,International Test Match,Tbilisi,Georgia,False,2,1
-2024-11-24,England,Japan,59,14,International Test Match,London,England,False,9,2
-2024-11-30,Ireland,Australia,22,19,International Test Match,Dublin,Ireland,False,3,1
+2024-11-24,Scotland,Australia,27,13,International Test Match,Edinburgh,Scotland,False,4.0,1.0
+2024-11-24,Georgia,Tonga,22,7,International Test Match,Tbilisi,Georgia,False,2.0,1.0
+2024-11-24,England,Japan,59,14,International Test Match,London,England,False,9.0,2.0
+2024-11-30,Ireland,Australia,22,19,International Test Match,Dublin,Ireland,False,3.0,1.0
 2024-11-30,Luxembourg,Croatia,31,31,International Test Match,Luxembourg,Luxembourg,False,,
 2024-11-30,Andorra,Malta,3,10,International Test Match,Andorra la Vella,Andorra,False,,
 2024-12-07,Mexico,Cayman Islands,45,14,International Test Match,,,False,,
-2025-01-31,France,Wales,43,0,Six Nations,Saint-Denis,Reunion,False,7,
+2025-01-31,France,Wales,43,0,Six Nations,Saint-Denis,Reunion,False,7.0,
 2025-02-01,Israel,Andorra,28,31,International Test Match,Andorra la Vella,Andorra,False,,
-2025-02-01,Ireland,England,27,22,Six Nations,Dublin,Ireland,False,4,3
-2025-02-01,Scotland,Italy,31,19,Six Nations,Edinburgh,Scotland,False,5,1
-2025-02-08,England,France,26,25,Six Nations,London,England,False,4,3
-2025-02-08,Italy,Wales,22,15,Six Nations,Rome,Italy,False,1,1
-2025-02-09,Scotland,Ireland,18,32,Six Nations,Edinburgh,Scotland,False,2,4
-2025-02-22,England,Scotland,16,15,Six Nations,London,England,False,1,3
+2025-02-01,Ireland,England,27,22,Six Nations,Dublin,Ireland,False,4.0,3.0
+2025-02-01,Scotland,Italy,31,19,Six Nations,Edinburgh,Scotland,False,5.0,1.0
+2025-02-08,England,France,26,25,Six Nations,London,England,False,4.0,3.0
+2025-02-08,Italy,Wales,22,15,Six Nations,Rome,Italy,False,1.0,1.0
+2025-02-09,Scotland,Ireland,18,32,Six Nations,Edinburgh,Scotland,False,2.0,4.0
+2025-02-22,England,Scotland,16,15,Six Nations,London,England,False,1.0,3.0
 2025-02-22,Poland,Croatia,58,27,International Test Match,Gdynia,Poland,False,,
-2025-02-22,Wales,Ireland,18,27,Six Nations,Cardiff,Wales,False,2,2
-2025-02-23,Italy,France,24,73,Six Nations,Rome,Italy,False,3,11
+2025-02-22,Wales,Ireland,18,27,Six Nations,Cardiff,Wales,False,2.0,2.0
+2025-02-23,Italy,France,24,73,Six Nations,Rome,Italy,False,3.0,11.0
 2025-03-08,Czech Republic,Luxembourg,40,16,International Test Match,Prague,Czech Republic,False,,
-2025-03-08,Ireland,France,27,42,Six Nations,Dublin,Ireland,False,3,5
-2025-03-08,Scotland,Wales,35,29,Six Nations,Edinburgh,Scotland,False,5,4
-2025-03-09,England,Italy,47,24,Six Nations,London,England,False,7,3
-2025-03-15,France,Scotland,35,16,Six Nations,Saint-Denis,Reunion,False,4,1
-2025-03-15,Italy,Ireland,17,22,Six Nations,Rome,Italy,False,2,4
-2025-03-15,Wales,England,14,68,Six Nations,Cardiff,Wales,False,2,10
+2025-03-08,Ireland,France,27,42,Six Nations,Dublin,Ireland,False,3.0,5.0
+2025-03-08,Scotland,Wales,35,29,Six Nations,Edinburgh,Scotland,False,5.0,4.0
+2025-03-09,England,Italy,47,24,Six Nations,London,England,False,7.0,3.0
+2025-03-15,France,Scotland,35,16,Six Nations,Saint-Denis,Reunion,False,4.0,1.0
+2025-03-15,Italy,Ireland,17,22,Six Nations,Rome,Italy,False,2.0,4.0
+2025-03-15,Wales,England,14,68,Six Nations,Cardiff,Wales,False,2.0,10.0
 2025-03-29,Lithuania,Czech Republic,3,44,International Test Match,Vilnius,Lithuania,False,,
 2025-03-29,Luxembourg,Sweden,18,57,International Test Match,Luxembourg,Luxembourg,False,,
 2025-04-05,Cyprus,Andorra,19,28,International Test Match,,,False,,
@@ -3533,102 +3533,104 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2025-05-31,Trinidad and Tobago,Barbados,29,28,International Test Match,,,False,,
 2025-06-14,Cayman Islands,Bermuda,18,10,International Test Match,,,False,,
 2025-06-21,Mexico,Trinidad and Tobago,45,14,International Test Match,,,False,,
-2025-06-27,Namibia,Italy,6,73,International Test Match,Windhoek,Namibia,False,,9
-2025-07-05,Argentina,England,12,35,International Test Match,Buenos Aires,Argentina,False,2,4
-2025-07-05,United States,Belgium,36,17,International Test Match,,,False,6,2
+2025-06-27,Namibia,Italy,6,73,International Test Match,Windhoek,Namibia,False,,9.0
+2025-07-05,Argentina,England,12,35,International Test Match,Buenos Aires,Argentina,False,2.0,4.0
+2025-07-05,United States,Belgium,36,17,International Test Match,,,False,6.0,2.0
 2025-07-05,Chile,Romania,40,16,International Test Match,Santiago,Chile,False,,
-2025-07-05,New Zealand,France,31,27,International Test Match,Dunedin,New Zealand,False,4,3
-2025-07-05,South Africa,Italy,42,24,International Test Match,Pretoria,South Africa,False,6,3
-2025-07-05,Japan,Wales,24,19,International Test Match,Fukuoka,Japan,False,3,2
-2025-07-05,Georgia,Ireland,5,34,International Test Match,Tbilisi,Georgia,False,1,4
-2025-07-06,Australia,Fiji,21,18,International Test Match,Newcastle,Australia,False,3,2
-2025-07-12,United States,Spain,20,31,International Test Match,,,False,2,4
-2025-07-12,Argentina,England,17,22,International Test Match,San Juan,Argentina,False,2,3
-2025-07-12,Canada,Belgium,18,25,International Test Match,Edmonton,Canada,False,3,3
+2025-07-05,New Zealand,France,31,27,International Test Match,Dunedin,New Zealand,False,4.0,3.0
+2025-07-05,South Africa,Italy,42,24,International Test Match,Pretoria,South Africa,False,6.0,3.0
+2025-07-05,Japan,Wales,24,19,International Test Match,Fukuoka,Japan,False,3.0,2.0
+2025-07-05,Georgia,Ireland,5,34,International Test Match,Tbilisi,Georgia,False,1.0,4.0
+2025-07-06,Australia,Fiji,21,18,International Test Match,Newcastle,Australia,False,3.0,2.0
+2025-07-12,United States,Spain,20,31,International Test Match,,,False,2.0,4.0
+2025-07-12,Argentina,England,17,22,International Test Match,San Juan,Argentina,False,2.0,3.0
+2025-07-12,Canada,Belgium,18,25,International Test Match,Edmonton,Canada,False,3.0,3.0
 2025-07-12,Uruguay,Romania,70,8,International Test Match,Montevideo,Uruguay,False,,
-2025-07-12,New Zealand,France,43,17,International Test Match,Wellington,New Zealand,False,6,2
-2025-07-12,Japan,Wales,22,31,International Test Match,Kobe,Japan,False,3,4
-2025-07-12,Fiji,Scotland,29,14,International Test Match,Suva,Fiji,False,3,2
-2025-07-12,Portugal,Ireland,7,106,International Test Match,Oeiras,Portugal,False,1,15
-2025-07-12,South Africa,Italy,45,0,International Test Match,Port Elizabeth,South Africa,False,7,
-2025-07-18,Samoa,Scotland,12,41,International Test Match,Auckland,New Zealand,False,2,7
-2025-07-19,New Zealand,France,29,19,International Test Match,Hamilton,New Zealand,False,4,1
-2025-07-19,Canada,Spain,23,24,International Test Match,Edmonton,Canada,False,2,1
-2025-07-19,South Africa,Georgia,55,10,International Test Match,Nelspruit,South Africa,False,9,1
+2025-07-12,New Zealand,France,43,17,International Test Match,Wellington,New Zealand,False,6.0,2.0
+2025-07-12,Japan,Wales,22,31,International Test Match,Kobe,Japan,False,3.0,4.0
+2025-07-12,Fiji,Scotland,29,14,International Test Match,Suva,Fiji,False,3.0,2.0
+2025-07-12,Portugal,Ireland,7,106,International Test Match,Oeiras,Portugal,False,1.0,15.0
+2025-07-12,South Africa,Italy,45,0,International Test Match,Port Elizabeth,South Africa,False,7.0,
+2025-07-18,Samoa,Scotland,12,41,International Test Match,Auckland,New Zealand,False,2.0,7.0
+2025-07-19,New Zealand,France,29,19,International Test Match,Hamilton,New Zealand,False,4.0,1.0
+2025-07-19,Canada,Spain,23,24,International Test Match,Edmonton,Canada,False,2.0,1.0
+2025-07-19,South Africa,Georgia,55,10,International Test Match,Nelspruit,South Africa,False,9.0,1.0
 2025-07-19,Brazil,Chile,21,35,International Test Match,Sao Paulo,Brazil,False,,
-2025-07-19,Argentina,Uruguay,52,17,International Test Match,Salta,Argentina,False,7,2
-2025-07-19,United States,England,5,40,International Test Match,,,False,1,6
+2025-07-19,Argentina,Uruguay,52,17,International Test Match,Salta,Argentina,False,7.0,2.0
+2025-07-19,United States,England,5,40,International Test Match,,,False,1.0,6.0
 2025-07-26,Paraguay,Uruguay,0,38,International Test Match,Asuncion,Paraguay,False,,
 2025-07-26,Chile,Brazil,35,20,International Test Match,Santiago,Chile,False,,
-2025-08-16,South Africa,Australia,22,38,Rugby Championship,Johannesburg,South Africa,False,3,6
-2025-08-16,Argentina,New Zealand,24,41,Rugby Championship,Cordoba,Argentina,False,3,6
-2025-08-23,South Africa,Australia,30,22,Rugby Championship,Cape Town,South Africa,False,3,3
-2025-08-23,Argentina,New Zealand,29,23,Rugby Championship,Buenos Aires,Argentina,False,2,3
+2025-08-16,South Africa,Australia,22,38,Rugby Championship,Johannesburg,South Africa,False,3.0,6.0
+2025-08-16,Argentina,New Zealand,24,41,Rugby Championship,Cordoba,Argentina,False,3.0,6.0
+2025-08-23,South Africa,Australia,30,22,Rugby Championship,Cape Town,South Africa,False,3.0,3.0
+2025-08-23,Argentina,New Zealand,29,23,Rugby Championship,Buenos Aires,Argentina,False,2.0,3.0
 2025-08-23,Uruguay,Paraguay,78,10,International Test Match,Montevideo,Uruguay,False,,
 2025-08-30,Chile,Uruguay,16,28,International Test Match,Santiago,Chile,False,,
-2025-09-06,Australia,Argentina,28,24,Rugby Championship,Townsville,Australia,False,4,2
-2025-09-06,New Zealand,South Africa,24,17,Rugby Championship,Auckland,New Zealand,False,3,2
-2025-09-06,Uruguay,Chile,18,21,International Test Match,Montevideo,Uruguay,False,2,3
-2025-09-13,Australia,Argentina,26,28,Rugby Championship,Sydney,Australia,False,4,1
-2025-09-13,New Zealand,South Africa,10,43,Rugby Championship,Wellington,New Zealand,False,1,6
-2025-09-20,Samoa,Chile,32,32,International Test Match,Sandy,United States of America,False,5,4
-2025-09-27,New Zealand,Australia,33,24,Rugby Championship,Auckland,New Zealand,False,4,3
-2025-09-27,South Africa,Argentina,67,30,Rugby Championship,Durban,South Africa,False,9,2
-2025-09-27,Chile,Samoa,31,12,International Test Match,Valparaiso,Chile,False,3,2
-2025-10-04,Argentina,South Africa,27,29,Rugby Championship,London,England,False,3,4
-2025-10-04,Australia,New Zealand,14,28,Rugby Championship,Perth,Australia,False,1,4
+2025-09-06,Australia,Argentina,28,24,Rugby Championship,Townsville,Australia,False,4.0,2.0
+2025-09-06,New Zealand,South Africa,24,17,Rugby Championship,Auckland,New Zealand,False,3.0,2.0
+2025-09-06,Uruguay,Chile,18,21,International Test Match,Montevideo,Uruguay,False,2.0,3.0
+2025-09-13,Australia,Argentina,26,28,Rugby Championship,Sydney,Australia,False,4.0,1.0
+2025-09-13,New Zealand,South Africa,10,43,Rugby Championship,Wellington,New Zealand,False,1.0,6.0
+2025-09-20,Samoa,Chile,32,32,International Test Match,Sandy,United States of America,False,5.0,4.0
+2025-09-27,New Zealand,Australia,33,24,Rugby Championship,Auckland,New Zealand,False,4.0,3.0
+2025-09-27,South Africa,Argentina,67,30,Rugby Championship,Durban,South Africa,False,9.0,2.0
+2025-09-27,Chile,Samoa,31,12,International Test Match,Valparaiso,Chile,False,3.0,2.0
+2025-10-04,Argentina,South Africa,27,29,Rugby Championship,London,England,False,3.0,4.0
+2025-10-04,Australia,New Zealand,14,28,Rugby Championship,Perth,Australia,False,1.0,4.0
 2025-10-11,Paraguay,Brazil,39,19,International Test Match,Asuncion,Paraguay,False,,
 2025-10-18,Colombia,Peru,38,24,International Test Match,Medellin,Colombia,False,,
 2025-10-18,Brazil,Paraguay,24,31,International Test Match,,,False,,
-2025-10-25,Japan,Australia,15,19,International Test Match,Tokyo,Japan,False,2,3
-2025-11-01,South Africa,Japan,61,7,International Test Match,London,England,False,8,1
-2025-11-01,England,Australia,25,7,International Test Match,London,England,False,4,1
-2025-11-01,Scotland,United States,85,0,International Test Match,Edinburgh,Scotland,False,13,
-2025-11-01,Ireland,New Zealand,13,26,International Test Match,Chicago,United States of America,False,1,4
-2025-11-08,Portugal,Uruguay,8,26,International Test Match,Oeiras,Portugal,False,1,3
-2025-11-08,Georgia,United States,43,30,International Test Match,Batumi,Georgia,False,6,3
-2025-11-08,Ireland,Japan,41,10,International Test Match,Dublin,Ireland,False,6,1
-2025-11-08,Romania,Canada,31,21,International Test Match,Bucharest,Romania,False,3,3
-2025-11-08,France,South Africa,17,32,International Test Match,Saint-Denis,Reunion,False,2,4
-2025-11-08,Scotland,New Zealand,17,25,International Test Match,Edinburgh,Scotland,False,2,3
-2025-11-08,England,Fiji,38,18,International Test Match,London,England,False,6,3
+2025-10-25,Japan,Australia,15,19,International Test Match,Tokyo,Japan,False,2.0,3.0
+2025-11-01,South Africa,Japan,61,7,International Test Match,London,England,False,8.0,1.0
+2025-11-01,England,Australia,25,7,International Test Match,London,England,False,4.0,1.0
+2025-11-01,Scotland,United States,85,0,International Test Match,Edinburgh,Scotland,False,13.0,
+2025-11-01,Ireland,New Zealand,13,26,International Test Match,Chicago,United States of America,False,1.0,4.0
+2025-11-08,Portugal,Uruguay,8,26,International Test Match,Oeiras,Portugal,False,1.0,3.0
+2025-11-08,Georgia,United States,43,30,International Test Match,Batumi,Georgia,False,6.0,3.0
+2025-11-08,Ireland,Japan,41,10,International Test Match,Dublin,Ireland,False,6.0,1.0
+2025-11-08,Romania,Canada,31,21,International Test Match,Bucharest,Romania,False,3.0,3.0
+2025-11-08,France,South Africa,17,32,International Test Match,Saint-Denis,Reunion,False,2.0,4.0
+2025-11-08,Scotland,New Zealand,17,25,International Test Match,Edinburgh,Scotland,False,2.0,3.0
+2025-11-08,England,Fiji,38,18,International Test Match,London,England,False,6.0,3.0
 2025-11-08,Colombia,Mexico,34,25,International Test Match,Medellin,Colombia,False,,
-2025-11-08,Italy,Australia,26,19,International Test Match,Udine,Italy,False,2,3
-2025-11-09,Wales,Argentina,28,52,International Test Match,Cardiff,Wales,False,4,7
-2025-11-15,Wales,Japan,24,23,International Test Match,Cardiff,Wales,False,3,2
-2025-11-15,France,Fiji,34,21,International Test Match,Bordeaux,France,False,4,3
-2025-11-15,Portugal,Hong Kong China,58,12,International Test Match,Oeiras,Portugal,False,9,2
-2025-11-15,England,New Zealand,33,19,International Test Match,London,England,False,4,3
-2025-11-15,Italy,South Africa,14,32,International Test Match,,,False,1,4
-2025-11-15,Georgia,Canada,38,17,International Test Match,Batumi,Georgia,False,6,2
-2025-11-15,Ireland,Australia,46,19,International Test Match,Dublin,Ireland,False,6,3
-2025-11-15,Romania,United States,18,26,International Test Match,Bucharest,Romania,False,1,2
-2025-11-16,Scotland,Argentina,24,33,International Test Match,Edinburgh,Scotland,False,3,5
-2025-11-22,Romania,Uruguay,21,31,International Test Match,Bucharest,Romania,False,3,4
-2025-11-22,Georgia,Japan,23,25,International Test Match,Tbilisi,Georgia,False,2,1
-2025-11-22,Ireland,South Africa,13,24,International Test Match,Dublin,Ireland,False,1,3
-2025-11-22,France,Australia,48,33,International Test Match,Saint-Denis,Reunion,False,7,5
-2025-11-22,Spain,Fiji,33,41,International Test Match,Malaga,Spain,False,4,5
-2025-11-22,Portugal,Canada,33,27,International Test Match,Coimbra,Portugal,False,3,2
-2025-11-22,Wales,New Zealand,26,52,International Test Match,Cardiff,Wales,False,4,7
-2025-11-22,Italy,Chile,34,19,International Test Match,Genova,Italy,False,5,3
-2025-11-23,Scotland,Tonga,56,0,International Test Match,Edinburgh,Scotland,False,8,
-2025-11-23,England,Argentina,27,23,International Test Match,London,England,False,3,2
-2025-11-29,Wales,South Africa,0,73,International Test Match,Cardiff,Wales,False,,11
-2026-02-05,France,Ireland,36,14,Six Nations,Saint-Denis,Reunion,False,5,2
-2026-02-07,Italy,Scotland,18,15,Six Nations,Rome,Italy,False,2,2
-2026-02-07,England,Wales,48,7,Six Nations,London,England,False,6,1
-2026-02-14,Ireland,Italy,20,13,Six Nations,Dublin,Ireland,False,3,1
-2026-02-14,Scotland,England,31,20,Six Nations,Edinburgh,Scotland,False,4,2
-2026-02-15,Wales,France,12,54,Six Nations,Cardiff,Wales,False,2,8
-2026-02-21,England,Ireland,21,42,Six Nations,London,England,False,3,5
-2026-02-21,Wales,Scotland,23,26,Six Nations,Cardiff,Wales,False,2,4
-2026-02-22,France,Italy,33,8,Six Nations,Lille,France,False,5,1
-2026-03-06,Ireland,Wales,27,17,Six Nations,Dublin,Ireland,False,4,2
-2026-03-07,Scotland,France,50,40,Six Nations,Edinburgh,Scotland,False,7,6
-2026-03-07,Italy,England,23,18,Six Nations,Rome,Italy,False,2,2
-2026-03-14,Ireland,Scotland,43,21,Six Nations,Dublin,Ireland,False,6,3
-2026-03-14,France,England,48,46,Six Nations,Saint-Denis,Reunion,False,5,7
-2026-03-14,Wales,Italy,31,17,Six Nations,Cardiff,Wales,False,4,3
+2025-11-08,Italy,Australia,26,19,International Test Match,Udine,Italy,False,2.0,3.0
+2025-11-09,Wales,Argentina,28,52,International Test Match,Cardiff,Wales,False,4.0,7.0
+2025-11-15,Wales,Japan,24,23,International Test Match,Cardiff,Wales,False,3.0,2.0
+2025-11-15,France,Fiji,34,21,International Test Match,Bordeaux,France,False,4.0,3.0
+2025-11-15,Portugal,Hong Kong China,58,12,International Test Match,Oeiras,Portugal,False,9.0,2.0
+2025-11-15,England,New Zealand,33,19,International Test Match,London,England,False,4.0,3.0
+2025-11-15,Italy,South Africa,14,32,International Test Match,,,False,1.0,4.0
+2025-11-15,Georgia,Canada,38,17,International Test Match,Batumi,Georgia,False,6.0,2.0
+2025-11-15,Ireland,Australia,46,19,International Test Match,Dublin,Ireland,False,6.0,3.0
+2025-11-15,Romania,United States,18,26,International Test Match,Bucharest,Romania,False,1.0,2.0
+2025-11-16,Scotland,Argentina,24,33,International Test Match,Edinburgh,Scotland,False,3.0,5.0
+2025-11-22,Romania,Uruguay,21,31,International Test Match,Bucharest,Romania,False,3.0,4.0
+2025-11-22,Georgia,Japan,23,25,International Test Match,Tbilisi,Georgia,False,2.0,1.0
+2025-11-22,Ireland,South Africa,13,24,International Test Match,Dublin,Ireland,False,1.0,3.0
+2025-11-22,France,Australia,48,33,International Test Match,Saint-Denis,Reunion,False,7.0,5.0
+2025-11-22,Spain,Fiji,33,41,International Test Match,Malaga,Spain,False,4.0,5.0
+2025-11-22,Portugal,Canada,33,27,International Test Match,Coimbra,Portugal,False,3.0,2.0
+2025-11-22,Wales,New Zealand,26,52,International Test Match,Cardiff,Wales,False,4.0,7.0
+2025-11-22,Italy,Chile,34,19,International Test Match,Genova,Italy,False,5.0,3.0
+2025-11-23,Scotland,Tonga,56,0,International Test Match,Edinburgh,Scotland,False,8.0,
+2025-11-23,England,Argentina,27,23,International Test Match,London,England,False,3.0,2.0
+2025-11-29,Wales,South Africa,0,73,International Test Match,Cardiff,Wales,False,,11.0
+2026-02-05,France,Ireland,36,14,Six Nations,Saint-Denis,Reunion,False,5.0,2.0
+2026-02-07,Italy,Scotland,18,15,Six Nations,Rome,Italy,False,2.0,2.0
+2026-02-07,England,Wales,48,7,Six Nations,London,England,False,6.0,1.0
+2026-02-14,Ireland,Italy,20,13,Six Nations,Dublin,Ireland,False,3.0,1.0
+2026-02-14,Scotland,England,31,20,Six Nations,Edinburgh,Scotland,False,4.0,2.0
+2026-02-15,Wales,France,12,54,Six Nations,Cardiff,Wales,False,2.0,8.0
+2026-02-21,England,Ireland,21,42,Six Nations,London,England,False,3.0,5.0
+2026-02-21,Wales,Scotland,23,26,Six Nations,Cardiff,Wales,False,2.0,4.0
+2026-02-22,France,Italy,33,8,Six Nations,Lille,France,False,5.0,1.0
+2026-03-06,Ireland,Wales,27,17,Six Nations,Dublin,Ireland,False,4.0,2.0
+2026-03-07,Scotland,France,50,40,Six Nations,Edinburgh,Scotland,False,7.0,6.0
+2026-03-07,Italy,England,23,18,Six Nations,Rome,Italy,False,2.0,2.0
+2026-03-14,Ireland,Scotland,43,21,Six Nations,Dublin,Ireland,False,6.0,3.0
+2026-03-14,France,England,48,46,Six Nations,Saint-Denis,Reunion,False,5.0,7.0
+2026-03-14,Wales,Italy,31,17,Six Nations,Cardiff,Wales,False,4.0,3.0
 2026-04-03,Czech Republic,Mexico,54,27,International Test Match,Prague,Czech Republic,False,,
 2026-04-10,Croatia,Mexico,17,33,International Test Match,,,False,,
+2026-07-04,New Zealand,France,34,32,Nations Championship,Christchurch,New Zealand,False,5,4
+2026-07-04,Japan,Italy,27,10,Nations Championship,Tokyo,Japan,False,3,1
