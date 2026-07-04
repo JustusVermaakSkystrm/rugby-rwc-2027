@@ -3635,5 +3635,6 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2026-07-04,New Zealand,France,34,32,Nations Championship,Christchurch,New Zealand,False,5.0,4.0
 2026-07-04,Japan,Italy,27,10,Nations Championship,Tokyo,Japan,False,3.0,1.0
 2026-07-04,Australia,Ireland,31,33,Nations Championship,Sydney,Australia,False,5.0,5.0
-2026-07-04,Fiji,Wales,24,39,Nations Championship,Cardiff,Wales,False,3,6
-2026-07-04,South Africa,England,45,21,Nations Championship,Johannesburg,South Africa,False,7,3
+2026-07-04,Fiji,Wales,24,39,Nations Championship,Cardiff,Wales,False,3.0,6.0
+2026-07-04,South Africa,England,45,21,Nations Championship,Johannesburg,South Africa,False,7.0,3.0
+2026-07-04,Argentina,Scotland,38,47,Nations Championship,Cordoba,Argentina,False,5,7
