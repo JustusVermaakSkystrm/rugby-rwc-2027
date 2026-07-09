@@ -9,6 +9,9 @@
     "F": ["England", "Wales", "Tonga", "Zimbabwe"]
   },
   "hosts": ["Australia"],
+  "favourite_team": "South Africa",
+  "favourite_timezones": [["UK", "Europe/London"], ["SAST", "Africa/Johannesburg"]],
+  "favourite_territories": ["United Kingdom", "South Africa"],
   "seeding_bands": {
     "comment": "World Rugby Men's Rankings at the end of the Nov 2025 internationals; four bands of six drawn one-per-pool. Australia (band 2 by ranking) was pre-allocated to Pool A as host.",
     "1": ["South Africa", "New Zealand", "England", "Ireland", "France", "Argentina"],

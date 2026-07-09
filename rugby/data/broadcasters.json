@@ -1,0 +1,32 @@
+{
+  "comment": "Curated broadcast rights by competition and territory. ESPN's scoreboard returns empty broadcasts/geoBroadcasts for internationals, so this cannot be derived from the feed. Rights deals change — treat as a guide and check official listings. Entries flagged \"uncertain\" are the ones we could not confirm for the current cycle.",
+  "as_of": "2026-07-02",
+  "sources": [
+    "https://www.planetrugby.com/news/springboks-july-tests-v-england-scotland-and-wales-fixtures-refs-kick-off-times",
+    "https://www.rugbyworld.com/news/nations-championship-live-stream-how-to-watch-from-anywhere-184314",
+    "https://www.wheresthematch.com/the-rugby-championship-on-tv/"
+  ],
+  "competitions": {
+    "Nations Championship": {
+      "South Africa": "SuperSport",
+      "United Kingdom": "ITV",
+      "Ireland": "Virgin Media Television",
+      "France": "TF1",
+      "Italy": "Sky Italia",
+      "Japan": "Wowow",
+      "New Zealand": "Sky Sport",
+      "Australia": "Nine Network / Stan Sport"
+    },
+    "Rugby Championship": {
+      "South Africa": "SuperSport",
+      "United Kingdom": "Sky Sports",
+      "_uncertain": ["United Kingdom"],
+      "_note": "Sky's Rugby Championship deal lapsed after 2025; UK rights for the current cycle are unconfirmed."
+    },
+    "International Test Match": {
+      "South Africa": "SuperSport",
+      "_uncertain": ["South Africa"],
+      "_note": "Generic ESPN label; SuperSport carries most Springbok tests, but confirm per fixture."
+    }
+  }
+}

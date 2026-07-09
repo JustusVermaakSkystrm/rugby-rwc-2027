@@ -32,6 +32,12 @@ market benchmark, and a static site that refreshes hourly.
   [`scorecard.py`](rugby/scorecard.py)) — markdown report, machine-readable CSVs, an
   inline SVG bracket, and a frozen-prediction scorecard graded against results
   and (optionally) bookmaker odds.
+- **Follow a team** — the report opens with a fixture list for the team set as
+  `favourite_team` in [`teams.json`](rugby/data/teams.json): kick-off in your
+  chosen timezones (`favourite_timezones`), venue, the model's call, and where
+  to watch. Broadcast rights are curated in
+  [`broadcasters.json`](rugby/data/broadcasters.json) (ESPN publishes none for
+  internationals); a `?` flags rights we could not confirm.
 - **Upcoming-fixture predictions** ([`ingest.py`](rugby/ingest.py), [`report.py`](rugby/report.py)) —
   the model rates *any* pairing, so every scheduled international on the run-in
   to the World Cup (next ~16 months) is predicted, not just RWC fixtures:
@@ -91,5 +97,9 @@ Outputs land in [`rugby/outputs/`](rugby/outputs): `report.md`,
 - Historical try coverage is partial; the try estimator learns the
   points→tries relationship where tries are recorded and falls back to a
   parametric rate elsewhere.
-- ESPN's neutral-venue flag is occasionally wrong (e.g. some "home" tests
-  played abroad); a minor, known data quirk that barely moves ratings.
+- ESPN's neutral-venue flag misses overseas tests, and its venue address is
+  worse (it reports "Reunion" for the Stade de France). Neutrality is therefore
+  taken from ESPN's flag plus a curated stadium map
+  ([`venue_countries.json`](rugby/data/venue_countries.json)) — never inferred
+  from the address, which produced false neutrals. Add a stadium there if an
+  overseas test is being scored as a home game.

@@ -64,6 +64,32 @@ def _norm(name) -> str | None:
     return NORM.get(name, name)
 
 
+def _venue_countries() -> dict:
+    import json
+    path = DATA_DIR / "venue_countries.json"
+    if not path.exists():
+        return {}
+    with open(path) as f:
+        return json.load(f).get("venues", {})
+
+
+def _infer_neutral(espn_neutral: bool, venue_name: str,
+                   home: str, away: str) -> bool:
+    """ESPN's neutralSite flag misses overseas tests (South Africa v New
+    Zealand in Baltimore reads as a home game). Its venue *address* is no help
+    either — it reports 'Reunion' for the Stade de France and nothing for M&T
+    Bank Stadium — so inferring from it produces false neutrals. Instead trust
+    ESPN when it says neutral, and otherwise consult a curated stadium map:
+    a venue in neither side's country is a neutral venue. Unknown stadium ->
+    leave ESPN's flag alone."""
+    if espn_neutral:
+        return True
+    vc = _venue_countries().get((venue_name or "").strip())
+    if not vc:
+        return False
+    return vc != home and vc != away
+
+
 def _fetch(url: str, tries: int = 3) -> dict | None:
     for i in range(tries):
         try:
@@ -102,12 +128,14 @@ def _parse_event(e: dict, league_name: str) -> dict | None:
         return None
     venue = c.get("venue") or {}
     addr = venue.get("address") or {}
+    country = addr.get("state") or ""
     return {
         "date": e["date"][:10], "home_team": ht, "away_team": at,
         "home_score": hs, "away_score": as_,
         "tournament": league_name, "city": addr.get("city") or "",
-        "country": addr.get("state") or "",
-        "neutral": bool(c.get("neutralSite")),
+        "country": country,
+        "neutral": _infer_neutral(bool(c.get("neutralSite")),
+                                  venue.get("fullName") or "", ht, at),
         "home_tries": tries.get(home["team"]["id"]),
         "away_tries": tries.get(away["team"]["id"]),
     }
@@ -151,11 +179,16 @@ def _parse_upcoming(e: dict, league_name: str) -> dict | None:
         return None
     venue = c.get("venue") or {}
     addr = venue.get("address") or {}
+    country = addr.get("state") or ""
+    venue_name = venue.get("fullName") or ""
     return {
         "date": e["date"][:10], "home_team": ht, "away_team": at,
         "tournament": league_name, "city": addr.get("city") or "",
-        "country": addr.get("state") or "",
-        "neutral": bool(c.get("neutralSite")),
+        "country": country,
+        "neutral": _infer_neutral(bool(c.get("neutralSite")), venue_name, ht, at),
+        # Full ISO kick-off (UTC) and stadium, for the fixture listing.
+        "kickoff_utc": e.get("date") or "",
+        "venue": venue_name,
     }
 
 

@@ -96,6 +96,8 @@ def predict_upcoming(pred: MatchPredictor) -> pd.DataFrame:
             "date": r.date, "tournament": getattr(r, "tournament", ""),
             "home": r.home_team, "away": r.away_team,
             "neutral": bool(r.neutral),
+            "kickoff_utc": getattr(r, "kickoff_utc", "") or "",
+            "venue": getattr(r, "venue", "") or "",
             "p_home_win": round(ph, 4), "p_draw": round(draw, 4),
             "p_away_win": round(pa, 4),
             "exp_home": f"{(total + m) / 2:.1f}", "exp_away": f"{(total - m) / 2:.1f}",
@@ -103,6 +105,57 @@ def predict_upcoming(pred: MatchPredictor) -> pd.DataFrame:
             "favourite": fav, "fav_prob": round(favp, 4),
         })
     return pd.DataFrame(rows).sort_values("date").reset_index(drop=True)
+
+
+# ------------------------------------------------- followed-team fixtures
+
+def load_broadcasters() -> dict:
+    import json
+    path = Path(__file__).parent / "data" / "broadcasters.json"
+    if not path.exists():
+        return {}
+    with open(path) as f:
+        return json.load(f)
+
+
+def _local_times(kickoff_utc: str, zones: list) -> str:
+    """'16:40 UK · 17:40 SAST' from an ISO UTC kick-off, '' if unknown."""
+    if not kickoff_utc:
+        return ""
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    try:
+        dt = datetime.fromisoformat(str(kickoff_utc).replace("Z", "+00:00"))
+    except ValueError:
+        return ""
+    parts = []
+    for label, tz in zones:
+        try:
+            parts.append(f"{dt.astimezone(ZoneInfo(tz)).strftime('%H:%M')} {label}")
+        except Exception:
+            continue
+    return " · ".join(parts)
+
+
+def _watch(tournament: str, territories: list, bc: dict) -> str:
+    """'ITV (UK) · SuperSport (SA)' from the curated rights table."""
+    comp = (bc.get("competitions") or {}).get(tournament) or {}
+    uncertain = set(comp.get("_uncertain") or [])
+    out = []
+    for terr in territories:
+        name = comp.get(terr)
+        if not name:
+            continue
+        short = {"United Kingdom": "UK", "South Africa": "SA"}.get(terr, terr)
+        out.append(f"{name} ({short}){'?' if terr in uncertain else ''}")
+    return " · ".join(out) if out else "check local listings"
+
+
+def favourite_fixtures(upcoming: pd.DataFrame, team: str) -> pd.DataFrame:
+    if upcoming is None or upcoming.empty:
+        return pd.DataFrame()
+    m = (upcoming["home"] == team) | (upcoming["away"] == team)
+    return upcoming[m].sort_values("date").reset_index(drop=True)
 
 
 def predicted_bracket(pred: MatchPredictor, res: SimResults, elo: dict) -> dict:
@@ -259,6 +312,45 @@ def _fmt_delta(x: float, threshold: float = 0.0005) -> str:
     return f"{100 * x:+.1f}"
 
 
+def _render_favourite(add, upcoming: pd.DataFrame, team: str, cfg: dict) -> None:
+    """Top-of-report fixture list for the team you follow: kick-off times in
+    your timezones, venue, the model's call, and where to watch."""
+    fx = favourite_fixtures(upcoming, team)
+    if fx.empty:
+        return
+    zones = [tuple(z) for z in cfg.get("favourite_timezones",
+                                       [["UTC", "UTC"]])]
+    territories = cfg.get("favourite_territories", [])
+    bc = load_broadcasters()
+
+    add(f"## Following {team} — upcoming fixtures\n")
+    add(f"Every scheduled {team} international, with kick-off in your "
+        "timezones, the model's call, and where to watch.\n")
+    add("| Date | Kick-off | Opponent | Competition | Venue | Model call | "
+        "Where to watch |")
+    add("|------|----------|----------|-------------|-------|-----------|----------------|")
+    for r in fx.itertuples(index=False):
+        at_home = r.home == team
+        opp = r.away if at_home else r.home
+        where = "N" if r.neutral else ("H" if at_home else "A")
+        p_win = r.p_home_win if at_home else r.p_away_win
+        hp, ap = (int(x) for x in r.most_likely_score.split("-"))
+        score = f"{hp}–{ap}" if at_home else f"{ap}–{hp}"
+        try:
+            day = pd.Timestamp(r.date).strftime("%a %d %b %Y")
+        except Exception:
+            day = str(r.date)
+        ko = _local_times(r.kickoff_utc, zones) or "TBC"
+        add(f"| {day} | {ko} | {opp} ({where}) | {r.tournament} | "
+            f"{r.venue or '—'} | **{_pct(p_win)}** win · {score} | "
+            f"{_watch(r.tournament, territories, bc)} |")
+    as_of = bc.get("as_of", "")
+    add(f"\n*Kick-off times are converted from the official UTC start time. "
+        f"Broadcast listings are curated (ESPN publishes none for "
+        f"internationals){f', as of {as_of}' if as_of else ''} — a \"?\" marks "
+        "rights we could not confirm for this cycle, so check local listings.*\n")
+
+
 def _render_markdown(pred, res: SimResults, fixtures, tt, bracket_path, elo,
                      meta, deltas=None, upcoming=None) -> str:
     L = []
@@ -279,6 +371,12 @@ def _render_markdown(pred, res: SimResults, fixtures, tt, bracket_path, elo,
             f"**{v['best']}** — RPS {v['model_rps']:.4f} vs ranking-only baseline "
             f"{v['baseline_rps']:.4f}; margin MAE {v['model_margin_mae']:.2f} pts "
             f"vs {v['baseline_margin_mae']:.2f}.*\n")
+
+    from .dataset import load_teams as _load_teams
+    _cfg = _load_teams()
+    _fav = _cfg.get("favourite_team")
+    if _fav and upcoming is not None and not upcoming.empty:
+        _render_favourite(add, upcoming, _fav, _cfg)
 
     add("## Title favourites\n")
     dch = deltas["deltas"].get("p_champion", {}) if deltas else {}

@@ -1,0 +1,21 @@
+{
+  "comment": "Curated stadium -> country map, used only to detect neutral/overseas venues. ESPN's own venue address field is unreliable for internationals (it reports 'Reunion' for the Stade de France and nothing at all for M&T Bank Stadium), so it is never used to infer neutrality. A fixture is treated as neutral when ESPN says so, or when a stadium listed here sits in neither team's country. Ambiguous names (several 'Allianz Stadium's exist) are deliberately omitted rather than guessed.",
+  "venues": {
+    "M&T Bank Stadium": "United States",
+    "Soldier Field": "United States",
+    "MetLife Stadium": "United States",
+    "Lincoln Financial Field": "United States",
+    "Levi's Stadium": "United States",
+    "BMO Field": "Canada",
+    "Estadio Santiago Bernabeu": "Spain",
+    "Principality Stadium": "Wales",
+    "Aviva Stadium": "Ireland",
+    "Murrayfield Stadium": "Scotland",
+    "Stade de France": "France",
+    "Ellis Park": "South Africa",
+    "DHL Stadium": "South Africa",
+    "FNB Stadium": "South Africa",
+    "Loftus Versfeld": "South Africa",
+    "Hollywoodbets Kings Park": "South Africa"
+  }
+}
