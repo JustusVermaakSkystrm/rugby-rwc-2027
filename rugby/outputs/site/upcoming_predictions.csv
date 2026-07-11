@@ -1,23 +1,22 @@
 date,tournament,home,away,neutral,kickoff_utc,venue,p_home_win,p_draw,p_away_win,exp_home,exp_away,most_likely_score,favourite,fav_prob
-2026-07-11,Nations Championship,Japan,Ireland,False,2026-07-11T10:10Z,McDonald Jones Stadium,0.0616,0.0076,0.9308,17.7,42.9,18-43,Ireland,0.9308
 2026-07-11,Nations Championship,Fiji,England,False,2026-07-11T13:10Z,Hill Dickinson Stadium,0.2835,0.0207,0.6958,24.3,33.3,24-33,England,0.6958
 2026-07-11,Nations Championship,South Africa,Scotland,False,2026-07-11T15:40Z,Loftus Versfeld,0.8725,0.0121,0.1154,39.0,19.6,39-20,South Africa,0.8725
 2026-07-11,Nations Championship,Argentina,Wales,False,2026-07-11T19:10Z,Estadio Bicentenario,0.7823,0.0173,0.2004,32.7,19.2,33-19,Argentina,0.7823
-2026-07-18,Nations Championship,South Africa,Wales,False,2026-07-18T15:40Z,Hollywoodbets Kings Park,0.9744,0.0034,0.0222,41.7,8.7,42-9,South Africa,0.9744
-2026-07-18,Nations Championship,Fiji,Scotland,False,2026-07-18T13:10Z,Scottish Gas Murrayfield,0.2929,0.021,0.6861,24.6,33.2,25-33,Scotland,0.6861
-2026-07-18,Nations Championship,Argentina,England,False,2026-07-18T19:10Z,Estadio Único Madre de Ciudades,0.4906,0.024,0.4854,29.5,29.4,30-29,Argentina,0.4906
-2026-07-18,Nations Championship,Japan,France,False,2026-07-18T08:40Z,MUFG Stadium,0.0548,0.007,0.9382,17.9,44.1,18-44,France,0.9382
 2026-07-18,Nations Championship,New Zealand,Ireland,False,2026-07-18T07:10Z,Eden Park,0.6364,0.0223,0.3413,27.1,20.8,27-21,New Zealand,0.6364
+2026-07-18,Nations Championship,Japan,France,False,2026-07-18T08:40Z,MUFG Stadium,0.0548,0.007,0.9382,17.9,44.1,18-44,France,0.9382
 2026-07-18,Nations Championship,Australia,Italy,False,2026-07-18T10:10Z,HBF Park,0.7609,0.0182,0.2208,32.7,20.4,33-20,Australia,0.7609
-2026-08-08,International Test Match,Japan,Australia,False,2026-08-08T10:05Z,Hanazono Rugby Stadium,0.3972,0.0233,0.5794,22.4,26.2,22-26,Australia,0.5794
+2026-07-18,Nations Championship,Fiji,Scotland,False,2026-07-18T13:10Z,Scottish Gas Murrayfield,0.2929,0.021,0.6861,24.6,33.2,25-33,Scotland,0.6861
+2026-07-18,Nations Championship,South Africa,Wales,False,2026-07-18T15:40Z,Hollywoodbets Kings Park,0.9744,0.0034,0.0222,41.7,8.7,42-9,South Africa,0.9744
+2026-07-18,Nations Championship,Argentina,England,False,2026-07-18T19:10Z,Estadio Único Madre de Ciudades,0.4906,0.024,0.4854,29.5,29.4,30-29,Argentina,0.4906
 2026-08-08,International Test Match,Argentina,South Africa,False,2026-08-08T19:00Z,Estadio José Amalfitani,0.1608,0.0151,0.8241,21.6,37.6,22-38,South Africa,0.8241
+2026-08-08,International Test Match,Japan,Australia,False,2026-08-08T10:05Z,Hanazono Rugby Stadium,0.3972,0.0233,0.5794,22.4,26.2,22-26,Australia,0.5794
 2026-08-15,International Test Match,Australia,Japan,False,2026-08-15T05:15Z,Queensland Country Bank Stadium,0.8459,0.0138,0.1403,33.7,16.3,34-16,Australia,0.8459
 2026-08-22,International Test Match,South Africa,New Zealand,False,2026-08-22T15:00Z,Ellis Park,0.5987,0.023,0.3783,24.7,20.0,25-20,South Africa,0.5987
 2026-08-29,International Test Match,South Africa,New Zealand,False,2026-08-29T15:00Z,DHL Stadium,0.5987,0.023,0.3783,24.7,20.0,25-20,South Africa,0.5987
 2026-08-29,International Test Match,Argentina,Australia,False,2026-08-29T19:00Z,Estadio 23 de Agosto,0.6994,0.0206,0.28,31.4,22.2,31-22,Argentina,0.6994
-2026-09-05,International Test Match,Argentina,Australia,False,2026-09-05T21:00Z,Estadio Malvinas Argentinas,0.6994,0.0206,0.28,31.4,22.2,31-22,Argentina,0.6994
 2026-09-05,International Test Match,Japan,Canada,False,2026-09-05T05:50Z,Denka Big Swan Stadium,0.9528,0.0056,0.0415,44.4,16.1,44-16,Japan,0.9528
 2026-09-05,International Test Match,South Africa,New Zealand,False,2026-09-05T15:00Z,FNB Stadium,0.5987,0.023,0.3783,24.7,20.0,25-20,South Africa,0.5987
+2026-09-05,International Test Match,Argentina,Australia,False,2026-09-05T21:00Z,Estadio Malvinas Argentinas,0.6994,0.0206,0.28,31.4,22.2,31-22,Argentina,0.6994
 2026-09-12,International Test Match,South Africa,New Zealand,True,2026-09-12T21:00Z,M&T Bank Stadium,0.5757,0.0234,0.4009,23.6,19.9,24-20,South Africa,0.5757
 2026-09-27,International Test Match,Australia,South Africa,False,2026-09-27T09:45Z,Optus Stadium,0.147,0.0142,0.8388,19.4,36.4,19-36,South Africa,0.8388
 2026-10-10,International Test Match,New Zealand,Australia,False,2026-10-10T06:10Z,Eden Park,0.8119,0.0158,0.1724,33.3,18.0,33-18,New Zealand,0.8119
