@@ -1,6 +1,6 @@
 # Rugby World Cup 2027 — ML Prediction Report
 
-*Generated 2026-07-11 · data through **2026-07-11** · 50,000 Monte Carlo simulations · 0/36 pool matches played*
+*Generated 2026-07-12 · data through **2026-07-11** · 50,000 Monte Carlo simulations · 0/36 pool matches played*
 
 Probabilities come from a **margin + total Gaussian model** (World Rugby ranking + Elo strength, points attack/defence, rolling form, venue/importance) trained on 1,914 internationals, simulated through the official RWC 2027 bracket with bonus-point pool standings and tiebreakers.
 
@@ -29,29 +29,18 @@ Every scheduled South Africa international, with kick-off in your timezones, the
 
 | # | Team | Pool | Champion | Δ vs 2026-07-11 | Final | Semi | Quarter | Rd of 16 |
 |---|------|:----:|---------:|-------:|------:|----:|--------:|---------:|
-| 1 | South Africa | B | **38.9%** | +3.5 | 49.4% | 65.3% | 98.2% | 100.0% |
-| 2 | New Zealand | A | **24.0%** | +0.5 | 38.4% | 56.8% | 98.1% | 100.0% |
-| 3 | Ireland | D | **10.8%** | -0.8 | 26.4% | 57.4% | 83.0% | 100.0% |
-| 4 | France | E | **9.9%** | -2.8 | 19.4% | 51.1% | 56.6% | 100.0% |
-| 5 | England | F | **7.2%** | +0.3 | 26.1% | 48.8% | 88.2% | 100.0% |
-| 6 | Argentina | C | **4.0%** | -0.9 | 16.9% | 39.7% | 93.2% | 100.0% |
-| 7 | Scotland | D | **3.1%** | +0.1 | 12.5% | 41.3% | 57.7% | 99.9% |
-| 8 | Australia | A | **2.0%** | +0.2 | 9.2% | 25.5% | 86.7% | 99.8% |
-| 9 | Wales | F | **0.0%** | -0.1 | 0.6% | 6.7% | 57.7% | 96.3% |
+| 1 | South Africa | B | **38.9%** | – | 49.4% | 65.3% | 98.2% | 100.0% |
+| 2 | New Zealand | A | **24.0%** | – | 38.4% | 56.8% | 98.1% | 100.0% |
+| 3 | Ireland | D | **10.8%** | – | 26.4% | 57.4% | 83.0% | 100.0% |
+| 4 | France | E | **9.9%** | – | 19.4% | 51.1% | 56.6% | 100.0% |
+| 5 | England | F | **7.2%** | – | 26.1% | 48.8% | 88.2% | 100.0% |
+| 6 | Argentina | C | **4.0%** | – | 16.9% | 39.7% | 93.2% | 100.0% |
+| 7 | Scotland | D | **3.1%** | – | 12.5% | 41.3% | 57.7% | 99.9% |
+| 8 | Australia | A | **2.0%** | – | 9.2% | 25.5% | 86.7% | 99.8% |
+| 9 | Wales | F | **0.0%** | – | 0.6% | 6.7% | 57.7% | 96.3% |
 | 10 | Italy | B | **0.0%** | – | 0.7% | 3.8% | 17.6% | 97.6% |
 | 11 | Japan | E | **0.0%** | – | 0.1% | 1.1% | 8.2% | 82.2% |
 | 12 | Fiji | C | **0.0%** | – | 0.1% | 1.5% | 32.7% | 98.9% |
-
-## Biggest movers since last run (2026-07-11)
-
-| Team | Δ Champion | Δ Rd of 16 | Champion now |
-|------|----------:|-----------:|-------------:|
-| South Africa | +3.5 | – | 38.9% |
-| New Zealand | +0.5 | – | 24.0% |
-| England | +0.3 | – | 7.2% |
-| Ireland | -0.8 | – | 10.8% |
-| Argentina | -0.9 | – | 4.0% |
-| France | -2.8 | – | 9.9% |
 
 ## Path to the final
 
