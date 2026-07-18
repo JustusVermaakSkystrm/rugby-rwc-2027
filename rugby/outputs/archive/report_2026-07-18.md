@@ -28,29 +28,18 @@ Every scheduled South Africa international, with kick-off in your timezones, the
 
 | # | Team | Pool | Champion | Δ vs 2026-07-18 | Final | Semi | Quarter | Rd of 16 |
 |---|------|:----:|---------:|-------:|------:|----:|--------:|---------:|
-| 1 | South Africa | B | **30.2%** | -2.9 | 42.0% | 59.4% | 97.7% | 100.0% |
-| 2 | New Zealand | A | **21.4%** | -4.5 | 35.1% | 54.4% | 97.8% | 100.0% |
-| 3 | France | E | **15.4%** | +2.7 | 27.3% | 61.4% | 66.6% | 100.0% |
-| 4 | Ireland | D | **15.1%** | +1.8 | 35.5% | 63.9% | 83.8% | 100.0% |
-| 5 | England | F | **7.6%** | +1.9 | 24.4% | 50.2% | 90.4% | 100.0% |
-| 6 | Australia | A | **3.9%** | +1.0 | 11.9% | 34.2% | 86.9% | 99.6% |
-| 7 | Scotland | D | **3.2%** | +0.5 | 10.9% | 34.3% | 47.3% | 99.8% |
-| 8 | Argentina | C | **3.2%** | -0.6 | 12.0% | 31.8% | 89.0% | 100.0% |
+| 1 | South Africa | B | **30.2%** | – | 42.0% | 59.4% | 97.7% | 100.0% |
+| 2 | New Zealand | A | **21.4%** | – | 35.1% | 54.4% | 97.8% | 100.0% |
+| 3 | France | E | **15.4%** | – | 27.3% | 61.4% | 66.6% | 100.0% |
+| 4 | Ireland | D | **15.1%** | – | 35.5% | 63.9% | 83.8% | 100.0% |
+| 5 | England | F | **7.6%** | – | 24.4% | 50.2% | 90.4% | 100.0% |
+| 6 | Australia | A | **3.9%** | – | 11.9% | 34.2% | 86.9% | 99.6% |
+| 7 | Scotland | D | **3.2%** | – | 10.9% | 34.3% | 47.3% | 99.8% |
+| 8 | Argentina | C | **3.2%** | – | 12.0% | 31.8% | 89.0% | 100.0% |
 | 9 | Wales | F | **0.0%** | – | 0.4% | 3.9% | 57.6% | 96.3% |
 | 10 | Italy | B | **0.0%** | – | 0.3% | 2.4% | 12.8% | 97.1% |
 | 11 | Fiji | C | **0.0%** | – | 0.1% | 1.8% | 34.6% | 97.6% |
 | 12 | Japan | E | **0.0%** | – | 0.1% | 0.7% | 8.4% | 78.4% |
-
-## Biggest movers since last run (2026-07-18)
-
-| Team | Δ Champion | Δ Rd of 16 | Champion now |
-|------|----------:|-----------:|-------------:|
-| France | +2.7 | – | 15.4% |
-| England | +1.9 | – | 7.6% |
-| Ireland | +1.8 | – | 15.1% |
-| Australia | +1.0 | -0.1 | 3.9% |
-| South Africa | -2.9 | – | 30.2% |
-| New Zealand | -4.5 | – | 21.4% |
 
 ## Path to the final
 
@@ -66,15 +55,16 @@ Every scheduled men's international on the calendar, not just RWC fixtures — t
 
 | Date | Competition | Match | Home win | Draw | Away win | Predicted | Favourite |
 |------|-------------|-------|---------:|-----:|---------:|:---------:|----------|
+| 2026-07-18 | Nations Championship | Argentina v England | 31.8% | 2.2% | **66.0%** | 25.2–32.6 | England (66.0%) |
 | 2026-08-08 | International Test Match | Japan v Australia | 33.1% | 2.2% | **64.7%** | 24.1–30.9 | Australia (64.7%) |
 | 2026-08-08 | International Test Match | Argentina v South Africa | 11.5% | 1.2% | **87.4%** | 20.4–39.9 | South Africa (87.4%) |
 | 2026-08-15 | International Test Match | Australia v Japan | **85.6%** | 1.3% | 13.1% | 35.6–17.4 | Australia (85.6%) |
 | 2026-08-22 | International Test Match | South Africa v New Zealand | **50.0%** | 2.4% | 47.6% | 22.7–22.2 | South Africa (50.0%) |
 | 2026-08-29 | International Test Match | South Africa v New Zealand | **50.0%** | 2.4% | 47.6% | 22.7–22.2 | South Africa (50.0%) |
 | 2026-08-29 | International Test Match | Argentina v Australia | **62.6%** | 2.2% | 35.1% | 30.2–24.3 | Argentina (62.6%) |
-| 2026-09-05 | International Test Match | Japan v Canada | **94.3%** | 0.7% | 5.0% | 42.7–15.8 | Japan (94.3%) |
-| 2026-09-05 | International Test Match | South Africa v New Zealand | **50.0%** | 2.4% | 47.6% | 22.7–22.2 | South Africa (50.0%) |
 | 2026-09-05 | International Test Match | Argentina v Australia | **62.6%** | 2.2% | 35.1% | 30.2–24.3 | Argentina (62.6%) |
+| 2026-09-05 | International Test Match | South Africa v New Zealand | **50.0%** | 2.4% | 47.6% | 22.7–22.2 | South Africa (50.0%) |
+| 2026-09-05 | International Test Match | Japan v Canada | **94.3%** | 0.7% | 5.0% | 42.7–15.8 | Japan (94.3%) |
 | 2026-09-12 | International Test Match | South Africa v New Zealand (N) | 45.9% | 2.4% | **51.7%** | 21.8–23.0 | New Zealand (51.7%) |
 | 2026-09-27 | International Test Match | Australia v South Africa | 27.3% | 2.0% | **70.6%** | 22.1–31.7 | South Africa (70.6%) |
 | 2026-10-10 | International Test Match | New Zealand v Australia | **88.3%** | 1.1% | 10.5% | 36.4–16.0 | New Zealand (88.3%) |
@@ -82,17 +72,16 @@ Every scheduled men's international on the calendar, not just RWC fixtures — t
 | 2026-11-06 | Nations Championship | Ireland v Argentina | **75.1%** | 1.9% | 23.0% | 34.9–23.1 | Ireland (75.1%) |
 | 2026-11-07 | Nations Championship | France v Fiji | **95.7%** | 0.5% | 3.8% | 43.0–14.0 | France (95.7%) |
 | 2026-11-07 | Nations Championship | Wales v Japan | **55.7%** | 2.4% | 42.0% | 29.1–26.3 | Wales (55.7%) |
-| 2026-11-07 | Nations Championship | Scotland v New Zealand | 33.0% | 2.2% | **64.8%** | 24.3–31.1 | New Zealand (64.8%) |
 | 2026-11-07 | Nations Championship | Italy v South Africa | 3.5% | 0.5% | **96.0%** | 14.2–44.0 | South Africa (96.0%) |
+| 2026-11-07 | Nations Championship | Scotland v New Zealand | 33.0% | 2.2% | **64.8%** | 24.3–31.1 | New Zealand (64.8%) |
 | 2026-11-08 | Nations Championship | England v Australia | **73.3%** | 1.9% | 24.7% | 32.4–21.5 | England (73.3%) |
 | 2026-11-13 | Nations Championship | France v South Africa | 39.5% | 2.3% | **58.1%** | 25.4–29.3 | South Africa (58.1%) |
 | 2026-11-14 | Nations Championship | Italy v Argentina | 21.0% | 1.8% | **77.3%** | 22.9–35.9 | Argentina (77.3%) |
 | 2026-11-14 | Nations Championship | Wales v New Zealand | 6.1% | 0.8% | **93.2%** | 17.8–43.2 | New Zealand (93.2%) |
 | 2026-11-14 | Nations Championship | England v Japan | **91.0%** | 0.9% | 8.1% | 38.5–15.6 | England (91.0%) |
 | 2026-11-14 | Nations Championship | Ireland v Fiji | **96.5%** | 0.4% | 3.1% | 43.1–12.5 | Ireland (96.5%) |
-| 2026-11-15 | Nations Championship | Scotland v Australia | **61.6%** | 2.3% | 36.1% | 30.5–25.0 | Scotland (61.6%) |
 
-*31 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
+*32 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
 
 ## Pool projections
 
