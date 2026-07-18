@@ -1,34 +1,33 @@
 date,tournament,home,away,neutral,kickoff_utc,venue,p_home_win,p_draw,p_away_win,exp_home,exp_away,most_likely_score,favourite,fav_prob
-2026-07-18,Nations Championship,South Africa,Wales,False,2026-07-18T15:40Z,Hollywoodbets Kings Park,0.9881,0.0017,0.0102,48.5,10.4,48-10,South Africa,0.9881
-2026-07-18,Nations Championship,Argentina,England,False,2026-07-18T19:10Z,Estadio Único Madre de Ciudades,0.4108,0.0235,0.5657,30.2,33.5,30-33,England,0.5657
-2026-08-08,International Test Match,Japan,Australia,False,2026-08-08T10:05Z,Hanazono Rugby Stadium,0.4079,0.0235,0.5686,26.1,29.5,26-30,Australia,0.5686
-2026-08-08,International Test Match,Argentina,South Africa,False,2026-08-08T19:00Z,Estadio José Amalfitani,0.1911,0.0168,0.7921,22.9,37.0,23-37,South Africa,0.7921
-2026-08-15,International Test Match,Australia,Japan,False,2026-08-15T05:15Z,Queensland Country Bank Stadium,0.8383,0.0143,0.1474,36.3,19.4,36-19,Australia,0.8383
-2026-08-22,International Test Match,South Africa,New Zealand,False,2026-08-22T15:00Z,Ellis Park,0.5437,0.0238,0.4326,23.4,21.1,23-21,South Africa,0.5437
-2026-08-29,International Test Match,South Africa,New Zealand,False,2026-08-29T15:00Z,DHL Stadium,0.5437,0.0238,0.4326,23.4,21.1,23-21,South Africa,0.5437
-2026-08-29,International Test Match,Argentina,Australia,False,2026-08-29T19:00Z,Estadio 23 de Agosto,0.6687,0.0215,0.3098,30.2,22.4,30-22,Argentina,0.6687
-2026-09-05,International Test Match,Argentina,Australia,False,2026-09-05T21:00Z,Estadio Malvinas Argentinas,0.6687,0.0215,0.3098,30.2,22.4,30-22,Argentina,0.6687
-2026-09-05,International Test Match,Japan,Canada,False,2026-09-05T05:50Z,Denka Big Swan Stadium,0.9571,0.0052,0.0377,44.4,15.4,44-15,Japan,0.9571
-2026-09-05,International Test Match,South Africa,New Zealand,False,2026-09-05T15:00Z,FNB Stadium,0.5437,0.0238,0.4326,23.4,21.1,23-21,South Africa,0.5437
-2026-09-12,International Test Match,South Africa,New Zealand,True,2026-09-12T21:00Z,M&T Bank Stadium,0.5348,0.0238,0.4414,23.1,21.1,23-21,South Africa,0.5348
-2026-09-27,International Test Match,Australia,South Africa,False,2026-09-27T09:45Z,Optus Stadium,0.2815,0.0206,0.6979,24.3,33.4,24-33,South Africa,0.6979
-2026-10-10,International Test Match,New Zealand,Australia,False,2026-10-10T06:10Z,Eden Park,0.8785,0.0117,0.1098,37.8,17.9,38-18,New Zealand,0.8785
-2026-10-17,International Test Match,Australia,New Zealand,False,2026-10-17T05:00Z,Accor Stadium,0.2837,0.0207,0.6955,21.6,30.6,22-31,New Zealand,0.6955
-2026-11-06,Nations Championship,Ireland,Argentina,False,2026-11-06T20:10Z,Aviva Stadium,0.684,0.0211,0.295,34.2,25.7,34-26,Ireland,0.684
-2026-11-07,Nations Championship,France,Fiji,False,2026-11-07T20:10Z,Groupama Stadium,0.978,0.003,0.019,44.8,10.8,45-11,France,0.978
-2026-11-07,Nations Championship,Wales,Japan,False,2026-11-07T16:40Z,Principality Stadium,0.5213,0.0239,0.4548,28.1,26.7,28-27,Wales,0.5213
-2026-11-07,Nations Championship,Italy,South Africa,False,2026-11-07T11:40Z,Allianz Stadium,0.0151,0.0024,0.9825,10.4,45.9,10-46,South Africa,0.9825
-2026-11-07,Nations Championship,Scotland,New Zealand,False,2026-11-07T14:10Z,Scottish Gas Murrayfield,0.3127,0.0216,0.6657,21.8,29.4,22-29,New Zealand,0.6657
-2026-11-08,Nations Championship,England,Australia,False,2026-11-08T15:10Z,Allianz Stadium,0.7019,0.0205,0.2776,31.5,22.2,32-22,England,0.7019
-2026-11-13,Nations Championship,France,South Africa,False,2026-11-13T20:10Z,Stade de France,0.3326,0.0221,0.6453,25.0,31.6,25-32,South Africa,0.6453
-2026-11-14,Nations Championship,Italy,Argentina,False,2026-11-14T11:40Z,Stadio Luigi Ferraris,0.098,0.0108,0.8912,17.9,38.9,18-39,Argentina,0.8912
-2026-11-14,Nations Championship,Wales,New Zealand,False,2026-11-14T14:10Z,Principality Stadium,0.052,0.0067,0.9413,16.7,43.2,17-43,New Zealand,0.9413
-2026-11-14,Nations Championship,England,Japan,False,2026-11-14T16:40Z,Allianz Stadium,0.9201,0.0086,0.0713,39.0,15.1,39-15,England,0.9201
-2026-11-14,Nations Championship,Ireland,Fiji,False,2026-11-14T20:10Z,Aviva Stadium,0.9745,0.0034,0.0221,45.8,12.8,46-13,Ireland,0.9745
-2026-11-15,Nations Championship,Scotland,Australia,False,2026-11-15T15:10Z,Scottish Gas Murrayfield,0.6205,0.0227,0.3568,30.3,24.7,30-25,Scotland,0.6205
-2026-11-21,Nations Championship,France,Argentina,False,2026-11-21T20:10Z,Stade de France,0.6887,0.0209,0.2904,32.7,24.0,33-24,France,0.6887
-2026-11-21,Nations Championship,England,New Zealand,False,2026-11-21T14:10Z,Allianz Stadium,0.3553,0.0226,0.6221,23.3,28.9,23-29,New Zealand,0.6221
-2026-11-21,Nations Championship,Scotland,Japan,False,2026-11-21T14:10Z,Scottish Gas Murrayfield,0.8683,0.0124,0.1193,36.5,17.4,36-17,Scotland,0.8683
-2026-11-21,Nations Championship,Ireland,South Africa,False,2026-11-21T16:40Z,Aviva Stadium,0.3609,0.0227,0.6164,23.7,29.1,24-29,South Africa,0.6164
-2026-11-21,Nations Championship,Italy,Fiji,False,2026-11-21T16:40Z,Bluenergy Stadium,0.6223,0.0226,0.3551,26.9,21.2,27-21,Italy,0.6223
-2026-11-21,Nations Championship,Wales,Australia,False,2026-11-21T20:10Z,Principality Stadium,0.411,0.0235,0.5655,24.5,27.7,24-28,Australia,0.5655
+2026-07-18,Nations Championship,Argentina,England,False,2026-07-18T19:10Z,Estadio Único Madre de Ciudades,0.6144,0.023,0.3625,29.3,24.1,29-24,Argentina,0.6144
+2026-08-08,International Test Match,Japan,Australia,False,2026-08-08T10:05Z,Hanazono Rugby Stadium,0.4152,0.0238,0.5609,23.8,26.9,24-27,Australia,0.5609
+2026-08-08,International Test Match,Argentina,South Africa,False,2026-08-08T19:00Z,Estadio José Amalfitani,0.1614,0.0153,0.8233,21.5,37.3,22-37,South Africa,0.8233
+2026-08-15,International Test Match,Australia,Japan,False,2026-08-15T05:15Z,Queensland Country Bank Stadium,0.8145,0.0158,0.1697,34.1,18.9,34-19,Australia,0.8145
+2026-08-22,International Test Match,South Africa,New Zealand,False,2026-08-22T15:00Z,Ellis Park,0.6071,0.0232,0.3698,24.1,19.2,24-19,South Africa,0.6071
+2026-08-29,International Test Match,South Africa,New Zealand,False,2026-08-29T15:00Z,DHL Stadium,0.6071,0.0232,0.3698,24.1,19.2,24-19,South Africa,0.6071
+2026-08-29,International Test Match,Argentina,Australia,False,2026-08-29T19:00Z,Estadio 23 de Agosto,0.7152,0.0203,0.2646,30.2,20.4,30-20,Argentina,0.7152
+2026-09-05,International Test Match,Argentina,Australia,False,2026-09-05T21:00Z,Estadio Malvinas Argentinas,0.7152,0.0203,0.2646,30.2,20.4,30-20,Argentina,0.7152
+2026-09-05,International Test Match,South Africa,New Zealand,False,2026-09-05T15:00Z,FNB Stadium,0.6071,0.0232,0.3698,24.1,19.2,24-19,South Africa,0.6071
+2026-09-05,International Test Match,Japan,Canada,False,2026-09-05T05:50Z,Denka Big Swan Stadium,0.9296,0.0078,0.0625,41.9,17.1,42-17,Japan,0.9296
+2026-09-12,International Test Match,South Africa,New Zealand,True,2026-09-12T21:00Z,M&T Bank Stadium,0.58,0.0236,0.3964,23.5,19.7,24-20,South Africa,0.58
+2026-09-27,International Test Match,Australia,South Africa,False,2026-09-27T09:45Z,Optus Stadium,0.2638,0.0202,0.716,22.7,32.6,23-33,South Africa,0.716
+2026-10-10,International Test Match,New Zealand,Australia,False,2026-10-10T06:10Z,Eden Park,0.8966,0.0105,0.0929,37.4,16.2,37-16,New Zealand,0.8966
+2026-10-17,International Test Match,Australia,New Zealand,False,2026-10-17T05:00Z,Accor Stadium,0.2843,0.021,0.6947,21.1,30.0,21-30,New Zealand,0.6947
+2026-11-06,Nations Championship,Ireland,Argentina,False,2026-11-06T20:10Z,Aviva Stadium,0.6253,0.0228,0.3519,29.6,23.9,30-24,Ireland,0.6253
+2026-11-07,Nations Championship,France,Fiji,False,2026-11-07T20:10Z,Groupama Stadium,0.9779,0.003,0.0191,46.2,12.6,46-13,France,0.9779
+2026-11-07,Nations Championship,Wales,Japan,False,2026-11-07T16:40Z,Principality Stadium,0.6486,0.0223,0.3291,29.1,22.3,29-22,Wales,0.6486
+2026-11-07,Nations Championship,Italy,South Africa,False,2026-11-07T11:40Z,Allianz Stadium,0.015,0.0025,0.9825,12.6,47.8,13-48,South Africa,0.9825
+2026-11-07,Nations Championship,Scotland,New Zealand,False,2026-11-07T14:10Z,Scottish Gas Murrayfield,0.2846,0.021,0.6945,20.6,29.5,21-29,New Zealand,0.6945
+2026-11-08,Nations Championship,England,Australia,False,2026-11-08T15:10Z,Allianz Stadium,0.7484,0.019,0.2326,32.8,21.3,33-21,England,0.7484
+2026-11-13,Nations Championship,France,South Africa,False,2026-11-13T20:10Z,Stade de France,0.3592,0.023,0.6178,24.1,29.5,24-30,South Africa,0.6178
+2026-11-14,Nations Championship,Italy,Argentina,False,2026-11-14T11:40Z,Stadio Luigi Ferraris,0.1916,0.017,0.7914,20.7,34.6,21-35,Argentina,0.7914
+2026-11-14,Nations Championship,Wales,New Zealand,False,2026-11-14T14:10Z,Principality Stadium,0.0903,0.0103,0.8994,18.3,39.9,18-40,New Zealand,0.8994
+2026-11-14,Nations Championship,England,Japan,False,2026-11-14T16:40Z,Allianz Stadium,0.9428,0.0066,0.0506,40.7,14.2,41-14,England,0.9428
+2026-11-14,Nations Championship,Ireland,Fiji,False,2026-11-14T20:10Z,Aviva Stadium,0.9446,0.0065,0.049,43.1,16.4,43-16,Ireland,0.9446
+2026-11-15,Nations Championship,Scotland,Australia,False,2026-11-15T15:10Z,Scottish Gas Murrayfield,0.6204,0.0229,0.3567,29.2,23.7,29-24,Scotland,0.6204
+2026-11-21,Nations Championship,France,Argentina,False,2026-11-21T20:10Z,Stade de France,0.8202,0.0155,0.1643,35.9,20.4,36-20,France,0.8202
+2026-11-21,Nations Championship,England,New Zealand,False,2026-11-21T14:10Z,Allianz Stadium,0.3829,0.0234,0.5937,22.3,26.7,22-27,New Zealand,0.5937
+2026-11-21,Nations Championship,Scotland,Japan,False,2026-11-21T14:10Z,Scottish Gas Murrayfield,0.8709,0.0124,0.1167,36.7,17.6,37-18,Scotland,0.8709
+2026-11-21,Nations Championship,Ireland,South Africa,False,2026-11-21T16:40Z,Aviva Stadium,0.3971,0.0236,0.5793,23.8,27.6,24-28,South Africa,0.5793
+2026-11-21,Nations Championship,Italy,Fiji,False,2026-11-21T16:40Z,Bluenergy Stadium,0.6265,0.0228,0.3507,27.4,21.6,27-22,Italy,0.6265
+2026-11-21,Nations Championship,Wales,Australia,False,2026-11-21T20:10Z,Principality Stadium,0.461,0.0242,0.5148,24.9,26.0,25-26,Australia,0.5148

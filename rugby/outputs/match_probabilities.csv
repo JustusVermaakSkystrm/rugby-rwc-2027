@@ -1,37 +1,37 @@
 date,group,home,away,status,score,p_home_win,p_draw,p_away_win,exp_home,exp_away,most_likely_score
-,A,Australia,New Zealand,upcoming,,0.2837,0.0207,0.6955,18.5,27.5,19-28
-,A,Australia,Chile,upcoming,,0.9549,0.0054,0.0397,41.7,13.0,42-13
-,A,Australia,Hong Kong China,upcoming,,0.9806,0.0027,0.0168,43.5,8.6,43-9
-,A,New Zealand,Chile,upcoming,,0.9975,0.0004,0.0021,59.1,11.9,59-12
-,A,New Zealand,Hong Kong China,upcoming,,0.9972,0.0005,0.0023,56.2,9.7,56-10
-,A,Chile,Hong Kong China,upcoming,,0.6219,0.0226,0.3554,25.5,19.9,26-20
-,B,South Africa,Italy,upcoming,,0.9414,0.0067,0.0519,38.4,11.9,38-12
-,B,South Africa,Georgia,upcoming,,0.9964,0.0006,0.003,56.6,11.4,57-11
-,B,South Africa,Romania,upcoming,,0.9991,0.0002,0.0007,61.7,9.4,62-9
-,B,Italy,Georgia,upcoming,,0.7123,0.0202,0.2675,25.6,15.8,26-16
-,B,Italy,Romania,upcoming,,0.9317,0.0076,0.0607,39.2,13.9,39-14
-,B,Georgia,Romania,upcoming,,0.8226,0.0152,0.1622,33.3,17.4,33-17
-,C,Argentina,Fiji,upcoming,,0.8959,0.0105,0.0936,35.6,14.2,36-14
-,C,Argentina,Canada,upcoming,,0.9988,0.0002,0.001,58.5,7.4,59-7
-,C,Argentina,Spain,upcoming,,0.9811,0.0026,0.0163,43.7,8.6,44-9
-,C,Fiji,Canada,upcoming,,0.9424,0.0066,0.051,41.2,14.5,41-15
-,C,Fiji,Spain,upcoming,,0.7318,0.0194,0.2488,29.3,18.5,29-19
-,C,Canada,Spain,upcoming,,0.1468,0.0143,0.839,14.8,31.8,15-32
-,D,Ireland,Scotland,upcoming,,0.6073,0.0229,0.3698,32.8,27.8,33-28
-,D,Ireland,Uruguay,upcoming,,0.9939,0.001,0.0051,52.5,10.2,52-10
-,D,Ireland,Portugal,upcoming,,0.9958,0.0007,0.0035,54.0,9.7,54-10
-,D,Scotland,Uruguay,upcoming,,0.9798,0.0028,0.0174,43.2,8.6,43-9
-,D,Scotland,Portugal,upcoming,,0.9861,0.002,0.0119,45.0,7.9,45-8
-,D,Uruguay,Portugal,upcoming,,0.5085,0.024,0.4675,22.1,21.2,22-21
-,E,France,Japan,upcoming,,0.9563,0.0053,0.0384,39.9,11.0,40-11
-,E,France,Samoa,upcoming,,0.9793,0.0028,0.0179,46.0,11.6,46-12
-,E,France,United States,upcoming,,0.995,0.0008,0.0042,54.3,11.0,54-11
-,E,Japan,Samoa,upcoming,,0.6266,0.0225,0.3508,25.8,19.9,26-20
-,E,Japan,United States,upcoming,,0.5631,0.0236,0.4133,27.4,24.3,27-24
-,E,Samoa,United States,upcoming,,0.6548,0.0219,0.3233,28.0,20.9,28-21
-,F,England,Wales,upcoming,,0.8674,0.0125,0.1201,37.3,18.2,37-18
-,F,England,Tonga,upcoming,,0.9913,0.0013,0.0074,49.0,8.9,49-9
-,F,England,Zimbabwe,upcoming,,0.9964,0.0006,0.003,56.1,10.9,56-11
-,F,Wales,Tonga,upcoming,,0.7652,0.0181,0.2167,33.6,21.1,34-21
-,F,Wales,Zimbabwe,upcoming,,0.8942,0.0106,0.0952,35.4,14.2,35-14
-,F,Tonga,Zimbabwe,upcoming,,0.7814,0.0173,0.2012,30.8,17.3,31-17
+,A,Australia,New Zealand,upcoming,,0.2787,0.0208,0.7005,20.0,29.2,20-29
+,A,Australia,Chile,upcoming,,0.9564,0.0053,0.0383,42.0,13.4,42-13
+,A,Australia,Hong Kong China,upcoming,,0.9775,0.0031,0.0195,45.3,11.9,45-12
+,A,New Zealand,Chile,upcoming,,0.9984,0.0003,0.0013,58.7,9.6,59-10
+,A,New Zealand,Hong Kong China,upcoming,,0.9961,0.0006,0.0032,54.2,9.9,54-10
+,A,Chile,Hong Kong China,upcoming,,0.4498,0.0241,0.5261,22.4,24.0,22-24
+,B,South Africa,Italy,upcoming,,0.9723,0.0037,0.0241,40.1,8.1,40-8
+,B,South Africa,Georgia,upcoming,,0.9984,0.0003,0.0013,57.6,8.5,58-8
+,B,South Africa,Romania,upcoming,,0.9993,0.0001,0.0005,61.1,7.8,61-8
+,B,Italy,Georgia,upcoming,,0.7248,0.0199,0.2553,27.7,17.4,28-17
+,B,Italy,Romania,upcoming,,0.93,0.0078,0.0622,41.4,16.6,41-17
+,B,Georgia,Romania,upcoming,,0.7615,0.0184,0.2201,31.7,19.5,32-19
+,C,Argentina,Fiji,upcoming,,0.8825,0.0115,0.1059,37.5,17.4,37-17
+,C,Argentina,Canada,upcoming,,0.9985,0.0003,0.0012,58.5,9.1,58-9
+,C,Argentina,Spain,upcoming,,0.9888,0.0017,0.0095,47.7,9.6,48-10
+,C,Fiji,Canada,upcoming,,0.963,0.0047,0.0323,44.2,14.3,44-14
+,C,Fiji,Spain,upcoming,,0.7314,0.0197,0.2489,30.2,19.6,30-20
+,C,Canada,Spain,upcoming,,0.1604,0.0153,0.8244,16.7,32.6,17-33
+,D,Ireland,Scotland,upcoming,,0.5994,0.0233,0.3773,27.2,22.6,27-23
+,D,Ireland,Uruguay,upcoming,,0.9897,0.0015,0.0087,52.0,13.4,52-13
+,D,Ireland,Portugal,upcoming,,0.9936,0.001,0.0053,51.9,10.4,52-10
+,D,Scotland,Uruguay,upcoming,,0.9767,0.0031,0.0201,44.4,11.2,44-11
+,D,Scotland,Portugal,upcoming,,0.984,0.0023,0.0138,45.4,9.7,45-10
+,D,Uruguay,Portugal,upcoming,,0.4761,0.0242,0.4997,22.7,23.2,23-23
+,E,France,Japan,upcoming,,0.9455,0.0064,0.0481,40.8,13.9,41-14
+,E,France,Samoa,upcoming,,0.9959,0.0007,0.0034,54.1,10.1,54-10
+,E,France,United States,upcoming,,0.9965,0.0006,0.0029,55.9,11.1,56-11
+,E,Japan,Samoa,upcoming,,0.614,0.023,0.363,25.2,19.9,25-20
+,E,Japan,United States,upcoming,,0.6901,0.0211,0.2888,29.2,20.6,29-21
+,E,Samoa,United States,upcoming,,0.6962,0.0209,0.2828,28.6,19.7,29-20
+,F,England,Wales,upcoming,,0.8045,0.0163,0.1792,33.7,19.1,34-19
+,F,England,Tonga,upcoming,,0.9909,0.0014,0.0077,50.3,11.0,50-11
+,F,England,Zimbabwe,upcoming,,0.995,0.0008,0.0042,54.0,11.1,54-11
+,F,Wales,Tonga,upcoming,,0.8452,0.014,0.1408,34.1,16.9,34-17
+,F,Wales,Zimbabwe,upcoming,,0.8478,0.0139,0.1383,33.1,15.7,33-16
+,F,Tonga,Zimbabwe,upcoming,,0.7148,0.0203,0.2649,29.4,19.6,29-20
