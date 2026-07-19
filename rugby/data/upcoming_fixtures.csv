@@ -1,5 +1,4 @@
 date,home_team,away_team,tournament,city,country,neutral,kickoff_utc,venue
-2026-07-18,Argentina,England,Nations Championship,,,False,2026-07-18T19:10Z,Estadio Único Madre de Ciudades
 2026-08-08,Japan,Australia,International Test Match,Osaka,Japan,False,2026-08-08T10:05Z,Hanazono Rugby Stadium
 2026-08-08,Argentina,South Africa,International Test Match,Buenos Aires,Argentina,False,2026-08-08T19:00Z,Estadio José Amalfitani
 2026-08-15,Australia,Japan,International Test Match,Townsville,Australia,False,2026-08-15T05:15Z,Queensland Country Bank Stadium
@@ -10,7 +9,7 @@ date,home_team,away_team,tournament,city,country,neutral,kickoff_utc,venue
 2026-09-05,South Africa,New Zealand,International Test Match,Johannesburg,South Africa,False,2026-09-05T15:00Z,FNB Stadium
 2026-09-05,Argentina,Australia,International Test Match,Mendoza,Argentina,False,2026-09-05T21:00Z,Estadio Malvinas Argentinas
 2026-09-12,South Africa,New Zealand,International Test Match,,,True,2026-09-12T21:00Z,M&T Bank Stadium
-2026-09-27,Australia,South Africa,International Test Match,Perth,Scotland,False,2026-09-27T09:45Z,Optus Stadium
+2026-09-27,Australia,South Africa,International Test Match,Perth,Australia,False,2026-09-27T09:45Z,Optus Stadium
 2026-10-10,New Zealand,Australia,International Test Match,Auckland,New Zealand,False,2026-10-10T06:10Z,Eden Park
 2026-10-17,Australia,New Zealand,International Test Match,Sydney,Australia,False,2026-10-17T05:00Z,Accor Stadium
 2026-11-06,Ireland,Argentina,Nations Championship,Dublin,Ireland,False,2026-11-06T20:10Z,Aviva Stadium
