@@ -9,7 +9,7 @@ date,home_team,away_team,tournament,city,country,neutral,kickoff_utc,venue
 2026-09-05,South Africa,New Zealand,International Test Match,Johannesburg,South Africa,False,2026-09-05T15:00Z,FNB Stadium
 2026-09-05,Argentina,Australia,International Test Match,Mendoza,Argentina,False,2026-09-05T21:00Z,Estadio Malvinas Argentinas
 2026-09-12,South Africa,New Zealand,International Test Match,,,True,2026-09-12T21:00Z,M&T Bank Stadium
-2026-09-27,Australia,South Africa,International Test Match,Perth,Scotland,False,2026-09-27T09:45Z,Optus Stadium
+2026-09-27,Australia,South Africa,International Test Match,Perth,Australia,False,2026-09-27T09:45Z,Optus Stadium
 2026-10-10,New Zealand,Australia,International Test Match,Auckland,New Zealand,False,2026-10-10T06:10Z,Eden Park
 2026-10-17,Australia,New Zealand,International Test Match,Sydney,Australia,False,2026-10-17T05:00Z,Accor Stadium
 2026-10-24,Japan,Fiji,International Test Match,Tokyo,Japan,False,2026-10-24T05:50Z,Prince Chichibu Memorial Stadium
@@ -24,6 +24,7 @@ date,home_team,away_team,tournament,city,country,neutral,kickoff_utc,venue
 2026-11-14,Wales,New Zealand,Nations Championship,Cardiff,Wales,False,2026-11-14T14:10Z,Principality Stadium
 2026-11-14,England,Japan,Nations Championship,London,England,False,2026-11-14T16:40Z,Allianz Stadium
 2026-11-14,Ireland,Fiji,Nations Championship,Dublin,Ireland,False,2026-11-14T20:10Z,Aviva Stadium
+2026-11-14,Paraguay,Brazil,International Test Match,,,False,2026-11-14T00:00Z,
 2026-11-15,Scotland,Australia,Nations Championship,Edinburgh,Scotland,False,2026-11-15T15:10Z,Scottish Gas Murrayfield
 2026-11-21,England,New Zealand,Nations Championship,London,England,False,2026-11-21T14:10Z,Allianz Stadium
 2026-11-21,Scotland,Japan,Nations Championship,Edinburgh,Scotland,False,2026-11-21T14:10Z,Scottish Gas Murrayfield

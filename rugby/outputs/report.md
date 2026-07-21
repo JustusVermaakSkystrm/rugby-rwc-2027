@@ -72,8 +72,8 @@ Every scheduled men's international on the calendar, not just RWC fixtures — t
 | 2026-11-06 | Nations Championship | Ireland v Argentina | **75.1%** | 1.9% | 23.0% | 34.9–23.1 | Ireland (75.1%) |
 | 2026-11-07 | Nations Championship | France v Fiji | **95.7%** | 0.5% | 3.8% | 43.0–14.0 | France (95.7%) |
 | 2026-11-07 | Nations Championship | Wales v Japan | **55.7%** | 2.4% | 42.0% | 29.1–26.3 | Wales (55.7%) |
-| 2026-11-07 | Nations Championship | Italy v South Africa | 3.5% | 0.5% | **96.0%** | 14.2–44.0 | South Africa (96.0%) |
 | 2026-11-07 | Nations Championship | Scotland v New Zealand | 33.0% | 2.2% | **64.8%** | 24.3–31.1 | New Zealand (64.8%) |
+| 2026-11-07 | Nations Championship | Italy v South Africa | 3.5% | 0.5% | **96.0%** | 14.2–44.0 | South Africa (96.0%) |
 | 2026-11-08 | Nations Championship | England v Australia | **73.3%** | 1.9% | 24.7% | 32.4–21.5 | England (73.3%) |
 | 2026-11-13 | Nations Championship | France v South Africa | 39.5% | 2.3% | **58.1%** | 25.4–29.3 | South Africa (58.1%) |
 | 2026-11-14 | Nations Championship | Italy v Argentina | 21.0% | 1.8% | **77.3%** | 22.9–35.9 | Argentina (77.3%) |
@@ -81,7 +81,7 @@ Every scheduled men's international on the calendar, not just RWC fixtures — t
 | 2026-11-14 | Nations Championship | England v Japan | **91.0%** | 0.9% | 8.1% | 38.5–15.6 | England (91.0%) |
 | 2026-11-14 | Nations Championship | Ireland v Fiji | **96.5%** | 0.4% | 3.1% | 43.1–12.5 | Ireland (96.5%) |
 
-*32 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
+*33 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
 
 ## Pool projections
 
