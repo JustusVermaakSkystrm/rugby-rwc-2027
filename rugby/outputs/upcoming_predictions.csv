@@ -2,10 +2,10 @@ date,tournament,home,away,neutral,kickoff_utc,venue,p_home_win,p_draw,p_away_win
 2026-08-08,International Test Match,Japan,Australia,False,2026-08-08T10:05Z,Hanazono Rugby Stadium,0.3312,0.022,0.6467,24.1,30.9,24-31,Australia,0.6467
 2026-08-08,International Test Match,Argentina,South Africa,False,2026-08-08T19:00Z,Estadio José Amalfitani,0.1145,0.012,0.8735,20.4,39.9,20-40,South Africa,0.8735
 2026-08-15,International Test Match,Australia,Japan,False,2026-08-15T05:15Z,Queensland Country Bank Stadium,0.8558,0.0132,0.131,35.6,17.4,36-17,Australia,0.8558
-2026-08-22,International Test Match,South Africa,New Zealand,False,2026-08-22T15:00Z,Ellis Park,0.4996,0.0239,0.4765,22.7,22.2,23-22,South Africa,0.4996
-2026-08-29,International Test Match,South Africa,New Zealand,False,2026-08-29T15:00Z,DHL Stadium,0.4996,0.0239,0.4765,22.7,22.2,23-22,South Africa,0.4996
+2026-08-22,International Test Match,South Africa,New Zealand,False,2026-08-22T15:10Z,Ellis Park,0.4996,0.0239,0.4765,22.7,22.2,23-22,South Africa,0.4996
+2026-08-29,International Test Match,South Africa,New Zealand,False,2026-08-29T15:10Z,DHL Stadium,0.4996,0.0239,0.4765,22.7,22.2,23-22,South Africa,0.4996
 2026-08-29,International Test Match,Argentina,Australia,False,2026-08-29T19:00Z,Estadio 23 de Agosto,0.6262,0.0225,0.3513,30.2,24.3,30-24,Argentina,0.6262
-2026-09-05,International Test Match,South Africa,New Zealand,False,2026-09-05T15:00Z,FNB Stadium,0.4996,0.0239,0.4765,22.7,22.2,23-22,South Africa,0.4996
+2026-09-05,International Test Match,South Africa,New Zealand,False,2026-09-05T15:10Z,FNB Stadium,0.4996,0.0239,0.4765,22.7,22.2,23-22,South Africa,0.4996
 2026-09-05,International Test Match,Argentina,Australia,False,2026-09-05T21:00Z,Estadio Malvinas Argentinas,0.6262,0.0225,0.3513,30.2,24.3,30-24,Argentina,0.6262
 2026-09-05,International Test Match,Japan,Canada,False,2026-09-05T05:50Z,Denka Big Swan Stadium,0.9431,0.0065,0.0504,42.7,15.8,43-16,Japan,0.9431
 2026-09-12,International Test Match,South Africa,New Zealand,True,2026-09-12T21:00Z,M&T Bank Stadium,0.4588,0.0239,0.5174,21.8,23.0,22-23,New Zealand,0.5174

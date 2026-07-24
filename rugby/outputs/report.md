@@ -13,9 +13,9 @@ Every scheduled South Africa international, with kick-off in your timezones, the
 | Date | Kick-off | Opponent | Competition | Venue | Model call | Where to watch |
 |------|----------|----------|-------------|-------|-----------|----------------|
 | Sat 08 Aug 2026 | 20:00 UK · 21:00 SAST | Argentina (A) | International Test Match | Estadio José Amalfitani | **87.4%** win · 40–20 | SuperSport (SA)? |
-| Sat 22 Aug 2026 | 16:00 UK · 17:00 SAST | New Zealand (H) | International Test Match | Ellis Park | **50.0%** win · 23–22 | SuperSport (SA)? |
-| Sat 29 Aug 2026 | 16:00 UK · 17:00 SAST | New Zealand (H) | International Test Match | DHL Stadium | **50.0%** win · 23–22 | SuperSport (SA)? |
-| Sat 05 Sep 2026 | 16:00 UK · 17:00 SAST | New Zealand (H) | International Test Match | FNB Stadium | **50.0%** win · 23–22 | SuperSport (SA)? |
+| Sat 22 Aug 2026 | 16:10 UK · 17:10 SAST | New Zealand (H) | International Test Match | Ellis Park | **50.0%** win · 23–22 | SuperSport (SA)? |
+| Sat 29 Aug 2026 | 16:10 UK · 17:10 SAST | New Zealand (H) | International Test Match | DHL Stadium | **50.0%** win · 23–22 | SuperSport (SA)? |
+| Sat 05 Sep 2026 | 16:10 UK · 17:10 SAST | New Zealand (H) | International Test Match | FNB Stadium | **50.0%** win · 23–22 | SuperSport (SA)? |
 | Sat 12 Sep 2026 | 22:00 UK · 23:00 SAST | New Zealand (N) | International Test Match | M&T Bank Stadium | **45.9%** win · 22–23 | SuperSport (SA)? |
 | Sun 27 Sep 2026 | 10:45 UK · 11:45 SAST | Australia (A) | International Test Match | Optus Stadium | **70.6%** win · 32–22 | SuperSport (SA)? |
 | Sat 07 Nov 2026 | 11:40 UK · 13:40 SAST | Italy (A) | Nations Championship | Allianz Stadium | **96.0%** win · 44–14 | ITV (UK) · SuperSport (SA) |
