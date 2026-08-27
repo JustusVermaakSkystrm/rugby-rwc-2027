@@ -32,6 +32,47 @@ jobs:
           cache: pip
           cache-dependency-path: rugby/requirements.txt
 
+      # Fail the run LOUDLY (red X) if ESPN starts bot-blocking us again, so a
+      # silent ingestion freeze can't masquerade as a healthy hourly heartbeat.
+      # Checks reachability only (a recent-date scoreboard fetch), NOT whether
+      # results changed — quiet weeks with no new matches stay green. Retries
+      # absorb transient blips; a persistent 403 means ESPN is blocking the
+      # tool-style User-Agent again — rotate it in ingest.py + official.py.
+      - name: ESPN reachability check (fail loudly on bot-block)
+        run: |
+          python - <<'PY'
+          import urllib.request, sys, time
+          from datetime import date
+          UA = "curl/8.7.1"  # keep in sync with rugby/ingest.py + rugby/official.py
+          LEAGUES = {"RWC": 164205, "Nations Championship": 17567}
+          d = date.today().strftime("%Y%m%d")
+          base = "https://site.api.espn.com/apis/site/v2/sports/rugby/{}/scoreboard?dates=" + d
+          bad = []
+          for name, lid in LEAGUES.items():
+              ok, last = False, None
+              for _ in range(3):
+                  try:
+                      req = urllib.request.Request(base.format(lid), headers={"User-Agent": UA})
+                      with urllib.request.urlopen(req, timeout=20) as r:
+                          if r.status == 200:
+                              ok = True
+                              break
+                          last = f"HTTP {r.status}"
+                  except Exception as e:
+                      last = f"{type(e).__name__}: {getattr(e, 'code', e)}"
+                  time.sleep(5)
+              print(f"  {name} ({lid}): {'OK' if ok else last}")
+              if not ok:
+                  bad.append(f"{name} ({lid}) -> {last}")
+          if bad:
+              print("::error::ESPN scoreboard API unreachable for: " + "; ".join(bad)
+                    + f". If these are 403s, ESPN is bot-blocking the '{UA}' User-Agent again"
+                    + " (rugby/ingest.py + rugby/official.py) — rotate to another tool-style UA"
+                    + " with a name/version token. Ingestion is FROZEN until fixed.")
+              sys.exit(1)
+          print("ESPN reachable — ingestion path healthy.")
+          PY
+
       - name: Install dependencies
         run: pip install -r rugby/requirements.txt
 
