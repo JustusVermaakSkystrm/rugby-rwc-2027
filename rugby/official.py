@@ -85,7 +85,10 @@ def fetch_official_results(days_back: int = 3, known_teams: set[str] | None = No
             try:
                 req = urllib.request.Request(
                     SCOREBOARD_URL.format(league=league, d=d),
-                    headers={"User-Agent": "rugby-rwc-2027-predictor"})
+                    # ESPN's Akamai edge 403s browser-style / bespoke scraper
+                    # User-Agents but allowlists known tool UAs like curl.
+                    # (Regressed ~2026-08, froze the hourly result confirmation.)
+                    headers={"User-Agent": "curl/8.7.1"})
                 with urllib.request.urlopen(req, timeout=20) as resp:
                     payload = json.loads(resp.read())
             except Exception as e:

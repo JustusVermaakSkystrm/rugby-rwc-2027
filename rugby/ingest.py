@@ -93,7 +93,11 @@ def _infer_neutral(espn_neutral: bool, venue_name: str,
 def _fetch(url: str, tries: int = 3) -> dict | None:
     for i in range(tries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            # ESPN's Akamai edge 403s browser-style User-Agents (Mozilla/…,
+            # Safari/…) that lack a real browser TLS/cookie fingerprint, but
+            # allowlists known tool UAs. A curl UA passes; a spoofed browser
+            # one does not. (Regressed ~2026-08, froze the hourly ingest.)
+            req = urllib.request.Request(url, headers={"User-Agent": "curl/8.7.1"})
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
         except Exception:
