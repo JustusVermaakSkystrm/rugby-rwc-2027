@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Interview Briefing — Codi Group</title>
+<style>
+  @page { size: A4; margin: 0; }
+
+  :root{
+    --ink:#12211d;
+    --body:#2c3a36;
+    --muted:#6b7a75;
+    --accent:#0d5c4b;
+    --accent-soft:#e6f0ed;
+    --accent-line:#bcd6ce;
+    --gold:#a8762a;
+    --rule:#d8e0dd;
+  }
+
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    font-family:"Liberation Sans","DejaVu Sans",Arial,sans-serif;
+    color:var(--body);
+    font-size:9.6pt;
+    line-height:1.44;
+    -webkit-print-color-adjust:exact;
+    print-color-adjust:exact;
+  }
+
+  .page{
+    position:relative;
+    width:210mm; height:297mm;
+    padding:17mm 16mm 15mm 16mm;
+    overflow:hidden;
+    page-break-after:always;
+    break-after:page;
+  }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
+
+  /* ---------- cover ---------- */
+  .cover{ padding:0; }
+  .cover-band{
+    background:var(--accent);
+    color:#fff;
+    padding:34mm 18mm 18mm 18mm;
+    height:150mm;
+    display:flex; flex-direction:column; justify-content:flex-end;
+  }
+  .eyebrow{
+    font-size:8.4pt; letter-spacing:.24em; text-transform:uppercase;
+    color:#9fcabd; margin-bottom:9mm; font-weight:bold;
+  }
+  .cover-band h1{
+    font-family:"Bitstream Charter","DejaVu Serif","Liberation Serif",Georgia,serif;
+    font-size:34pt; line-height:1.1; margin:0 0 5mm 0; font-weight:normal; color:#fff;
+  }
+  .cover-band .lede{
+    font-size:12.5pt; line-height:1.35; color:#cfe4dd; max-width:130mm; margin:0;
+  }
+  .cover-body{ padding:13mm 18mm 0 18mm; }
+  .cover-meta{
+    display:flex; gap:11mm; border-bottom:1px solid var(--rule);
+    padding-bottom:7mm; margin-bottom:8mm;
+  }
+  .cover-meta div{ font-size:9pt; white-space:nowrap; }
+  .cover-meta .k{
+    display:block; font-size:7.4pt; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--muted); margin-bottom:1.5mm; font-weight:bold;
+  }
+  .cover-stats{ display:flex; gap:0; }
+  .cover-stats .s{ flex:1; padding-right:6mm; }
+  .cover-stats .n{
+    font-family:"Bitstream Charter","DejaVu Serif",Georgia,serif;
+    font-size:21pt; color:var(--accent); line-height:1; display:block; margin-bottom:2mm;
+  }
+  .cover-stats .l{ font-size:8.2pt; color:var(--muted); line-height:1.35; }
+  .cover-close{
+    margin-top:12mm; border-top:1px solid var(--rule); padding-top:7mm;
+  }
+  .cover-close p{ font-size:9.6pt; line-height:1.5; max-width:160mm; }
+  .cover-nav{
+    margin-top:6mm !important; font-size:7.6pt !important; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--accent-line) !important; font-weight:bold;
+  }
+
+  /* ---------- running furniture ---------- */
+  .runner{
+    position:absolute; top:9mm; left:16mm; right:16mm;
+    display:flex; justify-content:space-between;
+    font-size:7.4pt; letter-spacing:.15em; text-transform:uppercase;
+    color:var(--muted); border-bottom:1px solid var(--rule); padding-bottom:2.5mm;
+  }
+  .runner .r{ color:var(--accent); font-weight:bold; }
+  .foot{
+    position:absolute; bottom:9mm; left:16mm; right:16mm;
+    display:flex; justify-content:space-between;
+    font-size:7.4pt; color:var(--muted);
+    border-top:1px solid var(--rule); padding-top:2.5mm;
+  }
+
+  /* ---------- typography ---------- */
+  h2{
+    font-family:"Bitstream Charter","DejaVu Serif",Georgia,serif;
+    font-size:17pt; font-weight:normal; color:var(--ink);
+    margin:0 0 1.5mm 0; line-height:1.15;
+  }
+  h2 .num{ color:var(--accent); font-size:11pt; vertical-align:2pt; margin-right:2.5mm; }
+  .dek{ font-size:9.4pt; color:var(--muted); margin:0 0 6mm 0; max-width:150mm; }
+  h3{
+    font-size:9.2pt; font-weight:bold; color:var(--accent);
+    letter-spacing:.05em; margin:6mm 0 2mm 0;
+  }
+  h3:first-of-type{ margin-top:0; }
+  h4{ font-size:9.2pt; font-weight:bold; color:var(--ink); margin:4mm 0 1.5mm 0; }
+  p{ margin:0 0 2.6mm 0; }
+  strong{ color:var(--ink); }
+  em{ color:var(--ink); font-style:italic; }
+  a{ color:var(--accent); text-decoration:none; }
+
+  ul{ margin:0 0 3mm 0; padding-left:4.6mm; }
+  li{ margin-bottom:1.6mm; }
+  li::marker{ color:var(--accent-line); }
+
+  /* ---------- components ---------- */
+  table{ width:100%; border-collapse:collapse; margin:0 0 4mm 0; font-size:9pt; }
+  th{
+    text-align:left; font-size:7.4pt; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--muted); border-bottom:1.4px solid var(--accent); padding:0 3mm 1.8mm 0;
+    font-weight:bold;
+  }
+  td{ padding:2.1mm 3mm 2.1mm 0; border-bottom:1px solid var(--rule); vertical-align:top; }
+  td.k{ color:var(--ink); font-weight:bold; width:36mm; }
+  tr:last-child td{ border-bottom:none; }
+
+  .box{
+    background:var(--accent-soft); border-left:2.5mm solid var(--accent);
+    padding:4mm 5mm; margin:0 0 4mm 0;
+  }
+  .box h4{ margin-top:0; color:var(--accent); }
+  .box p:last-child, .box ul:last-child{ margin-bottom:0; }
+
+  .note{
+    border:1px solid var(--accent-line); padding:4mm 5mm; margin:0 0 4mm 0;
+    background:#fbfdfc;
+  }
+  .note h4{ margin-top:0; }
+  .note p:last-child{ margin-bottom:0; }
+
+  .cols{ display:flex; gap:8mm; }
+  .cols > *{ flex:1; min-width:0; }
+
+  .q{ margin:0 0 3.4mm 0; }
+  .q .ask{
+    font-weight:bold; color:var(--ink); display:block; margin-bottom:1mm;
+  }
+  .q .ask span{ color:var(--accent); margin-right:2mm; }
+  .q .ans{ color:var(--body); padding-left:5.5mm; border-left:1px solid var(--rule); }
+
+  .toc li{ margin-bottom:2.4mm; font-size:9.4pt; }
+  .toc .t{ color:var(--ink); font-weight:bold; }
+  .toc .d{ color:var(--muted); }
+
+  .chk{ list-style:none; padding-left:0; }
+  .chk li{ padding-left:6mm; position:relative; }
+  .chk li:before{
+    content:""; position:absolute; left:0; top:1.1mm;
+    width:3mm; height:3mm; border:1px solid var(--accent); border-radius:.5mm;
+  }
+
+  .src{ font-size:7.8pt; color:var(--muted); line-height:1.4; }
+  .src li{ margin-bottom:1.1mm; }
+
+  .tag{
+    display:inline-block; background:var(--accent); color:#fff;
+    font-size:7pt; letter-spacing:.12em; text-transform:uppercase; font-weight:bold;
+    padding:1mm 2.4mm; border-radius:1mm; margin-bottom:2.5mm;
+  }
+  .tag.amber{ background:var(--gold); }
+</style>
+</head>
+<body>
+
+<!-- ============ 1. COVER ============ -->
+<section class="page cover">
+  <div class="cover-band">
+    <div class="eyebrow">Interview Briefing &nbsp;·&nbsp; Confidential</div>
+    <h1>Codi Group</h1>
+    <p class="lede">Finance Business Partner — Repairs &amp; Maintenance</p>
+  </div>
+  <div class="cover-body">
+    <div class="cover-meta">
+      <div><span class="k">Prepared for</span>Sandra</div>
+      <div><span class="k">Date</span>28 August 2026</div>
+      <div><span class="k">Subject</span>Codi Group Limited, Newport</div>
+      <div><span class="k">Sector</span>Welsh social housing, care &amp; support</div>
+    </div>
+    <div class="cover-stats">
+      <div class="s"><span class="n">~25,000</span><span class="l">homes managed across Wales</span></div>
+      <div class="s"><span class="n">~17,000</span><span class="l">people receiving care &amp; support</span></div>
+      <div class="s"><span class="n">3,000+</span><span class="l">colleagues</span></div>
+      <div class="s"><span class="n">4,500</span><span class="l">new homes planned over five years</span></div>
+    </div>
+
+    <div class="cover-close">
+      <p><strong>The short version.</strong> Codi Group is the merger of Pobl Group and Linc Cymru — Wales' largest
+      housing, care and support provider. The merger completed in April 2024, but the single Codi brand and shared
+      strategy only went live on 1 January 2026. You are interviewing into an organisation that is still becoming one
+      organisation, and into the function — repairs and maintenance — where its largest recurring spend meets its
+      customers.</p>
+      <p class="cover-nav">Organisation &nbsp;·&nbsp; The merger &nbsp;·&nbsp; The role decoded &nbsp;·&nbsp;
+      Technical ground &nbsp;·&nbsp; Likely questions &nbsp;·&nbsp; Your questions &nbsp;·&nbsp; Checklist</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2. AT A GLANCE ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Interview Briefing</span><span class="r">At a glance</span></div>
+
+  <h2><span class="num">01</span>The one-minute version</h2>
+  <p class="dek">If you remember nothing else, remember this page.</p>
+
+  <div class="box">
+    <p><strong>Codi Group is Wales' largest housing, care and support provider.</strong> It was created by the
+    merger of <strong>Pobl Group</strong> and <strong>Linc Cymru</strong>, which completed on 1 April 2024, and it
+    adopted the single Codi brand on <strong>1 January 2026</strong> — eight months ago. <em>Codi</em> is Welsh for
+    <em>“rise”</em>. It is a not-for-profit registered social landlord, so every surplus is reinvested.</p>
+    <p>You are interviewing into an organisation that is <strong>still becoming one organisation</strong>. That single
+    fact should shape most of your answers.</p>
+  </div>
+
+  <table>
+    <tr><td class="k">Legal entity</td><td>Codi Group Limited — a registered society (Companies House reference IP29682R), not a limited company. Registered at Exchange House, High Street, Newport.</td></tr>
+    <tr><td class="k">Formed</td><td>Pobl Group / Linc Cymru merger completed 1 April 2024; Linc became a subsidiary of Pobl Group. Codi name announced June 2025, adopted 1 January 2026.</td></tr>
+    <tr><td class="k">What it does</td><td>Three legs: <strong>homes</strong> (social and affordable rent, shared ownership and sale), <strong>care and support</strong> (supported housing, extra care, older people, homelessness, learning disability, mental health), and <strong>place-making</strong> including commercial space for local businesses.</td></tr>
+    <tr><td class="k">Leadership</td><td>Group Chief Executive <strong>Scott Sanders</strong>; Chair <strong>Julia Cherrett</strong> (both carried over from Pobl Group).</td></tr>
+    <tr><td class="k">Charitable arm</td><td><strong>Codi Trust</strong> — improving quality of life in the communities where Codi operates.</td></tr>
+    <tr><td class="k">Regulator</td><td>Welsh Government Housing Regulation. In the interim post-merger judgement of July 2024, the group was rated <strong>Green for both Governance &amp; Tenant Services and Financial Viability</strong> — the highest available. That is a genuine strength; say so.</td></tr>
+    <tr><td class="k">Stated ambition</td><td>More than <strong>4,500 new homes over five years</strong> and a contribution of roughly <strong>£1bn to the Welsh economy</strong> over the same period.</td></tr>
+    <tr><td class="k">Purpose language</td><td>“Help people live well, feel supported and achieve their full potential.” “Using collective strength to shape better futures for people and places in a sustainable, long-term way.”</td></tr>
+  </table>
+
+  <h3>What's in this brief</h3>
+  <ul class="toc">
+    <li><span class="t">02 · The organisation</span> <span class="d">— structure, geography, group entities, culture cues</span></li>
+    <li><span class="t">03 · The merger</span> <span class="d">— why it is the defining context for a finance role right now</span></li>
+    <li><span class="t">04 · The role decoded</span> <span class="d">— the advert line by line, and what “good” looks like</span></li>
+    <li><span class="t">05 · Technical ground</span> <span class="d">— repairs finance, capitalisation, WHQS 2023, the metrics</span></li>
+    <li><span class="t">06 · Likely questions</span> <span class="d">— and how to answer them</span></li>
+    <li><span class="t">07 · Your questions &amp; practicalities</span> <span class="d">— what to ask, and what the process looks like</span></li>
+    <li><span class="t">08 · Before you go</span> <span class="d">— checklist, a note on sourcing, and sources</span></li>
+  </ul>
+
+  <div class="foot"><span>Prepared for Sandra · 28 August 2026</span><span>Page 2</span></div>
+</section>
+
+<!-- ============ 3. THE ORGANISATION ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Interview Briefing</span><span class="r">02 · The organisation</span></div>
+
+  <h2><span class="num">02</span>The organisation</h2>
+  <p class="dek">A large, multi-entity group with a social purpose and a commercial edge.</p>
+
+  <h3>The three things Codi actually does</h3>
+  <p><strong>Homes.</strong> Around 25,000 across Wales — social rent, affordable rent, shared ownership and outright
+  sale, plus a development pipeline. The heartland is South Wales: Newport, Cardiff and Swansea, spanning 14 or more
+  local authority areas.</p>
+  <p><strong>Care and support.</strong> Roughly 17,000 people supported. This is unusually large for a housing
+  association and is a defining feature of the group — it means significant local-authority and health-board contract
+  income, staff-cost-heavy P&amp;Ls, and commissioning risk that a pure landlord would not carry.</p>
+  <p><strong>Places.</strong> Regeneration and commercial space for local businesses, plus the charitable work of
+  Codi Trust.</p>
+
+  <h3>Group structure — worth understanding before you walk in</h3>
+  <p>The legacy Pobl group operated through a family of subsidiaries, and that architecture largely carries into Codi:</p>
+  <ul>
+    <li><strong>Pobl Homes and Communities Ltd</strong> — the principal registered social landlord (13,114 homes across 14 local authority areas at FY24). Linc Cymru Housing Association was slated to transfer its engagements into this entity during 2025.</li>
+    <li><strong>Pobl Development Ltd</strong> — development and construction (turnover £65.7m in FY24, up from £48.2m).</li>
+    <li><strong>Pobl Living Ltd</strong> — market-facing housing activity (surplus before tax £1.35m in FY25).</li>
+    <li><strong>Pobl Care and Support Ltd</strong> — care and support delivery.</li>
+    <li><strong>Arloes Ltd</strong> and <strong>Pobl Trust</strong> — further trading and charitable vehicles.</li>
+  </ul>
+
+  <div class="note">
+    <h4>Why this matters to you</h4>
+    <p>A multi-entity group means consolidation, intra-group recharges and allocations, partial-exemption VAT, and
+    charitable versus non-charitable subsidiaries with different tax treatments. Repairs and maintenance spend cuts
+    across several of these entities. If you can show you have worked in a group structure — not just a single
+    ledger — say it early and say it plainly.</p>
+  </div>
+
+  <h3>Culture cues to mirror</h3>
+  <p>Codi's own language is consistent and worth borrowing: <em>person-centred</em>; <em>responsive, proactive and
+  adaptable to individual needs</em>; <em>staying connected to communities</em>; <em>collective strength</em>;
+  <em>long-term and sustainable</em>. The Welsh identity is deliberate and prominent — the name was chosen to signal it.</p>
+  <p>The practical read: they want a finance person who can hold two ideas at once — that money is tight and must be
+  controlled, <em>and</em> that the point of the money is a person in a home. Answers that are purely cost-reduction
+  will land badly. Answers that are purely warm will land worse.</p>
+
+  <div class="box">
+    <h4>One line to have ready</h4>
+    <p>“Every pound I help you save on a repair isn't a saving — it's a pound that goes into another home. That's the
+    thing I like about finance in a not-for-profit: the trade-off is visible.”</p>
+  </div>
+
+  <div class="foot"><span>Prepared for Sandra · 28 August 2026</span><span>Page 3</span></div>
+</section>
+
+<!-- ============ 4. THE MERGER ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Interview Briefing</span><span class="r">03 · The merger</span></div>
+
+  <h2><span class="num">03</span>The merger, and why it decides this interview</h2>
+  <p class="dek">The rebrand is eight months old. The integration is not finished. That is your opening.</p>
+
+  <table>
+    <th style="width:26mm">When</th><th>What happened</th>
+    <tr><td class="k">1 Apr 2024</td><td>Merger completes. Linc Cymru (~5,500 homes) becomes a subsidiary of Pobl Group (~18,000 homes). Combined group: 23,000+ homes, 3,000+ colleagues.</td></tr>
+    <tr><td class="k">Jul 2024</td><td>Welsh Government publishes an interim regulatory judgement following the merger — <strong>Green / Green</strong>.</td></tr>
+    <tr><td class="k">2025</td><td>Legal consolidation via transfer of engagements; new name <strong>Codi Group</strong> announced in June.</td></tr>
+    <tr><td class="k">1 Jan 2026</td><td>Single Codi brand and shared strategy go live.</td></tr>
+    <tr><td class="k">Now</td><td>Systems, policies, data and culture still converging. Hiring senior finance business partners.</td></tr>
+  </table>
+
+  <h3>Five consequences a finance business partner should be able to name</h3>
+
+  <h4>1. There are two of everything</h4>
+  <p>Two charts of accounts, two ledgers, two capitalisation policies, two stock-condition datasets, two repairs
+  systems, two sets of contractor frameworks and schedules of rates. Harmonising these is real, unglamorous work.
+  When the advert says <em>“contribute to major transformation projects”</em>, this is almost certainly a large part
+  of what it means.</p>
+
+  <h4>2. Someone has to prove the merger worked</h4>
+  <p>Mergers are justified to the board, the regulator and lenders on stated benefits — efficiency, procurement scale,
+  capacity to develop. Tracking whether those benefits actually land is a business partnering job, and it is the kind
+  of thing organisations often under-resource. Offering to own it is a strong, credible pitch.</p>
+
+  <h4>3. Comparisons are not yet like-for-like</h4>
+  <p>Legacy Linc and legacy Pobl stock differ in age, archetype, construction and WHQS position. A cost-per-property
+  comparison across the combined estate is misleading until it is normalised for stock profile. Saying this out loud
+  demonstrates exactly the analytical scepticism they are hiring for — and it is a safe observation, because it is
+  true of every merged landlord.</p>
+
+  <h4>4. Treasury and covenants are now group-scale</h4>
+  <p>A bigger consolidated loan book, security charging across a combined asset base, and interest cover and gearing
+  covenants tested at group level. Repairs classification feeds straight into this — see section 05.</p>
+
+  <h4>5. “One team” is still being built</h4>
+  <p>Business partnering is largely relationship work, and in a post-merger organisation you will be partnering people
+  who came from two different cultures and may still identify with them. Prepare a story about building trust with a
+  team that had reason not to trust finance.</p>
+
+  <div class="box">
+    <h4>The sentence that shows you did the work</h4>
+    <p>“You completed the merger in 2024 but only went live with one brand and one strategy in January. My assumption
+    is that finance is still running a lot of reconciliation between two legacy sets of data — and that the value of
+    this role in year one is getting repairs reporting onto a single, trusted basis so the leadership team is arguing
+    about decisions rather than about whose number is right.”</p>
+  </div>
+
+  <div class="foot"><span>Prepared for Sandra · 28 August 2026</span><span>Page 4</span></div>
+</section>
+
+<!-- ============ 5. THE ROLE ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Interview Briefing</span><span class="r">04 · The role</span></div>
+
+  <h2><span class="num">04</span>The role, decoded</h2>
+  <p class="dek">What the advert says, and what it is really asking for.</p>
+
+  <table>
+    <tr><td class="k">Title</td><td>Finance Business Partner — Repairs &amp; Maintenance</td></tr>
+    <tr><td class="k">Salary</td><td>£64,891</td></tr>
+    <tr><td class="k">Terms</td><td>Permanent, full time, 37 hours per week</td></tr>
+    <tr><td class="k">Location</td><td>Hybrid, with office bases in Cardiff, Newport or Swansea</td></tr>
+    <tr><td class="k">Flexibility</td><td>Flexible working, Monday to Friday, with the option of a compressed <strong>nine-day fortnight</strong></td></tr>
+    <tr><td class="k">Scope</td><td>Influencing investment across more than 25,000 homes in South Wales</td></tr>
+    <tr><td class="k">Talent contact</td><td>group.talent@codigroup.co.uk · 0300 373 5262</td></tr>
+  </table>
+
+  <h3>The advert, line by line</h3>
+
+  <div class="q">
+    <span class="ask"><span>“</span>A strategic and collaborative role, working closely with senior leaders to help them understand financial performance”</span>
+    <div class="ans">They want translation, not reporting. The distinction they are testing is whether you send a pack or
+    hold a conversation. Every example you give should end with a decision that changed.</div>
+  </div>
+
+  <div class="q">
+    <span class="ask"><span>“</span>Budget setting, forecasting, financial reporting and performance analysis”</span>
+    <div class="ans">The core cycle, and the most likely source of a technical question. Be ready to describe how you
+    build a repairs budget from the bottom up, and how you improved forecast accuracy somewhere.</div>
+  </div>
+
+  <div class="q">
+    <span class="ask"><span>“</span>Leading conversations around risks, opportunities and continuous improvement”</span>
+    <div class="ans"><em>Leading</em> is the operative word. They want constructive challenge, not a service desk. Have
+    an example where you told an operational director something they did not want to hear, and kept the relationship.</div>
+  </div>
+
+  <div class="q">
+    <span class="ask"><span>“</span>Partnering teams managing significant investment across homes, ensuring financial information is accurate, meaningful and supports effective decision-making”</span>
+    <div class="ans">This is asset management, planned works and major repairs — large capital numbers with long lead
+    times and real classification judgement. “Meaningful” signals that the current reporting probably is not.</div>
+  </div>
+
+  <div class="q">
+    <span class="ask"><span>“</span>Support the development of reporting tools and drive improvements in financial processes”</span>
+    <div class="ans">Self-serve dashboards, almost certainly Power BI. You do not need to be a developer, but you should
+    be able to say what you would put on a one-page dashboard for a repairs director, and why.</div>
+  </div>
+
+  <div class="q">
+    <span class="ask"><span>“</span>Contribute to major transformation projects across the Repairs &amp; Maintenance service”</span>
+    <div class="ans">Merger integration, and quite possibly a review of the repairs operating model itself. Ask about
+    this — see section 07.</div>
+  </div>
+
+  <div class="q">
+    <span class="ask"><span>“</span>Experience of contract, project or programme management within a social housing environment would be valuable, as would an understanding of repairs and maintenance financial reporting”</span>
+    <div class="ans">These are <em>desirable</em>, not essential — sector experience is a differentiator, not a gate.
+    If you have it, lead with it. If not, close the gap explicitly (see page 7).</div>
+  </div>
+
+  <div class="box">
+    <h4>What “good” looks like in this seat</h4>
+    <p>A director who stops asking finance for numbers because they trust the dashboard; a forecast that stops moving
+    10% between months; a capitalisation policy applied the same way in Swansea and Newport.</p>
+  </div>
+
+  <div class="foot"><span>Prepared for Sandra · 28 August 2026</span><span>Page 5</span></div>
+</section>
+
+<!-- ============ 6. TECHNICAL ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Interview Briefing</span><span class="r">05 · Technical ground</span></div>
+
+  <h2><span class="num">05</span>Technical ground to be solid on</h2>
+  <p class="dek">The five areas where a repairs finance business partner earns credibility in the first ten minutes.</p>
+
+  <h3>A. Capital versus revenue — the single biggest judgement</h3>
+  <p>Under FRS 102 and the Housing SORP, spend on housing properties is capitalised only where it enhances economic
+  benefits beyond the asset's originally assessed standard of performance, or where it replaces an identified
+  component. Everything else is revenue.</p>
+  <p><strong>Component accounting</strong> is the mechanism: kitchens, bathrooms, roofs, windows, boilers, rewires and
+  external works are each held with their own useful life and depreciated separately. When a component is replaced,
+  the residual carrying value of the old component must be <strong>derecognised</strong> — a charge to surplus that
+  people routinely forget when they build a major-works business case.</p>
+  <div class="note">
+    <p><strong>Why this is the question that matters.</strong> Where you draw the capital/revenue line moves operating
+    surplus, moves EBITDA-MRI, and therefore moves interest cover covenant headroom. In a group that has just merged
+    two organisations with two legacy capitalisation policies, inconsistent application is a live risk — and flagging
+    it is one of the most impressive things you can do in the room.</p>
+  </div>
+
+  <h3>B. Know the cost categories, and never conflate them</h3>
+  <ul>
+    <li><strong>Responsive / reactive repairs</strong> — demand-led, volatile, hardest to forecast.</li>
+    <li><strong>Cyclical maintenance</strong> — servicing, external decoration; predictable, programme-driven.</li>
+    <li><strong>Planned and major works</strong> — component replacement; largely capital.</li>
+    <li><strong>Voids</strong> — turnaround works; sits at the intersection of repairs cost and rental income loss.</li>
+    <li><strong>Compliance</strong> — gas, electrical, fire, asbestos, legionella and lifts. Non-negotiable spend; a budget pressure you manage around, never into.</li>
+    <li><strong>Damp, mould and disrepair</strong> — a rising sector-wide cost with legal and reputational tails.</li>
+  </ul>
+
+  <h3>C. Delivery model economics</h3>
+  <p>Repairs are delivered in-house (a direct labour organisation), by contractors, or by a mix — and the finance
+  questions differ sharply. In-house: recharge rates, overhead absorption, productivity per operative, van stock and
+  materials. Contracted: schedule of rates versus price-per-property, contract variations, retention.
+  <strong>Find out which model Codi uses — it is a good question to ask, and the answer reshapes the job.</strong></p>
+
+  <div class="foot"><span>Prepared for Sandra · 28 August 2026</span><span>Page 6</span></div>
+</section>
+
+<!-- ============ TECHNICAL PART 2 ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Interview Briefing</span><span class="r">05 · Technical ground</span></div>
+
+  <h2><span class="num">05</span>Technical ground <em style="font-style:normal;color:var(--muted);font-size:12pt;">/ continued</em></h2>
+  <p class="dek">The policy backdrop every Welsh landlord is working against, and the numbers that prove you speak the language.</p>
+
+  <h3>D. The Welsh policy frame</h3>
+  <ul>
+    <li><strong>WHQS 2023</strong> — the new Welsh Housing Quality Standard, adding decarbonisation and water-efficiency targets on a phased compliance timetable. Sector-wide, the energy and decarbonisation elements are seen as the hardest part, with ambition running ahead of capacity and funding certainty. Expect this to dominate the investment programme.</li>
+    <li><strong>Rent policy</strong> — annual uplifts are set and capped by Welsh Government. Income is largely exogenous, so <em>cost control is where the lever is</em>. This is the sharpest difference from a commercial finance role and worth naming.</li>
+    <li><strong>The core tension</strong> — investment in existing stock (WHQS, decarbonisation, safety) competes directly with new development against Welsh Government targets. Every Welsh landlord is arguing about this allocation. Have a view.</li>
+    <li><strong>Regulation</strong> — Welsh Government Housing Regulation publishes judgements on Governance &amp; Tenant Services and on Financial Viability. Codi holds Green on both.</li>
+  </ul>
+
+  <h3>E. Metrics to have on the tip of your tongue</h3>
+  <div class="cols">
+    <ul>
+      <li>Cost per property — responsive, planned, total</li>
+      <li>Percentage of repairs spend capitalised</li>
+      <li>Forecast accuracy and variance to budget</li>
+      <li>Jobs per operative per day</li>
+    </ul>
+    <ul>
+      <li>First-time fix rate; average days to complete</li>
+      <li>Void turnaround time and cost; rent loss</li>
+      <li>Compliance percentage across the big six</li>
+      <li>EBITDA-MRI interest cover; gearing</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h4>If you only land one technical point, land this one</h4>
+    <p>“In repairs, the number that matters is not the total — it's the split between volume and unit cost, and the
+    split between capital and revenue. The first tells you whether you have a demand problem or a price problem. The
+    second tells you what it does to your covenants. Most repairs reporting I've seen gives you neither.”</p>
+  </div>
+
+  <div class="note">
+    <h4>Honest positioning if you are new to social housing</h4>
+    <p>Do not pretend. Say instead: <em>“I haven't worked in social housing, but I've partnered an operational,
+    contract-heavy budget where volume was demand-led and price was contracted — the mechanics are the same. What I'd
+    need to learn quickly is the regulatory frame: WHQS 2023, the rent settlement and how the capitalisation policy
+    interacts with your covenants. I've made a start.”</em> Then prove the start. Competence plus candour beats
+    borrowed jargon, and panels can always tell the difference.</p>
+  </div>
+
+  <div class="foot"><span>Prepared for Sandra · 28 August 2026</span><span>Page 7</span></div>
+</section>
+
+<!-- ============ 7. QUESTIONS ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Interview Briefing</span><span class="r">06 · Likely questions</span></div>
+
+  <h2><span class="num">06</span>Likely questions, and how to answer</h2>
+  <p class="dek">Expect a competency-led panel. Have six STAR stories ready — every one should end in a decision or a number that moved.</p>
+
+  <h3>Business partnering and behaviour</h3>
+  <div class="q"><span class="ask"><span>1.</span>Why Codi, and why now?</span>
+    <div class="ans">Merger plus scale plus purpose. Repairs is where the largest recurring spend and the customer
+    experience meet — say that is why the role appeals rather than saying the salary or the location does.</div></div>
+  <div class="q"><span class="ask"><span>2.</span>Tell us about a time you influenced a senior non-finance leader to change a decision.</span>
+    <div class="ans">The flagship story. Be specific about the resistance, what evidence shifted it, and what it saved
+    or avoided.</div></div>
+  <div class="q"><span class="ask"><span>3.</span>Describe a time you delivered an unwelcome financial message. How did you keep the relationship?</span>
+    <div class="ans">They are testing whether “leading conversations around risks” means anything to you. Show early
+    warning, not a late ambush.</div></div>
+  <div class="q"><span class="ask"><span>4.</span>How do you build credibility with an operational team that sees finance as a blocker?</span>
+    <div class="ans">Go and watch the work. Say you would spend time with repairs supervisors and on site before
+    changing a single report — in this sector that answer is always right, and it is true.</div></div>
+
+  <h3>Technical</h3>
+  <div class="q"><span class="ask"><span>5.</span>Walk us through how you would build the repairs and maintenance budget from scratch.</span>
+    <div class="ans">Volume × unit cost, built from stock-condition data and historic demand; separate the categories in
+    section 05B; overlay the compliance programme as fixed; layer inflation on labour and materials distinctly; hold a
+    contingency for damp and disrepair; then sense-check top-down on cost per property.</div></div>
+  <div class="q"><span class="ask"><span>6.</span>A kitchen replacement — capital or revenue?</span>
+    <div class="ans">Component replacement, so capitalise the new component, derecognise the carrying value of the old,
+    and depreciate over the component life. But a like-for-like repair to part of a kitchen is revenue. Name the
+    covenant consequence and you have answered it better than most.</div></div>
+  <div class="q"><span class="ask"><span>7.</span>Repairs spend is significantly over budget at month six. What do you do?</span>
+    <div class="ans">Structure the answer: first, is it real — accruals, phasing, coding? Then decompose into volume,
+    price and mix. Then, is it one scheme or systemic? Then forecast the full-year position, identify mitigations with
+    the budget holder, and escalate early with options rather than with a problem.</div></div>
+  <div class="q"><span class="ask"><span>8.</span>What would you put on a one-page dashboard for the Repairs Director?</span>
+    <div class="ans">Spend against budget by category, full-year forecast with a movement bridge, cost per property,
+    volume and unit-cost split, compliance position, and two or three operational drivers such as first-time fix. One
+    page, no more than eight numbers, each with an owner.</div></div>
+
+  <div class="box">
+    <h4>The STAR discipline</h4>
+    <p>Situation and Task in two sentences, Action in five, Result in one — with a number in it. Panels forgive a thin
+    Situation. They never forgive a missing Result.</p>
+  </div>
+
+  <div class="foot"><span>Prepared for Sandra · 28 August 2026</span><span>Page 8</span></div>
+</section>
+
+<!-- ============ QUESTIONS PART 2 ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Interview Briefing</span><span class="r">06 · Likely questions</span></div>
+
+  <h2><span class="num">06</span>Likely questions <em style="font-style:normal;color:var(--muted);font-size:12pt;">/ continued</em></h2>
+  <p class="dek">Judgement questions. There is rarely a right answer — they are watching how you reason.</p>
+
+  <h3>Sector and commercial judgement</h3>
+  <div class="q"><span class="ask"><span>9.</span>How should we balance investment in existing homes against building new ones?</span>
+    <div class="ans">Do not pick a side. Existing-stock obligations under WHQS 2023 and safety are largely
+    non-discretionary; development is discretionary and grant-dependent. The honest answer is that the existing stock
+    sets the floor, and the development programme flexes against covenant headroom and grant availability.</div></div>
+  <div class="q"><span class="ask"><span>10.</span>What are the biggest financial risks facing Welsh housing associations right now?</span>
+    <div class="ans">Decarbonisation and WHQS costs against uncertain long-term funding; capped rents against
+    above-inflation build and repair cost increases; borrowing costs; skills and contractor capacity; and rising damp,
+    mould and disrepair liabilities.</div></div>
+  <div class="q"><span class="ask"><span>11.</span>What does value for money mean in repairs?</span>
+    <div class="ans">Not lowest cost. Cost per outcome — right first time, fewer recalls, fewer disrepair claims, and
+    planned work displacing expensive reactive work.</div></div>
+
+  <h3>Change and integration</h3>
+  <div class="q"><span class="ask"><span>12.</span>How would you approach harmonising two different sets of financial processes?</span>
+    <div class="ans">Map both, find where they genuinely differ rather than where they are merely described
+    differently, agree a single policy with the people who have to apply it, then sequence: reporting basis first,
+    systems second. Expect this question. It is the one most specific to Codi.</div></div>
+  <div class="q"><span class="ask"><span>13.</span>Where do you see yourself adding most value in the first six months?</span>
+    <div class="ans">A closing-stretch favourite. Answer in three: understand the operation by being in it; get one
+    trusted set of repairs numbers; then use that to reopen one decision that is currently being made on instinct.</div></div>
+
+  <div class="note">
+    <h4>Two traps to avoid</h4>
+    <p><strong>Sounding like an auditor.</strong> This is a partnering role. If every answer is about control,
+    accuracy and compliance, they will hear a management accountant. Balance each control point with a decision you
+    helped someone make.</p>
+    <p><strong>Being glib about the social purpose.</strong> Do not open with how much the mission moves you — it
+    reads as rehearsed. Let it show through in how you talk about the trade-offs instead. In a not-for-profit,
+    demonstrated understanding beats declared passion.</p>
+  </div>
+
+  <div class="foot"><span>Prepared for Sandra · 28 August 2026</span><span>Page 9</span></div>
+</section>
+
+<!-- ============ 8. YOUR QUESTIONS / PRACTICALITIES ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Interview Briefing</span><span class="r">07 · Your questions</span></div>
+
+  <h2><span class="num">07</span>Your questions, and the practicalities</h2>
+  <p class="dek">Ask three or four. Specific questions are the cheapest credibility available.</p>
+
+  <h3>Strong questions to ask them</h3>
+  <ul>
+    <li><strong>How far through the integration of the two legacy finance and repairs systems are you, and where does this role pick that up?</strong> Signals you understand the real job.</li>
+    <li><strong>Is repairs delivered in-house, through contractors, or a mix — and is that model under review?</strong> Reshapes the role, and shows you know it does.</li>
+    <li><strong>What does the WHQS 2023 compliance trajectory look like across the combined stock, and how is that programme funded?</strong> Sector fluency in one sentence.</li>
+    <li><strong>How does the business plan balance the 4,500-home development ambition against existing-stock investment?</strong> A board-level question, asked politely.</li>
+    <li><strong>Who are my business partners day to day, and how do they get their numbers today?</strong> Practical, and tells you how much of the job is rebuilding trust.</li>
+    <li><strong>What would you want me to have fixed by the end of the first 90 days?</strong> Always ask this.</li>
+    <li><strong>What has changed for colleagues since the Codi brand went live in January?</strong> Warm, current, and tells you a lot.</li>
+  </ul>
+
+  <h3>Process and practicalities</h3>
+  <table>
+    <tr><td class="k">Reported format</td><td>On employee review sites, the legacy Pobl process is described as a panel of two managers asking set, role-related questions, sometimes with verbal reasoning or attention-to-detail tests and a video stage, running around two weeks end to end. <em>Indicative only — confirm with the recruiter.</em></td></tr>
+    <tr><td class="k">Employee sentiment</td><td>Around 3.8 out of 5 on anonymous review sites, with roughly 76% saying they would recommend the organisation. Hybrid working and culture are cited positively; pay progression and personal development are the recurring criticisms, and there are isolated complaints about team culture. Anonymous and unverified — useful as things to probe, not as facts to repeat.</td></tr>
+    <tr><td class="k">Worth confirming</td><td>Which entity and directorate the role sits in; who it reports to; whether a technical or presentation stage is included; and the interview panel's names.</td></tr>
+  </table>
+
+  <h3>On the salary</h3>
+  <p>£64,891 is a single stated figure rather than a band, which usually signals a fixed point on a graded pay
+  structure with limited room to negotiate. Treat the number as given, and put your energy into confirming the
+  package around it — pension contribution rates, annual leave, the nine-day fortnight, and how progression works.
+  If pay is the sticking point, the honest question is about the grade and its review cycle, not about this offer.</p>
+
+  <div class="box">
+    <h4>How to close</h4>
+    <p>Ask for the decision timeline, then leave them with one sentence that ties your case to their problem — not a
+    summary of your CV. Something like: <em>“What I'd want to be judged on here is whether, a year from now, your
+    repairs leadership team is making decisions off one set of numbers they trust — because from the outside, that
+    looks like the thing that unlocks everything else.”</em></p>
+    <p>Then stop talking. Panels remember the last thing you said far more than the fourth thing.</p>
+  </div>
+
+  <div class="foot"><span>Prepared for Sandra · 28 August 2026</span><span>Page 10</span></div>
+</section>
+
+<!-- ============ CHECKLIST & SOURCES ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Interview Briefing</span><span class="r">Checklist &amp; sources</span></div>
+
+  <h2><span class="num">08</span>Before you go</h2>
+  <p class="dek">An hour of this is worth more than a day of rereading the brief.</p>
+
+  <h3>Checklist</h3>
+  <ul class="chk">
+    <li>Read the latest Codi / Pobl Group annual report and consolidated financial statements. Note turnover, operating surplus, interest cover, gearing, and the split of repairs spend between capital and revenue.</li>
+    <li>Read the Welsh Government interim regulatory judgement for Pobl Group (July 2024).</li>
+    <li>Skim the WHQS 2023 overview on gov.wales — twenty minutes is enough.</li>
+    <li>Look up the panel on LinkedIn; check whether they came from legacy Pobl or legacy Linc.</li>
+    <li>Write out six STAR stories. At least two must involve influencing an operational leader.</li>
+    <li>Prepare a one-sentence answer to “why not a commercial finance role?”</li>
+  </ul>
+
+  <div class="note">
+    <h4>A note on sourcing, and one gap</h4>
+    <p>This brief was compiled on 28 August 2026 from public news coverage of the merger and rebrand, published job
+    advertisements, Companies House and Welsh Government regulator references, and employee review sites.
+    <strong>codigroup.co.uk and gov.wales were not directly reachable from the machine this was built on</strong>, so
+    the figures here are as reported by third parties rather than read from source documents.</p>
+    <p>The one material gap is <strong>Codi's consolidated group turnover and surplus</strong>, which could not be
+    retrieved — only subsidiary-level figures were available. The annual report is public; pull the headline numbers
+    from it before the interview and do not quote a group figure you have not seen.</p>
+  </div>
+
+  <h3>Sources</h3>
+  <ul class="src">
+    <li>Inside Housing — “Largest Welsh housing association officially rebrands as Codi following merger”; “Welsh landlords reveal rebrand after merger”</li>
+    <li>Housing Today — “Linc and Pobl rebrand as Codi following merger”; “Linc Cymru and Pobl Group pick new name for merged group”</li>
+    <li>Wales 247 — “Wales' largest housing provider rebrands as Codi Group”; Swansea Bay News; News from Wales; Insider Media (Wales)</li>
+    <li>Welsh Housing Quarterly (WHQ) — “Pobl and Linc complete merger”; “Pobl and Linc to become Codi Group”</li>
+    <li>GOV.WALES — Pobl Group interim regulatory judgement 2024; Welsh Housing Quality Standard overview</li>
+    <li>Companies House — CODI GROUP LIMITED (IP29682R)</li>
+    <li>Pobl Group and subsidiary annual reports and financial statements, FY24 and FY25</li>
+    <li>Codi Group job advertisement, Finance Business Partner — Repairs &amp; Maintenance (via BeBee, Indeed, Glassdoor)</li>
+    <li>Glassdoor and Indeed employee reviews and reported interview experiences, Codi Group / Pobl Group</li>
+  </ul>
+
+  <div class="foot"><span>Prepared for Sandra · 28 August 2026</span><span>Page 11</span></div>
+</section>
+
+</body>
+</html>
