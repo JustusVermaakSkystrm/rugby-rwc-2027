@@ -3650,5 +3650,6 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2026-07-18,Fiji,Scotland,17,33,Nations Championship,Edinburgh,Scotland,False,3.0,5.0
 2026-07-18,South Africa,Wales,43,0,Nations Championship,Durban,South Africa,False,7.0,
 2026-07-18,Argentina,England,24,31,Nations Championship,,,False,2.0,5.0
-2026-08-15,Australia,Japan,56,17,International Test Match,Townsville,Australia,False,8,3
-2026-08-22,South Africa,New Zealand,16,33,International Test Match,Johannesburg,South Africa,False,1,5
+2026-08-15,Australia,Japan,56,17,International Test Match,Townsville,Australia,False,8.0,3.0
+2026-08-22,South Africa,New Zealand,16,33,International Test Match,Johannesburg,South Africa,False,1.0,5.0
+2026-08-29,South Africa,New Zealand,33,26,International Test Match,Cape Town,South Africa,False,3,4
