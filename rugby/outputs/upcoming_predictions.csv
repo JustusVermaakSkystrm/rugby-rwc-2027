@@ -7,7 +7,7 @@ date,tournament,home,away,neutral,kickoff_utc,venue,p_home_win,p_draw,p_away_win
 2026-10-10,International Test Match,New Zealand,Australia,False,2026-10-10T06:10Z,Eden Park,0.8849,0.0113,0.1039,38.4,18.0,38-18,New Zealand,0.8849
 2026-10-17,International Test Match,Australia,New Zealand,False,2026-10-17T05:00Z,Accor Stadium,0.1977,0.0171,0.7851,22.7,36.3,23-36,New Zealand,0.7851
 2026-10-24,International Test Match,Japan,Fiji,False,2026-10-24T05:50Z,Prince Chichibu Memorial Stadium,0.4943,0.024,0.4817,25.9,25.6,26-26,Japan,0.4943
-2026-10-31,International Test Match,Belgium,Hong Kong China,False,2026-10-31T00:00Z,,0.4333,0.0237,0.5429,22.5,24.8,22-25,Hong Kong China,0.5429
+2026-10-31,International Test Match,Belgium,Hong Kong China,False,2026-10-31T17:00Z,,0.4333,0.0237,0.5429,22.5,24.8,22-25,Hong Kong China,0.5429
 2026-11-06,Nations Championship,Ireland,Argentina,False,2026-11-06T20:10Z,Aviva Stadium,0.6938,0.0208,0.2855,32.9,24.0,33-24,Ireland,0.6938
 2026-11-07,Nations Championship,Wales,Japan,False,2026-11-07T16:40Z,Principality Stadium,0.608,0.0229,0.3691,29.6,24.6,30-25,Wales,0.608
 2026-11-07,Nations Championship,France,Fiji,False,2026-11-07T20:10Z,Groupama Stadium,0.9664,0.0042,0.0294,44.6,13.7,45-14,France,0.9664
