@@ -3655,4 +3655,5 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2026-08-29,South Africa,New Zealand,33,26,International Test Match,Cape Town,South Africa,False,3.0,4.0
 2026-08-29,Argentina,Australia,21,27,International Test Match,San Salvador,El Salvador,False,3.0,4.0
 2026-09-05,Japan,Canada,57,12,International Test Match,,,False,9.0,2.0
-2026-09-05,South Africa,New Zealand,29,24,International Test Match,Johannesburg,South Africa,False,3,4
+2026-09-05,South Africa,New Zealand,29,24,International Test Match,Johannesburg,South Africa,False,3.0,4.0
+2026-09-05,Argentina,Australia,28,28,International Test Match,Mendoza,Argentina,False,4,3
