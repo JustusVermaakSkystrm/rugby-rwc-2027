@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Presentation Brief — Codi Group</title>
+<style>
+  @page { size: A4; margin: 0; }
+  :root{
+    --dark:#13453B; --mid:#2E7D68; --gold:#C8892F; --pale:#F1F5F3;
+    --ink:#16211E; --body:#33423D; --muted:#6E7D78; --rule:#D9E2DE;
+    --amber-bg:#FBF3E6; --amber-ink:#8A5A12;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    font-family:"Liberation Sans","DejaVu Sans",Arial,sans-serif;
+    color:var(--body); font-size:9.3pt; line-height:1.42;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{
+    position:relative; width:210mm; height:297mm;
+    padding:15mm 15mm 13mm 15mm; overflow:hidden;
+    page-break-after:always; break-after:page;
+  }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
+
+  .masthead{ background:var(--dark); color:#fff; margin:-15mm -15mm 8mm -15mm; padding:12mm 15mm 9mm 15mm; }
+  .masthead .kick{ font-size:7.6pt; letter-spacing:.22em; text-transform:uppercase; color:#8FBFAE; font-weight:bold; margin-bottom:4mm; }
+  .masthead h1{ font-family:"Bitstream Charter","DejaVu Serif",Georgia,serif; font-size:26pt; font-weight:normal; margin:0 0 3mm 0; line-height:1.1; }
+  .masthead p{ margin:0; font-size:11pt; color:#CFE4DD; }
+  .masthead .meta{ margin-top:6mm; font-size:8.6pt; color:#8FBFAE; }
+
+  .runner{ position:absolute; top:8mm; left:15mm; right:15mm; display:flex; justify-content:space-between;
+    font-size:7.2pt; letter-spacing:.15em; text-transform:uppercase; color:var(--muted);
+    border-bottom:1px solid var(--rule); padding-bottom:2.2mm; }
+  .runner .r{ color:var(--dark); font-weight:bold; }
+  .foot{ position:absolute; bottom:8mm; left:15mm; right:15mm; display:flex; justify-content:space-between;
+    font-size:7.2pt; color:var(--muted); border-top:1px solid var(--rule); padding-top:2.2mm; }
+
+  h2{ font-family:"Bitstream Charter","DejaVu Serif",Georgia,serif; font-size:16pt; font-weight:bold;
+      color:var(--dark); margin:0 0 1.5mm 0; }
+  h2 .n{ color:var(--gold); font-size:10pt; vertical-align:2pt; margin-right:2.5mm; font-family:"Liberation Sans",sans-serif; }
+  .dek{ font-size:9pt; color:var(--muted); margin:0 0 5mm 0; }
+  h3{ font-size:8.8pt; font-weight:bold; color:var(--gold); letter-spacing:.12em; text-transform:uppercase;
+      margin:6mm 0 2.5mm 0; }
+  h3:first-of-type{ margin-top:0; }
+  p{ margin:0 0 2.4mm 0; }
+  strong{ color:var(--ink); }
+  em{ font-style:italic; color:var(--ink); }
+
+  .box{ background:var(--pale); padding:4mm 5mm; margin:0 0 5mm 0; border-radius:1mm; }
+  .box p:last-child{ margin-bottom:0; }
+  .amber{ background:var(--amber-bg); padding:4mm 5mm; margin:0 0 4mm 0; border-radius:1mm; }
+  .amber h4{ margin:0 0 2mm 0; font-size:9pt; color:var(--amber-ink); }
+  .amber p, .amber li{ color:#6B4A18; }
+  .amber ol{ margin:0; padding-left:5mm; }
+  .amber li{ margin-bottom:1.6mm; }
+  .amber li:last-child{ margin-bottom:0; }
+
+  table{ width:100%; border-collapse:collapse; margin:0 0 4mm 0; font-size:8.8pt; }
+  th{ text-align:left; font-size:7.2pt; letter-spacing:.13em; text-transform:uppercase; color:var(--muted);
+      border-bottom:1.4px solid var(--dark); padding:0 3mm 1.6mm 0; font-weight:bold; }
+  td{ padding:2mm 3mm 2mm 0; border-bottom:1px solid var(--rule); vertical-align:top; }
+  tr:last-child td{ border-bottom:none; }
+  td.k{ font-weight:bold; color:var(--ink); }
+  .t-num{ width:9mm; color:var(--gold); font-weight:bold; }
+  .t-time{ width:14mm; color:var(--mid); font-weight:bold; white-space:nowrap; }
+
+  .pill{ display:inline-block; font-size:7.4pt; font-weight:bold; letter-spacing:.08em; text-transform:uppercase;
+         padding:0.7mm 2mm; border-radius:1mm; }
+  .ok{ background:#E3EFEA; color:var(--dark); }
+  .chk{ background:var(--amber-bg); color:var(--amber-ink); }
+
+  ul{ margin:0 0 3mm 0; padding-left:4.4mm; }
+  li{ margin-bottom:1.5mm; }
+  li::marker{ color:var(--mid); }
+
+  .q{ margin:0 0 3mm 0; }
+  .q .ask{ display:block; font-weight:bold; color:var(--ink); margin-bottom:0.8mm; }
+  .q .ans{ padding-left:4.5mm; border-left:1px solid var(--rule); color:var(--body); }
+
+  .lede{ font-size:10.5pt; line-height:1.5; color:var(--ink); }
+  .grid2{ display:flex; gap:7mm; }
+  .grid2 > *{ flex:1; min-width:0; }
+</style>
+</head>
+<body>
+
+<!-- ============ PAGE 1 ============ -->
+<section class="page">
+  <div class="masthead">
+    <div class="kick">Presentation Brief &nbsp;·&nbsp; Confidential</div>
+    <h1>Codi Group interview</h1>
+    <p>Managing Financial Performance Across Repairs &amp; Maintenance</p>
+    <div class="meta">Sandra Vermaak &nbsp;·&nbsp; Finance Business Partner, Repairs &amp; Maintenance &nbsp;·&nbsp; 8 September 2026</div>
+  </div>
+
+  <h3>What the deck argues</h3>
+  <div class="box">
+    <p class="lede">It answers all five of their questions — but its spine is a claim: <strong>a £100m budget under
+    pressure is a decision problem, not a reporting problem.</strong></p>
+    <p style="margin-top:3mm">Rather than describing a process for investigating, it <strong>arrives with three
+    evidenced hypotheses and the data test for each</strong>. That is the difference between an answer that is
+    competent and one that is remembered. Everything on the slides is framed as a question about Codi, never an
+    assertion about how Codi works.</p>
+  </div>
+
+  <h3>The room</h3>
+  <table>
+    <tr><td class="k" style="width:38mm">Jennifer Eveleigh</td><td>Send the deck to her in advance — <strong>Jennifer.Eveleigh@codigroup.co.uk</strong>.</td></tr>
+    <tr><td class="k">Tom Hirst</td><td><strong>Currently a Finance Business Partner – R&amp;M at Codi.</strong> Your peer or the incumbent. He will know instantly whether a technical claim is right. Pitch the detail at him — and treat him as the person most likely to correct you, which is an opportunity, not a threat.</td></tr>
+    <tr><td class="k">Jonathan Watson</td><td>Third panel member.</td></tr>
+    <tr><td class="k">Also on the day</td><td>30 minutes with <strong>Cath Waters</strong> on the Sova personality assessment; 30 minutes round table with the <strong>R&amp;M team</strong> you would support — that one is about relationships and influence, not technique.</td></tr>
+    <tr><td class="k">Before then</td><td>Sova personality assessment to be completed by <strong>13 September</strong>.</td></tr>
+  </table>
+
+  <h3>Timing</h3>
+  <div class="grid2">
+    <div>
+      <table>
+        <th>Slide</th><th style="text-align:right">Target</th>
+        <tr><td>1 · Title and framing</td><td style="text-align:right">0:45</td></tr>
+        <tr><td>2 · Scope the number</td><td style="text-align:right">1:20</td></tr>
+        <tr><td>3 · Three hypotheses</td><td style="text-align:right">2:05</td></tr>
+        <tr><td>4 · Rebuild the forecast</td><td style="text-align:right">1:35</td></tr>
+        <tr><td>5 · Act in order</td><td style="text-align:right">1:35</td></tr>
+        <tr><td>6 · Escalate</td><td style="text-align:right">1:25</td></tr>
+        <tr><td>7 · Measure and close</td><td style="text-align:right">1:05</td></tr>
+      </table>
+    </div>
+    <div>
+      <div class="box">
+        <p><strong>9 min 20 at a normal pace.</strong> 10 min 05 if you speak slowly. The script is deliberately
+        1,260 words so there is room to breathe and to be interrupted.</p>
+        <p style="margin-top:3mm">Speaker notes are in the notes pane of every slide, each with a pace mark and a
+        running total, so you can tell mid-flight whether you are ahead or behind.</p>
+        <p style="margin-top:3mm"><strong>If you are running long,</strong> cut from slide 5 — the four actions can
+        be named rather than explained. Never cut slide 3.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot"><span>Presentation brief · Sandra Vermaak</span><span>Page 1 of 4</span></div>
+</section>
+
+<!-- ============ PAGE 2 ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Presentation Brief</span><span class="r">Slide by slide</span></div>
+
+  <h2><span class="n">01</span>Slide by slide — the line that must land</h2>
+  <p class="dek">If a slide's one line lands, that slide has done its job. Everything else is support.</p>
+
+  <table>
+    <th class="t-num">#</th><th class="t-time">Time</th><th>The line that must land</th>
+    <tr>
+      <td class="t-num">1</td><td class="t-time">0:45</td>
+      <td><strong>“A £100m budget under pressure is a decision problem, not a reporting problem.”</strong><br>
+      Set the caveat here and you never have to defend it later: this is your recommended approach, not a claim about
+      how Codi works today.</td>
+    </tr>
+    <tr>
+      <td class="t-num">2</td><td class="t-time">1:20</td>
+      <td><strong>“£100m across ~25,000 homes is ~£4,000 per home — so this is not a responsive repairs budget.”</strong><br>
+      It must span responsive, voids, cyclical, compliance and planned works, which means it straddles the revenue
+      and capital boundary. Close with the merger question: is that boundary drawn the same way across both legacy
+      capitalisation policies?</td>
+    </tr>
+    <tr>
+      <td class="t-num">3</td><td class="t-time">2:05</td>
+      <td><strong>“I would not arrive with an open mind and no shape.”</strong> &nbsp;<span class="pill ok">The slide that wins it</span><br>
+      Three hypotheses — delivery mix, regulation, price — each with a test attached. Slow down here. This is the only
+      part of the deck a rival candidate cannot have written, and it is the part Tom Hirst will engage with.</td>
+    </tr>
+    <tr>
+      <td class="t-num">4</td><td class="t-time">1:35</td>
+      <td><strong>“The forecast is built with budget holders, not sent to them.”</strong><br>
+      Then the discipline line: the delivery forecast stays visible <em>before</em> mitigation, and
+      <strong>a savings target is not a forecast.</strong></td>
+    </tr>
+    <tr>
+      <td class="t-num">5</td><td class="t-time">1:35</td>
+      <td><strong>“The order is the argument.”</strong><br>
+      Protect safety, compliance and WHQS response first. Then convert capacity already bought, challenge external
+      spend, and only then rephase. Land the second-order effect: deferring planned work moves capitalised spend
+      into revenue, so it hits operating surplus rather than just moving between years.</td>
+    </tr>
+    <tr>
+      <td class="t-num">6</td><td class="t-time">1:25</td>
+      <td><strong>“A repairs overspend here touches operating surplus, interest cover and the cost of borrowing.”</strong><br>
+      One neutral sentence on the Yellow viability grade and one on the £130m sustainability-linked facility. State
+      them, draw the consequence, move on — do not dwell.</td>
+    </tr>
+    <tr>
+      <td class="t-num">7</td><td class="t-time">1:05</td>
+      <td><strong>“The test of a dashboard is whether it changes what someone does on Monday.”</strong><br>
+      Close on the written line — <em>a number the operation recognises, a forecast that stops moving, and a resident
+      who does not have to ring twice</em> — then stop talking.</td>
+    </tr>
+  </table>
+
+  <div class="box">
+    <p><strong>The slides carry very little text on purpose.</strong> The argument is in what you say, not what they
+    read. Do not read the slides aloud — the panel can read faster than you can speak, and a presenter who narrates
+    their own bullets looks like someone who has not internalised the material.</p>
+  </div>
+
+  <div class="foot"><span>Presentation brief · Sandra Vermaak</span><span>Page 2 of 4</span></div>
+</section>
+
+<!-- ============ PAGE 3 ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Presentation Brief</span><span class="r">Facts &amp; checks</span></div>
+
+  <h2><span class="n">02</span>Every fact in the deck, and how solid it is</h2>
+  <p class="dek">If you are challenged on any of these, this is what you are standing on.</p>
+
+  <table>
+    <th style="width:52mm">Claim</th><th>Source and confidence</th>
+    <tr><td class="k">~£4,000 per home</td>
+      <td>Your own arithmetic: their £100m scenario over ~25,000 homes. <span class="pill ok">Safe</span> Labelled illustrative on the slide.</td></tr>
+    <tr><td class="k">In-house trades team expanded ~50% (34 roles), 2024</td>
+      <td>Public Pobl announcement, pre-rebrand. <span class="pill ok">Solid</span> Say “Pobl”, not “Codi” — the deck does.</td></tr>
+    <tr><td class="k">11-lot framework for responsive repairs, voids and out-of-hours</td>
+      <td>Pobl tender notice, published December 2023; the notice itself says the contractors are “to support the internal DLO”. <span class="pill ok">Solid</span></td></tr>
+    <tr><td class="k">WHQS hazard response in force 1 April 2026</td>
+      <td>Welsh Government written statement, 19 December 2025. Imminent harm: investigate within 24 hours, remedy within a further 24. Otherwise 10 working days then 5. All HHSRS hazards except overcrowding, where within the landlord's control. Response times must be published and reported in the WHQS return. <span class="pill ok">Solid</span></td></tr>
+    <tr><td class="k">Sector responsive repairs inflation ~23% expected, vs ~10% in global accounts</td>
+      <td>UK sector survey commentary. <span class="pill chk">Caveat it</span> UK-wide and indicative, not Welsh-specific. The notes already say so — say it out loud too.</td></tr>
+    <tr><td class="k">Financial viability graded Yellow, governance retained; development and planned maintenance cited</td>
+      <td>Codi Group regulatory judgement, published July 2026 — <strong>your source, not mine.</strong> <span class="pill chk">Verify</span> See below.</td></tr>
+    <tr><td class="k">£130m sustainability-linked facility with margin tied to environmental and social targets</td>
+      <td>Reported coverage of the Handelsbanken facility, funding retrofit and low-carbon new build. <span class="pill ok">Solid</span></td></tr>
+  </table>
+
+  <div class="amber">
+    <h4>Three things to check before you send it</h4>
+    <ol>
+      <li><strong>Re-read the Yellow line in the judgement PDF.</strong> I could not reach gov.wales to verify it
+      independently, so the deck rests on your reading of the primary document. It is the single claim you would
+      least want to get wrong in front of this panel — and the one they will know best.</li>
+      <li><strong>Say the 23% is UK-wide.</strong> Quoting an England-weighted survey as though it were Welsh is
+      exactly the kind of slip a finance panel notices.</li>
+      <li><strong>The DLO expansion is 2024, not fresh.</strong> If someone says “we sorted that two years ago”, the
+      answer is: <em>“Good — then it is not hypothesis one. Which of the other two should I be looking at?”</em>
+      That reply is stronger than the hypothesis was.</li>
+    </ol>
+  </div>
+
+  <div class="box">
+    <p><strong>A word on the Yellow grade.</strong> Raising it is the right call — it shows you have read the current
+    judgement rather than an old one, and it is what makes slide 6 land. But keep it to one flat, factual sentence
+    and move straight to the consequence. Anything more reads as telling them about their own organisation.</p>
+  </div>
+
+  <div class="foot"><span>Presentation brief · Sandra Vermaak</span><span>Page 3 of 4</span></div>
+</section>
+
+<!-- ============ PAGE 4 ============ -->
+<section class="page">
+  <div class="runner"><span>Codi Group — Presentation Brief</span><span class="r">Questions &amp; delivery</span></div>
+
+  <h2><span class="n">03</span>What they are likely to push on</h2>
+  <p class="dek">The presentation sits inside a one-hour interview, so expect these to come straight after.</p>
+
+  <div class="q"><span class="ask">“You have assumed quite a lot about how we operate.”</span>
+    <div class="ans">Agree immediately. They are hypotheses with tests attached, built from public information,
+    precisely because you did not want to assert anything about their operation. Then turn it into a question:
+    <em>which of the three is closest?</em></div></div>
+
+  <div class="q"><span class="ask">“How would you size the overspend without our data?”</span>
+    <div class="ans">You would not — you would decompose it. Volume, price, mix, productivity. Name what you would
+    ask for on day one: the ledger, work orders and commitments, contractor call-off by lot, operative hours, and
+    the stock condition data behind the planned programme.</div></div>
+
+  <div class="q"><span class="ask">“What if it is simply demand?”</span>
+    <div class="ans">Then it is a capacity and unit-cost conversation rather than a control one — and the mitigation
+    set changes completely, because you cannot save your way out of volume. That answer shows you are not attached
+    to your own hypothesis.</div></div>
+
+  <div class="q"><span class="ask">“Is rephasing not the obvious answer?”</span>
+    <div class="ans">It is the last lever, not the first, and it is rarely a saving. It converts capitalised spend
+    into revenue and tends to raise responsive demand later. Slide 5 already says this — say it again, plainly.</div></div>
+
+  <div class="q"><span class="ask">“What would you do in your first 90 days?”</span>
+    <div class="ans">Three things: walk the operation before changing a single report; get one trusted set of repairs
+    numbers; then use it to reopen one decision currently being made on instinct.</div></div>
+
+  <div class="q"><span class="ask">Something very specific about their reporting, from Tom Hirst.</span>
+    <div class="ans">If you do not know, say so and ask. In front of the person who does the job, a confident guess
+    is far more damaging than an honest question — and asking well is itself evidence you would be good to partner
+    with.</div></div>
+
+  <h3>On the day</h3>
+  <ul>
+    <li><strong>Send it ahead</strong> to Jennifer Eveleigh, as asked. The notes pane travels with the file, so tidy
+    anything in it you would not want read.</li>
+    <li><strong>Slide 3 is the one.</strong> If you are nervous, the instinct will be to rush it. Do the opposite.</li>
+    <li><strong>Let the panel interrupt.</strong> Being taken off-script by Tom Hirst is a good sign, not a derailment
+    — the round table later is judging exactly that.</li>
+    <li><strong>Do not oversell the social purpose.</strong> Let it show in how you talk about the trade-offs; the
+    resident is already in the deck three times.</li>
+    <li><strong>End on the close line and stop.</strong> Silence after a strong last sentence reads as confidence.</li>
+  </ul>
+
+  <div class="box">
+    <p><strong>The whole deck in one sentence, if you need it:</strong> <em>“I would size the number, arrive with
+    three testable explanations rather than a process, rebuild the forecast with the people who own the spend,
+    protect the resident before cutting anything, and escalate in terms of surplus and covenant rather than
+    variance.”</em></p>
+  </div>
+
+  <div class="foot"><span>Presentation brief · Sandra Vermaak · 8 September 2026</span><span>Page 4 of 4</span></div>
+</section>
+
+</body>
+</html>
