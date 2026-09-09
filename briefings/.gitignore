@@ -1,4 +1,14 @@
+# build + QA artefacts, not deliverables
 node_modules/
+package.json
+package-lock.json
+
+# rendered page/slide images used for visual QA
 qa-*.png
 pg-*.png
+br*.png
+pb*.png
+*_page.png
+slide-*.jpg
+
 *.pdf.tmp
