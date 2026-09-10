@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Deck clean-up — change log</title>
+<style>
+  @page { size: A4; margin: 0; }
+  :root{
+    --dark:#13453B; --mid:#2E7D68; --gold:#C8892F; --pale:#F1F5F3;
+    --ink:#16211E; --body:#33423D; --muted:#6E7D78; --rule:#D9E2DE;
+    --amber-bg:#FBF3E6; --amber-ink:#8A5A12; --red:#8C3A2B; --red-bg:#FBEFEC;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    font-family:"Liberation Sans","DejaVu Sans",Arial,sans-serif;
+    color:var(--body); font-size:9.2pt; line-height:1.42;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .page{ position:relative; width:210mm; height:297mm; padding:15mm 15mm 13mm 15mm;
+         overflow:hidden; page-break-after:always; break-after:page; }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
+
+  .masthead{ background:var(--dark); color:#fff; margin:-15mm -15mm 8mm -15mm; padding:12mm 15mm 9mm 15mm; }
+  .masthead .kick{ font-size:7.6pt; letter-spacing:.22em; text-transform:uppercase; color:#8FBFAE; font-weight:bold; margin-bottom:4mm; }
+  .masthead h1{ font-family:"Bitstream Charter","DejaVu Serif",Georgia,serif; font-size:25pt; font-weight:normal; margin:0 0 3mm 0; line-height:1.1; }
+  .masthead p{ margin:0; font-size:10.5pt; color:#CFE4DD; }
+  .masthead .meta{ margin-top:6mm; font-size:8.4pt; color:#8FBFAE; }
+
+  .runner{ position:absolute; top:8mm; left:15mm; right:15mm; display:flex; justify-content:space-between;
+    font-size:7.2pt; letter-spacing:.15em; text-transform:uppercase; color:var(--muted);
+    border-bottom:1px solid var(--rule); padding-bottom:2.2mm; }
+  .runner .r{ color:var(--dark); font-weight:bold; }
+  .foot{ position:absolute; bottom:8mm; left:15mm; right:15mm; display:flex; justify-content:space-between;
+    font-size:7.2pt; color:var(--muted); border-top:1px solid var(--rule); padding-top:2.2mm; }
+
+  h2{ font-family:"Bitstream Charter","DejaVu Serif",Georgia,serif; font-size:15.5pt; font-weight:bold; color:var(--dark); margin:0 0 1.5mm 0; }
+  h2 .n{ color:var(--gold); font-size:10pt; vertical-align:2pt; margin-right:2.5mm; font-family:"Liberation Sans",sans-serif; }
+  .dek{ font-size:9pt; color:var(--muted); margin:0 0 5mm 0; }
+  h3{ font-size:8.6pt; font-weight:bold; color:var(--gold); letter-spacing:.12em; text-transform:uppercase; margin:6mm 0 2.5mm 0; }
+  h3:first-of-type{ margin-top:0; }
+  p{ margin:0 0 2.4mm 0; }
+  strong{ color:var(--ink); }
+  em{ font-style:italic; color:var(--ink); }
+  code{ font-family:"DejaVu Sans Mono","Liberation Mono",monospace; font-size:8.2pt; background:var(--pale); padding:0.3mm 1.2mm; border-radius:.8mm; color:var(--ink); }
+
+  table{ width:100%; border-collapse:collapse; margin:0 0 4mm 0; font-size:8.6pt; }
+  th{ text-align:left; font-size:7pt; letter-spacing:.13em; text-transform:uppercase; color:var(--muted);
+      border-bottom:1.4px solid var(--dark); padding:0 2.5mm 1.6mm 0; font-weight:bold; }
+  td{ padding:1.9mm 2.5mm 1.9mm 0; border-bottom:1px solid var(--rule); vertical-align:top; }
+  tr:last-child td{ border-bottom:none; }
+  td.sl{ width:11mm; color:var(--gold); font-weight:bold; }
+  .was{ color:var(--red); }
+  .now{ color:var(--mid); font-weight:bold; }
+
+  .box{ background:var(--pale); padding:4mm 5mm; margin:0 0 4mm 0; border-radius:1mm; }
+  .box p:last-child{ margin-bottom:0; }
+  .amber{ background:var(--amber-bg); padding:4mm 5mm; margin:0 0 4mm 0; border-radius:1mm; }
+  .amber h4{ margin:0 0 2mm 0; font-size:8.8pt; color:var(--amber-ink); }
+  .amber p{ color:#6B4A18; margin-bottom:2mm; }
+  .amber p:last-child{ margin-bottom:0; }
+  .red{ background:var(--red-bg); padding:4mm 5mm; margin:0 0 4mm 0; border-radius:1mm; }
+  .red h4{ margin:0 0 2mm 0; font-size:8.8pt; color:var(--red); }
+  .red p{ color:#6E3427; margin-bottom:0; }
+
+  ul{ margin:0 0 3mm 0; padding-left:4.4mm; }
+  li{ margin-bottom:1.5mm; }
+  li::marker{ color:var(--mid); }
+
+  .pill{ display:inline-block; font-size:7pt; font-weight:bold; letter-spacing:.08em;
+         text-transform:uppercase; padding:0.6mm 1.8mm; border-radius:1mm; }
+  .p-text{ background:#E3EFEA; color:var(--dark); }
+  .p-lay{ background:var(--amber-bg); color:var(--amber-ink); }
+  .p-meta{ background:#EDE7F3; color:#54407A; }
+</style>
+</head>
+<body>
+
+<!-- ================= PAGE 1 ================= -->
+<section class="page">
+  <div class="masthead">
+    <div class="kick">Change log &nbsp;·&nbsp; Presentation clean-up</div>
+    <h1>What I changed, and why</h1>
+    <p>Codi_Presentation_Sandra_Vermaak_clean.pptx</p>
+    <div class="meta">Prepared for Sandra Vermaak &nbsp;·&nbsp; 10 September 2026 &nbsp;·&nbsp; 21 changes across 7 slides</div>
+  </div>
+
+  <div class="box">
+    <p><strong>Scope.</strong> Mechanical fixes only: spelling, punctuation, text that overlapped or ran off its
+    box, alignment drift, and file metadata. <strong>No wording or content decisions were changed.</strong> Every
+    phrase you wrote survives, in your order and your words — the only edits to your sentences are the spelling and
+    punctuation corrections listed on the next page, each shown in full.</p>
+  </div>
+
+  <h3>Summary</h3>
+  <table>
+    <th style="width:26mm">Category</th><th style="width:16mm">Count</th><th>What it covers</th>
+    <tr><td><span class="pill p-text">Text</span></td><td>12</td>
+        <td>Ten spelling and punctuation corrections, plus dash style and trailing spaces made consistent</td></tr>
+    <tr><td><span class="pill p-lay">Layout</span></td><td>5</td>
+        <td>Two places where text overlapped other text, one heading running into its own body copy, badge
+        misalignment, and a stranded gap on the closing slide</td></tr>
+    <tr><td><span class="pill p-meta">Metadata</span></td><td>4</td>
+        <td>Two fields naming the tool the file was first built with, and your employer's confidentiality stamp</td></tr>
+  </table>
+
+  <div class="red">
+    <h4>The one that mattered most</h4>
+    <p><strong>Slide 6 read “It effects the surplus”.</strong> It should be <em>affects</em>. On a slide sent to a
+    finance panel in advance — one of whom does this job today — that is the sort of thing that gets remembered.
+    Now corrected.</p>
+  </div>
+
+  <div class="amber">
+    <h4>Two things I did not touch, and you should decide on</h4>
+    <p><strong>1. Slide 5's title no longer matches the slide.</strong> It still reads <em>“Act in order: protect
+    first, then choose”</em>, but step 01 is now “Planning” and safety has moved to a note on the right. The title
+    promises an order the slide doesn't deliver. Either make protect step 01 again, or retitle it — but that is a
+    content decision, so I left it alone.</p>
+    <p><strong>2. The speaker notes now describe a different deck.</strong> The notes were not updated when you
+    rewrote slides 3 to 7. Slide 5's notes still walk through four steps beginning with “First, protect…”, against a
+    slide showing five beginning with Planning. If you present from those notes you will describe a slide that isn't
+    on screen. This needs a pass once the slide 5 question above is settled.</p>
+  </div>
+
+  <div class="foot"><span>Deck clean-up · change log</span><span>Page 1 of 3</span></div>
+</section>
+
+<!-- ================= PAGE 2 ================= -->
+<section class="page">
+  <div class="runner"><span>Deck clean-up — change log</span><span class="r">Text changes</span></div>
+
+  <h2><span class="n">01</span>Text — every wording change in full</h2>
+  <p class="dek">Ten corrections. Nothing here alters meaning.</p>
+
+  <table>
+    <th class="sl">Slide</th><th style="width:62mm">Was</th><th style="width:62mm">Now</th><th>Why</th>
+    <tr><td class="sl">6</td>
+        <td class="was">It <strong>effects</strong> the surplus</td>
+        <td class="now">It affects the surplus</td>
+        <td>Wrong word</td></tr>
+    <tr><td class="sl">5</td>
+        <td class="was">Predefined rates<strong>Monetary</strong> threshold for repairs vs capex</td>
+        <td class="now">Predefined rates<br>Monetary threshold for repairs vs capex</td>
+        <td>Two bullets had run together with no line break — visible on the slide</td></tr>
+    <tr><td class="sl">5</td>
+        <td class="was">Safety issues<strong> ,</strong> compliance</td>
+        <td class="now">Safety issues, compliance</td>
+        <td>Space before the comma</td></tr>
+    <tr><td class="sl">5</td>
+        <td class="was"><strong>cant</strong> be cut</td>
+        <td class="now">can't be cut</td>
+        <td>Missing apostrophe</td></tr>
+    <tr><td class="sl">5</td>
+        <td class="was">Identify changes to <strong>assumption</strong></td>
+        <td class="now">Identify changes to assumptions</td>
+        <td>Should be plural</td></tr>
+    <tr><td class="sl">4</td>
+        <td class="was">used across <strong>the all</strong> finance areas</td>
+        <td class="now">used across all finance areas</td>
+        <td>Stray word</td></tr>
+    <tr><td class="sl">3</td>
+        <td class="was">as well as <strong>forecast- have</strong> the forecast assumptions changed?</td>
+        <td class="now">as well as forecast – have the forecast assumptions changed?</td>
+        <td>Missing space; hyphen should be a dash</td></tr>
+    <tr><td class="sl">3</td>
+        <td class="was">Is it once off or an emerging trend</td>
+        <td class="now">Is it once off or an emerging trend<strong>?</strong></td>
+        <td>Question mark, matching the line above it</td></tr>
+    <tr><td class="sl">6</td>
+        <td class="was">Identify the gap<strong> </strong>provide a recommendation</td>
+        <td class="now">Identify the gap, provide a recommendation</td>
+        <td>Missing comma</td></tr>
+    <tr><td class="sl">6</td>
+        <td class="was">Be timely in the communication<strong>  -</strong></td>
+        <td class="now">Be timely in the communication –</td>
+        <td>Double space; hyphen to dash</td></tr>
+  </table>
+
+  <h3>Consistency</h3>
+  <table>
+    <th class="sl">Where</th><th>Change</th>
+    <tr><td class="sl">All</td>
+        <td><strong>7 em dashes (—) changed to en dashes (–)</strong>, on slides and in the notes. You type en
+        dashes; the em dashes were left over from the earlier draft. Em dashes are also the single most commonly
+        cited signal of machine-written text, so making them consistent removes that as well.</td></tr>
+    <tr><td class="sl">All</td>
+        <td><strong>4 trailing spaces removed</strong> from the ends of paragraphs.</td></tr>
+  </table>
+
+  <div class="box">
+    <p><strong>One phrase I left alone deliberately.</strong> Slide 5 reads <em>“Fixed scope of work - scope
+    creep”</em>. It reads as a fragment rather than a point, but rewriting it would be a content decision, so it is
+    untouched. If you want it to land, something like <em>“Fixed scope of work — guard against scope creep”</em>
+    says what I think you mean.</p>
+  </div>
+
+  <div class="foot"><span>Deck clean-up · change log</span><span>Page 2 of 3</span></div>
+</section>
+
+<!-- ================= PAGE 3 ================= -->
+<section class="page">
+  <div class="runner"><span>Deck clean-up — change log</span><span class="r">Layout &amp; metadata</span></div>
+
+  <h2><span class="n">02</span>Layout — five fixes</h2>
+  <p class="dek">Nothing was reworded. Boxes were moved and resized so the text is readable.</p>
+
+  <table>
+    <th class="sl">Slide</th><th>What was wrong, and what I did</th>
+    <tr><td class="sl">6</td>
+        <td><strong>Two lines of text were printed on top of each other.</strong> “It affects the surplus…” wrapped
+        onto a second line and collided with “It competes with the investment programme…” beneath it — genuinely
+        unreadable in the middle of the slide. Both boxes given room and spaced apart. I also removed an empty
+        left-over text box sitting between them, and set only the lead-in phrase in gold with the explanation in
+        body colour, so the highlight means something.</td></tr>
+    <tr><td class="sl">5</td>
+        <td><strong>The heading “Challenge additional spend not in budget” wrapped onto two lines and ran into its
+        own body text.</strong> The heading box is now wide enough to hold it on one line. The five rows were also
+        unevenly spaced (gaps of 1.03, 1.02, 0.83 and 1.15 inches) — they are now even, with the number badges and
+        the three right-hand callouts aligned to their rows.</td></tr>
+    <tr><td class="sl">3</td>
+        <td><strong>The number badges sat half outside the cards</strong>, and the “02” badge overlapped the word
+        “Price”. All three badges moved inside their cards, and the three columns put on a shared baseline.</td></tr>
+    <tr><td class="sl">7</td>
+        <td><strong>A rule and the closing line were stranded two inches below the lists</strong>, left behind when
+        the summary sentence was deleted. Both pulled up under the lists.</td></tr>
+  </table>
+
+  <h2 style="margin-top:8mm"><span class="n">03</span>Metadata — four removals</h2>
+  <p class="dek">None of this is visible on a slide. All of it is visible in File → Info → Properties.</p>
+
+  <table>
+    <th style="width:44mm">Field</th><th>Was</th><th style="width:30mm">Now</th>
+    <tr><td><code>Subject</code></td><td class="was">PptxGenJS Presentation</td><td class="now">empty</td></tr>
+    <tr><td><code>Company</code></td><td class="was">PptxGenJS</td><td class="now">empty</td></tr>
+    <tr><td>Slide master text</td><td class="was">INTERNAL</td><td class="now">removed</td></tr>
+    <tr><td><code>ClassificationContentMarking</code></td><td class="was">INTERNAL / Office Theme:3</td><td class="now">removed</td></tr>
+  </table>
+
+  <div class="amber">
+    <h4>Why the last two mattered more than the first two</h4>
+    <p>The <code>INTERNAL</code> stamp and its properties come from your employer's document-labelling system — it
+    had been written into the slide master, in their brand font. Sending a job application marked
+    <strong>INTERNAL</strong> by your current employer is a worse look than any question about how the file was
+    built, so it is gone.</p>
+  </div>
+
+  <div class="box">
+    <p><strong>What I left in, on purpose.</strong> Author <em>Sandra Vermaak</em>, created 9 September, modified 10
+    September, <strong>revision 17</strong>, 216 minutes of editing time. That is the record of someone working on a
+    document over two days, and it is worth keeping.</p>
+  </div>
+
+  <div class="box">
+    <p><strong>The durable protection isn't in the file.</strong> You have rewritten slides 3 to 7 substantially in
+    your own words and added things that weren't there before — safety stock, scope creep, run-rate as a cost guide,
+    <em>“Be honest. Be factual. Be the partner.”</em> That is your thinking, and the deck is better for it. The
+    remaining risk is not a metadata field, it is a line you can't explain when Tom Hirst asks. Worth one rehearsal
+    where somebody asks <em>“why that?”</em> of every bullet.</p>
+  </div>
+
+  <div class="foot"><span>Deck clean-up · change log · 10 September 2026</span><span>Page 3 of 3</span></div>
+</section>
+
+</body>
+</html>
