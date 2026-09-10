@@ -1,14 +1,13 @@
-# build + QA artefacts, not deliverables
+# build artefacts
 node_modules/
 package.json
 package-lock.json
 
-# rendered page/slide images used for visual QA
-qa-*.png
-pg-*.png
-br*.png
-pb*.png
-*_page.png
-slide-*.jpg
+# Visual-QA renders. render_pptx.py and the PDF checks rasterise pages to PNG
+# for inspection; none of them are deliverables. Deliverables here are .pptx,
+# .pdf, .html and the scripts that build them.
+*.png
+*.jpg
+*.jpeg
 
 *.pdf.tmp
