@@ -52,6 +52,7 @@ Every scheduled men's international on the calendar, not just RWC fixtures — t
 | Date | Competition | Match | Home win | Draw | Away win | Predicted | Favourite |
 |------|-------------|-------|---------:|-----:|---------:|:---------:|----------|
 | 2026-09-12 | International Test Match | South Africa v New Zealand (N) | **48.8%** | 2.4% | 48.8% | 24.4–24.4 | South Africa (48.8%) |
+| 2026-09-19 | International Test Match | Poland v Czech Republic | 11.0% | 1.2% | **87.8%** | 13.9–33.9 | Czech Republic (87.8%) |
 | 2026-09-27 | International Test Match | Australia v South Africa | 27.5% | 2.0% | **70.5%** | 24.5–33.9 | South Africa (70.5%) |
 | 2026-10-10 | International Test Match | New Zealand v Australia | **80.0%** | 1.6% | 18.3% | 34.7–20.1 | New Zealand (80.0%) |
 | 2026-10-17 | International Test Match | Australia v New Zealand | 22.4% | 1.8% | **75.8%** | 23.2–35.4 | New Zealand (75.8%) |
@@ -75,9 +76,8 @@ Every scheduled men's international on the calendar, not just RWC fixtures — t
 | 2026-11-21 | Nations Championship | Ireland v South Africa | 44.0% | 2.4% | **53.6%** | 26.0–28.0 | South Africa (53.6%) |
 | 2026-11-21 | Nations Championship | Italy v Fiji | **64.3%** | 2.2% | 33.5% | 26.7–20.1 | Italy (64.3%) |
 | 2026-11-21 | Nations Championship | France v Argentina | **68.5%** | 2.1% | 29.4% | 34.4–25.8 | France (68.5%) |
-| 2026-11-21 | Nations Championship | Wales v Australia | 19.6% | 1.7% | **78.8%** | 22.2–36.0 | Australia (78.8%) |
 
-*25 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
+*26 scheduled fixture(s) on file; full list with exact probabilities in `upcoming_predictions.csv`. "(N)" = neutral venue.*
 
 ## Pool projections
 
