@@ -1,6 +1,6 @@
 date,tournament,home,away,neutral,kickoff_utc,venue,p_home_win,p_draw,p_away_win,exp_home,exp_away,most_likely_score,favourite,fav_prob
 2026-09-12,International Test Match,South Africa,New Zealand,True,2026-09-12T21:00Z,M&T Bank Stadium,0.4884,0.0239,0.4877,24.4,24.4,24-24,South Africa,0.4884
-2026-09-19,International Test Match,Poland,Czech Republic,False,2026-09-19T18:00Z,,0.1102,0.0117,0.8781,13.9,33.9,14-34,Czech Republic,0.8781
+2026-09-19,International Test Match,Poland,Czech Republic,False,2026-09-19T18:00Z,Stadion im. Ojca Władysława Augustynka,0.1102,0.0117,0.8781,13.9,33.9,14-34,Czech Republic,0.8781
 2026-09-27,International Test Match,Australia,South Africa,False,2026-09-27T09:45Z,Optus Stadium,0.2752,0.0203,0.7045,24.5,33.9,24-34,South Africa,0.7045
 2026-10-10,International Test Match,New Zealand,Australia,False,2026-10-10T06:10Z,Eden Park,0.8004,0.0163,0.1833,34.7,20.1,35-20,New Zealand,0.8004
 2026-10-17,International Test Match,Australia,New Zealand,False,2026-10-17T05:00Z,Accor Stadium,0.2238,0.0183,0.7579,23.2,35.4,23-35,New Zealand,0.7579
