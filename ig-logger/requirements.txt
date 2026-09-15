@@ -1,0 +1,9 @@
+# The recorder itself
+trading-ig>=0.0.25          # pulls in lightstreamer-client-lib and requests
+pyarrow>=15.0
+
+# Analysis (not needed to record)
+pandas>=2.0
+
+# Development
+pytest>=8.0
